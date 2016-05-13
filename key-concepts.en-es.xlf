@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file 
-    source-language="ru" target-language="en" datatype="markdown">
+  <file original="bem-method/method/key-concepts/key-concepts.en.md"
+    source-language="en" target-language="es" datatype="markdown">
     <header>
+      <skl>
+        <external-file href="translation/key-concepts.skl"/>
+      </skl>
     </header>
     <body>
 <trans-unit id="1">
