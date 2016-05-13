@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/bem-for-js/bem-for-js.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/bem-for-js/bem-for-js.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">JavaScript по БЭМ</source>
+  <target xml:lang="uk">JavaScript по БЕМ</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">В БЭМ-методологии JavaScript используется для «оживления» веб-страницы и рассматривается как одна из <bpt id="l2">[</bpt>технологий реализации<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Технология-реализации<ept id="l3">)</ept> блока.</source>
+  <target xml:lang="uk">У БЕМ-методології JavaScript використовується для «пожвавлення» веб-сторінки і розглядається як одна з [технологій реалізації](../key-concepts/key-concepts.ru.md#Технологія-реалізації) блоку.</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru">В БЭМ к JavaScript применяются <bpt id="l2">[</bpt>дополнительные правила<ept id="l2">]</ept><bpt id="l3">(</bpt>../bem-js-principles/bem-js-principles.ru.md<ept id="l3">)</ept>, которые позволяют реализовать все идеи компонентного подхода БЭМ-методологии.</source>
+  <target xml:lang="uk">У БЕМ до JavaScript застосовуються [додаткові правила](../bem-js-principles/bem-js-principles.ru.md), які дозволяють реалізувати всі ідеї компонентного підходу БЕМ-методології.</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru">Основные принципы компонентного подхода в JavaScript по БЭМ</source>
+  <target xml:lang="uk">Основні принципи компонентного підходу в JavaScript по БЕМ</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru">JavaScript — это одна из технологий реализации блока, поэтому в работе с JavaScript могут соблюдаться основные идеи БЭМ-методологии:</source>
+  <target xml:lang="uk">JavaScript — це одна з технологій реалізації блоку, тому в роботі з JavaScript можуть дотримуватися основні ідеї БЕМ-методології:</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Единая предметная область<ept id="l1">]</ept><bpt id="l2">(</bpt>#Единая-предметная-область<ept id="l2">)</ept> — использование блоков, элементов и модификаторов, названных по общим <bpt id="l3">[</bpt>правилам именования<ept id="l3">]</ept><bpt id="l4">(</bpt>../naming-convention/naming-convention.ru.md<ept id="l4">)</ept>.</source>
+  <target xml:lang="uk">[Єдина предметна область](#Єдина-предметна-область) — використання блоків, елементів і модифікаторів, названих за загальним [правилами іменування](../naming-convention/naming-convention.ru.md).</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Разделение кода на части<ept id="l1">]</ept><bpt id="l2">(</bpt>#Разделение-кода-на-части<ept id="l2">)</ept> и одинаковые <bpt id="l3">[</bpt>правила организации файловой структуры БЭМ-проекта<ept id="l3">]</ept><bpt id="l4">(</bpt>../filesystem/filesystem.ru.md<ept id="l4">)</ept>.</source>
+  <target xml:lang="uk">[Поділ коду на частини](#Поділ-коду на частини) і однакові [правила організації файлової структури БЕМ-проекту](../filesystem/filesystem.ru.md).</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Разделение кода по уровням переопределения и использование сборки<ept id="l1">]</ept><bpt id="l2">(</bpt>#Работа-с-уровнями-переопределения<ept id="l2">)</ept>.</source>
+  <target xml:lang="uk">[Поділ коду за рівнями перевизначення і використання збірки](#Робота з рівнями-перевизначення).</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">Единая предметная область</source>
+  <target xml:lang="uk">Єдина предметна область</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">В веб-разработке финальный продукт (например, веб-страница) состоит из разных технологий (HTML, CSS, JS и т.д.).</source>
+  <target xml:lang="uk">У веб-розробці фінальний продукт (наприклад, веб-сторінка) складається з різних технологій (HTML, CSS, JS і т. д.).</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">В БЭМ для работы во всех технологиях используются единые термины и подходы к реализации.</source>
+  <target xml:lang="uk">У БЕМ для роботи у всіх технологіях використовуються єдині терміни та підходи до реалізації.</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">Таким образом вся команда БЭМ-проекта получает единый язык для общения, то есть работает в терминах блоков, элементов и модификаторов.</source>
+  <target xml:lang="uk">Таким чином вся команда БЕМ-проекту отримує єдиний мову для спілкування, тобто працює в термінах блоків, елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">Так, JavaScript-реализация блоков не оперирует понятиями DOM-элементов, а использует следующий уровень абстракции — <bpt id="l2">[</bpt>БЭМ-дерево<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#БЭМ-дерево<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Так, JavaScript-реалізація блоків не оперує поняттями DOM-елементів, а використовує наступний рівень абстракції — [БЕМ-дерево](../key-concepts/key-concepts.ru.md#БЕМ-дерево).</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">Это позволяет не опираться на классы, а независимо описывать поведение блоков и их опциональных элементов.</source>
+  <target xml:lang="uk">Це дозволяє не спиратися на класи, а незалежно описувати поведінку блоків та їх опціональних елементів.</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Модификаторы в JavaScript используются для выражения логики работы блока или элемента (по аналогии с CSS, где с помощью модификаторов задается внешний вид).</source>
+  <target xml:lang="uk">Модифікатори JavaScript використовуються для вираження логіки роботи блоку або елемента (за аналогією з CSS, де з допомогою модифікаторів задається зовнішній вигляд).</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">Поведение блоков и элементов описывается в JavaScript как набор состояний.</source>
+  <target xml:lang="uk">Поведінка блоків і елементів описується в JavaScript як набір станів.</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">Применение единых понятий во всех технологиях позволяет реализовать в JavaScript различные хелперы для работы с компонентами и отказаться от жесткого кодирования имен блоков и разделителей.</source>
+  <target xml:lang="uk">Застосування єдиних понять у всіх технологіях дозволяє реалізувати в JavaScript різні хелпери для роботи з компонентами і відмовитися від жорсткого кодування імен блоків і роздільників.</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">Такой подход дает возможность, например, найти внутри блока все элементы с определенным именем и выставить им модификатор, проверить его значение.</source>
+  <target xml:lang="uk">Такий підхід дає можливість, наприклад, знайти всередині блоку всі елементи з певним ім'ям і виставити їм модифікатор, перевірити його значення.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru">Рассмотрим пример всплывающего окна (<bpt id="2">`</bpt>popup<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Розглянемо приклад спливаючого вікна (`popup`).</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Показывать всплывающее окно можно различными способами:</source>
+  <target xml:lang="uk">Показувати спливаюче вікно можна різними способами:</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Воспользоваться распространенным решением и добавлять соответствующий класс.</source>
+  <target xml:lang="uk">Скористатися поширеним рішенням і додавати відповідний клас.</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Такой способ не всегда удобен, так как необходимо жестко прописывать имя блока в коде.</source>
+  <target xml:lang="uk">Такий спосіб не завжди зручний, так як необхідно жорстко прописувати ім'я блоку в коді.</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Воспользоваться принципами БЭМ и оперировать не классами, а блоками, элементами и модификаторами.</source>
+  <target xml:lang="uk">Скористатися принципами БЕМ і оперувати не класами, а блоками, елементами та модифікаторами.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">В таком случае поиск компонента выполняется не по классу, а по имени блока, который в проекте может выражаться не только классом, но и тегом, атрибутом и т.д.</source>
+  <target xml:lang="uk">У такому випадку пошук компонента виконується не по класу, а по імені блоку, який у проекті може виражатися не тільки класом, але і тегом, атрибутом і т. д.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Отображение всплывающего окна (перевод блока <bpt id="2">`</bpt>popup<ept id="2">`</ept> в состояние <bpt id="4">`</bpt>visible<ept id="4">`</ept>) также осуществляется не по классу, а с помощью модификатора.</source>
+  <target xml:lang="uk">Відображення спливаючого вікна (переклад блоку `popup` стан `visible`) також здійснюється не по класу, а з допомогою модифікатора.</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Обратите внимание!<ept id="1">**</ept> Для примеров, написанных по БЭМ-методологии, используется псевдокод.</source>
+  <target xml:lang="uk">**Зверніть увагу!** Для прикладів, написаних за БЕМ-методології, що використовується псевдокод.</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Реальные примеры реализации представлены в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/v2/i-bem-js/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Реальні приклади реалізації представлені у документації до [i-bem.js](https://ru.bem.info/technology/i-bem/v2/i-bem-js/).</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">Использование единой предметной области дает возможность на более высоком уровне взаимодействовать с компонентами.</source>
+  <target xml:lang="uk">Використання єдиної предметної області дає можливість на більш високому рівні взаємодіяти з компонентами.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">Работа с модификаторами</source>
+  <target xml:lang="uk">Робота з модифікаторами</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Модификаторы могут задавать блокам определенные состояния.</source>
+  <target xml:lang="uk">Модифікатори можуть задавати блокам певні стани.</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Логика работы блока реализуется в JavaScript и описывается с помощью состояний.</source>
+  <target xml:lang="uk">Логіка роботи блоку реалізується в JavaScript і описується за допомогою станів.</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Перевод блока в другое состояние может производиться при помощи установки/снятия модификатора.</source>
+  <target xml:lang="uk">Переклад блоку в інший стан може проводитися за допомогою установки/зняття модифікатора.</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">Изменение модификатора создает событие, которое можно использовать для работы с блоком.</source>
+  <target xml:lang="uk">Зміна модифікатора створює подія, яку можна використовувати для роботи з блоком.</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">Например, чтобы отметить чекбокс, блоку <bpt id="2">`</bpt>checkbox<ept id="2">`</ept> нужно установить модификатор <bpt id="4">`</bpt>checked<ept id="4">`</ept> в значение <bpt id="6">`</bpt>true<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">Наприклад, щоб відзначити чекбокс, блоку `checkbox` потрібно встановити модифікатор `checked` значення `true`.</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">В БЭМ-проекте нельзя изменять состояния в режиме runtime с помощью модификатора, напрямую меняя CSS-класс на соответствующем DOM-узле.</source>
+  <target xml:lang="uk">У БЕМ-проекті не можна змінювати стану в режимі runtime з допомогою модифікатора, безпосередньо змінюючи CSS-клас на відповідному DOM-сайті.</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Для корректной работы JavaScript все манипуляции с модификаторами должны производиться при помощи методов-хелперов.</source>
+  <target xml:lang="uk">Для коректної роботи JavaScript всі маніпуляції з модифікаторами повинні проводитися за допомогою методів-хелперів.</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">Примеры реализации доступны в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js-mods/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклади реалізації доступні в документації до [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js-mods/).</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru">Реакция на изменение модификаторов</source>
+  <target xml:lang="uk">Реакція на зміну модифікаторів</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru">Переход блока из одного состояния в другое часто вызывает изменения в его внешнем виде.</source>
+  <target xml:lang="uk">Перехід блоку з одного стану в інший часто викликає зміни в його зовнішньому вигляді.</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Если в CSS внешний вид блока задается с помощью модификатора, то изменение состояния блока, вызванное тем же модификатором, автоматически применит все необходимые стили.</source>
+  <target xml:lang="uk">Якщо в CSS зовнішній вигляд блоку задається з допомогою модифікатора, то зміна стану блоку, викликане тим же модифікатором, автоматично застосує всі необхідні стилі.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">В БЭМ реакция на установку/снятие модификатора описывается <bpt id="l2">[</bpt>декларативно<ept id="l2">]</ept><bpt id="l3">(</bpt>../bem-js-principles/bem-js-principles.ru.md#Декларативный-стиль<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ реакція на встановлення/зняття модифікатора описується [декларативно](../bem-js-principles/bem-js-principles.ru.md#Декларативний-стиль).</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Так, например, если в CSS во время исполнения появляется какой-то дополнительный класс (модификатор), то все свойства этого модификатора автоматически применяются к DOM-узлу, на который этот класс установлен.</source>
+  <target xml:lang="uk">Так, наприклад, якщо в CSS під час виконання з'являється якийсь додатковий клас (модифікатор), то всі властивості цього модифікатора автоматично застосовуються до DOM-вузла, на який цей клас встановлений.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">В JavaScript происходит то же самое: если появляется модификатор (добавляется новый класс к DOM-узлу), то вся функциональность, свойственная этому модификатору, применяется.</source>
+  <target xml:lang="uk">В JavaScript відбувається те ж саме: якщо з'являється модифікатор (додається новий клас до DOM-сайту), то вся функціональність, властива цьому модификатору, що застосовується.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Если модификатор исчезает, функциональность отключается.</source>
+  <target xml:lang="uk">Якщо модифікатор зникає, функціональність відключається.</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">Чтобы динамически изменять состояния блоков и элементов, используются специальные методы для установки и снятия модификаторов.</source>
+  <target xml:lang="uk">Щоб динамічно змінювати стану блоків і елементів, використовуються спеціальні методи для встановлення і зняття модифікаторів.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Примеры реализации доступны в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/v2/i-bem-js-mods/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклади реалізації доступні в документації до [i-bem.js](https://ru.bem.info/technology/i-bem/v2/i-bem-js-mods/).</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Рассмотрим форму отправки сообщения.</source>
+  <target xml:lang="uk">Розглянемо форму відправлення повідомлення.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">Должно выполняться условие: если введен неправильный email, кнопка отправки (блок <bpt id="2">`</bpt>button<ept id="2">`</ept>) становится недоступна (получает модификатор <bpt id="4">`</bpt>button_disabled<ept id="4">`</ept>).</source>
+  <target xml:lang="uk">Повинно виконуватися умова: якщо введений неправильний email, кнопка відправки (блок `button`) стає недоступною (отримує модифікатор `button_disabled`).</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">Можно жестко прописать все условия в коде и постоянно выполнять проверку.</source>
+  <target xml:lang="uk">Можна жорстко прописати всі умови в коді і постійно виконувати перевірку.</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Такой подход не удобен, так как любое изменение потребует изменений в коде вручную.</source>
+  <target xml:lang="uk">Такий підхід не зручний, так як будь-яка зміна вимагає змін у коді вручну.</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">Можно задекларировать поведение блока и получить возможность перекрывать каждый модификатор отдельно на новом уровне переопределения.</source>
+  <target xml:lang="uk">Можна задекларувати поведінка блоку і отримати можливість перекривати кожен модифікатор окремо на новому рівні перевизначення.</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">В <bpt id="l2">[</bpt>декларации<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/<ept id="l3">)</ept> можно указать, как блок или элемент должен отреагировать на изменение модификатора.</source>
+  <target xml:lang="uk">В [декларації](https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/) можна вказати, як блок або елемент повинен відреагувати на зміну модифікатора.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">Такой подход дает возможность:</source>
+  <target xml:lang="uk">Такий підхід дає можливість:</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Реагировать на модификатор независимо от способа его установки/снятия (через JavaScript API: <bpt id="2">`</bpt>block('button').setMod('focused')<ept id="2">`</ept> или пользователь установил/снял фокус курсором).</source>
+  <target xml:lang="uk">Реагувати на модифікатор незалежно від способу його установки/зняття (через JavaScript API: `block('button').setMod('focused')` або користувач встановив/зняв фокус курсором).</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Определять каждому состоянию свой внешний вид, добавив стили модификатору.</source>
+  <target xml:lang="uk">Визначати кожному станом свій зовнішній вигляд, додавши стилі модификатору.</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">Изменять или полностью перекрывать поведение блока с помощью <bpt id="l2">[</bpt>уровней переопределения<ept id="l2">]</ept><bpt id="l3">(</bpt>#Работа-с-уровнями-переопределения<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Змінювати або повністю перекривати поведінка блоку з допомогою [рівнів перевизначення](#Робота з рівнями-перевизначення).</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">Разделение кода на части</source>
+  <target xml:lang="uk">Поділ на частини коду</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">К JavaScript могут применяться основные принципы организации и хранения кода по БЭМ-методологии:</source>
+  <target xml:lang="uk">До JavaScript можуть застосовуватись основні принципи організації і зберігання коду за БЕМ-методології:</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">разделение кода на отдельные части — логика работы каждого блока, его опциональных элементов и модификаторов описывается в отдельных файлах;</source>
+  <target xml:lang="uk">поділ коду на окремі частини — логіка роботи кожного блоку, його опціональних елементів і модифікаторів описується в окремих файлах;</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru">JavaScript-файлы для каждого компонента хранятся в соответствии с <bpt id="l2">[</bpt>правилами организации файловой структуры<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.ru.md<ept id="l3">)</ept> БЭМ-проекта.</source>
+  <target xml:lang="uk">JavaScript-файли для кожного компонента зберігаються відповідно до [правилами організації файлової структури](../filesystem/filesystem.ru.md) БЕМ-проекту.</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">Рассмотрим пример логотипа (блок <bpt id="2">`</bpt>logo<ept id="2">`</ept>), реализованного в двух технологиях: шаблоне и стилях.</source>
+  <target xml:lang="uk">Розглянемо приклад логотипу (блок `logo`), реалізованого в двох технологіях: шаблоні і стилях.</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">HTML-реализация блока:</source>
+  <target xml:lang="uk">HTML-реалізація блоку:</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">&lt;a class="logo" href="/"&gt;Ваша крутая компания&lt;/a&gt;</source>
+  <target xml:lang="uk">&lt;a class="logo" href="/"&gt;Ваша крута компанія&lt;/a&gt;</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru">CSS-реализация блока:</source>
+  <target xml:lang="uk">CSS-реалізація блоку:</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">Блок <bpt id="2">`</bpt>logo<ept id="2">`</ept> в файловой структуре проекта:</source>
+  <target xml:lang="uk">Блок `logo` у файловій структурі проекту:</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">logo/
+    logo.css   # Внешний вид блока
+    logo.tmpl  # Шаблоны для генерации HTML-представления блока</source>
+  <target xml:lang="uk">logo/
+logo.css # Зовнішній вигляд блоку
+logo.tmpl # Шаблони для генерації HTML-представлення блоку</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">Добавим блоку <bpt id="2">`</bpt>logo<ept id="2">`</ept> JavaScript-функциональность: теперь нажатие на логотип вызывает какое-то действие.</source>
+  <target xml:lang="uk">Додамо блоку `logo` JavaScript-функціональність: тепер натискання на логотип викликає якусь дію.</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">Согласно БЭМ-методологии новое поведение блока <bpt id="2">`</bpt>logo<ept id="2">`</ept> будет реализовано следующим образом:</source>
+  <target xml:lang="uk">Згідно БЕМ-методології нове поведінка блоку `logo` буде реалізовано наступним чином:</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru">в отдельном файле;</source>
+  <target xml:lang="uk">в окремому файлі;</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">имя файла будет соответствовать имени блока с расширением <bpt id="2">`</bpt>.js<ept id="2">`</ept>;</source>
+  <target xml:lang="uk">назва файлу повинна відповідати імені блоку з розширенням `.js`;</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">файл <bpt id="2">`</bpt>logo.js<ept id="2">`</ept> будет находится в директории блока <bpt id="4">`</bpt>logo/<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">файл `logo.js` буде знаходиться в директорії блоку `logo/`.</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru">JavaScript-реализация блока:</source>
+  <target xml:lang="uk">JavaScript-реалізація блоку:</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">Файл <bpt id="2">`</bpt>logo.js<ept id="2">`</ept> в файловой структуре блока:</source>
+  <target xml:lang="uk">Файл `logo.js` у файловій структурі блоку:</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">logo/
+    logo.css   # Внешний вид блока
+    logo.tmpl  # Шаблоны для генерации HTML-представления блока
+    logo.js    # Динамическое поведение блока в браузере</source>
+  <target xml:lang="uk">logo/
+logo.css # Зовнішній вигляд блоку
+logo.tmpl # Шаблони для генерації HTML-представлення блоку
+logo.js # Динамічну поведінку блоку в браузері</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">Разделение кода на части и строгая организация файловой системы проекта позволяет не только облегчить навигацию по проекту и повторное использование или перенос компонентов, но и работать с уровнями переопределения для JavaScript и использовать сборку.</source>
+  <target xml:lang="uk">Поділ коду на частини і сувора організація файлової системи проекту дозволяє не тільки полегшити навігацію по проекту і повторне використання або перенесення компонентів, але і працювати з рівнями перевизначення для JavaScript і використовувати збірку.</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">Работа с уровнями переопределения</source>
+  <target xml:lang="uk">Робота з рівнями перевизначення</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">В описании БЭМ-методологии приведено <bpt id="l2">[</bpt>много примеров<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.ru.md#Примеры-использования-уровней-переопределения<ept id="l3">)</ept>, где конечная CSS-реализация блока собирается с разных уровней переопределения.</source>
+  <target xml:lang="uk">В описі БЕМ-методології приведено [багато прикладів](../filesystem/filesystem.ru.md#Приклади використання-рівнів-перевизначення), де кінцева CSS-реалізація блоку збирається з різних рівнів перевизначення.</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">Применение принципов БЭМ-методологии к JavaScript позволяет аналогичным образом разделять поведение блоков по разным уровням:</source>
+  <target xml:lang="uk">Застосування принципів БЕМ-методології до JavaScript дозволяє аналогічним чином розділяти поведінка блоків за різними рівнями:</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru">реализовывать новую функциональность блока на другом уровне переопределения, сохраняя предыдущее поведение блока, наследовать и дополнять его (делать super call);</source>
+  <target xml:lang="uk">реалізовувати нову функціональність блоку на іншому рівні перевизначення, зберігаючи попереднє поведінка блоку, успадковувати і доповнювати його (робити super call);</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru">полностью перекрывать поведение блока (переопределять);</source>
+  <target xml:lang="uk">повністю перекривати поведінка блоку (змінити);</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru">добавлять новые блоки с новой функциональностью, которых не было на предыдущих уровнях.</source>
+  <target xml:lang="uk">додавати нові блоки з новою функціональністю, яких не було на попередніх рівнях.</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">С помощью уровней переопределения можно создать универсальную JavaScript-библиотеку блоков и изменять ее на проектном уровне.</source>
+  <target xml:lang="uk">З допомогою рівнів перевизначення можна створити універсальну JavaScript-бібліотеки блоків і змінювати її на проектному рівні.</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru">Затем использовать сборку и включать в проект только необходимое поведение блоков.</source>
+  <target xml:lang="uk">Потім використовувати збірку і включати в проект тільки необхідну поведінку блоків.</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">Вернемся к примеру формы отправки сообщения:</source>
+  <target xml:lang="uk">Повернемося до прикладу форми надсилання повідомлення:</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Запись с стиле БЭМ позволяет:</source>
+  <target xml:lang="uk">Запис у стилі БЕМ дозволяє:</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">Полностью перекрывать поведение блока на другом уровне переопределения.</source>
+  <target xml:lang="uk">Повністю перекривати поведінка блоку на іншому рівні перевизначення.</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru">Добавлять или частично изменять поведение блока на другом уровне переопределения.</source>
+  <target xml:lang="uk">Додавати або частково змінювати поведінку блоку на іншому рівні перевизначення.</target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="ru">Для работы с уровнями переопределения в БЭМ можно использовать специализированный фреймворк, например, <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js/<ept id="l3">)</ept>, так как он создан по требованиям БЭМ-методологии.</source>
+  <target xml:lang="uk">Для роботи з рівнями перевизначення БЕМ можна використовувати спеціалізований фреймворк, наприклад, [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js/), так як він створений за вимогами БЕМ-методології.</target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="ru">Как перейти на JavaScript по БЭМ</source>
+  <target xml:lang="uk">Як перейти на JavaScript з БЕМ</target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="ru">Самый быстрый путь — начать применять принципы БЭМ-методологии в своем проекте и получать первые результаты без использования специализированного фреймворка.</source>
+  <target xml:lang="uk">Найшвидший шлях — почати застосовувати принципи БЕМ-методології в своєму проекті і отримувати перші результати без використання спеціалізованого фреймворка.</target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="ru">Как это сделать на практике показано в статье <bpt id="l2">[</bpt>БЭМ — это не только про CSS<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/163/<ept id="l3">)</ept> с примерами на jQuery.</source>
+  <target xml:lang="uk">Як це зробити на практиці показано в статті [БЕМ — це не тільки про CSS](https://ru.bem.info/forum/163/) з прикладами на jQuery.</target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="ru">Чтобы реализовать сразу все идеи БЭМ в вашем проекте, необходимо использовать фреймворк <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js/<ept id="l3">)</ept>:</source>
+  <target xml:lang="uk">Щоб реалізувати всі ідеї БЕМ у вашому проекті, необхідно використовувати фреймворк [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js/):</target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="ru">работать в <bpt id="l2">[</bpt>единых терминах<ept id="l2">]</ept><bpt id="l3">(</bpt>#Единая-предметная-область<ept id="l3">)</ept> блоков, элементов и модификаторов во всех технологиях;</source>
+  <target xml:lang="uk">працювати у [єдиних термінах](#Єдина-предметна область) блоків, елементів і модифікаторів у всіх технологіях;</target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="ru">создавать независимые компоненты — блоки — на уровне JavaScript;</source>
+  <target xml:lang="uk">створювати незалежні компоненти — блоки — на рівні JavaScript;</target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="ru">изменять поведение блоков, элементов и модификаторов с помощью уровней переопределения по аналогии с CSS;</source>
+  <target xml:lang="uk">змінювати поведінку блоків, елементів і модифікаторів з допомогою рівнів перевизначення за аналогією з CSS;</target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="ru">повторно использовать блоки, переносить их между проектами;</source>
+  <target xml:lang="uk">повторно використовувати блоки, переносити їх між проектами;</target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="ru">облегчить и ускорить разработку и отладку проекта за счет несвязанности компонентов и возможности разрабатывать поблочно;</source>
+  <target xml:lang="uk">полегшити і прискорити розробку і налагодження проекту за рахунок незв'язаності компонентів і можливості розробляти поблочно;</target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="ru">включать в сборку только нужную JavaScript-реализацию блока;</source>
+  <target xml:lang="uk">включати в збірку тільки потрібну JavaScript-реалізацію блоку;</target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="ru">облегчить навигацию по файловой структуре проекта.</source>
+  <target xml:lang="uk">полегшити навігацію по файловій структурі проекту.</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

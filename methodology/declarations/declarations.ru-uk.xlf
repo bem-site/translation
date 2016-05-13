@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/declarations/declarations.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/declarations/declarations.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Декларации в БЭМ</source>
+  <target xml:lang="uk">Декларації в БЕМ</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">Чтобы перечислить БЭМ-сущности, необходимые для построения веб-страницы (читай «частного случая <bpt id="l2">[</bpt>бандла<ept id="l2">]</ept><bpt id="l3">(</bpt>../build/build.ru.md#bundle<ept id="l3">)</ept>»), можно воспользоваться <bpt id="4">**</bpt>декларацией<ept id="4">**</ept>.</source>
+  <target xml:lang="uk">Щоб перерахувати БЕМ-суті, необхідні для побудови веб-сторінки (читай «приватного випадку [бандла](../build/build.ru.md#bundle)»), можна скористатися **декларацією**.</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru">Декларация представляет собой список <bpt id="l2">[</bpt>блоков<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Блок<ept id="l3">)</ept>, <bpt id="l4">[</bpt>элементов<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.ru.md#Элемент<ept id="l5">)</ept> и <bpt id="l6">[</bpt>модификаторов<ept id="l6">]</ept><bpt id="l7">(</bpt>../key-concepts/key-concepts.ru.md#Модификатор<ept id="l7">)</ept>, которые используются на странице.</source>
+  <target xml:lang="uk">Декларація являє собою список [блоків](../key-concepts/key-concepts.ru.md#Блок), [елементів](../key-concepts/key-concepts.ru.md#Елемент) і [модифікаторів](../key-concepts/key-concepts.ru.md#Модифікатор), які використовуються на сторінці.</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru">Таким образом, инструмент сборки, основываясь на данных из декларации, ограничивает количество сущностей, попадающих в готовый проект.</source>
+  <target xml:lang="uk">Таким чином, інструмент збірки, грунтуючись на даних з декларації, обмежує кількість сутностей, що потрапляють в готовий проект.</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru">Нет необходимости подключать все блоки проекта, если можно собрать только нужные по списку.</source>
+  <target xml:lang="uk">Немає необхідності підключати всі блоки проекту, якщо можна зібрати тільки потрібні за списком.</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Задача декларации<ept id="1">**</ept> — определить, что и в каком порядке подключать в сборку.</source>
+  <target xml:lang="uk">**Завдання декларації** — визначити, що і в якому порядку підключати в збірку.</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru">В БЭМ-платформе описание страницы создается в формате BEMJSON, а декларация страницы описывается в формате BEMDECL, например:</source>
+  <target xml:lang="uk">У БЕМ-платформі опис сторінки створюється у форматі BEMJSON, а декларація сторінки описується в форматі BEMDECL, наприклад:</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru">Способы получения декларации</source>
+  <target xml:lang="uk">Способи одержання декларації</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">Декларация может формироваться вручную.</source>
+  <target xml:lang="uk">Декларація може формуватися вручну.</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">Для этого нужно перечислить БЭМ-сущности, участвующие в построении страницы.</source>
+  <target xml:lang="uk">Для цього потрібно перерахувати БЕМ-сутності, що беруть участь в побудові сторінки.</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">Автоматическое построение декларации возможно:</source>
+  <target xml:lang="uk">Автоматична побудова декларації можливо:</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>по описанию страницы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Создание-декларации-по-описанию-страницы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[по опису сторінки](#Створення декларації-опису сторінки)</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>с помощью интроспекции файловой системы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Создание-декларации-с-помощью-интроспекции-файловой-системы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[з допомогою інтроспекції файлової системи](#Створення декларації з допомогою інтроспекції-файлової системи)</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">Создание декларации по описанию страницы</source>
+  <target xml:lang="uk">Створення декларації за описом сторінки</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Список необходимых для сборки сущностей можно получить по классам из HTML-файла веб-страницы.</source>
+  <target xml:lang="uk">Список необхідних для складання сутностей можна отримати за класами з HTML-файлу веб-сторінки.</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">В БЭМ-проекте структура веб-страницы описывается с помощью <bpt id="l2">[</bpt>БЭМ-дерева<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#БЭМ-дерево<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ-проекті структура веб-сторінки описується з допомогою [БЕМ-дерева](../key-concepts/key-concepts.ru.md#БЕМ-дерево).</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">HTML-код страницы содержит классы с именами всех используемых блоков, элементов и модификаторов.</source>
+  <target xml:lang="uk">HTML-код сторінки містить класи з іменами всіх використовуваних блоків, елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">БЭМ-дерево может быть построено автоматически по классам из HTML или создано вручную.</source>
+  <target xml:lang="uk">БЕМ-дерево може бути побудовано автоматично по класах з HTML або створено вручну.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru">При сборке страницы декларация формируется автоматически на основании данных из БЭМ-дерева:</source>
+  <target xml:lang="uk">При складанні сторінки декларація формується автоматично на підставі даних з БЕМ-дерева:</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru">Все сущности (блоки, элементы и модификаторы) попадают в декларацию в порядке, указанном в конфигурации сборки.</source>
+  <target xml:lang="uk">Всі сутності (блоки, елементи і модифікатори) потрапляють до декларації у порядку, зазначеному в конфігурації збірки.</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Если на странице используется одна и та же сущность дважды, в декларацию она попадет только один раз.</source>
+  <target xml:lang="uk">Якщо на сторінці використовується одна і та ж сутність двічі, в декларацію вона потрапить тільки один раз.</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Вложенность блоков и элементов в декларации не отображается.</source>
+  <target xml:lang="uk">Вкладеність блоків і елементів в декларації не відображаються.</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Один из инструментов, позволяющих получить БЭМ-дерево по HTML-структуре страницы, — <bpt id="l2">[</bpt>html2bemjson<ept id="l2">]</ept><bpt id="l3">(</bpt>https://github.com/bem-incubator/html2bemjson<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Один з інструментів, що дозволяють отримати БЕМ-дерево з HTML-структурі сторінки, — [html2bemjson](https://github.com/bem-incubator/html2bemjson).</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Способ создания декларации<ept id="l1">]</ept><bpt id="l2">(</bpt>declarations__html2decl.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Спосіб створення декларації](declarations__html2decl.png)</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">Пример проекта, в котором формируется отдельная декларация для каждой страницы, — <bpt id="l2">[</bpt>Создаем свой проект на БЭМ<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tutorials/start-with-project-stub/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклад проекту, в якому формується окрема декларація для кожної сторінки, — [Створюємо свій проект на БЕМ](https://ru.bem.info/tutorials/start-with-project-stub/).</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Создание декларации с помощью интроспекции файловой системы</source>
+  <target xml:lang="uk">Створення декларації з допомогою інтроспекції файлової системи</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru">Другой источник, откуда можно собрать данные о сущностях — файловая система проекта.</source>
+  <target xml:lang="uk">Інше джерело, звідки можна зібрати дані про сутності — файлова система проекту.</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Такой способ построения декларации автоматически включает все сущности, находящиеся в файловой системе проекта.</source>
+  <target xml:lang="uk">Такий спосіб побудови декларації автоматично включає всі сутності, що знаходяться у файловій системі проекту.</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">Это обеспечивает стопроцентное попадание в сборку всех необходимых сущностей, но не предоставляет точности: в сборку попадут все имеющиеся сущности, а не только нужные.</source>
+  <target xml:lang="uk">Це забезпечує стовідсоткове потрапляння в збірку всіх необхідних сутностей, але не надає точності: в збірку потраплять всі наявні сутності, а не лише потрібні.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">Декларация, созданная по описанию страницы, наоборот, обеспечивает точечную сборку нужных БЭМ-сущностей, но не может гарантировать подключение всех сущностей, явно не описанных в HTML-файле страницы.</source>
+  <target xml:lang="uk">Декларація, створена за описом сторінки, навпаки, забезпечує точкову збирання потрібних БЕМ-сутностей, але не може гарантувати підключення всіх сутностей, явно не описаних у файлі HTML сторінки.</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Способ создания декларации<ept id="l1">]</ept><bpt id="l2">(</bpt>declarations__fs2decl.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Спосіб створення декларації](declarations__fs2decl.png)</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">В <bpt id="l2">[</bpt>bem-components<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/libs/bem-components/<ept id="l3">)</ept> создание декларации с помощью интроспекции файловой системы используется для поставки библиотеки в виде <bpt id="l4">[</bpt>Dist<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.bem.info/libs/bem-components/current/#Варианты-поставки-библиотеки<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">В [bem-components](https://ru.bem.info/libs/bem-components/) створення декларації з допомогою інтроспекції файлової системи використовується для поставки бібліотеки у вигляді [Dist](https://ru.bem.info/libs/bem-components/current/#Варианты-поставки-библиотеки).</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Алгебра деклараций</source>
+  <target xml:lang="uk">Алгебра декларацій</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">С помощью деклараций можно управлять процессом сборки.</source>
+  <target xml:lang="uk">З допомогою декларацій можна керувати процесом збірки.</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">Например, можно объединять декларации разных страниц в одну и собирать весь проект целиком, а не постранично.</source>
+  <target xml:lang="uk">Наприклад, можна об'єднувати декларації різних сторінок в одну і збирати весь проект цілком, а не посторінково.</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">Декларации можно не только совмещать, но и повторно использовать, выделять общие части или различия.</source>
+  <target xml:lang="uk">Декларації можна не тільки поєднувати, але і повторно використовувати, виділяти загальні частини або відмінності.</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Такое управление дает возможность собирать все страницы в один <bpt id="l2">[</bpt>бандл<ept id="l2">]</ept><bpt id="l3">(</bpt>../build/build.ru.md#bundle<ept id="l3">)</ept>, догружать необходимые части страницы по требованию или повторно использовать уже собранные общие компоненты на разных страницах.</source>
+  <target xml:lang="uk">Таке управління дає можливість збирати всі сторінки в один [бандл](../build/build.ru.md#bundle), довантажувати необхідні частині сторінки на вимогу або повторно використовувати вже зібрані загальні компоненти на різних сторінках.</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">Операции над декларациями</source>
+  <target xml:lang="uk">Операції над деклараціями</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>сложение<ept id="l1">]</ept><bpt id="l2">(</bpt>#Объединение-нескольких-деклараций-в-одну<ept id="l2">)</ept> — объединение множеств сущностей разных деклараций в одну;</source>
+  <target xml:lang="uk">[додати](#Об'єднання кількох-декларацій-в-одну) — об'єднання множин сутностей різних декларацій в одну;</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>вычитание<ept id="l1">]</ept><bpt id="l2">(</bpt>#Получение-разницы-между-декларациями<ept id="l2">)</ept> — получение разницы между множествами сущностей разных деклараций;</source>
+  <target xml:lang="uk">[віднімання](#Одержання різниці між-деклараціями) — одержання різниці між множинами сутностей різних декларацій;</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>пересечение<ept id="l1">]</ept><bpt id="l2">(</bpt>#Получение-декларации-на-основе-пересечения-нескольких-других<ept id="l2">)</ept> — получение декларации на основании пересечения множеств сущностей двух других деклараций.</source>
+  <target xml:lang="uk">[перетин](#Одержання декларації-на-основі-перетину кількох інших) — отримання декларації на підставі перетину множин сутностей двох інших декларацій.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">Сложение деклараций</source>
+  <target xml:lang="uk">Складання декларацій</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Применяется для создания общих файлов технологий (например, общего CSS- и JavaScript-файла) для нескольких страниц.</source>
+  <target xml:lang="uk">Застосовується для створення загальних файлів технологій (наприклад, загального CSS і JavaScript-файл) для декількох сторінок.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Используется, если необходимо загрузить все страницы одновременно и не тратить время на загрузку каждой отдельной страницы при переходе между ними.</source>
+  <target xml:lang="uk">Використовується, якщо необхідно завантажити всі сторінки одночасно і не витрачати час на завантаження кожної окремої сторінки при переході між ними.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Декларация 1            Декларация 2            Декларация 3
+
+[                       [                       [
+    'header',               'header',               'header',
+    'input',                'input',                'input',
+    'button',               'button',               'button',
+    'link',                                         'link',
+    'attach',     +                        =        'attach',
+                            'menu',                 'menu',
+                            'image',                'image',
+    'checkbox',                                     'checkbox',
+                            'popup'                 'popup',
+    'textarea'                                      'textarea'
+]                       ]                       ]</source>
+  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+
+[ [ [
+'header', 'header', 'header',
+'input', 'input', 'input',
+'button', 'button', 'button',
+'link', 'link',
+'attach', + = 'attach',
+'menu', 'menu',
+'image', 'image',
+'checkbox', 'checkbox',
+'popup' 'popup',
+'textarea' 'textarea'
+] ] ]</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">Вычитание деклараций</source>
+  <target xml:lang="uk">Віднімання декларацій</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Один из способов применения — сборка части страницы, которая догружается по требованию (например, в ответ на действие пользователя).</source>
+  <target xml:lang="uk">Один із способів застосування — збірка частині сторінки, яка догружается на вимогу (наприклад, у відповідь на дію користувача).</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Декларация 1            Декларация 2            Декларация 3
+
+[                       [                       [
+    'button',               'button',
+    'checkbox',                                     'checkbox',
+    'textarea',                                     'textarea',
+    'suggest'                                       'suggest'
+                            'header',
+                    -       'input',       =
+                            'button',
+                            'menu',
+                            'image',
+                            'popup'
+]                       ]                       ]</source>
+  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+
+[ [ [
+'button', 'button',
+'checkbox', 'checkbox',
+'textarea', 'textarea',
+'suggest' 'suggest'
+'header',
+- 'input', =
+'button',
+'menu',
+'image',
+'popup'
+] ] ]</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Например, на странице используется виртуальная клавиатура, которая становится доступна пользователю только в ответ на определенное действие.</source>
+  <target xml:lang="uk">Наприклад, на сторінці використовується віртуальна клавіатура, яка стає доступною користувачеві тільки у відповідь на певну дію.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">Нет необходимости включать этот блок в сборку всей страницы, так как это увеличит время загрузки.</source>
+  <target xml:lang="uk">Немає необхідності включати цей блок в збірку всієї сторінки, так як це збільшить час завантаження.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">Кнопки клавиатуры могут быть уже реализованы на странице для других целей.</source>
+  <target xml:lang="uk">Кнопки клавіатури можуть бути реалізовані на сторінці для інших цілей.</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Возможность вычитать декларации позволяет создать отдельный бандл (файлы для части страницы) для недостающей реализации виртуальной клавиатуры и подключать его только по требованию.</source>
+  <target xml:lang="uk">Можливість віднімати декларації дозволяє створити окремий пакет (файли для частини сторінки) для відсутньої реалізації віртуальної клавіатури і підключати його тільки на вимогу.</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">Пересечение деклараций</source>
+  <target xml:lang="uk">Перетин декларацій</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Применяется для создания декларации, описывающей общие части разных страниц проекта.</source>
+  <target xml:lang="uk">Застосовується для створення декларації, що описує загальні частини різних сторінок проекту.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">Это позволяет собрать общую часть для всех страниц и подключать ее при сборке один раз ко всем страницам.</source>
+  <target xml:lang="uk">Це дозволяє зібрати загальну частину для всіх сторінок і підключати її при складанні один раз до всіх сторінок.</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Декларация 1            Декларация 2            Декларация 3
+
+[                       [                       [
+    'header',               'header',               'header',
+    'input',                'menu',
+    'link',        ⋂        'button',     =
+    'attach',               'input',
+    'checkbox',             'image',
+    'textarea',             'popup',
+    'footer'                'footer'                'footer'
+]                        ]                       ]</source>
+  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+
+[ [ [
+'header', 'header', 'header',
+'input', 'menu',
+'link', ⋂ 'button', =
+'attach', 'input',
+'checkbox', 'image',
+'textarea', 'popup',
+'footer' 'footer' 'footer'
+] ] ]</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Например, такое разделение эффективно, если в проекте на всех страницах используется <bpt id="2">`</bpt>шапка<ept id="2">`</ept> и <bpt id="4">`</bpt>подвал<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Наприклад, такий поділ ефективно, якщо в проекті на всіх сторінках використовується `шапка` і `підвал`.</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">Общая часть страниц описывается в отдельной декларации.</source>
+  <target xml:lang="uk">Загальна частина сторінок описується в окремій декларації.</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">При сборке каждая страница формируется на основании двух деклараций: общей (содержащей <bpt id="2">`</bpt>шапку<ept id="2">`</ept> и <bpt id="4">`</bpt>подвал<ept id="4">`</ept>) и собственной (описывающей оставшуюся часть страницы).</source>
+  <target xml:lang="uk">При складанні кожна сторінка формується на підставі двох декларацій: загальної (містить `шапка` і `підвал`) і власної (яка описує частину сторінки).</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

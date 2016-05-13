@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/key-concepts/key-concepts.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/key-concepts/key-concepts.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Определения</source>
+  <target xml:lang="uk">Визначення</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Блок<ept id="l1">]</ept><bpt id="l2">(</bpt>#Блок<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Блок](#Блок)</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Элемент<ept id="l1">]</ept><bpt id="l2">(</bpt>#Элемент<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Елемент](#Елемент)</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Модификатор<ept id="l1">]</ept><bpt id="l2">(</bpt>#Модификатор<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Модифікатор](#Модифікатор)</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>БЭМ-сущность<ept id="l1">]</ept><bpt id="l2">(</bpt>#БЭМ-сущность<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[БЕМ-сутність](#БЕМ-сутність)</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Микс<ept id="l1">]</ept><bpt id="l2">(</bpt>#Микс<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Мікс](#Мікс)</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>БЭМ-дерево<ept id="l1">]</ept><bpt id="l2">(</bpt>#БЭМ-дерево<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[БЕМ-дерево](#БЕМ-дерево)</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Реализация блока<ept id="l1">]</ept><bpt id="l2">(</bpt>#Реализация-блока<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Реалізація блока](#Реалізація-блоку)</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Технология реализации блока<ept id="l1">]</ept><bpt id="l2">(</bpt>#Технология-реализации<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Технологія реалізації блока](#Технологія-реалізації)</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Переопределение блока<ept id="l1">]</ept><bpt id="l2">(</bpt>#Переопределение-блока<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Перевизначення блоку](#Перевизначення-блоку)</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Уровень переопределения<ept id="l1">]</ept><bpt id="l2">(</bpt>#Уровень-переопределения<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Рівень перевизначення](#Рівень-перевизначення)</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">Блок</source>
+  <target xml:lang="uk">Блок</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">Логически и функционально независимый компонент страницы, аналог компонента в Web Components.</source>
+  <target xml:lang="uk">Логічно і функціонально незалежний компонент сторінки, аналог компонента в Web Components.</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">Блок инкапсулирует в себе поведение (JavaScript), шаблоны, стили (CSS) и другие <bpt id="l2">[</bpt>технологии реализации<ept id="l2">]</ept><bpt id="l3">(</bpt>#Технология-реализации<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Блок інкапсулює в собі поведінку (JavaScript), шаблони стилів (CSS) та інші [технології реалізації](#Технологія-реалізації).</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Независимость блоков обеспечивает возможность их повторного использования, а также удобство в <bpt id="l2">[</bpt>разработке и поддержке проекта<ept id="l2">]</ept><bpt id="l3">(</bpt>../solved-problems/solved-problems.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Незалежність блоків забезпечує можливість їх повторного використання, а також зручність в [розробці і підтримці проекту](../solved-problems/solved-problems.ru.md).</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">Возможности блоков</source>
+  <target xml:lang="uk">Можливості блоків</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">Вложенная структура</source>
+  <target xml:lang="uk">Вкладена структура</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">Блоки могут быть вложены в любые другие блоки.</source>
+  <target xml:lang="uk">Блоки можуть бути вкладені в інші блоки.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru">Например, блок <bpt id="2">`</bpt>head<ept id="2">`</ept> может включать логотип (<bpt id="4">`</bpt>logo<ept id="4">`</ept>), форму поиска (<bpt id="6">`</bpt>search<ept id="6">`</ept>) и блок авторизации (<bpt id="8">`</bpt>auth<ept id="8">`</ept>).</source>
+  <target xml:lang="uk">Наприклад, блок `head` може включати логотип (`logo`), форму пошуку`search`) і блок авторизації (`auth`).</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Составляющие блока Шапка<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head_marked.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Складові блоку Шапка](key-concepts__head_marked.png)</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Свободное перемещение</source>
+  <target xml:lang="uk">Вільне переміщення</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Блоки можно перемещать в пределах одной страницы, разных страниц или проектов.</source>
+  <target xml:lang="uk">Блоки можна переміщати в межах однієї сторінки, сторінок або проектів.</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Независимая реализация блока позволяет изменять его положение на странице и обеспечивает корректную работу и внешний вид.</source>
+  <target xml:lang="uk">Незалежна реалізація блоку дозволяє змінювати його положення на сторінці і забезпечує коректну роботу і зовнішній вигляд.</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Так, например, логотип и форму авторизации можно поменять местами.</source>
+  <target xml:lang="uk">Так, наприклад, логотип і форму авторизації можна поміняти місцями.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">При этом вносить изменения в CSS или JavaScript-код блока не нужно.</source>
+  <target xml:lang="uk">При цьому вносити зміни в CSS та JavaScript-код блоку не потрібно.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Смена положения блоков<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Зміна положення блоків](key-concepts__head.png)</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Смена положения блоков<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head_changed.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Зміна положення блоків](key-concepts__head_changed.png)</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Повторное использование</source>
+  <target xml:lang="uk">Повторне використання</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">В интерфейсе может одновременно присутствовать несколько экземпляров одного и того же блока.</source>
+  <target xml:lang="uk">В інтерфейсі може одночасно бути кілька примірників одного і того ж блоку.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Товары в интернет-магазине<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__goods-list.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Товари в інтернет-магазині](key-concepts__goods-list.png)</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Элемент</source>
+  <target xml:lang="uk">Елемент</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Составная часть <bpt id="l2">[</bpt>блока<ept id="l2">]</ept><bpt id="l3">(</bpt>#Блок<ept id="l3">)</ept>, которая не может использоваться в отрыве от него.</source>
+  <target xml:lang="uk">Складова частина [блоки](#Блок), яка не може використовуватися у відриві від нього.</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Например, пункт меню вне контекста блока меню не используется, значит является элементом.</source>
+  <target xml:lang="uk">Наприклад, пункт меню поза контекстом блоку меню не використовується, значить є елементом.</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Пункты меню<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__menu-items.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Меню](key-concepts__menu-items.png)</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Когда создавать блок, когда элемент?<ept id="l1">]</ept><bpt id="l2">(</bpt>../../faq/faq.ru.md#В-каком-случае-создавать-блок-в-каком--элемент<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Коли створювати блок, коли елемент?](../../faq/faq.ru.md#У-будь-разі-створювати блок--якому--елемент)</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему в методологии БЭМ не рекомендуется создавать элементы элементов?<ept id="l1">]</ept><bpt id="l2">(</bpt>../../faq/faq.ru.md#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому в методології БЕМ не рекомендується створювати елементи элементов?](../../faq/faq.ru.md#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2)</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Модификатор</source>
+  <target xml:lang="uk">Модифікатор</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">БЭМ-сущность, определяющая внешний вид, состояние и поведение <bpt id="l2">[</bpt>блока<ept id="l2">]</ept><bpt id="l3">(</bpt>#Блок<ept id="l3">)</ept> или <bpt id="l4">[</bpt>элемента<ept id="l4">]</ept><bpt id="l5">(</bpt>#Элемент<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">БЕМ-сутність, що визначає зовнішній вигляд, стан і поведінку [блоки](#Блок) або [елемента](#Елемент).</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru">Использование модификаторов опционально.</source>
+  <target xml:lang="uk">Використання модифікаторів опціонально.</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru">По своей сути модификаторы похожи на атрибуты в HTML.</source>
+  <target xml:lang="uk">По своїй суті модифікатори схожі атрибути HTML.</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Один и тот же блок выглядит по-разному благодаря применению модификатора.</source>
+  <target xml:lang="uk">Один і той же блок виглядає по-різному завдяки застосуванню модифікатора.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">Например, внешний вид блока меню (<bpt id="2">`</bpt>menu<ept id="2">`</ept>) может меняться в зависимости от примененного модификатора.</source>
+  <target xml:lang="uk">Наприклад, зовнішній вигляд блоку меню (`menu`) може змінюватися в залежності від застосованого модифікатора.</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Добавить меню в подвале<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__site-footer-menu.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Додати меню в підвалі](key-concepts__site-footer-menu.png)</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">БЭМ-сущность</source>
+  <target xml:lang="uk">БЕМ-сутність</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">БЭМ-сущностями называются <bpt id="l2">[</bpt>блоки<ept id="l2">]</ept><bpt id="l3">(</bpt>#Блок<ept id="l3">)</ept>, <bpt id="l4">[</bpt>элементы<ept id="l4">]</ept><bpt id="l5">(</bpt>#Элемент<ept id="l5">)</ept> и <bpt id="l6">[</bpt>модификаторы<ept id="l6">]</ept><bpt id="l7">(</bpt>#Модификатор<ept id="l7">)</ept>.</source>
+  <target xml:lang="uk">БЕМ-називаються сутностями [блоки](#Блок), [елементи](#Елемент) і [модифікатори](#Модифікатор).</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">Это понятие может применяться как частное, если рассматривается отдельная БЭМ-сущность, и как собирательное для блоков, элементов и модификаторов.</source>
+  <target xml:lang="uk">Це поняття може застосовуватися як приватне, якщо розглядається окрема БЕМ-сутність, і як збірне для блоків, елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Микс</source>
+  <target xml:lang="uk">Мікс</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Способ использования разных <bpt id="l2">[</bpt>БЭМ-сущностей<ept id="l2">]</ept><bpt id="l3">(</bpt>#БЭМ-сущность<ept id="l3">)</ept> на одном <bpt id="l4">[</bpt>DOM-узле<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.wikipedia.org/wiki/Document_Object_Model<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Спосіб використання різних [БЕМ-сутностей](#БЕМ-сутність) на одному [DOM-вузлі](https://ru.wikipedia.org/wiki/Document_Object_Model).</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Миксы позволяют:</source>
+  <target xml:lang="uk">Мікси дозволяють:</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">совмещать поведение и стили нескольких БЭМ-сущностей без дублирования кода;</source>
+  <target xml:lang="uk">поєднувати поведінку і стилі декількох БЕМ-сутностей без дублювання коду;</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">создавать семантически новые компоненты интерфейса на основе имеющихся БЭМ-сущностей.</source>
+  <target xml:lang="uk">створювати семантично нові компоненти інтерфейсу на основі наявних БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Рассмотрим пример микса блока и элемента другого блока.</source>
+  <target xml:lang="uk">Розглянемо приклад міксу блоку і елемента іншого блоку.</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">Допустим, в проекте ссылки реализованы блоком <bpt id="2">`</bpt>link<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Припустимо, у проекті посилання реалізовані блоком `link`.</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Необходимо сделать ссылками пункты меню.</source>
+  <target xml:lang="uk">Необхідно зробити посиланнями на пункти меню.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">Существует несколько способов:</source>
+  <target xml:lang="uk">Існує кілька способів:</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Создать модификатор для пункта меню, который превратит пункт в ссылку.</source>
+  <target xml:lang="uk">Створити модифікатор для пункту меню, який перетворить пункт у посилання.</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Но в таком случае для реализации модификатора придется скопировать поведение и стили блока <bpt id="2">`</bpt>link<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Але в такому випадку для реалізації модифікатора доведеться скопіювати поведінку і стилі блоку `link`.</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">Это приведет к дублированию кода.</source>
+  <target xml:lang="uk">Це призведе до дублювання коду.</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">Воспользоваться миксом универсального блока <bpt id="2">`</bpt>link<ept id="2">`</ept> и элемента <bpt id="4">`</bpt>link<ept id="4">`</ept> блока <bpt id="6">`</bpt>menu<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">Скористатися міксом універсального блоку `link` і елемента `link` блоки `menu`.</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">Микс двух БЭМ-сущностей позволит применить базовую функциональность ссылок из блока <bpt id="2">`</bpt>link<ept id="2">`</ept> и дополнительные CSS-правила из блока <bpt id="4">`</bpt>menu<ept id="4">`</ept> без копирования кода.</source>
+  <target xml:lang="uk">Мікс двох БЕМ-сутностей дозволить застосувати базову функціональність посилань з блоку `link` і додаткові CSS-правила з блоку `menu` без копіювання коду.</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">БЭМ-дерево</source>
+  <target xml:lang="uk">БЕМ-дерево</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru">Представление структуры веб-страницы в терминах блоков, элементов и модификаторов.</source>
+  <target xml:lang="uk">Представлення структури веб-сторінки в термінах блоків, елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru">Это абстракция над <bpt id="l2">[</bpt>DOM-деревом<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.wikipedia.org/wiki/Document_Object_Model<ept id="l3">)</ept>, которая описывает имена БЭМ-сущностей, их состояния, порядок, вложенность и вспомогательные данные.</source>
+  <target xml:lang="uk">Це абстракція над [DOM-деревом](https://ru.wikipedia.org/wiki/Document_Object_Model), яка описує імена БЕМ-сутностей, їх стану, порядок, структуру і допоміжні дані.</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">В реальных проектах БЭМ-дерево можно выразить любым форматом, который поддерживает древовидную структуру.</source>
+  <target xml:lang="uk">У реальних проектах БЕМ-дерево можна виразити будь-якому форматі, який підтримує деревоподібну структуру.</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">Рассмотрим пример DOM-дерева:</source>
+  <target xml:lang="uk">Розглянемо приклад DOM-дерева:</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">&lt;header class="header"&gt;
+    &lt;img class="logo"&gt;
+    &lt;form class="search-form"&gt;
+        &lt;input type="input"&gt;
+        &lt;button type="button"&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div class="lang-switcher"&gt;&lt;/div&gt;
+&lt;/header&gt;</source>
+  <target xml:lang="uk">&lt;header class="header"&gt;
+&lt;img class="logo"&gt;
+&lt;form class="search-form"&gt;
+&lt;input type="input"&gt;
+&lt;button type="button"&gt;&lt;/button&gt;
+&lt;/form&gt;
+&lt;div class="lang-switcher"&gt;&lt;/div&gt;
+&lt;/header&gt;</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru">Ему соответствует такое БЭМ-дерево:</source>
+  <target xml:lang="uk">Йому відповідає такий БЕМ-дерево:</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">header
+    ├──logo
+    └──search-form
+        ├──input
+        └──button
+    └──lang-switcher</source>
+  <target xml:lang="uk">header
+├──logo
+└──search-form
+├──input
+└──button
+└──lang-switcher</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">Это же БЭМ-дерево будет иметь следующий вид в форматах XML и <bpt id="l2">[</bpt>BEMJSON<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/bemjson/<ept id="l3">)</ept>:</source>
+  <target xml:lang="uk">Це ж БЕМ-дерево буде мати наступний вигляд у форматах XML і [BEMJSON](https://ru.bem.info/technology/bemjson/):</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">XML</source>
+  <target xml:lang="uk">XML</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">&lt;block:header&gt;
+    &lt;block:logo/&gt;
+    &lt;block:search-form&gt;
+        &lt;block:input/&gt;
+        &lt;block:button/&gt;
+    &lt;/block:search-form&gt;
+    &lt;block:lang-switcher/&gt;
+&lt;/block:header&gt;</source>
+  <target xml:lang="uk">&lt;block:header&gt;
+&lt;block:logo/&gt;
+&lt;block:search-form&gt;
+&lt;block:input/&gt;
+&lt;block:button/&gt;
+&lt;/block:search-form&gt;
+&lt;block:lang-switcher/&gt;
+&lt;/block:header&gt;</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru">BEMJSON</source>
+  <target xml:lang="uk">BEMJSON</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">Реализация блока</source>
+  <target xml:lang="uk">Реалізація блоку</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">Набор различных <bpt id="l2">[</bpt>технологий<ept id="l2">]</ept><bpt id="l3">(</bpt>#Технология-реализации<ept id="l3">)</ept>, определяющих следующие особенности БЭМ-сущности:</source>
+  <target xml:lang="uk">Набір різних [технологій](#Технологія-реалізації), що визначають такі особливості БЕМ-суті:</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru">поведение;</source>
+  <target xml:lang="uk">поведінку;</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">внешний вид;</source>
+  <target xml:lang="uk">зовнішній вигляд;</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">тесты;</source>
+  <target xml:lang="uk">тести;</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">шаблоны;</source>
+  <target xml:lang="uk">шаблони;</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">документацию;</source>
+  <target xml:lang="uk">документацію;</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">описание зависимостей;</source>
+  <target xml:lang="uk">опис залежностей;</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">дополнительные данные (например, картинки).</source>
+  <target xml:lang="uk">додаткові дані (наприклад, картинки).</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru">Технология реализации</source>
+  <target xml:lang="uk">Технологія реалізації</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru">Технология, которая используется для <bpt id="l2">[</bpt>реализации<ept id="l2">]</ept><bpt id="l3">(</bpt>#Реализация-блока<ept id="l3">)</ept> блока.</source>
+  <target xml:lang="uk">Технологія, яка використовується для [реалізацію](#Реалізація-блоку) блоку.</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru">Блоки могут быть реализованы в одной или нескольких технологиях, например:</source>
+  <target xml:lang="uk">Блоки можуть бути реалізовані в одній або декількох технологіях, наприклад:</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">поведение — JavaScript, CoffeeScript;</source>
+  <target xml:lang="uk">поведінка — JavaScript, CoffeeScript;</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru">внешний вид — CSS, Stylus, Sass;</source>
+  <target xml:lang="uk">зовнішній вигляд — CSS, Stylus, Sass;</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">шаблоны — Jade, Handlebars, XSL, BEMHTML, BH;</source>
+  <target xml:lang="uk">шаблони — Jade, Handlebars, XSL, BEMHTML, BH;</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">документация — Markdown, Wiki, XML.</source>
+  <target xml:lang="uk">документація — Markdown, Wiki, XML.</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Например, если внешний вид блока задан с помощью CSS, это означает, что блок реализован в технологии CSS.</source>
+  <target xml:lang="uk">Наприклад, якщо зовнішній вигляд блоку задано за допомогою CSS, це означає, що блок реалізований у технології CSS.</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">А если документация к блоку написана в формате Markdown — блок реализован в технологии Markdown.</source>
+  <target xml:lang="uk">А якщо документація до блоку написана у форматі Markdown — блок реалізований у технології Markdown.</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru">Переопределение блока</source>
+  <target xml:lang="uk">Перевизначення блоку</target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="ru">Изменение <bpt id="l2">[</bpt>реализации<ept id="l2">]</ept><bpt id="l3">(</bpt>#Реализация-блока<ept id="l3">)</ept> блока путем добавления ему новых особенностей на другом <bpt id="l4">[</bpt>уровне<ept id="l4">]</ept><bpt id="l5">(</bpt>#Уровень-переопределения<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Зміна [реалізацію](#Реалізація-блоку) блоку шляхом додання йому нових особливостей на іншому [рівні](#Рівень-перевизначення).</target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="ru">Уровень переопределения</source>
+  <target xml:lang="uk">Рівень перевизначення</target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="ru">Набор БЭМ-сущностей и их частичных <bpt id="l2">[</bpt>реализаций<ept id="l2">]</ept><bpt id="l3">(</bpt>#Реализация-блока<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Набір БЕМ-сутностей і їх часткових [реалізацій](#Реалізація-блоку).</target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="ru">Конечная реализация блока может быть разделена по разным уровням переопределения.</source>
+  <target xml:lang="uk">Кінцева реалізація блоку може бути поділена за різними рівнями перевизначення.</target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="ru">Каждый последующий уровень добавляет или перекрывает исходную реализацию блока.</source>
+  <target xml:lang="uk">Кожен наступний рівень додає або перекриває вихідну реалізацію блоку.</target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="ru">Конечный результат собирается из отдельных <bpt id="l2">[</bpt>технологий реализации<ept id="l2">]</ept><bpt id="l3">(</bpt>#Технология-реализации<ept id="l3">)</ept> блока со всех уровней переопределения последовательно в заданном порядке.</source>
+  <target xml:lang="uk">Кінцевий результат збирається з окремих [технологій реалізації](#Технологія-реалізації) блоку з усіх рівнів перевизначення послідовно в заданому порядку.</target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Переопределять<ept id="l1">]</ept><bpt id="l2">(</bpt>#Переопределение-блока<ept id="l2">)</ept> можно любые <bpt id="l3">[</bpt>технологии реализации<ept id="l3">]</ept><bpt id="l4">(</bpt>#Технология-реализации<ept id="l4">)</ept> БЭМ-сущностей.</source>
+  <target xml:lang="uk">[Ігнорувати](#Перевизначення-блоку) можна будь-які [технології реалізації](#Технологія-реалізації) БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="ru">Например, в проект на отдельный уровень подключается сторонняя библиотека, которая содержит готовые реализации блоков.</source>
+  <target xml:lang="uk">Наприклад, проект на окремий рівень підключається стороння бібліотека, яка містить готові реалізації блоків.</target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="ru">Проектные блоки хранятся на другом уровне переопределения.</source>
+  <target xml:lang="uk">Проектні блоки зберігаються на іншому рівні перевизначення.</target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="ru">Предположим, что необходимо изменить внешний вид одного из блоков библиотеки.</source>
+  <target xml:lang="uk">Припустимо, що необхідно змінити зовнішній вигляд одного з блоків бібліотеки.</target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="ru">Для этого не нужно менять CSS-правила блока в исходном коде библиотеки или копировать код на уровень проекта.</source>
+  <target xml:lang="uk">Для цього не потрібно змінювати CSS-правила блоку у вихідному коді бібліотеки або копіювати код на рівень проекту.</target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="ru">Достаточно создать дополнительные CSS-правила для этого блока на проектном уровне.</source>
+  <target xml:lang="uk">Досить створити додаткові CSS-правила для цього блоку на проектному рівні.</target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="ru">При сборке в конечную реализацию подключатся исходные стили с уровня библиотеки и новые — с уровня проекта.</source>
+  <target xml:lang="uk">При зборці в кінцеву реалізацію підключаться вихідні стилі з рівня бібліотеки та нові — з рівня проекту.</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

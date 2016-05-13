@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/build/build.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/build/build.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Методология сборки БЭМ-проекта</source>
+  <target xml:lang="uk">Методологія складання БЕМ-проекту</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">Любой проект, построенный по БЭМ-методологии, имеет разветвленную файловую структуру.</source>
+  <target xml:lang="uk">Будь-який проект, побудований за БЕМ-методології, має розгалужену файлову структуру.</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru">Причина этого — компонентный подход.</source>
+  <target xml:lang="uk">Причина цього — компонентний підхід.</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Блоки<ept id="l1">]</ept><bpt id="l2">(</bpt>../key-concepts/key-concepts.ru.md#Блок<ept id="l2">)</ept> в БЭМ могут быть реализованы в одной или нескольких <bpt id="l3">[</bpt>технологиях<ept id="l3">]</ept><bpt id="l4">(</bpt>../key-concepts/key-concepts.ru.md#Технология-реализации<ept id="l4">)</ept>.</source>
+  <target xml:lang="uk">[Блоки](../key-concepts/key-concepts.ru.md#Блок) у БЕМ можуть бути реалізовані в одній або декількох [технологіях](../key-concepts/key-concepts.ru.md#Технологія-реалізації).</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru">Каждая технология находится в отдельном файле.</source>
+  <target xml:lang="uk">Кожна технологія знаходиться в окремому файлі.</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru">Как следствие, чтобы получить из отдельных файлов блоков общие файлы проекта, необходимо применить сборку.</source>
+  <target xml:lang="uk">Як наслідок, щоб отримати з окремих файлів блоків загальні файли проекту, необхідно застосувати збірку.</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru">Для этого можно использовать любой из существующих <bpt id="l2">[</bpt>инструментов сборки<ept id="l2">]</ept><bpt id="l3">(</bpt>#Инструменты-для-сборки<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Для цього можна використовувати будь-який з існуючих [інструментів складання](#Інструменти для збірки).</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru">Пример организации файловой структуры БЭМ-проекта:</source>
+  <target xml:lang="uk">Приклад організації файлової структури БЕМ-проекту:</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">blocks/                 # Уровень проекта
+    input/              # Директория блока `input`
+        input.css       # Реализация блока `input` в технологии CSS
+        input.js        # Реализация блока `input` в технологии JavaScript
+    icon/
+        icon.css
+
+library/                # Уровень библиотеки
+    input/
+        input.js        # Базовая реализация блока `input` в технологии JavaScript
+    button/</source>
+  <target xml:lang="uk">blocks/ # Рівень проекту
+input/ # Директорія блоку `input`
+input.css # Реалізація блоку `input` в технології CSS
+input.js # Реалізація блоку `input` в технології JavaScript
+icon/
+icon.css
+
+library/ # Рівень бібліотеки
+input/
+input.js # Базова реалізація блоку `input` в технології JavaScript
+button/</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">Подробнее о том, зачем разделять реализацию блока на отдельные файлы читайте в документе <bpt id="l2">[</bpt>Организация файловой системы БЭМ-проекта<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Докладніше про те, навіщо розділяти реалізацію блоку на окремі файли читайте в документі [Організація файлової системи БЕМ-проекту](../filesystem/filesystem.ru.md).</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">Сборка решает следующие задачи:</source>
+  <target xml:lang="uk">Збірка вирішує наступні завдання:</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">объединяет отдельные <bpt id="l2">[</bpt>файлы реализаций<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.ru.md#Реализация-блока-разделяется-на-отдельные-файлы<ept id="l3">)</ept>, разложенные по файловой системе;</source>
+  <target xml:lang="uk">об'єднує окремі [файли реалізацій](../filesystem/filesystem.ru.md#Реалізація-блоку-поділяється на окремі файли), розкладені по файловій системі;</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">подключает в проект только нужные блоки, <bpt id="l2">[</bpt>элементы<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Элемент<ept id="l3">)</ept> и <bpt id="l4">[</bpt>модификаторы<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.ru.md#Модификатор<ept id="l5">)</ept> из имеющихся в файловой системе;</source>
+  <target xml:lang="uk">підключає в проект тільки потрібні блоки, [елементи](../key-concepts/key-concepts.ru.md#Елемент) і [модифікатори](../key-concepts/key-concepts.ru.md#Модифікатор) з наявних у файловій системі;</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">учитывает порядок подключения файлов в проект.</source>
+  <target xml:lang="uk">враховує порядок підключення файлів в проект.</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Основные этапы сборки</source>
+  <target xml:lang="uk">Основні етапи складання</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">Чтобы из отдельных файлов получить готовую часть проекта (результат сборки), например, веб-страницу, необходимо:</source>
+  <target xml:lang="uk">Щоб з окремих файлів отримати готову частину проекту (результат складання), наприклад, веб-сторінку, необхідно:</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>перечислить блоки, элементы и модификаторы, участвующие в построении страницы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Определение-списка-блоков-элементов-и-модификаторов-для-создания-страницы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[перерахувати блоки, елементи і модифікатори, які беруть участь у побудові сторінки](#Визначення списку-блоків-елементів-модифікаторів для створення сторінки)</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>указать зависимости используемых БЭМ-сущностей<ept id="l1">]</ept><bpt id="l2">(</bpt>#Поиск-зависимостей<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[вказати залежно використовуваних БЕМ-сутностей](#Пошук залежностей)</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>объединить исходные файлы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Определение-порядка-подключения-БЭМ-сущностей-в-сборку<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[об'єднати вихідні файли](#Визначення порядку підключення-БЕМ-сутностей-в-складання)</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru">Результаты сборки</source>
+  <target xml:lang="uk">Результати складання</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">В результате сборки можно получить разные финальные наборы файлов:</source>
+  <target xml:lang="uk">В результаті збірки можна отримати різні фінальні набори файлів:</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">файлы для отдельной страницы (например, <bpt id="2">`</bpt>hello.css<ept id="2">`</ept> и <bpt id="4">`</bpt>hello.js<ept id="4">`</ept>);</source>
+  <target xml:lang="uk">файли для окремої сторінки (наприклад, `hello.css` і `hello.js`);</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">общие файлы для всего проекта (например, один <bpt id="2">`</bpt>project.css<ept id="2">`</ept> и <bpt id="4">`</bpt>project.js<ept id="4">`</ept>);</source>
+  <target xml:lang="uk">загальні файли для всього проекту (наприклад, один `project.css` і `project.js`);</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">файлы для фрагмента страницы, такого как <bpt id="2">`</bpt>шапка<ept id="2">`</ept> или <bpt id="4">`</bpt>подвал<ept id="4">`</ept>, которые используются на разных страницах проекта (например, <bpt id="6">`</bpt>header.css<ept id="6">`</ept> и <bpt id="8">`</bpt>header.js<ept id="8">`</ept>).</source>
+  <target xml:lang="uk">файли для фрагмента сторінки, такого як `шапка` або `підвал`, які використовуються на різних сторінках проекту (наприклад, `header.css` і `header.js`).</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">Общая часть собирается отдельно и подключается при сборке.</source>
+  <target xml:lang="uk">Загальна частина збирається окремо і підключається при збірці.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Такие наборы файлов, полученные в результате сборки, в БЭМ-методологии принято называть <bpt id="2">**</bpt>бандлами<ept id="2">**</ept>.</source>
+  <target xml:lang="uk">Такі набори файлів, одержані в результаті складання, БЕМ-методології прийнято називати **бандлами**.</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru">Обратите внимание, в документе сборка рассматривается на примере <bpt id="2">**</bpt>страницы<ept id="2">**</ept> — частного случая бандла.</source>
+  <target xml:lang="uk">Зверніть увагу, в документі збірка розглядається на прикладі **сторінки** — приватного випадку бандла.</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">В файловой системе результаты сборки отдельных файлов автоматически помещаются в директорию с названием страницы (например, <bpt id="2">`</bpt>hello<ept id="2">`</ept>):</source>
+  <target xml:lang="uk">У файловій системі результати складання окремих файлів автоматично поміщаються в теку з назвою сторінки (наприклад, `hello`):</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">blocks/                 # Директория, содержащая блоки
+
+bundles/                # Директория, содержащая все результаты сборки (опционально)
+    hello/              # Директория страницы `hello` (создается вручную)</source>
+  <target xml:lang="uk">blocks/ # Директорія, що містить блоки
+
+bundles/ # Директорія, що містить усі результати складання (опціонально)
+hello/ # Директорія сторінки `hello` (створюється вручну)</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">Пример файловой системы БЭМ-проекта до выполнения сборки:</source>
+  <target xml:lang="uk">Приклад файлової системи БЕМ-проекту до виконання збірки:</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">blocks/                 # Директория, содержащая блоки
+
+bundles/                # Директория, содержащая все результаты сборки
+    hello/              # Директория страницы `hello`
+        hello.decl.js   # Список БЭМ-сущностей, необходимых для страницы `hello`</source>
+  <target xml:lang="uk">blocks/ # Директорія, що містить блоки
+
+bundles/ # Директорія, що містить усі результати складання
+hello/ # Директорія сторінки `hello`
+hello.decl.js # Список БЕМ-сутностей, необхідних для сторінки `hello`</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Пример файловой системы БЭМ-проекта после выполнения сборки:</source>
+  <target xml:lang="uk">Приклад файлової системи БЕМ-проекту після виконання збірки:</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">blocks/                 # Директория, содержащая блоки
+
+bundles/                # Директория, содержащая все результаты сборки
+    hello/              # Директория страницы `hello`
+        hello.decl.js   # Список БЭМ-сущностей, необходимых для страницы `hello`
+        hello.css       # Собранный CSS-файл страницы `hello`
+        hello.js        # Собранный JavaScript-файл страницы `hello`</source>
+  <target xml:lang="uk">blocks/ # Директорія, що містить блоки
+
+bundles/ # Директорія, що містить усі результати складання
+hello/ # Директорія сторінки `hello`
+hello.decl.js # Список БЕМ-сутностей, необхідних для сторінки `hello`
+hello.css # Зібраний CSS-файл сторінки `hello`
+hello.js # Зібраний JavaScript-файл сторінки `hello`</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">При сборке в проект могут быть включены:</source>
+  <target xml:lang="uk">При зборці в проект можуть бути включені:</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">все БЭМ-сущности с файловой системы (что значительно увеличивает объем результирующего кода);</source>
+  <target xml:lang="uk">всі БЕМ-суті з файлової системи (що значно збільшує обсяг результуючого коду);</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">только необходимые для построения страницы БЭМ-сущности в строго определенном порядке.</source>
+  <target xml:lang="uk">тільки необхідні для побудови сторінки БЕМ-сутності в строго визначеному порядку.</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Для сборки в проект только нужных БЭМ-сущностей используются (опционально):</source>
+  <target xml:lang="uk">Для складання в проект тільки потрібних БЕМ-сутностей використовуються (опціонально):</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Декларация<ept id="l1">]</ept><bpt id="l2">(</bpt>#Определение-списка-блоков-элементов-и-модификаторов-для-создания-страницы<ept id="l2">)</ept> — определяет список БЭМ-сущностей, необходимых для создания страницы.</source>
+  <target xml:lang="uk">[Декларація](#Визначення списку-блоків-елементів-модифікаторів для створення сторінки) — визначає список БЕМ-сутностей, необхідних для створення сторінки.</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зависимости<ept id="l1">]</ept><bpt id="l2">(</bpt>#Поиск-зависимостей<ept id="l2">)</ept> — определяют БЭМ-сущности, необходимые для реализации блока.</source>
+  <target xml:lang="uk">[Залежно](#Пошук залежностей) — визначають БЕМ-суті, необхідні для реалізації блоку.</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Уровни переопределения<ept id="l1">]</ept><bpt id="l2">(</bpt>#Определение-порядка-подключения-БЭМ-сущностей-в-сборку<ept id="l2">)</ept> — определяют порядок подключения БЭМ-сущностей в сборку.</source>
+  <target xml:lang="uk">[Рівні перевизначення](#Визначення порядку підключення-БЕМ-сутностей-в-складання) — визначають порядок підключення БЕМ-сутностей в збірку.</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Определение списка блоков, элементов и модификаторов для создания страницы</source>
+  <target xml:lang="uk">Визначення списку блоків, елементів і модифікаторів для створення сторінки</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">Чтобы начать сборку страницы, инструмент сборки должен узнать все ее составляющие.</source>
+  <target xml:lang="uk">Щоб почати збірку сторінки, інструмент збірки повинен дізнатися всі її складові.</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Декларация<ept id="l1">]</ept><bpt id="l2">(</bpt>build__declaration.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Декларація](build__declaration.png)</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Первый этап сборки — формирование списка необходимых БЭМ-сущностей.</source>
+  <target xml:lang="uk">Перший етап складання — формування списку необхідних БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Рассмотрим на примере, для чего и как создается такой список.</source>
+  <target xml:lang="uk">Розглянемо на прикладі, для чого і створюється такий список.</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">В проект подключена библиотека, из которой на странице используются несколько блоков.</source>
+  <target xml:lang="uk">У проект підключена бібліотека, з якої на сторінці використовуються декілька блоків.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Нет необходимости включать всю библиотеку в сборку.</source>
+  <target xml:lang="uk">Немає необхідності включати всю бібліотеку в збірку.</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Достаточно составить список нужного по описанию страницы.</source>
+  <target xml:lang="uk">Достатньо скласти список потрібного по опису сторінки.</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Это можно сделать автоматически и вручную.</source>
+  <target xml:lang="uk">Це можна зробити автоматично і вручну.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">На основании этого списка в сборку попадут только перечисленные блоки.</source>
+  <target xml:lang="uk">На підставі цього списку в збірку потраплять тільки перераховані блоки.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">В БЭМ-методологии такой список называется <bpt id="l2">[</bpt>декларацией<ept id="l2">]</ept><bpt id="l3">(</bpt>../declarations/declarations.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ-методології такий список зветься [декларацією](../declarations/declarations.ru.md).</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Основная задача декларации определить, что и в каком порядке подключать в сборку.</source>
+  <target xml:lang="uk">Основне завдання декларації визначити, що і в якому порядку підключати в збірку.</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">Подробнее о <bpt id="l2">[</bpt>способах построения декларации<ept id="l2">]</ept><bpt id="l3">(</bpt>../declarations/declarations.ru.md#Способы-управления-декларациями<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Докладніше про способи побудови декларації](../declarations/declarations.ru.md#Способи управління-деклараціями).</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Поиск зависимостей</source>
+  <target xml:lang="uk">Пошук залежностей</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">В БЭМ-методологии многие блоки строятся на основании других блоков.</source>
+  <target xml:lang="uk">У БЕМ-методології багато блоки будуються на підставі інших блоків.</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Так, например, блок формы поиска (<bpt id="2">`</bpt>search-form<ept id="2">`</ept>) построен с помощью блоков <bpt id="4">`</bpt>input<ept id="4">`</ept> (поле ввода) и <bpt id="6">`</bpt>button<ept id="6">`</ept> (кнопка).</source>
+  <target xml:lang="uk">Так, наприклад, блок форми пошуку`search-form`) побудований з допомогою блоків `input` (поле введення) і `button` (кнопка).</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Нет необходимости реализовывать блок повторно, если он уже представлен в библиотеке.</source>
+  <target xml:lang="uk">Немає необхідності реалізовувати блок повторно, якщо він вже представлений в бібліотеці.</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">Новый блок можно построить на основании существующего.</source>
+  <target xml:lang="uk">Новий блок можна побудувати на основі існуючого.</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Пример составного блока<ept id="l1">]</ept><bpt id="l2">(</bpt>build__search-form.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Приклад складеного блоку](build__search-form.png)</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">Чтобы создать блок с помощью другого, уже существующего блока, необходимо указать зависимости между ними.</source>
+  <target xml:lang="uk">Щоб створити блок з допомогою іншого, вже існуючого блоку, необхідно вказати залежності між ними.</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">Так, приведенный в примере блок <bpt id="2">`</bpt>search-form<ept id="2">`</ept> зависит от <bpt id="4">`</bpt>input<ept id="4">`</ept> и <bpt id="6">`</bpt>button<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">Так, наведений у прикладі блок `search-form` залежить від `input` і `button`.</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru">Инструмент сборки получает данные о зависимостях и добавляет все сущности и технологии, необходимые для реализации блока, в процессе сборки.</source>
+  <target xml:lang="uk">Інструмент збірки отримує дані про залежності і додає всі сутності та технології, необхідні для реалізації блоку, в процесі складання.</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru">В зависимостях также указывается порядок подключения сущностей.</source>
+  <target xml:lang="uk">В залежностях також вказується порядок підключення сутностей.</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">Существует несколько способов указать зависимости:</source>
+  <target xml:lang="uk">Існує кілька способів вказати залежності:</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">Непосредственно в коде блока.</source>
+  <target xml:lang="uk">Безпосередньо в коді блоку.</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">В CSS зависимости можно определять с помощью директивы <bpt id="l2">[</bpt>@import<ept id="l2">]</ept><bpt id="l3">(</bpt>http://htmlbook.ru/css/import<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">В CSS залежності можна визначати за допомогою директиви [@import](http://htmlbook.ru/css/import).</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru">В JavaScript можно декларировать зависимости с помощью модульной системы (например, <bpt id="l2">[</bpt>AMD<ept id="l2">]</ept><bpt id="l3">(</bpt>https://github.com/amdjs/amdjs-api/wiki/AMD<ept id="l3">)</ept>, <bpt id="l4">[</bpt>CommonJS<ept id="l4">]</ept><bpt id="l5">(</bpt>http://www.commonjs.org/<ept id="l5">)</ept>) или импортов (<bpt id="l6">[</bpt>ECMAScript 2015<ept id="l6">]</ept><bpt id="l7">(</bpt>http://ecmascript.org<ept id="l7">)</ept>).</source>
+  <target xml:lang="uk">В JavaScript можна декларувати залежності з допомогою модульної системи (наприклад, [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD), [CommonJS](http://www.commonjs.org/) або импортов ([ECMAScript 2015](http://ecmascript.org)).</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">В отдельном файле.</source>
+  <target xml:lang="uk">В окремому файлі.</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">В БЭМ-платформе для указания зависимостей используется технология <bpt id="l2">[</bpt>DEPS<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/deps/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ-платформі для вказівки залежностей використовується технологія [DEPS](https://ru.bem.info/technology/deps/).</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">blocks/
+    input/
+        input.css
+        input.js
+        input.deps.js   # Файл с зависимостями блока `input`
+    button/
+        button.css
+        button.js</source>
+  <target xml:lang="uk">blocks/
+input/
+input.css
+input.js
+input.deps.js # Файл з залежностями блоку `input`
+button/
+button.css
+button.js</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">Определение порядка подключения БЭМ-сущностей в сборку</source>
+  <target xml:lang="uk">Визначення порядку підключення БЕМ-сутностей в збірку</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru">Порядок подключения БЭМ-сущностей в сборку зависит от:</source>
+  <target xml:lang="uk">Порядок підключення БЕМ-сутностей в збірку залежить від:</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru"><bpt id="1">**</bpt>указанных зависимостей<ept id="1">**</ept></source>
+  <target xml:lang="uk">**зазначених залежностей**</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">Зависимости определяют, в каком порядке дополнительная сущность должна попасть в сборку.</source>
+  <target xml:lang="uk">Залежності визначають, в якому порядку додаткова сутність повинна потрапити в збірку.</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru"><bpt id="1">**</bpt>используемых уровней переопределения<ept id="1">**</ept></source>
+  <target xml:lang="uk">**використовуваних рівнів перевизначення**</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">Важно соблюдать порядок подключения <bpt id="l2">[</bpt>уровней<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Уровень-переопределения<ept id="l3">)</ept> в сборку.</source>
+  <target xml:lang="uk">Важливо дотримуватися порядок підключення [рівнів](../key-concepts/key-concepts.ru.md#Рівень-перевизначення) в збірку.</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">Если сравнить уровни со слоями, то базовый слой – это исходная реализация блока, например, полученная из библиотеки, а каждый последующий слой накладывается сверху и дополняет (наследует) или изменяет базовую реализацию.</source>
+  <target xml:lang="uk">Якщо порівняти рівні з шарами, то базовий шар – це вихідна реалізація блоку, наприклад, отримана з бібліотеки, а кожен наступний шар накладається зверху і доповнює (успадковує) або змінює базову реалізацію.</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">Поэтому важно, чтобы в сборку сначала попадала исходная реализация, а затем изменения со всех уровней переопределения.</source>
+  <target xml:lang="uk">Тому важливо, щоб в збірку спочатку потрапляла вихідна реалізація, а потім зміни зі всіх рівнів перевизначення.</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">На схеме показан принцип использования уровней переопределения при сборке: с уровня <bpt id="2">`</bpt>common<ept id="2">`</ept> подключаются общие компоненты для всех платформ, а с уровней <bpt id="4">`</bpt>desktop<ept id="4">`</ept> и <bpt id="6">`</bpt>touch<ept id="6">`</ept> — компоненты, специфичные для каждой из платформ.</source>
+  <target xml:lang="uk">На схемі показаний принцип використання рівнів перевизначення при збірці: з рівня `common` підключаються загальні компоненти для всіх платформ, а з рівнів `desktop` і `touch` — компоненти, специфічні для кожної з платформ.</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru"><bpt id="l1">![</bpt>Уровни переопределения<ept id="l1">]</ept><bpt id="l2">(</bpt>build__levels.png<ept id="l2">)</ept></source>
+  <target xml:lang="uk">![Рівні перевизначення](build__levels.png)</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">Подробно об использовании уровней переопределения читайте в примерах:</source>
+  <target xml:lang="uk">Докладно про використання рівнів перевизначення читайте в прикладах:</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Переопределение блоков библиотеки<ept id="l1">]</ept><bpt id="l2">(</bpt>../filesystem/filesystem.ru.md#Подключение-библиотеки<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Перевизначення блоків бібліотеки](../filesystem/filesystem.ru.md#Підключення бібліотеки)</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Разделение проекта на платформы<ept id="l1">]</ept><bpt id="l2">(</bpt>../filesystem/filesystem.ru.md#Разделение-проекта-на-платформы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Поділ проекту на платформи](../filesystem/filesystem.ru.md#Поділ проекту на-платформи)</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru">Инструменты для сборки</source>
+  <target xml:lang="uk">Інструменти для збірки</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">Выбор инструмента для сборки зависит от сложности БЭМ-проекта, наличия в нем уровней переопределения и использования зависимостей.</source>
+  <target xml:lang="uk">Вибір інструменту для збирання залежить від складності БЕМ-проекту, наявності в ньому рівнів перевизначення і використання залежностей.</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru">БЭМ-методология не ограничивает выбор инструмента — можно использовать любые сборщики (например, Gulp, Grunt, Brunch, Broccoli), отвечающие требованиям вашего проекта.</source>
+  <target xml:lang="uk">БЕМ-методологія не обмежує вибір інструменту — можна використовувати будь-які збирачі (наприклад, Gulp, Grunt, Brunch, Broccoli), що відповідають вимогам вашого проекту.</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">Пример сборки БЭМ-проекта с помощью <bpt id="l2">[</bpt>Gulp<ept id="l2">]</ept><bpt id="l3">(</bpt>http://gulpjs.com/<ept id="l3">)</ept> — <bpt id="l4">[</bpt>Декларативный JavaScript по БЭМ<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.bem.info/events/beminar-july-2015/<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Приклад складання БЕМ-проекту за допомогою [Gulp](http://gulpjs.com/) — [Декларативний JavaScript по БЕМ](https://ru.bem.info/events/beminar-july-2015/).</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">В БЭМ-платформе используется сборщик <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept>, который подходит для сборки БЭМ-проектов любой сложности.</source>
+  <target xml:lang="uk">У БЕМ-платформі використовується складальник [ENB](https://ru.bem.info/tools/bem/enb-bem/), який підходить для складання БЕМ-проектів будь-якої складності.</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Пример сборки БЭМ-проекта с помощью <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept> — <bpt id="l4">[</bpt>Создаем свой проект на БЭМ<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.bem.info/tutorials/start-with-project-stub/<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Приклад складання БЕМ-проекту за допомогою [ENB](https://ru.bem.info/tools/bem/enb-bem/) — [Створюємо свій проект на БЕМ](https://ru.bem.info/tutorials/start-with-project-stub/).</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/filesystem/filesystem.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/filesystem/filesystem.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Организация файловой системы</source>
+  <target xml:lang="uk">Організація файлової системи</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">Принятый в методологии БЭМ компонентный подход применяется и к организации БЭМ-проектов в файловой системе.</source>
+  <target xml:lang="uk">Прийнятий у методології БЕМ компонентний підхід застосовується і до організації БЕМ-проектів у файловій системі.</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru">В БЭМ не только интерфейс делится на независимые компоненты — блоки, но и реализация блоков делится на независимые части — файлы.</source>
+  <target xml:lang="uk">У БЕМ не тільки інтерфейс ділиться на незалежні компоненти — блоки, але і реалізація блоків ділиться на незалежні частини — файли.</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru">На этой странице вы найдете:</source>
+  <target xml:lang="uk">На цій сторінці ви знайдете:</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Принципы организации файловой системы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Принципы-организации-файловой-системы-БЭМ-проекта<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Принципи організації файлової системи](#Принципи організації файлової системи-БЕМ-проекту)</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Пример файловой системы БЭМ-проекта<ept id="l1">]</ept><bpt id="l2">(</bpt>#Организация-файловой-системы-БЭМ-проекта<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Приклад файлової системи БЕМ-проекту](#Організація файлової системи-БЕМ-проекту)</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Примеры использования уровней переопределения<ept id="l1">]</ept><bpt id="l2">(</bpt>#Примеры-использования-уровней-переопределения<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Приклади використання рівнів перевизначення](#Приклади використання-рівнів-перевизначення)</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru">Принципы организации файловой системы БЭМ-проекта</source>
+  <target xml:lang="uk">Принципи організації файлової системи БЕМ-проекту</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">В БЭМ-проекте код разделяется на мелкие независимые части для удобства работы с отдельными блоками.</source>
+  <target xml:lang="uk">У БЕМ-проекті код поділяється на дрібні незалежні частини для зручності роботи з окремими блоками.</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">Перед отправкой в браузер файлы собираются и оптимизируются.</source>
+  <target xml:lang="uk">Перед відправкою в браузер файли збираються і оптимізуються.</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">Таким образом мы разграничиваем код, с которым работают люди, и код, который передается в браузер.</source>
+  <target xml:lang="uk">Таким чином ми розмежовуємо код, за яким працюють люди, і код, який передається в браузер.</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">В файловой системе код БЭМ-проекта организован по следующим принципам:</source>
+  <target xml:lang="uk">У файловій системі код БЕМ-проекту організовано за такими принципами:</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Реализация блока разделяется на отдельные файлы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Реализация-блока-разделяется-на-отдельные-файлы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Реалізація блоку розділяється на окремі файли](#Реалізація-блоку-поділяється на окремі файли)</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Опциональные элементы и модификаторы выносятся в отдельные файлы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Опциональные-элементы-и-модификаторы-выносятся-в-отдельные-файлы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Необов'язкові елементи і модифікатори виносяться в окремі файли](#Опціональні-елементи-і-модифікатори-виносяться в окремі файли)</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Файлы объединяются по смыслу, а не по типу<ept id="l1">]</ept><bpt id="l2">(</bpt>#Файлы-объединяются-по-смыслу-а-не-по-типу<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Файли об'єднуються за змістом, а не за типом](#Файли-об'єднуються-за змістом-а-не-по-типу)</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Проект разделяется на уровни переопределения<ept id="l1">]</ept><bpt id="l2">(</bpt>#Проект-разделяется-на-уровни-переопределения<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Проект розділяється на рівні перевизначення](#Проект розділяється на рівні-перевизначення)</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">Реализация блока разделяется на отдельные файлы</source>
+  <target xml:lang="uk">Реалізація блоку розділяється на окремі файли</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">Набор файлов блока (например, <bpt id="2">`</bpt>input.css<ept id="2">`</ept>, <bpt id="4">`</bpt>input.js<ept id="4">`</ept>) зависит от <bpt id="l6">[</bpt>технологий<ept id="l6">]</ept><bpt id="l7">(</bpt>../key-concepts/key-concepts.ru.md#Технология-реализации<ept id="l7">)</ept>, входящих в реализацию блока.</source>
+  <target xml:lang="uk">Набір файлів блоку (наприклад, `input.css`, `input.js`) залежить від [технологій](../key-concepts/key-concepts.ru.md#Технологія-реалізації), що входять в реалізацію блоку.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru"><bpt id="1">*</bpt>Зачем?<ept id="1">*</ept></source>
+  <target xml:lang="uk">*Навіщо?*</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Улучшение навигации по проекту<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Поліпшення навігації по проекту**</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Структура проекта построена по единому принципу, а имена блоков уникальны.</source>
+  <target xml:lang="uk">Структура проекту побудована за єдиним принципом, а імена блоків унікальні.</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Это позволяет разработчикам быстро ориентироваться в разных частях проекта и находить нужные файлы.</source>
+  <target xml:lang="uk">Це дозволяє розробникам швидко орієнтуватися в різних частинах проекту і знаходити потрібні файли.</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Упрощение переноса блоков между проектами<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Спрощення перенесення блоків між проектами**</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Реализация блоков разделена по отдельным файлам.</source>
+  <target xml:lang="uk">Реалізація блоків розділена по окремих файлів.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">При переносе блока из проекта в проект достаточно скопировать нужные файлы или директории.</source>
+  <target xml:lang="uk">При перенесенні блоку з проекту в проект достатньо скопіювати потрібні файли або теки.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Опциональные элементы и модификаторы выносятся в отдельные файлы</source>
+  <target xml:lang="uk">Додаткові елементи і модифікатори виносяться в окремі файли</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru"><bpt id="1">*</bpt>Зачем?<ept id="1">*</ept></source>
+  <target xml:lang="uk">*Навіщо?*</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Подключение только нужной реализации блока<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Підключення тільки потрібної реалізації блоку**</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">В сборку подключаются только файлы, действительно необходимые для данной реализации блока.</source>
+  <target xml:lang="uk">У збірку підключаються тільки файли, які дійсно необхідні для даної реалізації блоку.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">Файлы объединяются по смыслу, а не по типу</source>
+  <target xml:lang="uk">Файли об'єднуються за змістом, а не за типом</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Файлы блока группируются с помощью общих <bpt id="l2">[</bpt>правил именования<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Файли блоку групуються з допомогою загальних [правил іменування](../naming-convention/naming-convention.ru.md).</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Для удобства работы они могут быть объединены в директорию этого блока.</source>
+  <target xml:lang="uk">Для зручності роботи вони можуть бути об'єднані в директорію цього блоку.</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru"><bpt id="1">*</bpt>Зачем?<ept id="1">*</ept></source>
+  <target xml:lang="uk">*Навіщо?*</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Подключение в проект только необходимых блоков<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Підключення у проект тільки необхідних блоків**</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">Блоки реализованы независимо.</source>
+  <target xml:lang="uk">Блоки реалізовані незалежно.</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">Это позволяет настраивать сборку так, чтобы в проект попадали только нужные блоки.</source>
+  <target xml:lang="uk">Це дозволяє налаштовувати збірку так, щоб у проект потрапляли тільки потрібні блоки.</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Проект разделяется на уровни переопределения</source>
+  <target xml:lang="uk">Проект розділяється на рівні перевизначення</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">Конечная реализация блока может быть разделена по <bpt id="l2">[</bpt>уровням переопределения<ept id="l2">]</ept><bpt id="l3">(</bpt>#Примеры-использования-уровней-переопределения<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Кінцева реалізація блоку може бути розділена за [рівнями перевизначення](#Приклади використання-рівнів-перевизначення).</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru"><bpt id="1">*</bpt>Зачем?<ept id="1">*</ept></source>
+  <target xml:lang="uk">*Навіщо?*</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Отсутствие дублирования кода<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Відсутність дублювання коду**</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Вынесение общей реализации для всех платформ на отдельный уровень позволяет избежать дублирования кода и сократить время на отладку проекта.</source>
+  <target xml:lang="uk">Винесення загальної реалізації для всіх платформ на окремий рівень дозволяє уникнути дублювання коду та скоротити час на налагодження проекту.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Переопределение и доопределение блоков готовых библиотек<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Перевизначення і доопределение блоків готових бібліотек**</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Изменение блока библиотеки не требует его копирования на уровень проекта.</source>
+  <target xml:lang="uk">Зміна блоку бібліотеки не вимагає його копіювання рівень проекту.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Достаточно создать требуемый файл с правками или новым кодом на другом уровне переопределения и подключить в сборку.</source>
+  <target xml:lang="uk">Досить створити потрібний файл з правками або новим кодом на іншому рівні перевизначення і підключити в збірку.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Обновление подключенных в проект библиотек<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Оновлення підключених в проект бібліотек**</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">Разделение проекта на уровни позволяет изменять блоки, не затрагивая код библиотеки.</source>
+  <target xml:lang="uk">Поділ проекту на рівні дозволяє змінювати блоки, не зачіпаючи код бібліотеки.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">При обновлении библиотеки модификация блоков сохраняется на другом уровне проекта.</source>
+  <target xml:lang="uk">При оновленні бібліотеки модифікація блоків зберігається на іншому рівні проекту.</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Организация файловой системы БЭМ-проекта</source>
+  <target xml:lang="uk">Організація файлової системи БЕМ-проекту</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Блоку соответствует директория в файловой системе.</source>
+  <target xml:lang="uk">Блоку відповідає директорія у файловій системі.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">Имена блока и его директории совпадают.</source>
+  <target xml:lang="uk">Імена блоку і його директорії збігаються.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">blocks/
+    input/     # Директория блока input
+    button/    # Директория блока button</source>
+  <target xml:lang="uk">blocks/
+input/ # Директорія блоку input
+button/ # Директорія блоку button</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Реализация блока разделена на отдельные файлы — файлы технологий.</source>
+  <target xml:lang="uk">Реалізація блоку розділена на окремі файли — файли технологій.</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">Имена файлов совпадают с именем блока.</source>
+  <target xml:lang="uk">Імена файлів збігаються з ім'ям блоку.</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Расширение соответствует технологии.</source>
+  <target xml:lang="uk">Розширення відповідає технології.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">blocks/
+    input/
+        input.css       # Реализация блока `input` в технологии CSS
+        input.js        # Реализация блока `input` в технологии JavaScript
+    button/
+        button.css
+        button.js
+        button.png</source>
+  <target xml:lang="uk">blocks/
+input/
+input.css # Реалізація блоку `input` в технології CSS
+input.js # Реалізація блоку `input` в технології JavaScript
+button/
+button.css
+button.js
+button.png</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Имена файлов и директорий <bpt id="l2">[</bpt>БЭМ-сущностей<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#БЭМ-сущность<ept id="l3">)</ept> соответствуют <bpt id="l4">[</bpt>соглашению по именованию<ept id="l4">]</ept><bpt id="l5">(</bpt>../naming-convention/naming-convention.ru.md<ept id="l5">)</ept>:</source>
+  <target xml:lang="uk">Імена файлів і директорій [БЕМ-сутностей](../key-concepts/key-concepts.ru.md#БЕМ-сутність) відповідають [згоди щодо іменування](../naming-convention/naming-convention.ru.md):</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Элемент — <bpt id="2">`</bpt>block__elem.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input__box.css<ept id="4">`</ept>).</source>
+  <target xml:lang="uk">Елемент — `block__elem.extension` (`input__box.css`).</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">Модификатор блока — <bpt id="2">`</bpt>block_mod_val.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input_type_search.css<ept id="4">`</ept>) или <bpt id="6">`</bpt>block_mod.extension<ept id="6">`</ept> (<bpt id="8">`</bpt>input_disabled.css<ept id="8">`</ept>).</source>
+  <target xml:lang="uk">Модифікатор блоку — `block_mod_val.extension` (`input_type_search.css`) або `block_mod.extension` (`input_disabled.css`).</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">Значение булевого модификатора не указывается.</source>
+  <target xml:lang="uk">Значення булевого модифікатора не вказується.</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">Модификатор элемента — <bpt id="2">`</bpt>block__elem_mod_val.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input__clear_size_large.css<ept id="4">`</ept>) или <bpt id="6">`</bpt>block__elem_mod.extension<ept id="6">`</ept> (<bpt id="8">`</bpt>input__clear_visible.css<ept id="8">`</ept>).</source>
+  <target xml:lang="uk">Модифікатор елемента — `block__elem_mod_val.extension` (`input__clear_size_large.css`) або `block__elem_mod.extension` (`input__clear_visible.css`).</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">Модификаторы и элементы выделяются в отдельные файлы и группируются в поддиректории блока с соответствующими именами.</source>
+  <target xml:lang="uk">Модифікатори і елементи виділяються в окремі файли групуються в піддиректорії блоку з відповідними іменами.</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru">blocks/
+    input/
+        _type/                        # Директория модификатора `type`
+            input_type_search.css     # Реализация модификатора `type`
+                                      # со значением `search` в технологии CSS
+        __box/                        # Директория элемента `box`
+            input__box.css
+        input.css
+        input.js
+    button/
+        button.css
+        button.js
+        button.png</source>
+  <target xml:lang="uk">blocks/
+input/
+_type/ # Директорія модифікатора `type`
+input_type_search.css # Реалізація модифікатора `type`
+# зі значенням `search` в технології CSS
+__box/ # Директорія елемента `box`
+input__box.css
+input.css
+input.js
+button/
+button.css
+button.js
+button.png</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru">При создании модификаторов с разными значениями (например, <bpt id="2">`</bpt>popup_target_anchor.extension<ept id="2">`</ept> и <bpt id="4">`</bpt>popup_target_position.extension<ept id="4">`</ept>), общий код может быть вынесен в отдельный файл (<bpt id="6">`</bpt>popup_target.extension<ept id="6">`</ept>) без указания значения модификатора в имени.</source>
+  <target xml:lang="uk">При створенні модифікаторів з різними значеннями (наприклад, `popup_target_anchor.extension` і `popup_target_position.extension`), загальний код може бути винесений в окремий файл (`popup_target.extension`) без зазначення значення модифікатора в імені.</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">blocks/
+    popup/
+        _target/
+            popup_target.css           # Общий код модификатора `target`
+            popup_target_anchor.css    # Модификатор `target` в значении `anchor`
+            popup_target_position.css  # Модификатор `target` в значении `position`
+        _visible/
+            popup_visible.css          # Булевый модификатор visible
+    popup.css
+    popup.js</source>
+  <target xml:lang="uk">blocks/
+popup/
+_target/
+popup_target.css # Загальний код модифікатора `target`
+popup_target_anchor.css # Модифікатор `target` у значенні `якір`
+popup_target_position.css # Модифікатор `target` у значенні `position`
+_visible/
+popup_visible.css # Булевий модифікатор visible
+popup.css
+popup.js</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">Примеры из жизни</source>
+  <target xml:lang="uk">Приклади з життя</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>bem-core<ept id="l1">]</ept><bpt id="l2">(</bpt>https://github.com/bem/bem-core/tree/v2/common.blocks/page<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[bem-core](https://github.com/bem/bem-core/tree/v2/common.blocks/page)</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>bem-components<ept id="l1">]</ept><bpt id="l2">(</bpt>https://github.com/bem/bem-components/tree/v2/common.blocks/button<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[bem-components](https://github.com/bem/bem-components/tree/v2/common.blocks/button)</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">Примеры использования уровней переопределения</source>
+  <target xml:lang="uk">Приклади використання рівнів перевизначення</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">Реализация блока может быть разделена по <bpt id="l2">[</bpt>уровням переопределения<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Уровень-переопределения<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Реалізація блоку може бути розділена за [рівнями перевизначення](../key-concepts/key-concepts.ru.md#Рівень-перевизначення).</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">Рассмотрим несколько примеров:</source>
+  <target xml:lang="uk">Розглянемо кілька прикладів:</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Подключение библиотеки<ept id="l1">]</ept><bpt id="l2">(</bpt>#Подключение-библиотеки<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Підключення бібліотеки](#Підключення бібліотеки)</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Разделение проекта на платформы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Разделение-проекта-на-платформы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Поділ проекту на платформи](#Поділ проекту на-платформи)</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">Подключение библиотеки</source>
+  <target xml:lang="uk">Підключення бібліотеки</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">В проект можно подключить библиотеку как отдельный уровень.</source>
+  <target xml:lang="uk">У проект можна підключити бібліотеку як окремий рівень.</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru">Изменять (до- или переопределять) блоки можно на другом уровне проекта.</source>
+  <target xml:lang="uk">Змінювати (до - або ігнорувати) блоки можна на іншому рівні проекту.</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">При сборке подключится исходная реализация блоков с уровня библиотеки и переопределенная — с уровня проекта.</source>
+  <target xml:lang="uk">При складанні підключиться вихідна реалізація блоків з бібліотеки рівня і переопределенная — з рівня проекту.</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">Такое разделение позволяет сохранить изменения в блоках при обновлении библиотеки.</source>
+  <target xml:lang="uk">Такий поділ дозволяє зберегти зміни в блоках при оновленні бібліотеки.</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">Код самой библиотеки обновится, а специфическая реализация блоков проекта останется прежней, так как находится на другом уровне проекта.</source>
+  <target xml:lang="uk">Код бібліотеки оновиться, а специфічна реалізація блоків проекту залишиться колишньою, так як знаходиться на іншому рівні проекту.</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">library.blocks/
+    button/
+        button.css    # CSS-реализация кнопки в библиотеке (высота 20px)
+
+project.blocks/
+    button/
+        button.css    # Переопределение на уровне проекта (высота 24px)</source>
+  <target xml:lang="uk">library.blocks/
+button/
+button.css # CSS-реалізація кнопки в бібліотеці (висота 20px)
+
+project.blocks/
+button/
+button.css # Перевизначення на рівні проекту (висота 24px)</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">Разделение проекта на платформы</source>
+  <target xml:lang="uk">Поділ проекту на платформи</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">Проект разделен на платформы (<bpt id="2">`</bpt>mobile<ept id="2">`</ept> и <bpt id="4">`</bpt>desktop<ept id="4">`</ept>) и соответствующие уровни переопределения в файловой системе.</source>
+  <target xml:lang="uk">Проект розділений на платформи (`mobile` і `desktop") та відповідні рівні зміни у файловій системі.</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru">Уровень <bpt id="2">`</bpt>common<ept id="2">`</ept> содержит общую реализацию блоков для всех платформ.</source>
+  <target xml:lang="uk">Рівень `common` містить загальну реалізацію блоків для всіх платформ.</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru">На уровне <bpt id="2">`</bpt>desktop<ept id="2">`</ept> и <bpt id="4">`</bpt>mobile<ept id="4">`</ept> находится специфика реализаций блоков, характерная для каждой из платформ.</source>
+  <target xml:lang="uk">На рівні `desktop` і `mobile` знаходиться специфіка реалізацій блоків, характерна для кожної з платформ.</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru">Рассмотрим на примере:</source>
+  <target xml:lang="uk">Розглянемо на прикладі:</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">common.blocks/
+    button/
+        button.css    # Базовая CSS-реализация кнопки
+
+desktop.blocks/
+    button/
+        button.css    # Особенности кнопки для desktop
+
+mobile.blocks/
+    button/
+        button.css    # Особенности кнопки для mobile</source>
+  <target xml:lang="uk">common.blocks/
+button/
+button.css # Базова CSS-реалізація кнопки
+
+desktop.blocks/
+button/
+button.css # Особливості кнопки для desktop
+
+mobile.blocks/
+button/
+button.css # Особливості кнопки для mobile</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru">При сборке в файл <bpt id="2">`</bpt>desktop.css<ept id="2">`</ept> попадут все базовые CSS-правила кнопки с уровня <bpt id="4">`</bpt>common<ept id="4">`</ept> и переопределенные правила с уровня <bpt id="6">`</bpt>desktop<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">При зборці в файл `desktop.css` потраплять всі базові CSS-правила кнопки з рівня `common` і перевизначені правила з рівня `desktop`.</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">Базовые CSS-правила</source>
+  <target xml:lang="uk">Базові CSS-правила</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">Особенности desktop</source>
+  <target xml:lang="uk">Особливості desktop</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Файл <bpt id="2">`</bpt>mobile.css<ept id="2">`</ept> будет включать базовые CSS-правила кнопки с уровня <bpt id="4">`</bpt>common<ept id="4">`</ept> и переопределенные правила с уровня <bpt id="6">`</bpt>mobile<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">Файл `mobile.css` буде включати базові CSS-правила кнопки з рівня `common` і перевизначені правила з рівня `mobile`.</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">Базовые CSS-правила</source>
+  <target xml:lang="uk">Базові CSS-правила</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru">Особенности mobile</source>
+  <target xml:lang="uk">Особливості mobile</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/naming-convention/naming-convention.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/naming-convention/naming-convention.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Соглашение по именованию</source>
+  <target xml:lang="uk">Угода щодо іменування</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">Для работы с <bpt id="l2">[</bpt>БЭМ-сущностями<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#БЭМ-сущность<ept id="l3">)</ept> необходимо ознакомиться с правилами их именования.</source>
+  <target xml:lang="uk">Для роботи з [БЕМ-сутностями](../key-concepts/key-concepts.ru.md#БЕМ-сутність) необхідно ознайомитися з правилами їх іменування.</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru">Основная идея соглашения по именованию — сделать имена CSS-селекторов максимально информативными и понятными.</source>
+  <target xml:lang="uk">Основна ідея угоди щодо іменування — зробити імена CSS селекторів максимально інформативними і зрозумілими.</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru">Это поможет <bpt id="l2">[</bpt>упростить разработку<ept id="l2">]</ept><bpt id="l3">(</bpt>../solved-problems/solved-problems.ru.md#Как-упростить-код-и-облегчить-рефакторинг<ept id="l3">)</ept> и <bpt id="l4">[</bpt>отладку<ept id="l4">]</ept><bpt id="l5">(</bpt>../solved-problems/solved-problems.ru.md#Как-начать-повторно-использовать-код-и-избежать-взаимного-влияния-компонентов-друг-на-друга<ept id="l5">)</ept> кода, а также решить некоторые <bpt id="l6">[</bpt>проблемы<ept id="l6">]</ept><bpt id="l7">(</bpt>../solved-problems/solved-problems.ru.md#Как-получить-самодокументируемый-код<ept id="l7">)</ept> веб-разработчиков.</source>
+  <target xml:lang="uk">Це допоможе [спростити розробку](../solved-problems/solved-problems.ru.md#Як-спростити-код-і-полегшити-рефакторинг) і [отладку](../solved-problems/solved-problems.ru.md#Как-начать-повторно-использовать-код-и-избежать-взаимного-влияния-компонентов-друг-на-друга) коду, а також вирішити деякі [проблеми](../solved-problems/solved-problems.ru.md#Як-отримати-самодокументируемый-код) веб-розробників.</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru">В качестве примера рассмотрим CSS-селектор <bpt id="2">`</bpt>menuitemvisible<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">В якості прикладу розглянемо CSS-селектор `menuitemvisible`.</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru">Быстрый просмотр такой записи не дает возможности определить типы БЭМ-сущностей по имени.</source>
+  <target xml:lang="uk">Швидкий перегляд такого запису не дає можливості визначити типи БЕМ-сутностей по імені.</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru">Добавим разделитель:</source>
+  <target xml:lang="uk">Додамо роздільник:</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu-item-visible<ept id="1">`</ept> или <bpt id="3">`</bpt>menuItemVisible<ept id="3">`</ept></source>
+  <target xml:lang="uk">`menu-item-visible` або `menuItemVisible`</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">В таком виде имя селектора явно разделяется на логические части.</source>
+  <target xml:lang="uk">У такому вигляді ім'я селектора явно поділяється на логічні частини.</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">Можем предположить, что <bpt id="2">`</bpt>menu<ept id="2">`</ept> окажется блоком, <bpt id="4">`</bpt>item<ept id="4">`</ept> — элементом, а <bpt id="6">`</bpt>visible<ept id="6">`</ept> — модификатором.</source>
+  <target xml:lang="uk">Можемо припустити, що `menu` виявиться блоком, `item` — елементом, а `visible` — модифікатором.</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">Однако в реальной жизни часто возникают более сложные и не столь однозначные случаи, решить которые помогает соглашение по именованию БЭМ.</source>
+  <target xml:lang="uk">Однак у реальному житті часто виникають більш складні і не настільки однозначні випадки, вирішити які допомагає угоду щодо іменування БЕМ.</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">БЭМ-методология предоставляет идею по созданию правил формирования имен и свой способ ее реализации — <bpt id="l2">[</bpt>соглашение по именованию CSS-селекторов<ept id="l2">]</ept><bpt id="l3">(</bpt>#Соглашение-по-именованию-css-селекторов<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">БЕМ-методологія надає ідею по створенню правил формування імен і свій спосіб її реалізації — [угода щодо іменування CSS селекторів](#Угода-по-іменування-css селекторів).</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">Однако в мире веб-разработки существует ряд <bpt id="l2">[</bpt>альтернативных схем<ept id="l2">]</ept><bpt id="l3">(</bpt>#Альтернативные-схемы-именования<ept id="l3">)</ept>, основанных на принципах БЭМ.</source>
+  <target xml:lang="uk">Однак у світі веб-розробки існує ряд [альтернативних схем](#Альтернативні схеми-іменування), заснованих на принципах БЕМ.</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">Соглашение по именованию CSS-селекторов</source>
+  <target xml:lang="uk">Угода щодо іменування CSS селекторів</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Имена БЭМ-сущностей записываются с помощью <bpt id="2">**</bpt>цифр<ept id="2">**</ept> и <bpt id="4">**</bpt>латинских букв<ept id="4">**</ept> в <bpt id="6">**</bpt>нижнем регистре<ept id="6">**</ept>.</source>
+  <target xml:lang="uk">Імена БЕМ-сутностей записуються з допомогою **цифр** і **латинських літер** **нижньому регістрі**.</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">Для разделения слов в именах используется <bpt id="2">**</bpt>дефис<ept id="2">**</ept> (<bpt id="4">`</bpt>-<ept id="4">`</ept>).</source>
+  <target xml:lang="uk">Для розділення слів в іменах використовується **дефіс** (`-`).</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">Для хранения информации об именах блоков, элементов и модификаторов используются <bpt id="2">**</bpt>CSS-классы<ept id="2">**</ept>.</source>
+  <target xml:lang="uk">Для зберігання інформації про імена блоків, елементів і модифікаторів використовуються **CSS-класи**.</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">Правила формирования имен:</source>
+  <target xml:lang="uk">Правила формування імен:</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>блоков<ept id="l1">]</ept><bpt id="l2">(</bpt>#Имя-блока<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[блоків](#Ім'я-блоку)</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>элементов<ept id="l1">]</ept><bpt id="l2">(</bpt>#Имя-элемента<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[елементів](#Ім'я елемента)</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>модификаторов<ept id="l1">]</ept><bpt id="l2">(</bpt>#Имя-модификатора<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[модифікаторів](#Ім'я-модифікатора)</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Имя блока</source>
+  <target xml:lang="uk">Ім'я блоку</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Имя блока формируется по схеме <bpt id="2">`</bpt>block-name<ept id="2">`</ept> и задает <bpt id="l4">[</bpt>пространство имен<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.wikipedia.org/wiki/Пространство_имён<ept id="l5">)</ept> для элементов и модификаторов.</source>
+  <target xml:lang="uk">Ім'я блоку формується за схемою `block-name` і задає [простір імен](https://ru.wikipedia.org/wiki/Пространство_имен) елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Иногда к именам блоков могут добавляться различные префиксы.</source>
+  <target xml:lang="uk">Іноді до імен блоків можуть додаватися різні префікси.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">Подробнее о нашем опыте использования префиксов рассказывается в статье <bpt id="l2">[</bpt>История создания БЭМ<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/method/history/#Появление-блоков<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Детальніше про наш досвід використання префіксів розповідається в статті [Історія створення БЕМ](https://ru.bem.info/method/history/#Появление-блоков).</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu`</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru"><bpt id="1">`</bpt>lang-switcher<ept id="1">`</ept></source>
+  <target xml:lang="uk">`lang-switcher`</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="uk">*HTML*</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">&lt;div class="menu"&gt;...&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu"&gt;...&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="uk">*CSS*</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Имя элемента</source>
+  <target xml:lang="uk">Ім'я елемента</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Пространство имен, заданное именем блока, определяет принадлежность элемента к данному блоку.</source>
+  <target xml:lang="uk">Простір імен, заданий ім'ям блоку, визначає належність елемента до цього блоку.</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">Имя элемента отделяется от имени блока двумя подчеркиваниями (<bpt id="2">`</bpt>__<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Ім'я елемента відокремлюється від імені блоку двома підкресленнями (`__`).</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">Полное имя элемента создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я елемента створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name__elem-name<ept id="1">`</ept></source>
+  <target xml:lang="uk">`block-name__elem-name`</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Если блок имеет несколько одинаковых элементов, как в случае пунктов меню, то все они будут иметь одинаковые имена <bpt id="2">`</bpt>menu__item<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Якщо блок має кілька однакових елементів, як у випадку пунктів меню, то всі вони будуть мати однакові імена `menu__item`.</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Важно!<ept id="1">**</ept> В методологии БЭМ <bpt id="l3">[</bpt>не существует элементов элементов<ept id="l3">]</ept><bpt id="l4">(</bpt>../../faq/faq.ru.md#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2<ept id="l4">)</ept>.</source>
+  <target xml:lang="uk">**Важливо!** У методології БЕМ [не існує елементів элементов](../../faq/faq.ru.md#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2).</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu__item<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu__item`</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru"><bpt id="1">`</bpt>lang-switcher__lang-icon<ept id="1">`</ept></source>
+  <target xml:lang="uk">`lang-switcher__lang-icon`</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="uk">*HTML*</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">&lt;div class="menu"&gt;
+  ...
+  &lt;span class="menu__item"&gt;&lt;/span&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu"&gt;
+...
+&lt;span class="menu__item"&gt;&lt;/span&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="uk">*CSS*</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Имя модификатора</source>
+  <target xml:lang="uk">Ім'я модифікатора</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">Пространство имен, заданное именем блока, определяет принадлежность модификатора к данному блоку или его элементу.</source>
+  <target xml:lang="uk">Простір імен, заданий ім'ям блоку, визначає приналежність модифікатора до цього блоку або його елементу.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Имя модификатора отделяется от имени блока или элемента одним подчеркиванием (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Ім'я модифікатора відокремлюється від імені блоку або елемента одним підкресленням (`_`).</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Полное имя модификатора создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я модифікатора створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Для булевых модификаторов — <bpt id="2">`</bpt>owner-name_mod-name<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Для булевої модифікаторів — `owner-name_mod-name`.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">Для модификаторов вида «ключ-значение» — <bpt id="2">`</bpt>owner-name_mod-name_mod-val<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Для модифікаторів виду «ключ-значення» — `owner-name_mod-name_mod-val`.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Важно!<ept id="1">**</ept> В методологии БЭМ <bpt id="l3">[</bpt>модификатор не может использоваться в отрыве от своего владельца<ept id="l3">]</ept><bpt id="l4">(</bpt>../../faq/faq.ru.md#Зачем-писать-имя-блока-в-именах-модификаторов-и-элементов<ept id="l4">)</ept>.</source>
+  <target xml:lang="uk">**Важливо!** У методології БЕМ [модифікатор не може використовуватися у відриві від свого власника](../../faq/faq.ru.md#Навіщо писати-ім'я-блоку в іменах-модифікаторів-і-елементів).</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Модификатор блока</source>
+  <target xml:lang="uk">Модифікатор блоку</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Булевый модификатор<ept id="1">**</ept>.</source>
+  <target xml:lang="uk">**Булевий модифікатор**.</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Значение такого модификатора не указывается.</source>
+  <target xml:lang="uk">Значення такого модифікатора не вказується.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">Полное имя создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name_mod-name<ept id="1">`</ept>.</source>
+  <target xml:lang="uk">`block-name_mod-name`.</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu_hidden<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu_hidden`</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Модификатор типа «ключ — значение»<ept id="1">**</ept>.</source>
+  <target xml:lang="uk">**Модифікатор типу «ключ — значення»**.</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">Значение модификатора отделяется от имени одним подчеркиванием (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Значення модифікатора відокремлюється від імені одним підкресленням (`_`).</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">Полное имя создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name_mod-name_mod-val<ept id="1">`</ept>.</source>
+  <target xml:lang="uk">`block-name_mod-name_mod-val`.</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu_theme_morning-forest<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu_theme_morning-forest`</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="uk">*HTML*</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">&lt;div class="menu menu_hidden"&gt;...&lt;/div&gt;
+&lt;div class="menu menu_theme_morning-forest"&gt;...&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu menu_hidden"&gt;...&lt;/div&gt;
+&lt;div class="menu menu_theme_morning-forest"&gt;...&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru"><bpt id="1">*</bpt>Неверная форма записи<ept id="1">*</ept></source>
+  <target xml:lang="uk">*Неправильна форма запису*</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">&lt;div class="menu_hidden"&gt;...&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu_hidden"&gt;...&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">В данном случае в записи отсутствует сам блок, на который влияет модификатор.</source>
+  <target xml:lang="uk">У даному випадку запис відсутній сам блок, на який впливає модифікатор.</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="uk">*CSS*</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">Модификатор элемента</source>
+  <target xml:lang="uk">Модифікатор елемента</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Булевый модификатор<ept id="1">**</ept>.</source>
+  <target xml:lang="uk">**Булевий модифікатор**.</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">Значение такого модификатора не указывается.</source>
+  <target xml:lang="uk">Значення такого модифікатора не вказується.</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">Полное имя создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name__elem-name_mod-name<ept id="1">`</ept>.</source>
+  <target xml:lang="uk">`block-name__elem-name_mod-name`.</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu__item_visible<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu__item_visible`</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Модификатор типа «ключ — значение»<ept id="1">**</ept>.</source>
+  <target xml:lang="uk">**Модифікатор типу «ключ — значення»**.</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">Значение модификатора отделяется от имени одним подчеркиванием (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Значення модифікатора відокремлюється від імені одним підкресленням (`_`).</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">Полное имя создается по схеме:</source>
+  <target xml:lang="uk">Повне ім'я створюється за схемою:</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name__elem-name_mod-name_mod-val<ept id="1">`</ept>.</source>
+  <target xml:lang="uk">`block-name__elem-name_mod-name_mod-val`.</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Пример<ept id="1">**</ept></source>
+  <target xml:lang="uk">**Приклад**</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru"><bpt id="1">`</bpt>menu__item_type_radio<ept id="1">`</ept></source>
+  <target xml:lang="uk">`menu__item_type_radio`</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="uk">*HTML*</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">&lt;div class="menu"&gt;
+  ...
+  &lt;span class="menu__item menu__item_visible menu__item_type_radio"&gt;&lt;/span&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu"&gt;
+...
+&lt;span class="menu__menu item__item_visible menu__item_type_radio"&gt;&lt;/span&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="uk">*CSS*</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">Пример использования соглашения по именованию</source>
+  <target xml:lang="uk">Приклад використання угоди щодо іменування</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">Реализация формы аутентификации в HTML и CSS:</source>
+  <target xml:lang="uk">Реалізація форми аутентифікації в HTML і CSS:</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="uk">*HTML*</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">&lt;form class="form form_login form_theme_forest"&gt;
+  &lt;input class="form__input"&gt;
+  &lt;input class="form__submit form__submit_disabled"&gt;
+&lt;/form&gt;</source>
+  <target xml:lang="uk">&lt;form class="form form_login form_theme_forest"&gt;
+&lt;input class="form__input"&gt;
+&lt;input class="form__submit form__submit_disabled"&gt;
+&lt;/form&gt;</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="uk">*CSS*</target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="ru">Альтернативные схемы именования</source>
+  <target xml:lang="uk">Альтернативні схеми іменування</target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="ru">Существуют альтернативные решения, основанные на соглашении по именованию БЭМ.</source>
+  <target xml:lang="uk">Існують альтернативні рішення, засновані на угоді по іменування БЕМ.</target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="ru">Стиль Гарри Робертса</source>
+  <target xml:lang="uk">Стиль Гаррі Робертса</target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="ru">Одним из первых, кто заговорил о БЭМ в англоязычном мире, был <bpt id="l2">[</bpt>Гарри Робертс<ept id="l2">]</ept><bpt id="l3">(</bpt>http://csswizardry.com/work/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Одним з перших, хто заговорив про БЕМ в англомовному світі, був [Гаррі Робертс](http://csswizardry.com/work/).</target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="ru">В своей статье <bpt id="l2">[</bpt>MindBEMding – getting your head ’round BEM syntax<ept id="l2">]</ept><bpt id="l3">(</bpt>http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/<ept id="l3">)</ept> он рассказал о соглашении по именованию CSS-классов по БЭМ-методологии.</source>
+  <target xml:lang="uk">У своїй статті [MindBEMding–getting your head 'round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) він розповів про угоду щодо іменування CSS-класів за БЕМ-методології.</target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="ru">Гарри Робертс предложил свою схему именования, основанную на принципах БЭМ:</source>
+  <target xml:lang="uk">Гаррі Робертс запропонував свою схему іменування, засновану на принципах БЕМ:</target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block-name__elem-name--mod-name<ept id="1">`</ept></source>
+  <target xml:lang="uk">`block-name__elem-name--mod-name`</target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="ru">Имена записываются в нижнем регистре.</source>
+  <target xml:lang="uk">Імена записуються в нижньому регістрі.</target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="ru">Для разделения слов в именах БЭМ-сущностей используется дефис (<bpt id="2">`</bpt>-<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Для розділення слів в іменах БЕМ-сутностей використовується дефіс (`-`).</target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="ru">Имя элемента отделяется от имени блока с помощью двух подчеркиваний (<bpt id="2">`</bpt>__<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Ім'я елемента відокремлюється від імені блоку за допомогою двох підкреслень (`__`).</target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="ru">Булевые модификаторы отделяются с помощью двух дефисов (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Булеві модифікатори відокремлюються за допомогою двох дефісів (`--`).</target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="ru">Модификаторы вида «ключ-значение» не используются.</source>
+  <target xml:lang="uk">Модифікатори виду «ключ-значення» не використовуються.</target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="ru">Стиль CamelCase</source>
+  <target xml:lang="uk">Стиль CamelCase</target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="ru"><bpt id="1">`</bpt>MyBlock__SomeElem_modName_modVal<ept id="1">`</ept></source>
+  <target xml:lang="uk">`MyBlock__SomeElem_modName_modVal`</target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="ru">Данный стиль отличается от классического использованием <bpt id="l2">[</bpt>CamelCase<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.wikipedia.org/wiki/CamelCase<ept id="l3">)</ept> вместо дефиса для разделения слов в именах БЭМ-сущностей.</source>
+  <target xml:lang="uk">Цей стиль відрізняється від класичного використанням [CamelCase](https://ru.wikipedia.org/wiki/CamelCase замість дефіса для розділення слів в іменах БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="ru">Стиль без подчеркиваний</source>
+  <target xml:lang="uk">Стиль без підкреслень</target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="ru"><bpt id="1">`</bpt>blockName-elemName--modName--modVal<ept id="1">`</ept></source>
+  <target xml:lang="uk">`blockName-elemName--modName--modVal`</target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="ru">Для записи имен используется CamelCase.</source>
+  <target xml:lang="uk">Для запису імен використовується CamelCase.</target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="ru">Имя элемента отделяется от имени блока с помощью одного дефиса (<bpt id="2">`</bpt>-<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Ім'я елемента відокремлюється від імені блоку з допомогою одного дефісу (`-`).</target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="ru">Для отделения модификатора используется два дефиса (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Для відділення модифікатора використовується два дефіса (`--`).</target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="ru">Значение модификатора отделяется от его имени с помощью двух дефисов (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">Значення модифікатора відокремлюється від його імені з допомогою двох дефісів (`--`).</target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="ru">Стиль No-namespace</source>
+  <target xml:lang="uk">Стиль No-namespace</target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="ru"><bpt id="1">`</bpt>_available<ept id="1">`</ept></source>
+  <target xml:lang="uk">`_available`</target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="ru">Основное отличие данного стиля в отсутствии имени блока и/или элемента перед модификатором.</source>
+  <target xml:lang="uk">Основна відмінність даного стилю у відсутності імені блоку та/або елемента перед модифікатором.</target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="ru">Такая схема накладывает ограничения на использование <bpt id="l2">[</bpt>миксов<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept>, так как не дает возможности определить, к какому блоку/элементу относится модификатор.</source>
+  <target xml:lang="uk">Така схема накладає обмеження на використання [міксів](../key-concepts/key-concepts.ru.md#Мікс), так як не дає можливості визначити, до якого блоку/елементу відноситься модифікатор.</target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="ru">Какой стиль выбрать</source>
+  <target xml:lang="uk">Який стиль вибрати</target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="ru">Методология БЭМ предлагает общие принципы именования БЭМ-сущностей.</source>
+  <target xml:lang="uk">Методологія БЕМ пропонує загальні принципи іменування БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="ru">Выбор схемы именования зависит от требований вашего проекта и личных предпочтений.</source>
+  <target xml:lang="uk">Вибір схеми іменування залежить від вимог вашого проекту та особистих уподобань.</target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="ru">Использование предложенного методологией <bpt id="l2">[</bpt>соглашения по именованию<ept id="l2">]</ept><bpt id="l3">(</bpt>#Соглашение-по-именованию-css-селекторов<ept id="l3">)</ept> имеет один существенный плюс — наличие готовых инструментов для разработки, которые ориентируются именно на «классическое именование».</source>
+  <target xml:lang="uk">Використання запропонованого методологією [угоди щодо іменування](#Угода-по-іменування-css селекторів) має один істотний плюс — наявність готових інструментів для розробки, які орієнтуються саме на «класичне іменування».</target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="ru">Помимо этого, БЭМ-методология не ограничивается использованием технологий HTML и CSS, рассмотренных в этом документе.</source>
+  <target xml:lang="uk">Крім цього, БЕМ-методологія не обмежується використанням технологій HTML і CSS, розглянутих у цьому документі.</target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="ru">Понятия блоков, элементов и модификаторов применяются при работе с JavaScript, шаблонами и файловой системой БЭМ-проекта.</source>
+  <target xml:lang="uk">Поняття блоків, елементів і модифікаторів застосовуються при роботі з JavaScript, шаблонами і файловою системою БЕМ-проекту.</target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="ru">Инструмент <bpt id="l2">[</bpt>bem-naming<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/bem/bem-naming<ept id="l3">)</ept> позволяет применять одинаковые имена БЭМ-сущностей во всех используемых <bpt id="l4">[</bpt>технологиях реализации<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.ru.md#Технология-реализации<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Інструмент [bem-naming](https://ru.bem.info/tools/bem/bem-naming) дозволяє застосовувати однакові імена БЕМ-сутностей у всіх використовуваних [технологіях реалізації](../key-concepts/key-concepts.ru.md#Технологія-реалізації).</target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="ru">По умолчанию <bpt id="2">`</bpt>bem-naming<ept id="2">`</ept> содержит настройки соглашения по именованию, предложенного методологией, но позволяет добавлять правила для использования альтернативных схем.</source>
+  <target xml:lang="uk">За замовчуванням `bem-naming` містить налаштування угоди щодо іменування, запропонованого методологією, але дозволяє додавати правила для використання альтернативних схем.</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

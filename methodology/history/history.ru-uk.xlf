@@ -1,0 +1,1668 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/history/history.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/history/history.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">История создания БЭМ</source>
+  <target xml:lang="uk">Історія створення БЕМ</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Типичная верстка в Яндексе (2005)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Типичная-верстка-в-Яндексе-2005-года<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Типова верстка в Яндексі (2005)](#Типова-верстка-в-Яндексі-2005-року)</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зарождение основ методологии (2006)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зарождение-основ-методологии<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Зародження основ методології (2006)](#Зародження-основ-методології)</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зачатки общепортального фреймворка (2006)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зачатки-общепортального-фреймворка<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Зачатки общепортального фреймворку (2006)](#Зачатки-общепортального-фреймворку)</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Верстка независимыми блоками (2007)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Верстка-независимыми-блоками<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Верстка незалежними блоками (2007)](#Верстка-незалежними блоками)</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Общепортальный фреймворк — Лего (2008)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Общепортальный-фреймворк--Лего<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Общепортальный фреймворк — Лего (2008)](#Общепортальный-фреймворк--Лего)</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Общепортальный фреймворк — Лего 1.2 (2008)<ept id="l1">]</ept><bpt id="l2">(</bpt>#Общепортальный-фреймворк--Лего-12-2008<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Общепортальный фреймворк — Лего 1.2 (2008)](#Общепортальный-фреймворк--Лего-12-2008)</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru">[Лего 2.0.</source>
+  <target xml:lang="uk">[Лего 2.0.</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">Появление БЭМ (2009)](#Лего-20-Появление-БЭМ)</source>
+  <target xml:lang="uk">Поява БЕМ (2009)](#Лего-20-Поява-БЕМ)</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>БЭМ и open source (2010)<ept id="l1">]</ept><bpt id="l2">(</bpt>#БЭМ-и-open-source-2010<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[БЕМ і open source (2010)](#БЕМ-і-open-source-2010)</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">Типичная верстка в Яндексе 2005 года</source>
+  <target xml:lang="uk">Типова верстка в Яндексі 2005 року</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">История БЭМ началась в 2005 году.</source>
+  <target xml:lang="uk">Історія БЕМ почалася в 2005 році.</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">Тогда, с точки зрения интерфейса, обычный проект Яндекса был набором статических HTML-страниц, которые использовались как основа для создания шаблонов на XSL.</source>
+  <target xml:lang="uk">Тоді, з точки зору інтерфейсу, звичайний проект Яндекса був набором статичних HTML-сторінок, які використовувалися як основа для створення шаблонів на XSL.</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">HTML-страницы хранились в отдельной директории, которая имела подобную структуру:</source>
+  <target xml:lang="uk">HTML-сторінки зберігалися в окремій директорії, яка мала таку структуру:</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">about.html
+index.html
+…
+project.css
+project.js
+i/
+  yandex.png</source>
+  <target xml:lang="uk">about.html
+index.html
+...
+project.css
+project.js
+i/
+yandex.png</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">Для каждой страницы создавался отдельный HTML-файл.</source>
+  <target xml:lang="uk">Для кожної сторінки створювався окремий HTML-файл.</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">В верстке использовались <bpt id="2">`</bpt>id<ept id="2">`</ept> и <bpt id="4">`</bpt>классы<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">У верстці використовувалися `id` і `класи`.</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">Скрипты хранились в одном файле для всего проекта — <bpt id="2">`</bpt>project.js<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Скрипти зберігалися в одному файлі для всього проекту — `project.js`.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru">JavaScript использовался как вспомогательный инструмент для оживления страницы, поэтому <bpt id="2">`</bpt>project.js<ept id="2">`</ept> был небольшим.</source>
+  <target xml:lang="uk">JavaScript використовувався як допоміжний інструмент для пожвавлення сторінки, тому `project.js` був невеликим.</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru">Картинки складывались в отдельную директорию.</source>
+  <target xml:lang="uk">Картинки складалися в окрему директорію.</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Необходимость поддержки IE 5 и отсутствие CSS3 в браузерах, вынуждало использовать картинки для реализации любого оформления, даже для закругленных уголков.</source>
+  <target xml:lang="uk">Необхідність підтримки IE 5 і відсутність CSS3 в браузерах, змушувало використовувати картинки для реалізації будь-якого оформлення, навіть для закруглених куточків.</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Стили, как и скрипты, находились в одном файле — <bpt id="2">`</bpt>project.css<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Стилі, як і скрипти, перебували в одному файлі `project.css`.</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Для отделения стилей разных частей страницы использовались комментарии с указанием начала и конца:</source>
+  <target xml:lang="uk">Для відділення стилів різних частин сторінки використовувалися коментарі з зазначенням початку та кінця:</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Content container (begin)</source>
+  <target xml:lang="uk">Content container (begin)</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">Content container (end)</source>
+  <target xml:lang="uk">Content container (end)</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Graphical banner (begin)</source>
+  <target xml:lang="uk">Graphical banner (begin)</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru">Graphical banner (end)</source>
+  <target xml:lang="uk">Graphical banner (end)</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Сверстанные статические HTML-страницы нарезались в XSL-шаблоны.</source>
+  <target xml:lang="uk">Зверстані статичні HTML-сторінки нарізалися в XSL-шаблони.</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">Если HTML изменялся, все правки было необходимо переносить вручную в XSL.</source>
+  <target xml:lang="uk">Якщо HTML змінювався, всі правки було необхідно переносити вручну в XSL.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">И наоборот, изменения в шаблонах требовали правок в HTML (для поддержания статического HTML в актуальном состоянии).</source>
+  <target xml:lang="uk">І навпаки, зміни в шаблонах вимагали правок у HTML для підтримання статичного HTML в актуальному стані).</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Зарождение основ методологии</source>
+  <target xml:lang="uk">Зародження основ методології</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">В 2006 году началась работа над первыми большими проектами - Яндекс.Музыка и Я.ру.</source>
+  <target xml:lang="uk">У 2006 році розпочалася робота над першими великими проектами - Яндекс.Музика і Я. ру.</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Эти проекты с десятками страниц выявили основные недостатки текущего подхода к разработке:</source>
+  <target xml:lang="uk">Ці проекти з десятками сторінок виявили основні недоліки поточного підходу до розробки:</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">сложно подбирать названия классам;</source>
+  <target xml:lang="uk">складно підбирати назви класів;</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">невозможно внести изменения в код одной страницы, не затрагивая код другой.</source>
+  <target xml:lang="uk">неможливо внести зміни в код однієї сторінки, не зачіпаючи код інший.</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">Типичный CSS того времени, содержащий длинный каскад:</source>
+  <target xml:lang="uk">Типовий CSS того часу, містить довгий каскад:</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">Albums (begin)</source>
+  <target xml:lang="uk">Albums (begin)</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">Albums (end)</source>
+  <target xml:lang="uk">Albums (end)</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru">Одновременное использование <bpt id="2">`</bpt>id<ept id="2">`</ept> и <bpt id="4">`</bpt>тегов<ept id="4">`</ept>:</source>
+  <target xml:lang="uk">Одночасне використання `id` і `тегів`:</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru">Картинки на фоне (begin)</source>
+  <target xml:lang="uk">Картинки на тлі (begin)</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Картинки на фоне (end)</source>
+  <target xml:lang="uk">Картинки на тлі (end)</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">Верстка большоего проекта была неуправляемой.</source>
+  <target xml:lang="uk">Верстка большоего проекту була некерованою.</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Чтобы избежать этого, нужно было определить правила работы с понятиями <bpt id="2">`</bpt>класса<ept id="2">`</ept>, <bpt id="4">`</bpt>тега<ept id="4">`</ept>, <bpt id="6">`</bpt>визуального компонента<ept id="6">`</ept> и не только.</source>
+  <target xml:lang="uk">Щоб уникнути цього, потрібно було визначити правила роботи з поняттями `класу`, `tag`, `візуального компонента` і не тільки.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Появление блоков</source>
+  <target xml:lang="uk">Поява блоків</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Основное время разработчиков тратилось на создание HTML-структуры страницы и написание CSS-стилей для нее.</source>
+  <target xml:lang="uk">Основний час розробників витрачалося на створення HTML-структури сторінки і написання CSS-стилі для неї.</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">JavaScript воспринимался лишь как сопутствующая технология.</source>
+  <target xml:lang="uk">JavaScript сприймався лише як супутня технологія.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Чтобы ускорить разработку, требовалось облегчить поддержку HTML и CSS отдельных компонентов страницы.</source>
+  <target xml:lang="uk">Щоб прискорити розробку, потрібно полегшити підтримку HTML і CSS окремих компонентів сторінки.</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Для этого мы ввели новое понятие – <bpt id="2">`</bpt>блок<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Для цього ми ввели нове поняття – `блок`.</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru"><bpt id="1">`</bpt>Блоком<ept id="1">`</ept> называлась часть дизайна страницы или раскладки со своим специфическим и уникальным значением, определенным семантически или визуально.</source>
+  <target xml:lang="uk">`Блоком` називалася частина дизайну сторінки або розкладки зі своїм специфічним і унікальним значенням, визначеним семантично або візуально.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">В большинстве случаев любой компонент на странице (сложный или простой) рассматривался как блок.</source>
+  <target xml:lang="uk">У більшості випадків будь-який компонент на сторінці (складний або простий) розглядався як блок.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">HTML-контейнер каждого блока получал уникальный CSS-класс с тем же именем, что и у блока.</source>
+  <target xml:lang="uk">HTML-контейнер кожного блоку отримував унікальний CSS-клас з тим же ім'ям, що і у блоку.</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Классам блоков мы добавили префиксы (<bpt id="2">`</bpt>b-<ept id="2">`</ept>, <bpt id="4">`</bpt>c-<ept id="4">`</ept>, <bpt id="6">`</bpt>g-<ept id="6">`</ept>), чтобы отличать их от внутренних классов:</source>
+  <target xml:lang="uk">Класів блоків ми додали префікси (`b`, `c`, `g`), щоб відрізняти їх від внутрішніх класів:</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru"><bpt id="1">**</bpt>b-<ept id="1">**</ept> block</source>
+  <target xml:lang="uk">**b-** block</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Независимый блок, может использоваться в любом месте страницы.</source>
+  <target xml:lang="uk">Незалежний блок, може використовуватися в будь-якому місці сторінки.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru"><bpt id="1">**</bpt>с-<ept id="1">**</ept> control</source>
+  <target xml:lang="uk">**с** control</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">Контрол (независимый блок), с которым ассоциирован JavaScript-объект, обеспечивающий его функциональность.</source>
+  <target xml:lang="uk">Контрол (незалежний блок), з яким асоційований JavaScript-об'єкт, що забезпечує його функціональність.</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">Может использоваться в любом месте страницы.</source>
+  <target xml:lang="uk">Може використовуватися в будь-якому місці сторінки.</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru"><bpt id="1">**</bpt>g-<ept id="1">**</ept> global</source>
+  <target xml:lang="uk">**g-** global</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">Глобальное определение, используется по необходимости.</source>
+  <target xml:lang="uk">Глобальне визначення, використовується за необхідності.</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">Количество сведено к минимуму.</source>
+  <target xml:lang="uk">Кількість зведено до мінімуму.</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">Кроме префиксов использовались постфиксы:</source>
+  <target xml:lang="uk">Крім префіксів використовувалися постфиксы:</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru"><bpt id="1">**</bpt>-nojs<ept id="1">**</ept> no javascript</source>
+  <target xml:lang="uk">**-nojs** no javascript</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru">Стиль применяется в отсутствие JavaScript.</source>
+  <target xml:lang="uk">Стиль застосовується в відсутність JavaScript.</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">Если JavaScript включен, то при загрузке страницы вызывается метод <bpt id="2">`</bpt>init()<ept id="2">`</ept> в onload, и постфикс удаляется из всех классов.</source>
+  <target xml:lang="uk">Якщо JavaScript включений, то при завантаженні сторінки викликається метод `init()` в onload, і постфікс видаляється з усіх класів.</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">Так «включался» JavaScript для блоков.</source>
+  <target xml:lang="uk">Так «включався» JavaScript для блоків.</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">Появление элементов</source>
+  <target xml:lang="uk">Поява елементів</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru">В HTML-контейнере, формирующем блок, некоторые узлы получали четкое имя CSS-класса.</source>
+  <target xml:lang="uk">У HTML-контейнері, що формує блок, деякі вузли одержували чітке ім'я CSS-класу.</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">Это не только облегчило создание стилистических правил, независящих от имени тега, но и позволяло присваивать семантически значимую роль каждому узлу.</source>
+  <target xml:lang="uk">Це не тільки полегшило створення стилістичних правил, незалежних від імені тега, але й дозволяло присвоювати семантично значущу роль кожного вузла.</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">Такие внутренние узлы мы назвали <bpt id="2">`</bpt>элементами блока<ept id="2">`</ept>, или просто <bpt id="4">`</bpt>элементами<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Такі внутрішні вузли ми назвали `елементами блоку`, або просто `елементами`.</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">Ключевое различие между блоком и элементом в тот момент:</source>
+  <target xml:lang="uk">Ключова відмінність між блоком і елементом в той момент:</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">элемент не может существовать вне контекста родительского блока;</source>
+  <target xml:lang="uk">елемент не може існувати поза контекстом батьківського блоку;</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru">из блока нельзя извлечь ни один элемент.</source>
+  <target xml:lang="uk">з блоку не можна отримати ні один елемент.</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">Если элемент способен существовать вне блока, он становится блоком.</source>
+  <target xml:lang="uk">Якщо елемент здатний існувати поза блоку, він стає блоком.</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">Позже стало возможным вынимать некоторые элементы из блока, сохраняя при этом рабочее состояние самого блока.</source>
+  <target xml:lang="uk">Пізніше стало можливим виймати деякі елементи блоку, зберігаючи при цьому робочий стан самого блоку.</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru">Элементы с большим количеством кода выделялись комментариями.</source>
+  <target xml:lang="uk">Елементи з великою кількістю коду виділялися коментарями.</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">/* Head (begin) */
+    .b-head { … }
+
+    /* Logo (begin) */
+        .b-head .logo { … }
+        .b-head .logo a { … }
+    /* Logo (end) */
+
+    /* Right side (begin) */
+    .b-head .right { … }
+
+        /* Info (begin) */
+            .b-head .info { … }
+            .b-head .info .exit a { … }
+        /* Info (end) */
+
+        /* Search (begin) */
+            .b-head .search { … }
+            .b-head .search div div, .b-head .search div div i { … }
+        /* Search (end) */
+    /* Right side (end) */
+/* Head (end) */</source>
+  <target xml:lang="uk">/* Head (begin) */
+.b-head { ... }
+
+/* Logo (begin) */
+.b-head .logo { ... }
+.b-head .logo a { ... }
+/* Logo (end) */
+
+/* Right side (begin) */
+.b-head .right { ... }
+
+/* Info (begin) */
+.b-head .info { ... }
+.b-head .info .exit a { ... }
+/* Info (end) */
+
+/* Search (begin) */
+.b-head .search { ... }
+.b-head .search div div, .b-head .search div div i { ... }
+/* Search (end) */
+/* Right side (end) */
+/* Head (end) */</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">Унификация файловой структуры проекта</source>
+  <target xml:lang="uk">Уніфікація файлової структури проекту</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">Разработчики интерфейсов обычно поддерживают несколько проектов одновременно.</source>
+  <target xml:lang="uk">Розробники інтерфейсів зазвичай підтримують декілька проектів одночасно.</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">Работать с разными проектами легче, если все они имеют
+одинаковую (или очень похожую) файловую структуру.</source>
+  <target xml:lang="uk">Працювати з різними проектами легше, якщо всі вони мають
+однакову (або дуже схожу) файлову структуру.</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">Поэтому мы унифицировали структуры репозиториев разных проектов.</source>
+  <target xml:lang="uk">Тому ми уніфікували структури репозиторіїв різних проектів.</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">Начали с того, что CSS, JavaScript и картинки стали складывать в отдельные директории.</source>
+  <target xml:lang="uk">Почали з того, що CSS, JavaScript і картинки стали складати в окремі директорії.</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru">JavaScript применялся все чаще, в проект подключались дополнительные компоненты и библиотеки.</source>
+  <target xml:lang="uk">JavaScript застосовувався все частіше, в проект підключалися додаткові компоненти та бібліотеки.</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru">Типичная структура верстки проекта 2006 года:</source>
+  <target xml:lang="uk">Типова структура верстки проекту 2006 року:</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru">index.html
+css/
+  yaru.css
+  yaru-ie.css
+js/
+  yaru.js
+i/
+  yandex.png</source>
+  <target xml:lang="uk">index.html
+css/
+yaru.css
+yaru-ie.css
+js/
+yaru.js
+i/
+yandex.png</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru">Основной код для IE мы писали в общем CSS-файле, наприемр, <bpt id="2">`</bpt>yaru.css<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Код основний для IE ми писали в загальному CSS-файлі, наприемр, `yaru.css`.</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru">Common definitions (begin)</source>
+  <target xml:lang="uk">Common definitions (begin)</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">Специфичные правила (временные решения), работающие только в IE, создавались в отдельном файле.</source>
+  <target xml:lang="uk">Специфічні правила (тимчасові рішення), що працюють тільки в IE, створювалися в окремому файлі.</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">В имя файла доблялся специальный указатель <bpt id="2">`</bpt>ie<ept id="2">`</ept> — <bpt id="4">`</bpt>yaru-ie.css<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">В ім'я файлу доблялся спеціальний покажчик `ie` — `yaru-ie.css`.</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Common blocks (begin)</source>
+  <target xml:lang="uk">Common blocks (begin)</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">Artist (begin)</source>
+  <target xml:lang="uk">Artist (begin)</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru">Зачатки общепортального фреймворка</source>
+  <target xml:lang="uk">Зачатки общепортального фреймворку</target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="ru">При верстке нескольких проектов с похожим дизайном появлялись общие блоки.</source>
+  <target xml:lang="uk">При верстці декількох проектів зі схожим дизайном з'являлися загальні блоки.</target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="ru">Портал Яндекса в то время содержал больше 100 разных сервисов, выполненных в одном стиле.</source>
+  <target xml:lang="uk">Портал Яндекса в той час містив більше 100 різних сервісів, виконаних в одному стилі.</target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="ru">Для такого объема данных «copy/paste» из проекта
+в проект уже не подходил.</source>
+  <target xml:lang="uk">Для такого обсягу даних «copy/paste» з проекту
+у проект вже не підходив.</target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="ru">Появилось общее хранилище повторно используемых компонентов, которое называлось <bpt id="2">`</bpt>общая библиотека блоков<ept id="2">`</ept> или просто — <bpt id="4">`</bpt>Common<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">З'явилося загальне сховище повторно використовуваних компонентів, яке називалося `загальна бібліотека блоків` або просто " `Common`.</target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="ru">Первые блоки, которые вошли в <bpt id="2">`</bpt>Common<ept id="2">`</ept>: шапка, подвал и стили для статического текста.</source>
+  <target xml:lang="uk">Перші блоки, які увійшли в `Common`: шапка, підвал і стилі для статичного тексту.</target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="ru">Файлы блоков хранились на выделенном внутреннем сервере разработчиков (<bpt id="2">**</bpt>common.cloudkill.yandex.ru<ept id="2">**</ept> в примере ниже).</source>
+  <target xml:lang="uk">Файли блоків зберігалися на виділеному внутрішньому сервері розробників (**common.cloudkill.yandex.ru** у наведеному нижче прикладі).</target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="ru">Это было началом работы нашего общепортального фреймворка.</source>
+  <target xml:lang="uk">Це було початком роботи нашого общепортального фреймворка.</target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="ru">Cтили из него подключались в основной проектный файл при помощи импортов непосредственно с сервера:</source>
+  <target xml:lang="uk">Стилі з нього підключалися в основний проектний файл за допомогою импортов безпосередньо з сервера:</target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="ru">@import url(http://common.cloudkill.yandex.ru/css/global.css);
+@import url(http://common.cloudkill.yandex.ru/css/head/common.css);
+@import url(http://common.cloudkill.yandex.ru/css/static-text.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist-middot.css);
+@import url(slider.css);
+
+/* Header (begin) */
+    /* Service (begin) */
+        .b-head .service h1 { … }
+        .b-head .service h1, .b-head .service h1 a, .b-head .service h1 b { … }</source>
+  <target xml:lang="uk">@import url(http://common.cloudkill.yandex.ru/css/global.css);
+@import url(http://common.cloudkill.yandex.ru/css/head/common.css);
+@import url(http://common.cloudkill.yandex.ru/css/static-text.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist-middot.css);
+@import url(slider.css);
+
+/* Header (begin) */
+/* Service (begin) */
+.b-head .service h1 { ... }
+.b-head .service h1, .b-head .service a h1, .b-head .service h1 b { ... }</target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="ru">Возникла проблема: большое количество импортов замедляло загрузку страницы.</source>
+  <target xml:lang="uk">Виникла проблема: велика кількість импортов уповільнювало завантаження сторінки.</target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="ru">Было принято решение прекомпилировать стили (и позже JavaScript-файлы)
+перед выкладкой.</source>
+  <target xml:lang="uk">Було прийнято рішення прекомпилировать стилі (і пізніше JavaScript-файли)
+перед викладкою.</target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="ru">Компиляция заменяет <bpt id="2">`</bpt>@import<ept id="2">`</ept> на содержимое внешних файлов (это называется <bpt id="4">`</bpt>inlining<ept id="4">`</ept>) и оптимизирует код:
+например, убирает ненужные браузеру пробелы и комментарии.</source>
+  <target xml:lang="uk">Компіляція замінює `@import` на вміст зовнішніх файлів (це називається `inlining`) і оптимізує код:
+наприклад, прибирає непотрібні браузеру прогалини і коментарі.</target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="ru">Наш внутренний инструмент для оптимизации вырос из простого Perl-скрипта в отдельный open-source-проект <bpt id="l2">[</bpt>borschik<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/optimizers/borschik/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Наш внутрішній інструмент для оптимізації виріс з простого Perl-скрипта в окремий open-source-проект [borschik](https://ru.bem.info/tools/optimizers/borschik/).</target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="ru">Верстка независимыми блоками</source>
+  <target xml:lang="uk">Верстка незалежними блоками</target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="ru">К осени 2007 года правила верстки устоялись.</source>
+  <target xml:lang="uk">До осені 2007 року правила верстки устоялися.</target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="ru">Мы увидели практическую пользу от нового подхода, поэтому было решено рассказать об этом вне Яндекса.</source>
+  <target xml:lang="uk">Ми побачили практичну користь від нового підходу, тому було вирішено розповісти про це поза Яндекса.</target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="ru">На ClientSide'07 был сделан доклад про
+<bpt id="l2">[</bpt>верстку независимыми блоками<ept id="l2">]</ept><bpt id="l3">(</bpt>http://vitaly.harisov.name/article/independent-blocks.html<ept id="l3">)</ept>,
+которая на тот момент составляла основу наших HTML-страниц.</source>
+  <target xml:lang="uk">На ClientSide'07 було зроблено доповідь про
+[верстку незалежними блоками](http://vitaly.harisov.name/article/independent-blocks.html),
+яка на той момент становила основу наших HTML-сторінок.</target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="ru">В докладе официально вводилось понятие <bpt id="2">`</bpt>блок<ept id="2">`</ept>:</source>
+  <target xml:lang="uk">У доповіді офіційно вводилося поняття `блок`:</target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="ru">&lt;blockquote&gt;Блоком будем называть фрагмент страницы, который описывается своей разметкой и стилями.&lt;/blockquote&gt;
+
+</source>
+  <target xml:lang="uk">&lt;blockquote&gt;Блоком будемо називати фрагмент сторінки, який описується своєю розміткою і стилями.&lt;/blockquote&gt;
+
+</target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="ru">Более позднее <bpt id="l2">[</bpt>описание<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/-45/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Більш пізніше [опис](https://ru.bem.info/forum/-45/).</target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="ru">Блоки делились на простые и составные.</source>
+  <target xml:lang="uk">Блоки поділялися на прості і складові.</target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="ru">&lt;blockquote&gt;В простые блоки нельзя вкладывать другие блоки, в составные — можно.&lt;/blockquote&gt;
+
+</source>
+  <target xml:lang="uk">&lt;blockquote&gt;прості блоки не можна вкладати інші блоки, складові — можна.&lt;/blockquote&gt;
+
+</target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="ru">Это было очень наивное деление: мы неоднократно сталкивались с тем, что даже в самые простые блоки
+вкладывались другие, и приходилось переделывать верстку.</source>
+  <target xml:lang="uk">Це було дуже наївне поділ: ми неодноразово стикалися з тим, що навіть у найпростіші блоки
+вкладалися інші, і доводилося переробляти верстку.</target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="ru">В итоге мы пришли к противоположному принципу:</source>
+  <target xml:lang="uk">У результаті ми прийшли до протилежного принципом:</target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="ru">&lt;blockquote&gt;Любой блок должен позволять вкладывать в него другой блок, когда это возможно.&lt;/blockquote&gt;
+
+</source>
+  <target xml:lang="uk">&lt;blockquote&gt;Будь блок повинен дозволяти вкладати в нього інший блок, коли це можливо.&lt;/blockquote&gt;
+
+</target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="ru">Правила независимости блоков</source>
+  <target xml:lang="uk">Правила незалежності блоків</target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="ru">Сформировались первые правила независимости блока:</source>
+  <target xml:lang="uk">Сформувалися перші правила незалежності блоку:</target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="ru">Для описания элемента используется <bpt id="2">`</bpt>class<ept id="2">`</ept>, но не <bpt id="4">`</bpt>id<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Для опису елемента використовується `class`, а не `id`.</target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="ru">Каждый блок имеет префикс.</source>
+  <target xml:lang="uk">Кожен блок має префікс.</target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="ru">В таблице стилей нет классов вне блоков.</source>
+  <target xml:lang="uk">В таблиці стилів немає класів поза блоків.</target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="ru">Важным решением был отказ от <bpt id="2">`</bpt>id<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Важливим рішенням було відмову від `id`.</target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="ru">Теперь мы могли:</source>
+  <target xml:lang="uk">Тепер ми могли:</target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="ru">отображать на странице один и тот же блок несколько раз;</source>
+  <target xml:lang="uk">відображати на сторінці один і той же блок кілька разів;</target>
+</trans-unit>
+<trans-unit id="125">
+  <source xml:lang="ru">использовать на одном DOM-узле несколько классов (что нам пригодилось в дальнейшем).</source>
+  <target xml:lang="uk">використовувати на одному DOM-сайті кілька класів (що нам в нагоді надалі).</target>
+</trans-unit>
+<trans-unit id="126">
+  <source xml:lang="ru">Правила полной независимости блоков</source>
+  <target xml:lang="uk">Правила повної незалежності блоків</target>
+</trans-unit>
+<trans-unit id="127">
+  <source xml:lang="ru">С текущей схемой оставался ряд проблем с CSS:</source>
+  <target xml:lang="uk">З поточною схемою залишався ряд проблем з CSS:</target>
+</trans-unit>
+<trans-unit id="128">
+  <source xml:lang="ru">CSS мог работать неправильно, если на одной странице смешиваются стили из разных источников.</source>
+  <target xml:lang="uk">CSS міг працювати неправильно, якщо на одній сторінці змішуються стилі з різних джерел.</target>
+</trans-unit>
+<trans-unit id="129">
+  <source xml:lang="ru">В сложных случаях блоки могли вредить отображению друг друга из-за конфликта имен элементов.</source>
+  <target xml:lang="uk">У складних випадках блоки могли шкодити відображення один одного з-за конфлікту імен елементів.</target>
+</trans-unit>
+<trans-unit id="130">
+  <source xml:lang="ru">Стили, опирающиеся на имена тегов, могли охватывать больше элементов, чем было задумано.</source>
+  <target xml:lang="uk">Стилі, що спираються на імена тегів, могли охоплювати більше елементів, ніж було задумано.</target>
+</trans-unit>
+<trans-unit id="131">
+  <source xml:lang="ru">Поэтому мы сформулировали правила более строгой независимости блоков под названием <bpt id="l2">[</bpt>абсолютно независимые блоки<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/-46/<ept id="l3">)</ept> (АНБ):</source>
+  <target xml:lang="uk">Тому ми сформулювали правила більш суворої незалежності блоків під назвою [абсолютно незалежні блоки](https://ru.bem.info/forum/-46/) (АНБ):</target>
+</trans-unit>
+<trans-unit id="132">
+  <source xml:lang="ru">Никогда не опираться на элементы - только на классы.</source>
+  <target xml:lang="uk">Ніколи не спиратися на елементи - лише на класи.</target>
+</trans-unit>
+<trans-unit id="133">
+  <source xml:lang="ru"><bpt id="1">`</bpt>.b-user b -&gt; .b-user .first-letter<ept id="1">`</ept></source>
+  <target xml:lang="uk">`.b-user b -&gt; .b-user .first-letter`</target>
+</trans-unit>
+<trans-unit id="134">
+  <source xml:lang="ru">Всем классам внутри блока давать имена, начинающиеся с имени этого блока.</source>
+  <target xml:lang="uk">Всім класами всередині блоку давати імена, що починаються з імені цього блоку.</target>
+</trans-unit>
+<trans-unit id="135">
+  <source xml:lang="ru"><bpt id="1">`</bpt>.b-user .first-letter -&gt; .b-user-first_letter<ept id="1">`</ept></source>
+  <target xml:lang="uk">`.b-user .first-letter -&gt; .b-user-first_letter`</target>
+</trans-unit>
+<trans-unit id="136">
+  <source xml:lang="ru">Мы понимали, что наличие класса у каждого DOM-узла существенно увеличивает объем HTML-кода.</source>
+  <target xml:lang="uk">Ми розуміли, що наявність класу в кожного DOM-сайту суттєво збільшує обсяг HTML-коду.</target>
+</trans-unit>
+<trans-unit id="137">
+  <source xml:lang="ru">На тот момент мы считали, что это дорого, и применяли такой подход в исключительных случаях.</source>
+  <target xml:lang="uk">На той момент ми вважали, що це дорого, і застосовували такий підхід у виняткових випадках.</target>
+</trans-unit>
+<trans-unit id="138">
+  <source xml:lang="ru">Первые правила именования — префиксы</source>
+  <target xml:lang="uk">Перші правила іменування — префікси</target>
+</trans-unit>
+<trans-unit id="139">
+  <source xml:lang="ru">Так как распространенной проблемой в программировании является подбор имен переменным.</source>
+  <target xml:lang="uk">Так як поширеною проблемою у програмуванні є підбір імен змінних.</target>
+</trans-unit>
+<trans-unit id="140">
+  <source xml:lang="ru">Мы решили задавать имена блоков с помощью разных префиксов с разной семантикой:</source>
+  <target xml:lang="uk">Ми вирішили задавати імена блоків з допомогою різних префіксів з різною семантикою:</target>
+</trans-unit>
+<trans-unit id="141">
+  <source xml:lang="ru"><bpt id="1">**</bpt>b-<ept id="1">**</ept> — обычные блоки;</source>
+  <target xml:lang="uk">**b-** — звичайні блоки;</target>
+</trans-unit>
+<trans-unit id="142">
+  <source xml:lang="ru"><bpt id="1">**</bpt>h-<ept id="1">**</ept> — обертки для нескольких блоков;</source>
+  <target xml:lang="uk">**h-** — обгортки для декількох блоків;</target>
+</trans-unit>
+<trans-unit id="143">
+  <source xml:lang="ru"><bpt id="1">**</bpt>l-<ept id="1">**</ept> — раскладки;</source>
+  <target xml:lang="uk">**l-** — розкладки;</target>
+</trans-unit>
+<trans-unit id="144">
+  <source xml:lang="ru"><bpt id="1">**</bpt>g-<ept id="1">**</ept> — глобальные стили.</source>
+  <target xml:lang="uk">**g-** — глобальні стилі.</target>
+</trans-unit>
+<trans-unit id="145">
+  <source xml:lang="ru">Появление модификации блоков</source>
+  <target xml:lang="uk">Поява модифікації блоків</target>
+</trans-unit>
+<trans-unit id="146">
+  <source xml:lang="ru">Работая с блоками, мы поняли, что они могут иметь разные состояния.</source>
+  <target xml:lang="uk">Працюючи з блоками, ми зрозуміли, що вони можуть мати різні стани.</target>
+</trans-unit>
+<trans-unit id="147">
+  <source xml:lang="ru">Например, блок <bpt id="2">`</bpt>Кнопка<ept id="2">`</ept> может быть представлен в трех состояниях: маленькая, нормальная и большая.</source>
+  <target xml:lang="uk">Наприклад, блок `Кнопка` може бути представлений в трьох станах: маленька, нормальна і велика.</target>
+</trans-unit>
+<trans-unit id="148">
+  <source xml:lang="ru">Вместо того, чтобы создавать три разных блока, мы начали делать <bpt id="2">`</bpt>модификации<ept id="2">`</ept> одного.</source>
+  <target xml:lang="uk">Замість того, щоб створювати три різних блоку, ми почали робити `модифікації` одного.</target>
+</trans-unit>
+<trans-unit id="149">
+  <source xml:lang="ru"><bpt id="1">`</bpt>Модификацию<ept id="1">`</ept> мы определили как особое состояние блока или как метку, несущую определенное свойство блоку.</source>
+  <target xml:lang="uk">`Модифікацію` ми визначили як особливий стан блоку або як мітку, що несе певну властивість блоку.</target>
+</trans-unit>
+<trans-unit id="150">
+  <source xml:lang="ru">Модификация состояла из имени (например, <bpt id="2">`</bpt>size<ept id="2">`</ept>) и значения (например, <bpt id="4">`</bpt>small<ept id="4">`</ept>, <bpt id="6">`</bpt>normal<ept id="6">`</ept> или <bpt id="8">`</bpt>big<ept id="8">`</ept>).</source>
+  <target xml:lang="uk">Модифікація складалася з імені (наприклад, `size`) і значення (наприклад, `small`, `normal` або `big`).</target>
+</trans-unit>
+<trans-unit id="151">
+  <source xml:lang="ru">Возможные варианты модификации:</source>
+  <target xml:lang="uk">Можливі варіанти модифікації:</target>
+</trans-unit>
+<trans-unit id="152">
+  <source xml:lang="ru">Блок может изменить свой внешний вид в зависимости от того, где он находится.</source>
+  <target xml:lang="uk">Блок може змінити свій зовнішній вигляд в залежності від того, де він знаходиться.</target>
+</trans-unit>
+<trans-unit id="153">
+  <source xml:lang="ru">Это модификация от контекста.</source>
+  <target xml:lang="uk">Це модифікація від контексту.</target>
+</trans-unit>
+<trans-unit id="154">
+  <source xml:lang="ru">Можно добавить блоку второй класс.</source>
+  <target xml:lang="uk">Можна додати блоку другий клас.</target>
+</trans-unit>
+<trans-unit id="155">
+  <source xml:lang="ru">Это модификация постфиксом, она не зависит от контекста.</source>
+  <target xml:lang="uk">Це модифікація постфиксом, вона не залежить від контексту.</target>
+</trans-unit>
+<trans-unit id="156">
+  <source xml:lang="ru"><bpt id="1">`</bpt>class="b-block b-block-postfix"<ept id="1">`</ept></source>
+  <target xml:lang="uk">`class="b-block b-block-postfix"`</target>
+</trans-unit>
+<trans-unit id="157">
+  <source xml:lang="ru">Общепортальный фреймворк — Лего</source>
+  <target xml:lang="uk">Общепортальный фреймворк — Лего</target>
+</trans-unit>
+<trans-unit id="158">
+  <source xml:lang="ru">Весной 2008 года была поставлена задача создать брендбук, описывающий наш портальный стиль.</source>
+  <target xml:lang="uk">Навесні 2008 року було поставлено завдання створити брендбук, що описує наш портальний стиль.</target>
+</trans-unit>
+<trans-unit id="159">
+  <source xml:lang="ru">Решили начать работу с написания HTML/CSS кода.</source>
+  <target xml:lang="uk">Вирішили почати роботу з написання HTML/CSS коду.</target>
+</trans-unit>
+<trans-unit id="160">
+  <source xml:lang="ru">Проект получил название <bpt id="2">`</bpt>Лего<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Проект отримав назву `Лего`.</target>
+</trans-unit>
+<trans-unit id="161">
+  <source xml:lang="ru">Структура репозитория</source>
+  <target xml:lang="uk">Структура репозиторію</target>
+</trans-unit>
+<trans-unit id="162">
+  <source xml:lang="ru">На верхнем уровне репозиторий разделен по технологиям:</source>
+  <target xml:lang="uk">На верхньому рівні репозиторій розділений за технологіями:</target>
+</trans-unit>
+<trans-unit id="163">
+  <source xml:lang="ru">css/
+html/
+js/
+xml/
+xsl/</source>
+  <target xml:lang="uk">css/
+html/
+js/
+xml/
+xsl/</target>
+</trans-unit>
+<trans-unit id="164">
+  <source xml:lang="ru">Директория каждой технологии имеет свою структуру.</source>
+  <target xml:lang="uk">Директорія кожної технології має свою структуру.</target>
+</trans-unit>
+<trans-unit id="165">
+  <source xml:lang="ru">CSS распределяется на следующие директории:</source>
+  <target xml:lang="uk">CSS розподіляється на наступні директорії:</target>
+</trans-unit>
+<trans-unit id="166">
+  <source xml:lang="ru"><bpt id="1">`</bpt>block<ept id="1">`</ept> — общепортальные блоки;</source>
+  <target xml:lang="uk">`block` — общепортальные блоки;</target>
+</trans-unit>
+<trans-unit id="167">
+  <source xml:lang="ru"><bpt id="1">`</bpt>util<ept id="1">`</ept> — блоки, которые имеют смысл вне Яндекса, их можно выложить в open source;</source>
+  <target xml:lang="uk">`util` — блоки, які мають сенс поза Яндекса, їх можна викласти в open source;</target>
+</trans-unit>
+<trans-unit id="168">
+  <source xml:lang="ru"><bpt id="1">`</bpt>service<ept id="1">`</ept> — стили для конкретных сервисов Яндекса.</source>
+  <target xml:lang="uk">`service` — стилі для конкретних сервісів Яндекса.</target>
+</trans-unit>
+<trans-unit id="169">
+  <source xml:lang="ru">Подключив их к сервису, можно отобразить шапку или подвал.</source>
+  <target xml:lang="uk">Підключивши їх до сервісу, можна відобразити шапку або підвал.</target>
+</trans-unit>
+<trans-unit id="170">
+  <source xml:lang="ru">css/
+  block/
+    b-dropdown/
+      b-dropdown.css
+  service/
+    auto/
+      block/
+        b-head-logo-auto.css
+      head.css
+  util/
+    b-hmenu/
+      b-hmenu.css</source>
+  <target xml:lang="uk">css/
+block/
+b-dropdown/
+b-dropdown.css
+service/
+auto/
+block/
+b-head-logo-auto.css
+head.css
+util/
+b-hmenu/
+b-hmenu.css</target>
+</trans-unit>
+<trans-unit id="171">
+  <source xml:lang="ru">Структура директории HTML аналогична CSS:</source>
+  <target xml:lang="uk">Структура директорії HTML аналогічна CSS:</target>
+</trans-unit>
+<trans-unit id="172">
+  <source xml:lang="ru">html/
+  block/
+    b-dropdown.html
+  service/
+    auto/
+      l-head.html
+  util/
+    b-hmenu.html</source>
+  <target xml:lang="uk">html/
+block/
+b-dropdown.html
+service/
+auto/
+l-head.html
+util/
+b-hmenu.html</target>
+</trans-unit>
+<trans-unit id="173">
+  <source xml:lang="ru">JS находится в зачаточном состоянии и складывается в одну директорию:</source>
+  <target xml:lang="uk">JS знаходиться в зародковому стані і складається в одну директорію:</target>
+</trans-unit>
+<trans-unit id="174">
+  <source xml:lang="ru">js/
+  check-is-frame.js
+  check-session.js
+  clean-on-focus.js
+  dropdown.js
+  event.add.js
+  event.del.js</source>
+  <target xml:lang="uk">js/
+check-is-frame.js
+check-session.js
+clean-on-focus.js
+dropdown.js
+event.add.js
+event.del.js</target>
+</trans-unit>
+<trans-unit id="175">
+  <source xml:lang="ru">У каждого сервиса есть XML-файл, использующийся для построения шапки:</source>
+  <target xml:lang="uk">У кожного сервісу є XML-файл, що використовується для побудови шапки:</target>
+</trans-unit>
+<trans-unit id="176">
+  <source xml:lang="ru">xml/
+  block/
+    b-head-tabs-communication.xml
+    common-services.ru.xml
+    head-messages.ru.xml
+  service/
+    auto/
+      head.xml</source>
+  <target xml:lang="uk">xml/
+block/
+b-head-tabs-communication.xml
+common-services.ru.xml
+head-messages.ru.xml
+service/
+auto/
+head.xml</target>
+</trans-unit>
+<trans-unit id="177">
+  <source xml:lang="ru">XSL блоков находится в одной директории.</source>
+  <target xml:lang="uk">XSL блоків знаходиться в одній директорії.</target>
+</trans-unit>
+<trans-unit id="178">
+  <source xml:lang="ru">Каждому блоку соответствует один файл:</source>
+  <target xml:lang="uk">Кожному блоку відповідає один файл:</target>
+</trans-unit>
+<trans-unit id="179">
+  <source xml:lang="ru">xsl/
+  block/
+    b-dropdown.xsl
+    b-head-line.xsl
+    i-common.xsl
+    i-locale.xsl
+    l-foot.xsl
+    l-head.xsl</source>
+  <target xml:lang="uk">xsl/
+block/
+b-dropdown.xsl
+b-head-line.xsl
+i-common.xsl
+i-locale.xsl
+l-foot.xsl
+l-head.xsl</target>
+</trans-unit>
+<trans-unit id="180">
+  <source xml:lang="ru"><bpt id="1">`</bpt>Лего<ept id="1">`</ept> подключается в проекты с помощью <bpt id="3">*</bpt>svn:externals<ept id="3">*</ept>.</source>
+  <target xml:lang="uk">`Лего` підключається в проекти з допомогою *svn:externals*.</target>
+</trans-unit>
+<trans-unit id="181">
+  <source xml:lang="ru">При финальной сборке проекта код библиотеки полностью включается в проект,
+что можно сравнить со статической линковкой.</source>
+  <target xml:lang="uk">При фінальної складанні проекту код бібліотеки повністю включається в проект,
+що можна порівняти зі статичною линковкой.</target>
+</trans-unit>
+<trans-unit id="182">
+  <source xml:lang="ru">Такой подход позволяет выпускать версии сервисов с разными версиями <bpt id="2">`</bpt>Лего<ept id="2">`</ept>
+и переходить на новую версию тогда, когда это удобно команде проекта.</source>
+  <target xml:lang="uk">Такий підхід дозволяє випускати версії сервісів з різними версіями `Лего`
+і переходити на нову версію тоді, коли це зручно команді проекту.</target>
+</trans-unit>
+<trans-unit id="183">
+  <source xml:lang="ru">Файлы страниц</source>
+  <target xml:lang="uk">Файли сторінок</target>
+</trans-unit>
+<trans-unit id="184">
+  <source xml:lang="ru">Файлы, подключавшиеся на страницах, состояли из <bpt id="2">`</bpt>@import<ept id="2">`</ept>'ов реализации блоков.</source>
+  <target xml:lang="uk">Файли, подключавшиеся на сторінках, складалися з `@import`ов реалізації блоків.</target>
+</trans-unit>
+<trans-unit id="185">
+  <source xml:lang="ru">Эти <bpt id="2">`</bpt>@import<ept id="2">`</ept>'ы писались вручную.</source>
+  <target xml:lang="uk">Ці `@import`и писалися вручну.</target>
+</trans-unit>
+<trans-unit id="186">
+  <source xml:lang="ru">Правила именования</source>
+  <target xml:lang="uk">Правила іменування</target>
+</trans-unit>
+<trans-unit id="187">
+  <source xml:lang="ru">Именование файлов еще не устоялось - мы пробуем разные варианты.</source>
+  <target xml:lang="uk">Іменування файлів ще не устоялося - ми пробуємо різні варіанти.</target>
+</trans-unit>
+<trans-unit id="188">
+  <source xml:lang="ru">Общепортальный фреймворк — Лего 1.2 (2008)</source>
+  <target xml:lang="uk">Общепортальный фреймворк — Лего 1.2 (2008)</target>
+</trans-unit>
+<trans-unit id="189">
+  <source xml:lang="ru">Структура репозитория</source>
+  <target xml:lang="uk">Структура репозиторію</target>
+</trans-unit>
+<trans-unit id="190">
+  <source xml:lang="ru">В рамках версии Лего <bpt id="2">`</bpt>1.2<ept id="2">`</ept>, был произведен рефакторинг, и структура репозитория проекта изменилась.</source>
+  <target xml:lang="uk">В рамках версії Лего `1.2`, був проведений рефакторинг, і структура репозиторію проекту змінилася.</target>
+</trans-unit>
+<trans-unit id="191">
+  <source xml:lang="ru">common/
+  css/
+  js/
+  xml/
+  xsl/
+example/
+  html/
+service/
+  auto/
+    css/
+    xml/</source>
+  <target xml:lang="uk">common/
+css/
+js/
+xml/
+xsl/
+example/
+html/
+service/
+auto/
+css/
+xml/</target>
+</trans-unit>
+<trans-unit id="192">
+  <source xml:lang="ru">Убрано разделение на <bpt id="2">`</bpt>util<ept id="2">`</ept> и <bpt id="4">`</bpt>block<ept id="4">`</ept>, общий CSS находится в <bpt id="6">`</bpt>common/css<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">Прибрано поділ на `util` і `block`, загальний CSS знаходиться в `common/css`.</target>
+</trans-unit>
+<trans-unit id="193">
+  <source xml:lang="ru">От идеи выноса кода в open source на тот момент отказались и вернулись к ней только через два года.</source>
+  <target xml:lang="uk">Від ідеї винесення коду в open source на той момент відмовилися і повернулися до неї лише через два роки.</target>
+</trans-unit>
+<trans-unit id="194">
+  <source xml:lang="ru">common/
+  css/
+    b-dropdown/
+      arr/
+        b-dropdown.arr.css
+        b-dropdown.arr.ie.css
+        b-dropdown.css
+        b-dropdown.ie.css</source>
+  <target xml:lang="uk">common/
+css/
+b-dropdown/
+arr/
+b-dropdown.arr.css
+b-dropdown.arr.ie.css
+b-dropdown.css
+b-dropdown.ie.css</target>
+</trans-unit>
+<trans-unit id="195">
+  <source xml:lang="ru">Всё, что находилось в опциональном CSS (файлах <bpt id="2">`</bpt>b-dropdown_arr.css<ept id="2">`</ept>),
+вынесено в директории (<bpt id="4">`</bpt>arr/b-dropdown.arr.css<ept id="4">`</ept>).</source>
+  <target xml:lang="uk">Все, що знаходилося в опціональному CSS (файлах `b-dropdown_arr.css`),
+винесено в директорії (`arr/b-dropdown.arr.css`).</target>
+</trans-unit>
+<trans-unit id="196">
+  <source xml:lang="ru">В основном файле блока стало меньше кода.</source>
+  <target xml:lang="uk">В основному файлі блоку стало менше коду.</target>
+</trans-unit>
+<trans-unit id="197">
+  <source xml:lang="ru">Правила именования</source>
+  <target xml:lang="uk">Правила іменування</target>
+</trans-unit>
+<trans-unit id="198">
+  <source xml:lang="ru">Файлы для IE переименованы: указатель специфичности файла для IE был частью имени файла, а стал суффиксом.</source>
+  <target xml:lang="uk">Файли для IE перейменовані: покажчик специфічності файлу для IE був частиною імені файлу, а став суфіксом.</target>
+</trans-unit>
+<trans-unit id="199">
+  <source xml:lang="ru">Было <bpt id="2">`</bpt>-ie.css<ept id="2">`</ept>, - стало <bpt id="4">`</bpt>.ie.css<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Було `-ie.css`, - стало `.ie.css`.</target>
+</trans-unit>
+<trans-unit id="200">
+  <source xml:lang="ru">Расширения файлов теперь могут состоять из нескольких слов.</source>
+  <target xml:lang="uk">Розширення файлів тепер можуть складатися з кількох слів.</target>
+</trans-unit>
+<trans-unit id="201">
+  <source xml:lang="ru">Для модификации постфиксом вместо дефиса начали использовать подчеркивание.</source>
+  <target xml:lang="uk">Для модифікації постфиксом замість дефіса почали використовувати підкреслення.</target>
+</trans-unit>
+<trans-unit id="202">
+  <source xml:lang="ru">Это позволило визуально отделить имя блока от имени модификатора, что
+позже пригодилось при реализации инструментов, упрощающих работу с кодом.</source>
+  <target xml:lang="uk">Це дозволило візуально відокремити ім'я блоку від імені модифікатора, що
+пізніше стало в нагоді при реалізації інструментів, що спрощують роботу з кодом.</target>
+</trans-unit>
+<trans-unit id="203">
+  <source xml:lang="ru">Лего 2.0.</source>
+  <target xml:lang="uk">Лего 2.0.</target>
+</trans-unit>
+<trans-unit id="204">
+  <source xml:lang="ru">Появление БЭМ</source>
+  <target xml:lang="uk">Поява БЕМ</target>
+</trans-unit>
+<trans-unit id="205">
+  <source xml:lang="ru">В марте 2009 года вышла версия <bpt id="2">`</bpt>Лего 2.0<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">У березні 2009 року вийшла версія `Лего 2.0`.</target>
+</trans-unit>
+<trans-unit id="206">
+  <source xml:lang="ru">Этим событием оканчивается <bpt id="2">`</bpt>верстка независимыми блоками<ept id="2">`</ept> и начинается <bpt id="4">`</bpt>БЭМ<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Цією подією закінчується `верстка незалежними блоками` і починається `БЕМ`.</target>
+</trans-unit>
+<trans-unit id="207">
+  <source xml:lang="ru"><bpt id="1">**</bpt>БЭМ<ept id="1">**</ept> — аббревиатура от Блок-Элемент-Модификатор.</source>
+  <target xml:lang="uk">**БЕМ** — абревіатура від Блок-Елемент-Модифікатор.</target>
+</trans-unit>
+<trans-unit id="208">
+  <source xml:lang="ru">Это три ключевых сущности, которые мы используем при разработке веб-компонентов.</source>
+  <target xml:lang="uk">Це три ключові сутності, які ми використовуємо при розробці веб-компонентів.</target>
+</trans-unit>
+<trans-unit id="209">
+  <source xml:lang="ru">Что же принципиально изменилось с выходом версии 2.0?</source>
+  <target xml:lang="uk">Що ж принципово змінилося з виходом версії 2.0?</target>
+</trans-unit>
+<trans-unit id="210">
+  <source xml:lang="ru">Основное изменение — мы вывели вперед блоки, а не технологии.</source>
+  <target xml:lang="uk">Основна зміна — ми вивели вперед блоки, а не технології.</target>
+</trans-unit>
+<trans-unit id="211">
+  <source xml:lang="ru">Отныне блоки первичны, а технологии их реализации — вторичны.</source>
+  <target xml:lang="uk">Відтепер блоки первинні, а технології їх реалізації — вторинні.</target>
+</trans-unit>
+<trans-unit id="212">
+  <source xml:lang="ru">Реализацию каждого блока разместили в отдельной директории, технологии —
+это файлы внутри нее.</source>
+  <target xml:lang="uk">Реалізацію кожного блоку розмістили в окремій директорії, технології —
+це файли всередині неї.</target>
+</trans-unit>
+<trans-unit id="213">
+  <source xml:lang="ru">Также появилась документация к блоку — файл
+<bpt id="2">`</bpt>.wiki<ept id="2">`</ept> внутри блока.</source>
+  <target xml:lang="uk">Також з'явилася документація до блоку — файл
+`.wiki` всередині блоку.</target>
+</trans-unit>
+<trans-unit id="214">
+  <source xml:lang="ru">Независимый блок</source>
+  <target xml:lang="uk">Незалежний блок</target>
+</trans-unit>
+<trans-unit id="215">
+  <source xml:lang="ru">Может быть использован в любом месте страницы.</source>
+  <target xml:lang="uk">Може бути використаний в будь-якому місці сторінки.</target>
+</trans-unit>
+<trans-unit id="216">
+  <source xml:lang="ru">В XML блок представлен тегом в неймспейсе <bpt id="2">`</bpt>lego<ept id="2">`</ept>:</source>
+  <target xml:lang="uk">У XML блок представлений тегом в неймспейсе `lego`:</target>
+</trans-unit>
+<trans-unit id="217">
+  <source xml:lang="ru">&lt;lego:l-head&gt;
+&lt;lego:b-head-logo&gt;</source>
+  <target xml:lang="uk">&lt;lego:l-head&gt;
+&lt;lego:b-head-logo&gt;</target>
+</trans-unit>
+<trans-unit id="218">
+  <source xml:lang="ru">HTML-класс блока соответствует имени этого тега:</source>
+  <target xml:lang="uk">HTML-клас блоку відповідає імені цього тега:</target>
+</trans-unit>
+<trans-unit id="219">
+  <source xml:lang="ru">&lt;table class="l-head"&gt;
+&lt;div class="b-head-logo"&gt;</source>
+  <target xml:lang="uk">&lt;table class="l-head"&gt;
+&lt;div class="b-head-logo"&gt;</target>
+</trans-unit>
+<trans-unit id="220">
+  <source xml:lang="ru">CSS-правила пишутся на класс:</source>
+  <target xml:lang="uk">CSS-правила пишуться на клас:</target>
+</trans-unit>
+<trans-unit id="221">
+  <source xml:lang="ru">.l-head
+.b-head-logo</source>
+  <target xml:lang="uk">.l-head
+.b-head-logo</target>
+</trans-unit>
+<trans-unit id="222">
+  <source xml:lang="ru">Все файлы (css, js, html, xsl), относящиеся к блоку, хранятся в его директории:</source>
+  <target xml:lang="uk">Всі файли (css, js, html, xsl), що належать до блоку, зберігаються в його директорії:</target>
+</trans-unit>
+<trans-unit id="223">
+  <source xml:lang="ru">common/
+  block/
+    b-head-logo/
+      b-head-logo.css
+      b-head-logo.xsl
+      b-head-logo.js
+      b-head-logo.wiki</source>
+  <target xml:lang="uk">common/
+block/
+b-head-logo/
+b-head-logo.css
+b-head-logo.xsl
+b-head-logo.js
+b-head-logo.wiki</target>
+</trans-unit>
+<trans-unit id="224">
+  <source xml:lang="ru">Элемент</source>
+  <target xml:lang="uk">Елемент</target>
+</trans-unit>
+<trans-unit id="225">
+  <source xml:lang="ru">Составная часть блока, которая не может использоваться в отрыве от него.</source>
+  <target xml:lang="uk">Складова частина блоку, яка не може використовуватися у відриві від нього.</target>
+</trans-unit>
+<trans-unit id="226">
+  <source xml:lang="ru">В XML элемент представлен в неймспейсе <bpt id="2">`</bpt>lego<ept id="2">`</ept> без префикса:</source>
+  <target xml:lang="uk">У XML елемент представлений в неймспейсе `lego` без префікса:</target>
+</trans-unit>
+<trans-unit id="227">
+  <source xml:lang="ru">&lt;lego:b-head-logo&gt;
+    &lt;lego:name/&gt;
+&lt;/lego:b-head-logo&gt;</source>
+  <target xml:lang="uk">&lt;lego:b-head-logo&gt;
+&lt;lego:name/&gt;
+&lt;/lego:b-head-logo&gt;</target>
+</trans-unit>
+<trans-unit id="228">
+  <source xml:lang="ru">Класс в HTML соответствует имени этого тега без префикса.</source>
+  <target xml:lang="uk">Клас в HTML відповідає імені цього тега без префікса.</target>
+</trans-unit>
+<trans-unit id="229">
+  <source xml:lang="ru">&lt;div class="b-head-logo"&gt;
+    &lt;span class="name"&gt;Авто&lt;/span&gt;
+&lt;/div&gt;
+
+.b-head-logo .name { ... }</source>
+  <target xml:lang="uk">&lt;div class="b-head-logo"&gt;
+&lt;span class="name"&gt;Авто&lt;/span&gt;
+&lt;/div&gt;
+
+.b-head-logo .name { ... }</target>
+</trans-unit>
+<trans-unit id="230">
+  <source xml:lang="ru">Файлы элемента хранятся в отдельной директории.</source>
+  <target xml:lang="uk">Файли елемента зберігаються в окремій директорії.</target>
+</trans-unit>
+<trans-unit id="231">
+  <source xml:lang="ru">common/
+  block/
+    b-head-logo/
+      name/
+        b-head-logo.name.css
+        b-head-logo.name.png
+        b-head-logo.name.wiki</source>
+  <target xml:lang="uk">common/
+block/
+b-head-logo/
+name/
+b-head-logo.name.css
+b-head-logo.name.png
+b-head-logo.name.wiki</target>
+</trans-unit>
+<trans-unit id="232">
+  <source xml:lang="ru">Имена файлов элементов пишутся через точку: <bpt id="2">`</bpt>b-head-logo.name.css<ept id="2">`</ept></source>
+  <target xml:lang="uk">Імена файлів елементів пишуться через точку: `b-head-logo.name.css`</target>
+</trans-unit>
+<trans-unit id="233">
+  <source xml:lang="ru">Модификатор</source>
+  <target xml:lang="uk">Модифікатор</target>
+</trans-unit>
+<trans-unit id="234">
+  <source xml:lang="ru">Определяет внешний вид, состояние и реже поведение блока.</source>
+  <target xml:lang="uk">Визначає зовнішній вигляд, стан і рідше поведінка блоку.</target>
+</trans-unit>
+<trans-unit id="235">
+  <source xml:lang="ru">В XML модификатор представлен атрибутом в неймспейсе <bpt id="2">`</bpt>lego<ept id="2">`</ept>:</source>
+  <target xml:lang="uk">У XML модифікатор представлений атрибутом в неймспейсе `lego`:</target>
+</trans-unit>
+<trans-unit id="236">
+  <source xml:lang="ru">&lt;lego:b-head-tabs lego:theme="grey"&gt;</source>
+  <target xml:lang="uk">&lt;lego:b-head-tabs lego:theme="grey"&gt;</target>
+</trans-unit>
+<trans-unit id="237">
+  <source xml:lang="ru">В HTML используется дополнительный класс:</source>
+  <target xml:lang="uk">В HTML використовується додатковий клас:</target>
+</trans-unit>
+<trans-unit id="238">
+  <source xml:lang="ru">&lt;div class="b-head-tabs b-head-tabs_grey"&gt;
+
+.b-head-tabs_grey { ... }</source>
+  <target xml:lang="uk">&lt;div class="b-head-tabs b-head-tabs_grey"&gt;
+
+.b-head-tabs_grey { ... }</target>
+</trans-unit>
+<trans-unit id="239">
+  <source xml:lang="ru">Файлы для модификатора находятся в отдельной директории.</source>
+  <target xml:lang="uk">Файли для модифікатора знаходяться в окремій директорії.</target>
+</trans-unit>
+<trans-unit id="240">
+  <source xml:lang="ru">Имя директории модификатора начинается с подчеркивания:</source>
+  <target xml:lang="uk">Ім'я директорії модифікатора починається з підкреслення:</target>
+</trans-unit>
+<trans-unit id="241">
+  <source xml:lang="ru">common/
+    block/
+        b-head-logo/
+            _theme/
+                b-head-logo_gray.css
+                b-head-logo_gray.png
+                b-head-logo_gray.wiki</source>
+  <target xml:lang="uk">common/
+block/
+b-head-logo/
+_theme/
+b-head-logo_gray.css
+b-head-logo_gray.png
+b-head-logo_gray.wiki</target>
+</trans-unit>
+<trans-unit id="242">
+  <source xml:lang="ru">Декларация используемых блоков</source>
+  <target xml:lang="uk">Декларація використовуваних блоків</target>
+</trans-unit>
+<trans-unit id="243">
+  <source xml:lang="ru">Все Лего-компоненты проекта описываются в XML-файле.</source>
+  <target xml:lang="uk">Всі Лего-компоненти проекту описуються в XML-файлі.</target>
+</trans-unit>
+<trans-unit id="244">
+  <source xml:lang="ru">&lt;lego:page&gt;
+    &lt;lego:l-head&gt;
+        &lt;lego:b-head-logo&gt;
+            &lt;lego:name/&gt;
+        &lt;/lego:b-head-logo&gt;
+
+        &lt;lego:b-head-tabs type="search-and-content"/&gt;</source>
+  <target xml:lang="uk">&lt;lego:page&gt;
+&lt;lego:l-head&gt;
+&lt;lego:b-head-logo&gt;
+&lt;lego:name/&gt;
+&lt;/lego:b-head-logo&gt;
+
+&lt;lego:b-head-tabs type="search-and-content"/&gt;</target>
+</trans-unit>
+<trans-unit id="245">
+  <source xml:lang="ru">Из него генерируются CSS-файлы.</source>
+  <target xml:lang="uk">З нього генеруються CSS-файли.</target>
+</trans-unit>
+<trans-unit id="246">
+  <source xml:lang="ru">На примере этого файла видно, что сначала указывается общий код,
+а потом добавляются стили, чтобы привести Лего-блоки к дизайну проекта.</source>
+  <target xml:lang="uk">На прикладі цього файлу видно, що спочатку вказується загальний код,
+а потім додаються стилі, щоб привести Лего-блоки до дизайну проекту.</target>
+</trans-unit>
+<trans-unit id="247">
+  <source xml:lang="ru">Из XML-декларации генерируются и JS-файлы.</source>
+  <target xml:lang="uk">З XML-декларації генеруються і JS-файли.</target>
+</trans-unit>
+<trans-unit id="248">
+  <source xml:lang="ru">А также XSL-файлы.</source>
+  <target xml:lang="uk">А також XSL-файли.</target>
+</trans-unit>
+<trans-unit id="249">
+  <source xml:lang="ru">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+
+&lt;xsl:import href="../../common/block/i-common/i-common.xsl"/&gt;
+&lt;xsl:import href="../../common/block/i-items/i-items.xsl"/&gt;
+&lt;xsl:import href="../../common/block/l-head/l-head.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-logo/b-head-logo.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-logo/name/b-head-logo.name.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-tabs/b-head-tabs.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-dropdown/b-dropdown.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-pseudo-link/b-pseudo-link.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-search/b-head-search.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/b-search.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/input/b-search.input.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/sample/b-search.sample.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/precise/b-search.precise.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/button/b-search.button.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/b-head-userinfo.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-user/b-user.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/service/b-head-userinfo.service.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/setup/b-head-userinfo.setup.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/region/b-head-userinfo.region.xsl"/&gt;
+
+&lt;/xsl:stylesheet&gt;</source>
+  <target xml:lang="uk">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+
+&lt;xsl:import href="../../common/block/i-common/i-common.xsl"/&gt;
+&lt;xsl:import href="../../common/block/i-items/i-items.xsl"/&gt;
+&lt;xsl:import href="../../common/block/l-head/l-head.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-logo/b-head-logo.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-logo/name/b-head-logo.name.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-tabs/b-head-tabs.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-dropdown/b-dropdown.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-pseudo-link/b-pseudo-link.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-search/b-head-search.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/b-search.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/input/b-search.input.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/sample/b-search.sample.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/precise/b-search.precise.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-search/button/b-search.button.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/b-head-userinfo.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-user/b-user.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/service/b-head-userinfo.service.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/setup/b-head-userinfo.setup.xsl"/&gt;
+&lt;xsl:import href="../../common/block/b-head-userinfo/region/b-head-userinfo.region.xsl"/&gt;
+
+&lt;/xsl:stylesheet&gt;</target>
+</trans-unit>
+<trans-unit id="250">
+  <source xml:lang="ru">Мы перестали писать эти файлы руками, началась генерация кода.</source>
+  <target xml:lang="uk">Ми перестали писати ці файли руками, почалася генерація коду.</target>
+</trans-unit>
+<trans-unit id="251">
+  <source xml:lang="ru">Скорость селекторов (2009)</source>
+  <target xml:lang="uk">Швидкість селекторів (2009)</target>
+</trans-unit>
+<trans-unit id="252">
+  <source xml:lang="ru">При реализации новой версии Яндекс.Почты была поставлена задача сделать ее быстрой.</source>
+  <target xml:lang="uk">При реалізації нової версії Яндекс.Пошти було поставлено завдання зробити її швидко.</target>
+</trans-unit>
+<trans-unit id="253">
+  <source xml:lang="ru">Для решения задачи мы начали использовать XSL в браузере (и подгружать XML, необходимый для отрисовки данных на странице).</source>
+  <target xml:lang="uk">Для вирішення завдання ми почали використовувати XSL в браузері (і довантажувати XML, необхідний для відтворення даних на сторінці).</target>
+</trans-unit>
+<trans-unit id="254">
+  <source xml:lang="ru">Возникла проблема: трансформации отрабатывались быстро, но вставка в DOM полученного результата происходила очень медленно.</source>
+  <target xml:lang="uk">Виникла проблема: трансформації відпрацьовувалися швидко, але вставка в DOM отриманого результату відбувалася дуже повільно.</target>
+</trans-unit>
+<trans-unit id="255">
+  <source xml:lang="ru">При этом, отключение CSS решало проблему.</source>
+  <target xml:lang="uk">При цьому, відключення CSS вирішувало проблему.</target>
+</trans-unit>
+<trans-unit id="256">
+  <source xml:lang="ru">Выяснилось, что работу замедляют селекторы
+CSS, которые при большом DOM-дереве и большой таблице стилей оказывают
+существенное влияние на скорость отрисовки браузером страницы.</source>
+  <target xml:lang="uk">З'ясувалося, що уповільнюють роботу селектори
+CSS, які при великому DOM-дереві і великий таблиці стилів надають
+істотний вплив на швидкість відтворення браузером сторінки.</target>
+</trans-unit>
+<trans-unit id="257">
+  <source xml:lang="ru">Результаты исследования подробно описаны в <bpt id="l2">[</bpt>статье<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/-55/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Результати дослідження докладно описані в [статті](https://ru.bem.info/forum/-55/).</target>
+</trans-unit>
+<trans-unit id="258">
+  <source xml:lang="ru">Решение проблемы было уже готово — это
+<bpt id="l2">[</bpt>абсолютно независимые блоки (АНБ)<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/-46/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Рішення проблеми було вже готове — це
+[абсолютно незалежні блоки (АНБ)](https://ru.bem.info/forum/-46/).</target>
+</trans-unit>
+<trans-unit id="259">
+  <source xml:lang="ru">Мы перевели все блоки в <bpt id="2">`</bpt>Лего<ept id="2">`</ept> на АНБ-нотацию и с тех пор создаем их так, чтобы
+у каждого DOM-узла был свой <bpt id="4">`</bpt>class<ept id="4">`</ept>, на который можно написать стили.</source>
+  <target xml:lang="uk">Ми перевели всі блоки в `Лего` на АНБ-позначення і з тих пір створюємо їх так, щоб
+у кожного DOM-сайту був свій `class`, на який можна написати стилі.</target>
+</trans-unit>
+<trans-unit id="260">
+  <source xml:lang="ru">Также мы не
+используем Tag Rules в CSS.</source>
+  <target xml:lang="uk">Також ми не
+використовуємо Tag Rules в CSS.</target>
+</trans-unit>
+<trans-unit id="261">
+  <source xml:lang="ru">В классы элементов вносится имя блока, селекторы получаются простыми и быстрыми.</source>
+  <target xml:lang="uk">В класи елементів вноситься ім'я блоку, селектори виходять простими і швидкими.</target>
+</trans-unit>
+<trans-unit id="262">
+  <source xml:lang="ru">&lt;div class="b-head-logo"&gt;
+    &lt;span class="b-head-logo__name"&gt;
+        Авто
+    &lt;/span&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="b-head-logo"&gt;
+&lt;span class="b-head-logo__name"&gt;
+Авто
+&lt;/span&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="263">
+  <source xml:lang="ru">Стабилизация нотации</source>
+  <target xml:lang="uk">Стабілізація нотації</target>
+</trans-unit>
+<trans-unit id="264">
+  <source xml:lang="ru">Постепенно мы пришли к тому, что нотация в коде и структура на файловой
+системе устоялись и уже не меняются.</source>
+  <target xml:lang="uk">Поступово ми прийшли до того, що нотація в коді і структура на файловій
+системі устоялися і вже не змінюються.</target>
+</trans-unit>
+<trans-unit id="265">
+  <source xml:lang="ru">В именах файлов разделитель <bpt id="2">`</bpt>.<ept id="2">`</ept> был заменен на <bpt id="4">`</bpt>__<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">В іменах файлів роздільник `.` був замінений на `__`.</target>
+</trans-unit>
+<trans-unit id="266">
+  <source xml:lang="ru">Было <bpt id="2">`</bpt>b-block.elem.css<ept id="2">`</ept> — стало <bpt id="4">`</bpt>b-block__elem.css<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Було `b-block.elem.css` — стало `b-block__elem.css`.</target>
+</trans-unit>
+<trans-unit id="267">
+  <source xml:lang="ru">Теперь они совпадают с CSS-селекторами.</source>
+  <target xml:lang="uk">Тепер вони збігаються з CSS-селекторами.</target>
+</trans-unit>
+<trans-unit id="268">
+  <source xml:lang="ru">Были реализованы модификаторы у элементов по аналогии с модификаторами блоков: <bpt id="2">`</bpt>.b-block__elem_theme_green<ept id="2">`</ept> по аналогии с <bpt id="4">`</bpt>.b-block_theme_green<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Були реалізовані модифікатори у елементів за аналогією з модифікаторами блоків: `.b-block__elem_theme_green` за аналогією з `.b-block_theme_green`.</target>
+</trans-unit>
+<trans-unit id="269">
+  <source xml:lang="ru">В имя файла модификатора и в его класс внесен тип модификатора.</source>
+  <target xml:lang="uk">В ім'я файлу модифікатора і в його клас внесений тип модифікатора.</target>
+</trans-unit>
+<trans-unit id="270">
+  <source xml:lang="ru">Было <bpt id="2">`</bpt>.b-menu__item_current<ept id="2">`</ept> — стало <bpt id="4">`</bpt>.b-menu__item_state_current<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Було `.b-menu__item_current` — стало `.b-menu__item_state_current`.</target>
+</trans-unit>
+<trans-unit id="271">
+  <source xml:lang="ru">Причина этого изменения — работа с модификаторами из JavaScript.</source>
+  <target xml:lang="uk">Причина цієї зміни — робота з модифікаторами з JavaScript.</target>
+</trans-unit>
+<trans-unit id="272">
+  <source xml:lang="ru">БЭМ и open source (2010)</source>
+  <target xml:lang="uk">БЕМ і open source (2010)</target>
+</trans-unit>
+<trans-unit id="273">
+  <source xml:lang="ru">В 2010 году мы снова вернулись к идее open source.</source>
+  <target xml:lang="uk">У 2010 році ми знову повернулися до ідеї open source.</target>
+</trans-unit>
+<trans-unit id="274">
+  <source xml:lang="ru">Мы создали организацию <bpt id="l2">[</bpt>bem<ept id="l2">]</ept><bpt id="l3">(</bpt>https://github.com/bem<ept id="l3">)</ept> на GitHub.</source>
+  <target xml:lang="uk">Ми створили організацію [bem](https://github.com/bem) на GitHub.</target>
+</trans-unit>
+<trans-unit id="275">
+  <source xml:lang="ru">Библиотека bem-bl</source>
+  <target xml:lang="uk">Бібліотека bem-bl</target>
+</trans-unit>
+<trans-unit id="276">
+  <source xml:lang="ru">Мы начали выносить блоки из <bpt id="2">`</bpt>Лего<ept id="2">`</ept> в <bpt id="l4">[</bpt>bem-bl<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.bem.info/libs/bem-bl/<ept id="l5">)</ept>,
+проводя одновременно с этим рефакторинг.</source>
+  <target xml:lang="uk">Ми почали виносити блоки з `Лего " [bem-bl](https://ru.bem.info/libs/bem-bl/),
+проводячи одночасно з цим рефакторинг.</target>
+</trans-unit>
+<trans-unit id="277">
+  <source xml:lang="ru">Параллельно с переносом блоков в новую библиотеку публиковали информацию про них.</source>
+  <target xml:lang="uk">Паралельно з перенесенням блоків в нову бібліотеку публікували інформацію про них.</target>
+</trans-unit>
+<trans-unit id="278">
+  <source xml:lang="ru">Инструменты</source>
+  <target xml:lang="uk">Інструменти</target>
+</trans-unit>
+<trans-unit id="279">
+  <source xml:lang="ru">Для работы с файлами по БЭМ-методам нам понадобились свои инструменты.</source>
+  <target xml:lang="uk">Для роботи з файлами за БЕМ-методів нам знадобилися свої інструменти.</target>
+</trans-unit>
+<trans-unit id="280">
+  <source xml:lang="ru">Началась реализация инструментов <bpt id="l2">[</bpt>bem-tools<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/bem/bem-tools/<ept id="l3">)</ept> на JavaScript под Node.js.</source>
+  <target xml:lang="uk">Почалася реалізація інструментів [bem-tools](https://ru.bem.info/tools/bem/bem-tools/) на JavaScript під Node.js.</target>
+</trans-unit>
+<trans-unit id="281">
+  <source xml:lang="ru">Возникло новое понятие — <bpt id="2">`</bpt>уровень переопределения<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Виникло нове поняття — `рівень перевизначення`.</target>
+</trans-unit>
+<trans-unit id="282">
+  <source xml:lang="ru">Так мы стали называть директории с реализацией блоков.</source>
+  <target xml:lang="uk">Так ми стали називати директорії з реалізацією блоків.</target>
+</trans-unit>
+<trans-unit id="283">
+  <source xml:lang="ru">Например, в проекте может быть:</source>
+  <target xml:lang="uk">Наприклад, у проекті може бути:</target>
+</trans-unit>
+<trans-unit id="284">
+  <source xml:lang="ru">Публичная библиотека блоков с GitHub;</source>
+  <target xml:lang="uk">Публічна бібліотека блоків з GitHub;</target>
+</trans-unit>
+<trans-unit id="285">
+  <source xml:lang="ru">Внутренняя библиотека lego;</source>
+  <target xml:lang="uk">Внутрішня бібліотека lego;</target>
+</trans-unit>
+<trans-unit id="286">
+  <source xml:lang="ru">Блоки самого проекта.</source>
+  <target xml:lang="uk">Блоки самого проекту.</target>
+</trans-unit>
+<trans-unit id="287">
+  <source xml:lang="ru">bem-bl/
+  b-logo/
+lego/
+  b-logo/
+auto/
+  blocks/
+    b-logo/</source>
+  <target xml:lang="uk">bem-bl/
+b-logo/
+lego/
+b-logo/
+auto/
+blocks/
+b-logo/</target>
+</trans-unit>
+<trans-unit id="288">
+  <source xml:lang="ru">На уровне переопределения можно задать другую схему именования директорий/файлов, отличную от нашей.</source>
+  <target xml:lang="uk">На рівні перевизначення можна задати іншу схему іменування папок/файлів, відмінну від нашої.</target>
+</trans-unit>
+<trans-unit id="289">
+  <source xml:lang="ru">Для этого нужно указать новый уровень в конфигурации:</source>
+  <target xml:lang="uk">Для цього потрібно вказати новий рівень у конфігурації:</target>
+</trans-unit>
+<trans-unit id="290">
+  <source xml:lang="ru">.bem/
+  level.js</source>
+  <target xml:lang="uk">.bem/
+level.js</target>
+</trans-unit>
+<trans-unit id="291">
+  <source xml:lang="ru">Например, вы можете задать другие разделители между именем блока
+и элемента, или не раскладывать все по директориям, а использовать
+плоскую структуру файлов.</source>
+  <target xml:lang="uk">Наприклад, ви можете задати інші роздільник між ім'ям блоку
+і елемента, або не розкладати все по директоріях, а використовувати
+плоску структуру файлів.</target>
+</trans-unit>
+<trans-unit id="292">
+  <source xml:lang="ru">Шаблонизатор BEMHTML</source>
+  <target xml:lang="uk">Шаблонизатор BEMHTML</target>
+</trans-unit>
+<trans-unit id="293">
+  <source xml:lang="ru">После экспериментов с разными шаблонизаторами, был разработан
+шаблонизатор <bpt id="l2">[</bpt>BEMHTML<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/bemhtml/current/intro/<ept id="l3">)</ept>, который позволяет:</source>
+  <target xml:lang="uk">Після експериментів з різними шаблонізатором, був розроблений
+шаблонизатор [BEMHTML](https://ru.bem.info/technology/bemhtml/current/intro/), який дозволяє:</target>
+</trans-unit>
+<trans-unit id="294">
+  <source xml:lang="ru">писать шаблоны в БЭМ-терминах;</source>
+  <target xml:lang="uk">писати шаблони у БЕМ-термінах;</target>
+</trans-unit>
+<trans-unit id="295">
+  <source xml:lang="ru">доопределять их на <bpt id="l2">[</bpt>уровнях переопределения<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Уровень-переопределения<ept id="l3">)</ept>;</source>
+  <target xml:lang="uk">доопределять їх на [рівнях перевизначення](../key-concepts/key-concepts.ru.md#Рівень-перевизначення);</target>
+</trans-unit>
+<trans-unit id="296">
+  <source xml:lang="ru">исполнять эти шаблоны как на сервере, так и в браузере, поскольку</source>
+  <target xml:lang="uk">виконувати ці шаблони як на сервері, так і в браузері, оскільки</target>
+</trans-unit>
+<trans-unit id="297">
+  <source xml:lang="ru">шаблоны компилируются в простой и быстрый JavaScript.</source>
+  <target xml:lang="uk">шаблони компілюються в простий і швидкий JavaScript.</target>
+</trans-unit>
+<trans-unit id="298">
+  <source xml:lang="ru">Видео по BEMHTML:</source>
+  <target xml:lang="uk">Відео з BEMHTML:</target>
+</trans-unit>
+<trans-unit id="299">
+  <source xml:lang="ru"><bpt id="1">&lt;</bpt>https://ru.bem.info/forum/-78/<ept id="1">&gt;</ept></source>
+  <target xml:lang="uk">&lt;https://ru.bem.info/forum/-78/&gt;</target>
+</trans-unit>
+<trans-unit id="300">
+  <source xml:lang="ru"><bpt id="1">&lt;</bpt>https://ru.bem.info/forum/-79/<ept id="1">&gt;</ept></source>
+  <target xml:lang="uk">&lt;https://ru.bem.info/forum/-79/&gt;</target>
+</trans-unit>
+<trans-unit id="301">
+  <source xml:lang="ru"><bpt id="1">&lt;</bpt>https://ru.bem.info/forum/-103/<ept id="1">&gt;</ept></source>
+  <target xml:lang="uk">&lt;https://ru.bem.info/forum/-103/&gt;</target>
+</trans-unit>
+<trans-unit id="302">
+  <source xml:lang="ru"><bpt id="1">&lt;</bpt>https://ru.bem.info/forum/-108/<ept id="1">&gt;</ept></source>
+  <target xml:lang="uk">&lt;https://ru.bem.info/forum/-108/&gt;</target>
+</trans-unit>
+<trans-unit id="303">
+  <source xml:lang="ru"><bpt id="1">&lt;</bpt>https://ru.bem.info/forum/-145/<ept id="1">&gt;</ept></source>
+  <target xml:lang="uk">&lt;https://ru.bem.info/forum/-145/&gt;</target>
+</trans-unit>
+<trans-unit id="304">
+  <source xml:lang="ru">Резюме</source>
+  <target xml:lang="uk">Резюме</target>
+</trans-unit>
+<trans-unit id="305">
+  <source xml:lang="ru">Появлению БЭМ в том виде, что мы имеем сейчас, предшествовал долгий период проб и экспериментов.</source>
+  <target xml:lang="uk">Появі БЕМ у тому вигляді, що ми маємо зараз, передував довгий період проб і експериментів.</target>
+</trans-unit>
+<trans-unit id="306">
+  <source xml:lang="ru">Хочется обратить ваше внимание, что на всех этапах своего развития это всё же был БЭМ.</source>
+  <target xml:lang="uk">Хочеться звернути вашу увагу, що на всіх етапах свого розвитку це все ж був БЕМ.</target>
+</trans-unit>
+<trans-unit id="307">
+  <source xml:lang="ru">Тот БЭМ, что мы используем сейчас, — не единственное верное решение.</source>
+  <target xml:lang="uk">Той БЕМ, що ми використовуємо зараз, — не єдине вірне рішення.</target>
+</trans-unit>
+<trans-unit id="308">
+  <source xml:lang="ru">Мы рекомендуем использовать БЭМ в ваших проектах в том объеме, в котором он принесет наибольшую пользу.</source>
+  <target xml:lang="uk">Ми рекомендуємо використовувати БЕМ у ваших проектах в тому обсязі, в якому він принесе найбільшу користь.</target>
+</trans-unit>
+<trans-unit id="309">
+  <source xml:lang="ru">Можно пробовать применять его только для верстки.</source>
+  <target xml:lang="uk">Можна пробувати застосовувати його тільки для верстки.</target>
+</trans-unit>
+<trans-unit id="310">
+  <source xml:lang="ru">Мы сами начинали именно с этого.</source>
+  <target xml:lang="uk">Ми самі починали саме з цього.</target>
+</trans-unit>
+<trans-unit id="311">
+  <source xml:lang="ru">Гибкость БЭМ-методологии позволяет настраивать ее под свои текущие процессы и организовывать работу над проектом.</source>
+  <target xml:lang="uk">Гнучкість БЕМ-методології дозволяє налаштувати її під свої поточні процеси та організовувати роботу над проектом.</target>
+</trans-unit>
+<trans-unit id="312">
+  <source xml:lang="ru">Главное понять, какие плюсы БЭМ принесет в ваш проект, выбрать подходящую для вас схему и начать применять у себя!</source>
+  <target xml:lang="uk">Головне зрозуміти, які плюси БЕМ принесе у ваш проект, вибрати підходящу для вас схему і почати застосовувати у себе!</target>
+</trans-unit>
+<trans-unit id="313">
+  <source xml:lang="ru">Если у вас возникнут вопросы, обязательно задавайте их на нашем <bpt id="l2">[</bpt>форуме<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Якщо у вас виникнуть питання, обов'язково задавайте їх на нашому [форумі](https://ru.bem.info/forum/).</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/bem-js-principles/bem-js-principles.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/bem-js-principles/bem-js-principles.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Особенности реализации JavaScript по БЭМ-методологии</source>
+  <target xml:lang="uk">Особливості реалізації JavaScript за БЕМ-методології</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Декларативный стиль<ept id="l1">]</ept><bpt id="l2">(</bpt>#Декларативный-стиль<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Декларативний стиль](#Декларативний стиль)</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Принципы ООП в JavaScript по БЭМ<ept id="l1">]</ept><bpt id="l2">(</bpt>#Принципы-ООП-в-javascript-по-БЭМ<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Принципи ООП в JavaScript по БЕМ](#Принципи ООП-в-javascript-БЕМ)</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Представление динамических блоков в DOM<ept id="l1">]</ept><bpt id="l2">(</bpt>#Представление-динамических-блоков-в-dom<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Подання динамічних блоків в DOM](#Подання-динамічних-блоків-в-dom)</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Взаимодействие блоков<ept id="l1">]</ept><bpt id="l2">(</bpt>#Взаимодействие-блоков<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Взаємодію блоків](#Взаємодія блоків)</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Взаимодействие блока с его элементами<ept id="l1">]</ept><bpt id="l2">(</bpt>#Взаимодействие-блока-с-его-элементами<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Взаємодію блоку з його елементами](#Взаємодія-блоку з його елементами)</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru">Декларативный стиль</source>
+  <target xml:lang="uk">Декларативний стиль</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru">Декларативность JavaScript в БЭМ-проекте проявляется в следующем:</source>
+  <target xml:lang="uk">Декларативність JavaScript у БЕМ-проекті проявляється в наступному:</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru">Поведение каждого блока описывается независимо.</source>
+  <target xml:lang="uk">Поведінка кожного блоку описується незалежно.</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru">Состояния блока задаются декларативно.</source>
+  <target xml:lang="uk">Стану блоку задаються декларативно.</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru">При <bpt id="l2">[</bpt>изменении состояний<ept id="l2">]</ept><bpt id="l3">(</bpt>#Реакция-на-изменение-модификаторов<ept id="l3">)</ept> автоматически вызывается код, который задекларирован для этого состояния.</source>
+  <target xml:lang="uk">При [зміну станів](#Реакція-на-зміна-модифікаторів) автоматично викликається код, який задекларований для цього стану.</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">Логика работы блока описывается как набор действий и условий, при которых эти действия необходимо выполнять.</source>
+  <target xml:lang="uk">Логіка роботи блоку описується як набір дій і умов, при яких ці дії необхідно виконувати.</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru">Это позволяет разделять функциональность блока на отдельные части и использовать <bpt id="l2">[</bpt>уровни переопределения<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Уровень-переопределения<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Це дозволяє розділяти функціональність блоку на окремі частини і використовувати [рівні перевизначення](../key-concepts/key-concepts.ru.md#Рівень-перевизначення).</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Подробнее о применении уровней переопределния в JavaScript<ept id="l1">]</ept><bpt id="l2">(</bpt>#Работа-с-уровнями-переопределения<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Докладніше про застосування рівнів переопределния в JavaScript](#Робота з рівнями-перевизначення)</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru">Принципы ООП в JavaScript по БЭМ</source>
+  <target xml:lang="uk">Принципи ООП в JavaScript по БЕМ</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru">В БЭМ-методологии к JavaScript применяются основные принципы объектно-ориентированного программирования (ООП).</source>
+  <target xml:lang="uk">У БЕМ-методології до JavaScript застосовуються основні принципи об'єктно-орієнтованого програмування (ООП).</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru">Инкапсуляция</source>
+  <target xml:lang="uk">Інкапсуляція</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru">В БЭМ JavaScript-реализация одного блока отделена от другого.</source>
+  <target xml:lang="uk">У БЕМ JavaScript-реалізація одного блоку відокремлена від іншого.</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru">Каждый блок предоставляет API для <bpt id="l2">[</bpt>взаимодействия с другими блоками<ept id="l2">]</ept><bpt id="l3">(</bpt>#Взаимодействие-блоков<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Кожен блок надає API для [взаємодії з іншими блоками](#Взаємодія блоків).</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru">Декларация блока позволяет скрыть его внутреннюю реализацию.</source>
+  <target xml:lang="uk">Декларація блоку дозволяє приховати його внутрішню реалізацію.</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru">Так как элементы всегда являются внутренней реализацией блока, <bpt id="l2">[</bpt>обращение к ним<ept id="l2">]</ept><bpt id="l3">(</bpt>#Взаимодействие-блока-с-его-элементами<ept id="l3">)</ept> возможно только через API самого блока.</source>
+  <target xml:lang="uk">Так як елементи завжди є внутрішньою реалізацією блоку, [звернення до них](#Взаємодія-блоку з його елементами) можливо тільки через API самого блоку.</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru">Наследование</source>
+  <target xml:lang="uk">Спадкування</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">Декларативное описание поведения блоков позволяет использовать методы базового блока внутри производного, наследовать их.</source>
+  <target xml:lang="uk">Декларативне опис поведінки блоків дозволяє використовувати методи базового блоку всередині похідного, наслідувати їх.</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">Новый блок может получать все свойства и методы базового.</source>
+  <target xml:lang="uk">Новий блок може отримувати всі властивості і методи базового.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">Также можно создавать цепочки наследования — блок наследуется от другого, который, в свою очередь, наследуется от третьего и т.д.</source>
+  <target xml:lang="uk">Також можна створювати ланцюжки спадкування — блок успадковується від іншого, який, у свою чергу, успадковується від третього і т. д.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">Примеры реализации доступны в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/#Наследование-блока<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклади реалізації доступні в документації до [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/#Наследование-блока).</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru">Представление динамических блоков в DOM</source>
+  <target xml:lang="uk">Подання динамічних блоків в DOM</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Блокам с JavaScript-реализацией могут соответствовать узлы в HTML.</source>
+  <target xml:lang="uk">Блокам з JavaScript-реалізацією можуть відповідати вузли в HTML.</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">В этом случае говорится о том, что <bpt id="2">**</bpt>блоки имеют DOM-представление<ept id="2">**</ept>.</source>
+  <target xml:lang="uk">У цьому випадку йдеться про те, що **блоки мають DOM-подання**.</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">В простейшем случае блок соответствует DOM-узлу один к одному.</source>
+  <target xml:lang="uk">У найпростішому випадку блок відповідає DOM-вузла один до одного.</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Однако DOM-узел и блок — это не всегда одно и то же.</source>
+  <target xml:lang="uk">Однак DOM-вузол і блок — це не завжди одне і те ж.</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">Можно разместить несколько блоков на одном DOM-узле (это называется <bpt id="l2">[</bpt>микс<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept>), а также реализовать один блок на нескольких DOM-узлах.</source>
+  <target xml:lang="uk">Можна розмістити кілька блоків на одному DOM-сайті (це називається [мікс](../key-concepts/key-concepts.ru.md#Мікс)), а також реалізувати один блок на декількох DOM-вузлах.</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Существуют <bpt id="2">**</bpt>блоки без DOM-представления<ept id="2">**</ept>.</source>
+  <target xml:lang="uk">Існують **блоки без DOM-подання**.</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">В JavaScript они представлены в виде объектов, имеющих свои методы.</source>
+  <target xml:lang="uk">В JavaScript вони представлені у вигляді об'єктів, що мають свої методи.</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">Примеры реализации доступны в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/#Синтаксис-декларации<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклади реалізації доступні в документації до [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js-decl/#Синтаксис-декларации).</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">Взаимодействие блоков</source>
+  <target xml:lang="uk">Взаємодія блоків</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">БЭМ-методология предполагает работу с независимыми блоками.</source>
+  <target xml:lang="uk">БЕМ-методологія передбачає роботу з незалежними блоками.</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">Однако на практике полная независимость блоков недостижима.</source>
+  <target xml:lang="uk">Однак на практиці повна незалежність блоків недосяжна.</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru">Блоки могут взаимодействовать друг с другом с помощью:</source>
+  <target xml:lang="uk">Блоки можуть взаємодіяти один з одним за допомогою:</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru">Подписки на события других экземпляров блоков.</source>
+  <target xml:lang="uk">Підписки на події інших примірників блоків.</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Подписки на изменения модификаторов.</source>
+  <target xml:lang="uk">Підписки на зміни модифікаторів.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">Непосредственного вызова методов других экземпляров блоков или статических методов класса другого блока.</source>
+  <target xml:lang="uk">Безпосереднього виклику методів інших примірників блоків або статичних методів класу іншого блоку.</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Любых паттернов взаимодействия.</source>
+  <target xml:lang="uk">Будь патернів взаємодії.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Например, канала событий: все коммуникации происходят благодаря сообщениям, которые компоненты публикуют и слушают с помощью посредника.</source>
+  <target xml:lang="uk">Наприклад, каналу подій: всі комунікації відбуваються завдяки повідомленнями, які компоненти публікують і слухають з допомогою посередника.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Примеры реализации доступны в документации к <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/i-bem/current/i-bem-js-interaction/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Приклади реалізації доступні в документації до [i-bem.js](https://ru.bem.info/technology/i-bem/current/i-bem-js-interaction/).</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">БЭМ-методология рекомендует выстраивать взаимодействие между блоками в иерархическом порядке в соответствии с их расположением в DOM-дереве.</source>
+  <target xml:lang="uk">БЕМ-методологія рекомендує вибудовувати взаємодію між блоками в ієрархічному порядку відповідно до їх розташуванням в DOM-дереві.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Вложенный блок не должен ничего знать о родительском блоке, так как это нарушает принцип независимости компонентов.</source>
+  <target xml:lang="uk">Вкладений блок не повинен нічого знати про батьківському блоці, так як це порушує принцип незалежності компонентів.</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Взаимодействие блока с его элементами</source>
+  <target xml:lang="uk">Взаємодія блоку з його елементами</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Элемент — это внутренняя реализация блока.</source>
+  <target xml:lang="uk">Елемент — це внутрішня реалізація блоку.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">В БЭМ-методологии принято реализовывать дополнительные хелперы блока для работы с его элементами.</source>
+  <target xml:lang="uk">У БЕМ-методології прийнято реалізовувати додаткові хелпери блоку для роботи з його елементами.</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">Обращение напрямую к элементу другого блока невозможно.</source>
+  <target xml:lang="uk">Звернення безпосередньо до елементу іншого блоку неможливо.</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Взаимодействие с элементом происходит только только через API блока, которому принадлежит данный элемент.</source>
+  <target xml:lang="uk">Взаємодія з елементом відбувається тільки через API блоку, якому належить даний елемент.</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>
