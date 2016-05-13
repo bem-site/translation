@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/bem-for-js/bem-for-js.en.md"
+    source-language="en" target-language="fr" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/bem-for-js/bem-for-js.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">JavaScript for BEM</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">In the BEM methodology, JavaScript is used for making a webpage “come alive” and is considered one of the block <bpt id="l2">[</bpt>implementation technologies<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#implementation-technology<ept id="l3">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en">BEM enforces <bpt id="l2">[</bpt>additional rules<ept id="l2">]</ept><bpt id="l3">(</bpt>../bem-js-principles/bem-js-principles.en.md<ept id="l3">)</ept> on JavaScript that help to apply all the concepts of the component approach of the BEM methodology.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en">Basic principles of the component approach in JavaScript for BEM</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en">JavaScript is one of the block implementation technologies, so the main concepts of the BEM methodology can be observed when working with JavaScript:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Unified subject domain<ept id="l1">]</ept><bpt id="l2">(</bpt>#unified-subject-domain<ept id="l2">)</ept> — using blocks, elements, and modifiers named according to general <bpt id="l3">[</bpt>naming conventions<ept id="l3">]</ept><bpt id="l4">(</bpt>../naming-convention/naming-convention.en.md<ept id="l4">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Separating the code into parts<ept id="l1">]</ept><bpt id="l2">(</bpt>#dividing-the-code-into-parts<ept id="l2">)</ept> and the same <bpt id="l3">[</bpt>rules for organizing the file structure of a BEM project<ept id="l3">]</ept><bpt id="l4">(</bpt>../filesystem/filesystem.en.md<ept id="l4">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Dividing the code by redefinition levels and using assembly<ept id="l1">]</ept><bpt id="l2">(</bpt>#working-with-redefinition-levels<ept id="l2">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">Unified subject domain</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">In web development, the final product (such as a webpage) consists of different technologies (HTML, CSS, JS, and so on).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">In BEM, working with all these technologies uses the same terminology and implementation approaches.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">This means that the entire team of a BEM project gets a unified language for communication, operating in terms of blocks, elements, and modifiers.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">So the JavaScript implementation of blocks doesn’t use the concepts of DOM elements, but uses the next level of abstraction — the <bpt id="l2">[</bpt>BEM tree<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#bem-tree<ept id="l3">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">The advantage to this is we don’t rely on classes, and can independently describe the behavior of blocks and their optional elements.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">In JavaScript, modifiers are used for expressing the logic of a block or element (similar to CSS, where modifiers are used for defining appearance).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">The behavior of blocks and elements is described in JavaScript as a set of states.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">Using the same concepts in all the technologies means we can implement various helpers in JavaScript for working with components and avoid hard coding the names of blocks and separators.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">This approach allows us to, for example, find all the elements with a particular name within the scope of a block, set a modifier for them, and check its value.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en">Let’s take the example of a popup window (<bpt id="2">`</bpt>popup<ept id="2">`</ept>).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en">There are several ways to show a popup window:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">Use the common solution of adding the appropriate class.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">This method isn’t necessarily convenient, because you have to hard code the block name.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">Use BEM principles and operate not in classes, but in blocks, elements, and modifiers.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">In this case, a component is searched for not by the class, but by the name of the block, which can be identified in the project not only by a class, but also by a tag, attribute, and so on.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">Displaying the popup window (switching the <bpt id="2">`</bpt>popup<ept id="2">`</ept> block to the <bpt id="4">`</bpt>visible<ept id="4">`</ept> state) is also performed using a modifier, not a class.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en"><bpt id="1">**</bpt>Important!<ept id="1">**</ept> Examples written for the BEM methodology use pseudocode.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">Real implementation examples are provided in the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/v2/i-bem-js/<ept id="l3">)</ept> .</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en">Using a unified subject domain makes it possible to interact with components at a higher level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">Working with modifiers</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">Modifiers can set specific states for blocks.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">The block logic is implemented in JavaScript and described using states.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">A block can be switched to another state by setting or removing a modifier.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">The change to the modifier creates an event that can be used for working with the block.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">For example, to select a checkbox, you need to set the <bpt id="2">`</bpt>checked<ept id="2">`</ept> modifier to <bpt id="4">`</bpt>true<ept id="4">`</ept> for the <bpt id="6">`</bpt>checkbox<ept id="6">`</ept> block.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">In a BEM project, you can’t change the states in runtime by using modifiers and directly changing the CSS class on the corresponding DOM node.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">For the JavaScript to work correctly, all actions with modifiers must be performed using helper methods.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">For implementation examples, see the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-mods/<ept id="l3">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">Response to changes in modifiers</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en">Switching a block from one state to another often causes changes in its appearance.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">If the CSS uses a modifier to define the block’s appearance, changing the block state called by the same modifier will automatically apply all the necessary styles.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">In BEM, the response to setting or removing a modifier is described <bpt id="l2">[</bpt>declaratively<ept id="l2">]</ept><bpt id="l3">(</bpt>../bem-js-principles/bem-js-principles.en.md#declarative-style<ept id="l3">)</ept>.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">So, for example, if an additional class (or modifier) appears in the CSS during execution, all of this modifier’s properties are automatically applied to the DOM node of this class.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">The same thing occurs in JavaScript: if a modifier appears (a new class is added to the DOM node), the entire functionality of this modifier is applied.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">If the modifier disappears, the functionality is disabled.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">To dynamically change the states of blocks and elements, we use special methods for setting and removing modifiers.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">For implementation examples, see the documentation for <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/v2/i-bem-js-mods/<ept id="l3">)</ept> .</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">Let’s look at a form for sending a message.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">The following condition should be met: if an invalid email is entered, the Send button (the <bpt id="2">`</bpt>button<ept id="2">`</ept> block) is inactive (it gets the <bpt id="4">`</bpt>button_disabled<ept id="4">`</ept> modifier).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">We could hard code all the conditions and continuously check it.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">This approach is inconvenient because any change will require manual changes to the code.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">We could declare the block behavior and get the ability to override each modifier separately on a new redefinition level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">The <bpt id="l2">[</bpt>declaration<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js-decl/<ept id="l3">)</ept> can specify which block or element should respond to modifier changes.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">This approach allows us to:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">Respond to the modifier regardless of how it was installed or removed (via the JavaScript API: <bpt id="2">`</bpt>block(&#39;button&#39;).setMod(&#39;focused&#39;)<ept id="2">`</ept> or the user set/removed the focus with the cursor).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">Define the appearance for each state by adding styles to the modifier.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en">Change or completely override the behavior of the block using <bpt id="l2">[</bpt>redefinition levels<ept id="l2">]</ept><bpt id="l3">(</bpt>#working-with-redefinition-levels<ept id="l3">)</ept> .</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">Dividing the code into parts</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">We can apply the main BEM principles for organizing and storing code to JavaScript:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">Dividing code into separate parts — each block’s logic and its optional elements and modifiers are described in separate files.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">JavaScript files for each component are stored according to the <bpt id="l2">[</bpt>rules for organizing the file structure<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md<ept id="l3">)</ept> of a BEM project.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">Let’s look at an example of a logo (the <bpt id="2">`</bpt>logo<ept id="2">`</ept> block) implemented in two technologies: a template and styles.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">HTML implementation of the block:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">&lt;a class=&quot;logo&quot; href=&quot;/&quot;&gt; Your awesome company&lt;/a&gt;</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">CSS implementation of the block:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">The <bpt id="2">`</bpt>logo<ept id="2">`</ept> block in the project’s file system:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">logo/
+    logo.css   # Block&#39;s appearance
+    logo.tmpl  # Templates for generating the block’s HTML representation</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">Adding JavaScript functionality to the <bpt id="2">`</bpt>logo<ept id="2">`</ept> block: now clicking the logo causes an action.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">According to the BEM methodology, the new behavior of the <bpt id="2">`</bpt>logo<ept id="2">`</ept> block will be implemented like this:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en">In a separate file.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">The file name will match the block name, with the <bpt id="2">`</bpt>.js<ept id="2">`</ept> extension.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">The <bpt id="2">`</bpt>logo.js<ept id="2">`</ept> file will be located in the block’s <bpt id="4">`</bpt>logo/<ept id="4">`</ept> directory.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">JavaScript implementation of the block:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">The <bpt id="2">`</bpt>logo.js<ept id="2">`</ept> file in the block’s file system:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">logo/
+    logo.css   # Block’s appearance
+    logo.tmpl  # Templates for generating the block’s HTML representation
+    logo.js    # Dynamic behavior of the block in the browser</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">Dividing the code into parts and strictly organizing the project’s file system not only make it easier to navigate the project and reuse or migrate components, but also allow us to work with redefinition levels for JavaScript and use assembly.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">Working with redefinition levels</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">The documentation for the BEM methodology provides <bpt id="l2">[</bpt>many examples<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md#examples-of-using-redefinition-levels<ept id="l3">)</ept> where the final CSS implementation of a block is assembled from different redefinition levels.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">Applying BEM principles to JavaScript allows us to similarly divide a block’s behavior into different levels:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en">Implement new block functionality on a different redefinition level while preserving the previous block behavior, inheriting it and extending it (make a super call).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">Completely override the block behavior (redefine it).</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">Add new blocks with new functionality that didn’t exist on previous levels.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">Use redefinition levels to create a generic JavaScript library of blocks and change it at the project level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">Then use assembly and only include the necessary block behaviors in the project.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">Let’s return to the example of a form for sending a message:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">BEM style allows us to:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">Completely override the block’s behavior on a different redefinition level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">Add or partially change the block’s behavior on a different redefinition level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">You can use a specialized framework for working with redefinition levels in BEM, such as <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js/<ept id="l3">)</ept>, since it was created to meet BEM requirements.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">How to switch to BEM-style JavaScript</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en">The fastest way is to start applying the principles of the BEM methodology in your project and get your first results without using a specialized framework.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">To immediately use all the BEM concepts in your project, you need to use the <bpt id="l2">[</bpt>i-bem.js<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/i-bem/current/i-bem-js/<ept id="l3">)</ept> framework:</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">Use the <bpt id="l2">[</bpt>unified terminology<ept id="l2">]</ept><bpt id="l3">(</bpt>#unified-subject-domain<ept id="l3">)</ept> of blocks, elements, and modifiers in all technologies.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Create independent components (blocks) at the JavaScript level.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en">Change the behavior of blocks, elements, and modifiers using redefinition levels similar to CSS.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en">Reuse blocks and migrate them between projects.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en">Facilitate and accelerate project development and debugging due to components being independent, so blocks can be developed individually.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">Include only the necessary JavaScript implementation of a block for assembly.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">Simplify navigation through the project’s file system.</source>
+  <target xml:lang="fr"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

@@ -4,7 +4,7 @@
     source-language="en" target-language="es" datatype="markdown">
     <header>
       <skl>
-        <external-file href="translation/solved-problems.skl"/>
+        <external-file href="translation/methodology/solved-problems/solved-problems.skl"/>
       </skl>
     </header>
     <body>

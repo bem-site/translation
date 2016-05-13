@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/naming-convention/naming-convention.en.md"
+    source-language="en" target-language="es" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/naming-convention/naming-convention.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">Naming convention</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">Working with <bpt id="l2">[</bpt>BEM entities<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#bem-entity<ept id="l3">)</ept> requires a knowledge of their naming rules.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en">The main idea of the naming convention is to make names of CSS selectors as informative and clear as possible.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en">This will help make code development and debugging easier and also solve some of the problems faced by web developers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en">Let's say we have a CSS selector named <bpt id="2">`</bpt>menuitemvisible<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en">A quick view of such a notation doesn't allow us to identify types of BEM entities from the name of the selector.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en">Let’s add a delimiter:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu-item-visible<ept id="1">`</ept> or <bpt id="3">`</bpt>menuItemVisible<ept id="3">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">Written like this, the name of the selector is clearly divided into logical parts.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">We can assume <bpt id="2">`</bpt>menu<ept id="2">`</ept> to be a block, <bpt id="4">`</bpt>item<ept id="4">`</ept> to be an element, and <bpt id="6">`</bpt>visible<ept id="6">`</ept> to be a modifier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">However, real-life examples are often more complicated and not as straightforward, and that’s where the BEM naming convention comes in useful.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">The BEM methodology provides an idea for creating naming rules and implements that idea in its canonical <bpt id="l2">[</bpt>CSS selector naming convention<ept id="l2">]</ept><bpt id="l3">(</bpt>#css-selector-naming-convention<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">However, a number of <bpt id="l2">[</bpt>alternative schemes<ept id="l2">]</ept><bpt id="l3">(</bpt>#alternative-naming-schemes<ept id="l3">)</ept> based on the BEM principles also exist in the world of web development.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">CSS selector naming convention</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">Names of BEM entities are written using <bpt id="2">**</bpt>numbers<ept id="2">**</ept> and <bpt id="4">**</bpt>lowercase<ept id="4">**</ept> <bpt id="6">**</bpt>Latin characters<ept id="6">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">Individual words within names are separated by a <bpt id="2">**</bpt>hyphen<ept id="2">**</ept> (<bpt id="4">`</bpt>-<ept id="4">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">Information about the names of blocks, elements, and modifiers is stored using <bpt id="2">**</bpt>CSS classes<ept id="2">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">Naming rules for:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en"><bpt id="l1">[</bpt>blocks<ept id="l1">]</ept><bpt id="l2">(</bpt>#block-name<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en"><bpt id="l1">[</bpt>elements<ept id="l1">]</ept><bpt id="l2">(</bpt>#element-name<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en"><bpt id="l1">[</bpt>modifiers<ept id="l1">]</ept><bpt id="l2">(</bpt>#modifier-name<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">Block name</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">A block name follows the <bpt id="2">`</bpt>block-name<ept id="2">`</ept> scheme and defines a <bpt id="l4">[</bpt>namespace<ept id="l4">]</ept><bpt id="l5">(</bpt>https://en.wikipedia.org/wiki/Namespace<ept id="l5">)</ept> for elements and modifiers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">Different prefixes can sometimes be added to block names.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">Our experience of using prefixes is told in detail in the article <bpt id="l2">[</bpt>The History of BEM<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/method/history/#blocks-to-the-rescue<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en"><bpt id="1">`</bpt>lang-switcher<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">&lt;div class=&quot;menu&quot;&gt;...&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">Element name</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">The namespace defined by the name of a block identifies an element as belonging to the block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">An element name is delimited by a double underscore (<bpt id="2">`</bpt>__<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">The full name of an element is created using this scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name__elem-name<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">If a block has several identical elements, such as in the case of menu items, all of them will have the same name <bpt id="2">`</bpt>menu__item<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en"><bpt id="1">**</bpt>Important!<ept id="1">**</ept> <bpt id="l3">[</bpt>Using elements within elements is not recommended by the BEM methodology<ept id="l3">]</ept><bpt id="l4">(</bpt>../../faq/faq.en.md#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2<ept id="l4">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu__item<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en"><bpt id="1">`</bpt>lang-switcher__lang-icon<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">&lt;div class=&quot;menu&quot;&gt; ... &lt;span class=&quot;menu__item&quot;&gt;&lt;/span&gt; &lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">Modifier name</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">The namespace defined by the name of a block identifies a modifier as belonging to that block or its element.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">A modifier name is delimited by a single underscore (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">The full name of a modifier is created using the scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">For Boolean modifiers — <bpt id="2">`</bpt>owner-name_mod-name<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">For key-value type modifiers — <bpt id="2">`</bpt>owner-name_mod-name_mod-val<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en"><bpt id="1">**</bpt>Important!<ept id="1">**</ept> In the BEM methodology, <bpt id="l3">[</bpt>a modifier cannot be used outside of the context of its owner<ept id="l3">]</ept><bpt id="l4">(</bpt>../../faq/faq.en.md#why-include-the-block-name-in-names-of-modifier-and-element<ept id="l4">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">Block modifier</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en"><bpt id="1">**</bpt>Boolean modifier<ept id="1">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">The value of such a modifier is not specified.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">The full name is created using the scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name_mod-name<ept id="1">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu_hidden<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en"><bpt id="1">**</bpt>Key-value type modifier<ept id="1">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">The value of a modifier is separated from its name by a single underscore (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">The full name is created using the scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name_mod-name_mod-val<ept id="1">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu_theme_morning-forest<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">&lt;div class=&quot;menu menu_hidden&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;menu menu_theme_morning-forest&quot;&gt;...&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en"><bpt id="1">*</bpt>Incorrect notation<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">&lt;div class=&quot;menu_hidden&quot;&gt;...&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">Here the notation is missing the block that is affected by the modifier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">Element modifier</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en"><bpt id="1">**</bpt>Boolean modifier<ept id="1">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">The value of such a modifier is not specified.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">The full name is created using this scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name__elem-name_mod-name<ept id="1">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu__item_visible<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en"><bpt id="1">**</bpt>Key-value type modifier<ept id="1">**</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">The value of a modifier is separated from its name by a single underscore (<bpt id="2">`</bpt>_<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">The full name is created using the scheme:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name__elem-name_mod-name_mod-val<ept id="1">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en"><bpt id="1">**</bpt>Example<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en"><bpt id="1">`</bpt>menu__item_type_radio<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">&lt;div class=&quot;menu&quot;&gt; ... &lt;span class=&quot;menu__item menu__item_visible menu__item_type_radio&quot;&gt;&lt;/span&gt; &lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">Example of using the naming convention</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">The implementation of an authorization form in HTML and CSS:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en"><bpt id="1">*</bpt>HTML<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">&lt;form class=&quot;form form_login form_theme_forest&quot;&gt;
+    &lt;input class=&quot;form__input&quot;&gt;
+    &lt;input class=&quot;form__submit form__submit_disabled&quot;&gt;
+&lt;/form&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en"><bpt id="1">*</bpt>CSS<ept id="1">*</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">Alternative naming schemes</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">There are some alternative solutions that are based on the BEM naming convention.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en"><bpt id="1">**</bpt>Harry Roberts&#39; style<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">One of the first to mention BEM in the English-speaking world was <bpt id="l2">[</bpt>Harry Roberts<ept id="l2">]</ept><bpt id="l3">(</bpt>http://csswizardry.com/work/<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">In his article <bpt id="l2">[</bpt>MindBEMding – getting your head ’round BEM syntax<ept id="l2">]</ept><bpt id="l3">(</bpt>http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/<ept id="l3">)</ept>, he spoke about the convention for naming CSS classes according to the BEM methodology.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Harry Roberts proposed his own naming scheme based on the BEM principles.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en"><bpt id="1">`</bpt>block-name__elem-name--mod-name<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en">Names are written in lower case.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en">Words within the names of BEM entities are separated by a hyphen (<bpt id="2">`</bpt>-<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">An element name is separated from a block name by a double underscore (<bpt id="2">`</bpt>__<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">Boolean modifiers are delimited by double hyphens (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="en">Key-value type modifiers are not used.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="en"><bpt id="1">**</bpt>CamelCase style<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="en"><bpt id="1">`</bpt>MyBlock__SomeElem_modName_modVal<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="en">This style differs from the classic one in that it uses <bpt id="l2">[</bpt>CamelCase<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.wikipedia.org/wiki/CamelCase<ept id="l3">)</ept> instead of a hyphen for separating words within BEM entity names.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="en"><bpt id="1">**</bpt>”Sans underscore“ style<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="en"><bpt id="1">`</bpt>blockName-elemName--modName--modVal<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="en">Names are written in CamelCase.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="en">An element name is separated from a block name by a single hyphen (<bpt id="2">`</bpt>-<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="en">Modifiers are delimited by double hyphens (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="en">The value of a modifier is separated from its name by a double hyphen (<bpt id="2">`</bpt>--<ept id="2">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="en"><bpt id="1">**</bpt>No namespace style<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="en"><bpt id="1">`</bpt>_available<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="en">This style is characterized by the absence of a block or element name before a modifier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="en">Such a scheme puts limitations on the use of <bpt id="l2">[</bpt>mixes<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#Mix<ept id="l3">)</ept>, as it makes it impossible to determine what block or element a modifier belongs to.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="en">Which style to choose</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="en">The BEM methodology offers general principles for naming BEM entities.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="en">The choice of a particular naming scheme depends on your project requirements and personal preferences.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="en">One considerable advantage of using <bpt id="l2">[</bpt>the naming convention<ept id="l2">]</ept><bpt id="l3">(</bpt>#css-selector-naming-convention<ept id="l3">)</ept> offered by the methodology is the existence of ready-made development tools that are specifically geared towards the ”classic naming“.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="en">Besides, the BEM methodology is not limited in its scope to the HTML and CSS technologies, which are discussed in this document.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="en">The concepts of blocks, elements, and modifiers are used when working with the JavaScript, templates and file system of a BEM project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="en">The <bpt id="l2">[</bpt>bem-naming<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/bem/bem-naming/<ept id="l3">)</ept> tool enables us to use the same names for BEM entities in all of the <bpt id="l4">[</bpt>implementation technologies<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#implementation-technology<ept id="l5">)</ept> that may be used.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="en">By default, <bpt id="2">`</bpt>bem-naming<ept id="2">`</ept> is configured to use the naming convention according to the methodology, but it allows you to add rules so you can use alternative schemes.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

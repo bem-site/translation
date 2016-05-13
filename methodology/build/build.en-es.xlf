@@ -4,7 +4,7 @@
     source-language="en" target-language="es" datatype="markdown">
     <header>
       <skl>
-        <external-file href="translation/build.skl"/>
+        <external-file href="translation/methodology/build/build.skl"/>
       </skl>
     </header>
     <body>

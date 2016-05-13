@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="bem-method/method/declarations/declarations.en.md"
-    source-language="en" target-language="es" datatype="markdown">
+    source-language="en" target-language="fr" datatype="markdown">
     <header>
       <skl>
-        <external-file href="translation/declarations.skl"/>
+        <external-file href="translation/methodology/declarations/declarations.skl"/>
       </skl>
     </header>
     <body>
 <trans-unit id="1">
   <source xml:lang="en">Declarations in BEM</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="2">
   <source xml:lang="en">To list BEM entities needed to build a web page (effectively, ”an instance of a <bpt id="l2">[</bpt>bundle<ept id="l2">]</ept><bpt id="l3">(</bpt>../build/build.en.md#bundle<ept id="l3">)</ept>“), you can use a <bpt id="4">**</bpt>declaration<ept id="4">**</ept>.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="3">
   <source xml:lang="en">A declaration is a list of <bpt id="l2">[</bpt>blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#block<ept id="l3">)</ept>, <bpt id="l4">[</bpt>elements<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#element<ept id="l5">)</ept>, and <bpt id="l6">[</bpt>modifiers<ept id="l6">]</ept><bpt id="l7">(</bpt>../key-concepts/key-concepts.en.md#modifier<ept id="l7">)</ept> that are used on a page..</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="4">
   <source xml:lang="en">A build tool uses declaration data to narrow down a list of entities that end up in the final project.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="5">
   <source xml:lang="en">Rather than include all the blocks of the project, you can pick only the necessary ones from the list.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="6">
   <source xml:lang="en"><bpt id="1">**</bpt>The goal of a declaration<ept id="1">**</ept> is to define what and in what order should be included in the build.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="7">
   <source xml:lang="en">In the BEM platform, a page description is created in BEMJSON format, and a page declaration is described in BEMDECL format, e.g.:</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="8">
   <source xml:lang="en">Ways of obtaining a declaration</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="9">
   <source xml:lang="en">You can form a declaration manually.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="10">
   <source xml:lang="en">To do this, list all the BEM entities involved in the creation of the page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="11">
   <source xml:lang="en">A declaration can be built automatically:</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="12">
   <source xml:lang="en"><bpt id="l1">[</bpt>From the page description<ept id="l1">]</ept><bpt id="l2">(</bpt>#creating-a-declaration-from-the-page-description<ept id="l2">)</ept></source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="13">
   <source xml:lang="en"><bpt id="l1">[</bpt>Via an introspection of the file system<ept id="l1">]</ept><bpt id="l2">(</bpt>#creating-a-declaration-via-an-introspection-of-the-file-system<ept id="l2">)</ept></source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="14">
   <source xml:lang="en">Creating a declaration from the page description</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="15">
   <source xml:lang="en">A list of the entities to include in the build can be obtained using classes from the HTML file of the web page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="16">
   <source xml:lang="en">In a BEM project, the structure of a web page is described by means of a <bpt id="l2">[</bpt>BEM tree<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#bem-tree<ept id="l3">)</ept>..</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="17">
   <source xml:lang="en">The HTML code of a page contains classes with the names of all the blocks, elements, and modifiers used on the page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="18">
   <source xml:lang="en">The BEM tree can be built automatically from the HTML classes or created manually.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="19">
   <source xml:lang="en">When the page get built, the declaration is formed automatically based on the BEM tree data:</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="20">
   <source xml:lang="en">All entities (blocks, elements, and modifiers) are included in the declaration in the order specified in the build configuration.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="21">
   <source xml:lang="en">If the same entity is used twice on a page, it only occurs once in the declaration.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="22">
   <source xml:lang="en">The nesting of blocks and elements is not shown in the declaration.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="23">
   <source xml:lang="en"><bpt id="l1">[</bpt>html2bemjson<ept id="l1">]</ept><bpt id="l2">(</bpt>https://github.com/bem-incubator/html2bemjson<ept id="l2">)</ept> is one of the tools that builds a BEM tree out of the HTML structure of a page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="24">
   <source xml:lang="en"><bpt id="l1">![</bpt>A way of creating a declaration<ept id="l1">]</ept><bpt id="l2">(</bpt>declarations__html2decl.en.png<ept id="l2">)</ept></source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="25">
   <source xml:lang="en">For an example of a project where a separate declaration is formed for each individual page, see <bpt id="l2">[</bpt>Starting your own BEM project<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tutorials/start-with-project-stub/<ept id="l3">)</ept>.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="26">
   <source xml:lang="en">Creating a declaration via an introspection of the file system</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="27">
   <source xml:lang="en">Another source of information about the entities is the project file system.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="28">
   <source xml:lang="en">The declaration will thus encompass all entities that are found in the file system of the project.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="29">
   <source xml:lang="en">Although it ensures a guaranteed inclusion of all the necessary entities in the build, this method is lacking in precision: the build will cover all of the existing entities, not just the relevant ones.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="30">
   <source xml:lang="en">On the contrary, the page description-based declaration ensures the building of the relevant BEM entities on a per-entity basis, but does not guarantee inclusion of all those entities that are not explicitly specified in the HTML file for the page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="31">
   <source xml:lang="en"><bpt id="l1">![</bpt>A way of creating a declaration<ept id="l1">]</ept><bpt id="l2">(</bpt>declarations__fs2decl.en.png<ept id="l2">)</ept></source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="32">
   <source xml:lang="en">In <bpt id="l2">[</bpt>bem-components<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/libs/bem-components/<ept id="l3">)</ept>, the method of creating a declaration via the introspection of a file system is used for the <bpt id="l4">[</bpt>Dist<ept id="l4">]</ept><bpt id="l5">(</bpt>https://en.bem.info/libs/bem-components/<ept id="l5">)</ept>-based library distribution.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="33">
   <source xml:lang="en">Algebra of declarations</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="34">
   <source xml:lang="en">Declarations can help you manage the build process.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="35">
   <source xml:lang="en">For instance, you can combine different page declarations into one and build the entire project at once instead of page by page.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="36">
   <source xml:lang="en">In addition to combining declarations, you can reuse them, extract their common and different parts.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="37">
   <source xml:lang="en">This kind of control enables you to assemble all pages into one <bpt id="l2">[</bpt>bundle<ept id="l2">]</ept><bpt id="l3">(</bpt>../build/build.en.md#bundle<ept id="l3">)</ept>, load the necessary parts of a page on request or reuse already built common components on different pages.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="38">
   <source xml:lang="en">Operations with declarations</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="39">
   <source xml:lang="en"><bpt id="l1">[</bpt>Addition<ept id="l1">]</ept><bpt id="l2">(</bpt>#adding-declarations<ept id="l2">)</ept> — uniting sets of entities from different declarations into one.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="40">
   <source xml:lang="en"><bpt id="l1">[</bpt>Subtraction<ept id="l1">]</ept><bpt id="l2">(</bpt>#subtracting-declarations<ept id="l2">)</ept> — getting the difference between sets of entities from different declarations.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="41">
   <source xml:lang="en"><bpt id="l1">[</bpt>Intersection<ept id="l1">]</ept><bpt id="l2">(</bpt>#intersecting-declarations<ept id="l2">)</ept> — obtaining a declaration from the intersection of sets of entities from two other declarations.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="42">
   <source xml:lang="en">Adding declarations</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="43">
   <source xml:lang="en">Used for creating common technology files (e.g., a common CSS and JavaScript file) for multiple pages.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="44">
   <source xml:lang="en">Use it if you need to load all pages at once and save time loading each individual page when switching between the pages.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="45">
   <source xml:lang="en">Declaration 1       Declaration 2        Declaration 3
@@ -199,15 +199,15 @@
 &#39;popup&#39;                                  &#39;popup&#39;,
                     &#39;textarea&#39;           &#39;textarea&#39;
 ]                   ]                    ]</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="46">
   <source xml:lang="en">Subtracting declarations</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="47">
   <source xml:lang="en">One of the ways to use it is for building a page part that is loaded on request (e.g., in response to a user action).</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="48">
   <source xml:lang="en">Declaration 1       Declaration 2       Declaration 3
@@ -223,35 +223,35 @@
                     &#39;image&#39;,
                     &#39;popup&#39;
 ]                   ]                   ]</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="49">
   <source xml:lang="en">Let's say you have a page that uses a virtual keyboard that is only made available to the user in response to a certain action.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="50">
   <source xml:lang="en">Adding that block to the build for the entire page will only increase load time.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="51">
   <source xml:lang="en">The keys of the keyboard may already be implemented on the page for different purposes.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="52">
   <source xml:lang="en">The ability to subtract declarations allows you to create a separate bundle (files for a part of the page) for the missing implementation of the virtual keyboard and only connect it on request.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="53">
   <source xml:lang="en">Intersecting declarations</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="54">
   <source xml:lang="en">Used for creating a declaration that describes common parts of different project pages.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="55">
   <source xml:lang="en">This lets you build a common part for all the pages and connect it once to all the pages during the build process.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="56">
   <source xml:lang="en">Declaration 1       Declaration 2       Declaration 3
@@ -265,19 +265,19 @@
 &#39;textarea&#39;,         &#39;popup&#39;,
 &#39;footer&#39;            &#39;footer&#39;            &#39;footer&#39;
 ]                   ]                   ]</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="57">
   <source xml:lang="en">For example, such a separation can be effective if every page of the project features a <bpt id="2">`</bpt>header<ept id="2">`</ept> and a <bpt id="4">`</bpt>footer<ept id="4">`</ept>.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="58">
   <source xml:lang="en">The common part of the pages is described in a separate declaration.</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
 <trans-unit id="59">
   <source xml:lang="en">During the build process each page is then built on the basis of two declarations: the common one (containing the <bpt id="2">`</bpt>header<ept id="2">`</ept> and the <bpt id="4">`</bpt>footer<ept id="4">`</ept>) and its own (describing the remaining part of the page).</source>
-  <target xml:lang="es"></target>
+  <target xml:lang="fr"></target>
 </trans-unit>
     </body>
  </file>

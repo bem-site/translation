@@ -4,7 +4,7 @@
     source-language="en" target-language="es" datatype="markdown">
     <header>
       <skl>
-        <external-file href="translation/bem-for-js.skl"/>
+        <external-file href="translation/methodology/bem-for-js/bem-for-js.skl"/>
       </skl>
     </header>
     <body>
