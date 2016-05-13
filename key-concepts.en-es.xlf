@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file 
+    source-language="ru" target-language="en" datatype="markdown">
+    <header>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">Key concepts</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Block<ept id="l1">]</ept><bpt id="l2">(</bpt>#block<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Element<ept id="l1">]</ept><bpt id="l2">(</bpt>#element<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Modifier<ept id="l1">]</ept><bpt id="l2">(</bpt>#modifier<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en"><bpt id="l1">[</bpt>BEM entity<ept id="l1">]</ept><bpt id="l2">(</bpt>#bem-entity<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Mix<ept id="l1">]</ept><bpt id="l2">(</bpt>#mix<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en"><bpt id="l1">[</bpt>BEM tree<ept id="l1">]</ept><bpt id="l2">(</bpt>#bem-tree<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Block implementation<ept id="l1">]</ept><bpt id="l2">(</bpt>#block-implementation<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Block implementation technology<ept id="l1">]</ept><bpt id="l2">(</bpt>#implementation-technology<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Block redefinition<ept id="l1">]</ept><bpt id="l2">(</bpt>#block-redefinition<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Redefinition level<ept id="l1">]</ept><bpt id="l2">(</bpt>#redefinition-level<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">Block</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">A logically and functionally independent page component, the equivalent of a component in Web Components.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">A block encapsulates behavior (JavaScript), templates, styles (CSS), and other <bpt id="l2">[</bpt>implementation technologies<ept id="l2">]</ept><bpt id="l3">(</bpt>#implementation-technology<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">Blocks being independent allows for their re-use, as well as facilitating the <bpt id="l2">[</bpt>project development and support process<ept id="l2">]</ept><bpt id="l3">(</bpt>../solved-problems/solved-problems.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">Block features</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">Nested structure</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">Blocks can be nested inside any other blocks.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en">For example, a <bpt id="2">`</bpt>head<ept id="2">`</ept> block can include a logo (<bpt id="4">`</bpt>logo<ept id="4">`</ept>), a search form (<bpt id="6">`</bpt>search<ept id="6">`</ept>), and an authorization block (<bpt id="8">`</bpt>auth<ept id="8">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Head block components<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head_marked.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en">Arbitrary placement</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">Blocks can be moved around on a page, moved between pages or projects.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">The implementation of blocks as independent entities makes it possible to change their position on the page and ensures their proper functioning and appearance.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">Thus, the logo and the authorization form can be swapped around without modifying the CSS or JavaScript code of the blocks.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Altering the block positions<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Altering the block positions<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__head_changed.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">Re-use</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">An interface can contain multiple instances of the same block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Online store products<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__goods-list.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">Element</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">A constituent part of a <bpt id="l2">[</bpt>block<ept id="l2">]</ept><bpt id="l3">(</bpt>#block<ept id="l3">)</ept> that can't be used outside of it.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">For example, a menu item is not used outside of the context of a menu block, therefore it is an element.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Menu items<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__menu-items.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en"><bpt id="l1">[</bpt>A block or an element: when should I use which?<ept id="l1">]</ept><bpt id="l2">(</bpt>../../faq/faq.en.md#a-block-or-an-element-when-should-i-use-which<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Using elements within elements is not recommended by the BEM methodology<ept id="l1">]</ept><bpt id="l2">(</bpt>../../faq/faq.en.md#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">Modifier</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">A BEM entity that defines the appearance and behavior of a <bpt id="l2">[</bpt>block<ept id="l2">]</ept><bpt id="l3">(</bpt>#block<ept id="l3">)</ept> or an <bpt id="l4">[</bpt>element<ept id="l4">]</ept><bpt id="l5">(</bpt>#element<ept id="l5">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">The use of modifiers is optional.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">Modifiers are similar in essence to HTML attributes.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en">The same block looks different due to the use of a modifier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">For instance, the appearance of the menu block (<bpt id="2">`</bpt>menu<ept id="2">`</ept>) may change depending on a modifier that is used on it.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Add a menu to the footer<ept id="l1">]</ept><bpt id="l2">(</bpt>key-concepts__site-footer-menu.png<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">BEM entity</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Blocks<ept id="l1">]</ept><bpt id="l2">(</bpt>#block<ept id="l2">)</ept>, <bpt id="l3">[</bpt>elements<ept id="l3">]</ept><bpt id="l4">(</bpt>#element<ept id="l4">)</ept>, and <bpt id="l5">[</bpt>modifiers<ept id="l5">]</ept><bpt id="l6">(</bpt>#modifier<ept id="l6">)</ept> are all called BEM entities.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">It is a notion that can be used both to refer to an individual BEM entity and as a generic term for blocks, elements, and modifiers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">Mix</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">An instance of different <bpt id="l2">[</bpt>BEM entities<ept id="l2">]</ept><bpt id="l3">(</bpt>#bem-entity<ept id="l3">)</ept> being hosted on a single <bpt id="l4">[</bpt>DOM node<ept id="l4">]</ept><bpt id="l5">(</bpt>https://en.wikipedia.org/wiki/Document_Object_Model<ept id="l5">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">Mixes allow us to</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">Combine the behaviors and styles of several BEM entities while avoiding code duplication</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">Create semantically new interface components on the basis of existing BEM entities.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">Let's consider the case of a mix comprising a block and an element of another block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">Let's assume that links in your project are implemented via a <bpt id="2">`</bpt>link<ept id="2">`</ept> block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">We need to format menu items as links.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">There are several ways to do that.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">Create a modifier for a menu item that turns the item into a link.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">Implementing such a modifier would necessarily involve copying the behavior and styles of the <bpt id="2">`</bpt>link<ept id="2">`</ept> block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">That would result in code duplication.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en">Have a mix combining a generic <bpt id="2">`</bpt>link<ept id="2">`</ept> block and a <bpt id="4">`</bpt>link<ept id="4">`</ept> element of a <bpt id="6">`</bpt>menu<ept id="6">`</ept> block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">A mix of the two BEM entities will allow us to use the basic link functionality of the <bpt id="2">`</bpt>link<ept id="2">`</ept> block and additional CSS rules of the <bpt id="4">`</bpt>menu<ept id="4">`</ept> block without copying the code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">BEM tree</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">A representation of a web page structure in terms of blocks, elements, and modifiers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">It is an abstraction over a <bpt id="l2">[</bpt>DOM tree<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.wikipedia.org/wiki/Document_Object_Model<ept id="l3">)</ept> that describes the names of BEM entities, their states, order, nesting, and auxiliary data.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en">In real-life projects, a BEM tree can be presented in any format that supports the tree structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">Let's consider an example of a DOM tree:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">&lt;header class=&quot;header&quot;&gt;
+    &lt;img class=&quot;logo&quot;&gt;
+    &lt;form class=&quot;search-form&quot;&gt;
+        &lt;input type=&quot;input&quot;&gt;
+        &lt;button type=&quot;button&quot;&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div class=&quot;lang-switcher&quot;&gt;&lt;/div&gt;
+&lt;/header&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">The corresponding BEM tree will look like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">header
+    ├──logo
+    └──search-form
+        ├──input
+        └──button
+    └──lang-switcher</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">In XML and <bpt id="l2">[</bpt>BEMJSON<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/bemjson/<ept id="l3">)</ept> formats, the same BEM tree will appear as follows:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">XML</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">&lt;block:header&gt;
+    &lt;block:logo/&gt;
+    &lt;block:search-form&gt;
+        &lt;block:input/&gt;
+        &lt;block:button/&gt;
+    &lt;/block:search-form&gt;
+    &lt;block:lang-switcher/&gt;
+&lt;/block:header&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">BEMJSON</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en">Block implementation</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">A set of different <bpt id="l2">[</bpt>technologies<ept id="l2">]</ept><bpt id="l3">(</bpt>#implementation-technology<ept id="l3">)</ept> that determine the following aspects of a BEM entity:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">behavior</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">appearance</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">tests</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">templates</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">documentation</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">description of dependencies</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">additional data (e.g., images).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">Implementation technology</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en">A technology used for <bpt id="l2">[</bpt>implementing<ept id="l2">]</ept><bpt id="l3">(</bpt>#block-implementation<ept id="l3">)</ept> a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">Blocks can be implemented in one or more technologies, for example:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">behavior — JavaScript, CoffeeScript</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">appearance — CSS, Stylus, Sass</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">templates — BEMHTML, BH, Jade, Handlebars, XSL</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">documentation — Markdown, Wiki, XML.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">For instance, if the appearance of a block is defined with CSS, that means that the block is implemented in the CSS technology.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">Likewise, if the documentation for a block is written in Markdown format, the block is implemented in the Markdown technology.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">Block redefinition</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">Modifying a block <bpt id="l2">[</bpt>implementation<ept id="l2">]</ept><bpt id="l3">(</bpt>#block-implementation<ept id="l3">)</ept> by adding new features to the block on a different <bpt id="l4">[</bpt>level<ept id="l4">]</ept><bpt id="l5">(</bpt>#redefinition-level<ept id="l5">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">Redefinition level</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">A set of BEM entities and their partial <bpt id="l2">[</bpt>implementations<ept id="l2">]</ept><bpt id="l3">(</bpt>#block-implementation<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en">The final implementation of a block can be divided into different redefinition levels.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">Each new level extends or overrides the original implementation of the block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">The end result is assembled from individual <bpt id="l2">[</bpt>implementation technologies<ept id="l2">]</ept><bpt id="l3">(</bpt>#implementation-technology<ept id="l3">)</ept> of the block from all redefinition levels in a pre-determined consecutive order.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Any <bpt id="l2">[</bpt>implementation<ept id="l2">]</ept><bpt id="l3">(</bpt>#implementation-technology<ept id="l3">)</ept> technologies of BEM entities can be <bpt id="l4">[</bpt>redefined<ept id="l4">]</ept><bpt id="l5">(</bpt>#block-redefinition<ept id="l5">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en">For example, there is a third-party library linked to a project on a separate level.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en">The library contains ready-made block implementations.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en">The project-specific blocks are stored on a different redefinition level.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">Let's say we need to modify the appearance of one of the library blocks.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">That doesn't require changing the CSS rules of the block in the library source code or copying the code at the project level.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="en">We only need to create additional CSS rules for that block at the project level.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="en">During the build process, the resulting implementation will incorporate both the original rules from the library level and the new styles from the project level.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

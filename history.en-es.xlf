@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file 
+    source-language="ru" target-language="en" datatype="markdown">
+    <header>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">The history of BEM</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">Once upon a time, in a distant country far-far away, an IT company named <bpt id="l2">[</bpt>Yandex<ept id="l2">]</ept><bpt id="l3">(</bpt>https://company.yandex.com<ept id="l3">)</ept> started developing web search
+and affiliated services.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en">Time went by and services were growing, and more and more front-end developers put
+their tireless efforts into improving the ecosystem of Yandex.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en">Great things they did, and amazing tools they built, making their developers lives easier,
+and times now have come to share that knowledge with the community, to embrace the magic power
+of Open Source and benefit all good people around.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en">This article tells about Yandex front-end developers constantly revising and improving the way they build web pages.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en">Front-end developers are well known for their enormous curiosity (that often brings innovation) and their remarkable
+laziness that makes them devise sophisticated systems to save precious time, to unify and automate everything.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en">This is how many exciting things were born into life, but now let's travel back in time to 2005 and sneak a peek over
+a shoulder of a really-really-busy Yandex front-end developer, and thus see...</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en">...where it all began</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">Back in 2005, the focus was still pretty much on the server side of things.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">From frontender perspective, a typical Yandex project was a set of static HTML pages that served as a base reference for creating advanced templates like XSL stylesheets.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">These pages were kept in a separate folder and looked like this after a checkout:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">about.html
+index.html
+…
+project.css
+project.js
+i/
+  yandex.png</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">There was a static HTML file for each page, with all the CSS pushed into a single stylesheet, <bpt id="2">`</bpt>project.css<ept id="2">`</ept>,
+and all Javascript placed in a single <bpt id="4">`</bpt>project.js<ept id="4">`</ept>;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">both files were shared between project pages.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">At those times, JavaScript was only sparsely applied to some controls, so all the interaction magic for the whole
+project could fit comfortably into a single small file.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">Images were placed into a separate folder, as they were numerous.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">With IE 5 roaming in the wild and no CSS3,
+images were used for all sorts of eye-candy, even for creating rounded corners (although none of the younger
+web developers would probably believe me :-)).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">To keep some structure, style definitions for different page sections were separated using plain
+CSS comments like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en">Content container (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en">Content container (end)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en">Graphical banner (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">Graphical banner (end)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">Both IDs and classnames were used in the HTML markup.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">Static HTML was manually copied into production XSL stylesheets, and all changes were synced two-way, manually.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">That was hard, and even when it wasn't hard, it was dull.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">Mid-scale projects</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">At the beginning of 2006, the first version of Yandex.Music had been under heavy development.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">Multiple pages, each unlike the other, didn't fit well into familiar simplistic concepts.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en">Dozens of CSS classes you had to invent meaningful names for, a growing number of unintentional
+dependencies spread along the project — all that had been calling for a better solution.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">Typical piece of CSS code from those days:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">Albums (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">Albums (end)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">See that long cascade rules are used throughout the code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">Have another look:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">Background images (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">Background images (end)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">See that <bpt id="2">`</bpt>id<ept id="2">`</ept> and tag names selectors are used in many rules.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">At the same time, even bigger project was started — <bpt id="l2">[</bpt>Yaru<ept id="l2">]</ept><bpt id="l3">(</bpt>http://wow.yandex.ru<ept id="l3">)</ept> — a blogging platform, a place for people to interact, to share, to read and to engage.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">There were dozens of various pages to support, and with the old-fashioned approach the code was running out of control on many levels.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en">Blocks to the rescue</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">We needed to specify a data domain for managing page interface objects.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">This was a methodology thing,
+we needed to put more clarity into the way we work with concepts like
+<bpt id="2">`</bpt>class<ept id="2">`</ept>, <bpt id="4">`</bpt>tag<ept id="4">`</ept>, <bpt id="6">`</bpt>visual component<ept id="6">`</ept> etc.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">For a typical web page of a Yandex project, HTML structure and its CSS styles were still the focus of
+our development efforts, and JavaScript was understood as a supplementary technology.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">For easier maintenance of HTML/CSS for many different components, a new term was invented: <bpt id="2">`</bpt>block<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">Block is a part of a page design or layout having its specific and unique meaning defined either
+semantically, or visually.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">In most cases, any distinct page element (either complex or simple) may be seen as a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">Then its HTML container gets a unique CSS class, which is also used as a block name.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">CSS classes for blocks got prefixes (<bpt id="2">`</bpt>b-<ept id="2">`</ept>, <bpt id="4">`</bpt>c-<ept id="4">`</ept>, <bpt id="6">`</bpt>g-<ept id="6">`</ept>) to provide sort of a namespace emulation in CSS.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">The naming convention itself was changed later, here's the initial list explained:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en"><bpt id="1">**</bpt>b-<ept id="1">**</ept>  block</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">an independent block, placed on a page wherever you need it</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en"><bpt id="1">**</bpt>с-<ept id="1">**</ept>  control</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">a control (an independent block) with a JavaScript object bound to it</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en"><bpt id="1">**</bpt>g-<ept id="1">**</ept>  global</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">a global definition, used sparingly and always defined for a specific, unique reason;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">the number of these definitions kept at a minimum.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">Some suffixes were employed as well, e.g.:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en"><bpt id="1">**</bpt>-nojs<ept id="1">**</ept>   no javascript</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">style rule to be applied with JavaScript turned off.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">The onload callback may contain an <bpt id="2">`</bpt>init()<ept id="2">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">function call that removes these suffixes from all objects, thus semantically marking them</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">up as "JavaScript-enabled".</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en">What's inside?</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">In an HTML container forming a block, some nodes get a distinct CSS classname.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">This not only facilitates the creation of tagname-independent style rules, but also assigns semantically meaningful roles to each node.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">Such inner nodes are called "block elements", or simply "elements".</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">The core distinction between a block and an element is the element's inability to exist out of its parent block context.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">As long as you cannot detach something from a block, it's an element;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">detachable elements (probably) should become blocks themselves.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">At first, elements could have been defined only inside their parent block container;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">later, a technique was provided to place some elements outside and still keep a block consistent.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en">In stylesheets, elements with lots of CSS got extra indentation and were wrapped in comments:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">/* Head (begin) */
+    .b-head { … }
+
+    /* Logo (begin) */
+        .b-head .logo { … }
+        .b-head .logo a { … }
+    /* Logo (end) */
+
+    /* Right side (begin) */
+    .b-head .right { … }
+
+        /* Info (begin) */
+            .b-head .info { … }
+            .b-head .info .exit a { … }
+        /* Info (end) */
+
+        /* Search (begin) */
+            .b-head .search { … }
+            .b-head .search div div, .b-head .search div div i { … }
+        /* Search (end) */
+    /* Right side (end) */
+/* Head (end) */</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">Project file structure evolves</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">At Yandex, a front-end developers usually support more than one project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">Switching between different repositories and various branches is easier when all projects
+use the same (or very similar) file structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">Granularity is another requirement as it provides more flexibility for version control systems
+and helps avoid conflicts during concurrent development.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">This led us to a more unified structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">CSS, JavaScript, and image files reside in separate folders.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">JavaScript was employed more and more daily, thus the addition of optional components and libraries.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">Typical file structure:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en">index.html
+css/
+  yaru.css
+  yaru-ie.css
+js/
+  yaru.js
+i/
+  yandex.png</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">MSIE-specific hacks could have gone into the main CSS file (<bpt id="2">`</bpt>yaru.css<ept id="2">`</ept>) if they were in compliance with the CSS standards:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">Common definitions (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">Non-valid workarounds were put in a standalone <bpt id="2">`</bpt>yaru-ie.css<ept id="2">`</ept> (loaded with IE-only conditional comments).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">Common blocks (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">Artist (begin)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">Building up a framework: the beginning</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">Designing similar projects eventually leads to re-creating the same blocks over and over again.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">Yandex is a portal having more than 100 services sharing the same corporate style, so careless
+copy/paste doesn't work really well on this scale.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">So, to have something to begin with, we had a small compilation of reusable components, which
+inside Yandex was referred to as "common blocks library", or simply "the Common".</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">First page fragments to be unified were: header, footer and some typographic CSS definitions.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">The corresponding files were hosted on an internal dedicated server (<bpt id="2">**</bpt>common.cloudkill.yandex.ru<ept id="2">**</ept> in the listings below).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en">This was the very beginning of our unified framework.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">Styles could be imported directly from that server:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">@import url(http://common.cloudkill.yandex.ru/css/global.css);
+@import url(http://common.cloudkill.yandex.ru/css/head/common.css);
+@import url(http://common.cloudkill.yandex.ru/css/static-text.css);
+@import url(http://common.cloudkill.yandex.ru/css/foot/common-absolute.css);
+@import url(http://common.cloudkill.yandex.ru/css/foot/common-absolute-4-columns.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist.css);
+@import url(http://common.cloudkill.yandex.ru/css/list/hlist-middot.css);
+@import url(http://common.cloudkill.yandex.ru/css/dropdown/dropdown.css);
+@import url(http://common.cloudkill.yandex.ru/css/dropdown/dropdown-arrow.css);
+@import url(slider.css);
+
+/* Header (begin) */
+    /* Service (begin) */
+        .b-head .service h1 { … }
+        .b-head .service h1, .b-head .service h1 a, .b-head .service h1 b { … }</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Obviousy, too many imports, page loads slowly!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en">So, we decided to pre-compile styles (and later, JS files) before deployment.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en">The compilation replaces <bpt id="2">`</bpt>@import<ept id="2">`</ept> directives with the actual contents of external files (this is called <bpt id="4">`</bpt>inlining<ept id="4">`</ept>)
+and performs more optimizations, e.g.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en">unrequired to browser whitespaces and comments.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">Our internal inlining tool evolved from a simple wrapper perl script into an open source project <bpt id="l2">[</bpt>borschik<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/optimizers/borschik/<ept id="l3">)</ept>;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">try it out!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="en">Independent blocks as a concept</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="en">By the fall of 2007, our everyday practice got some theory behind it.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="en">The Independent Block concept, which was by that time the basis of our HTML layouts,
+was featured at the ClientSide'2007 conference in Moscow, Russia.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="en">In that presentation, the first attempt to define a <bpt id="2">`</bpt>block<ept id="2">`</ept> has been made.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="en">Blocks: the declaration of idependence</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="en">In our attempt to produce a formal (in fact, semi-formal) declaration of <bpt id="2">`</bpt>block<ept id="2">`</ept>, the following 3 principles were highlighted:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="en">Only classnames (not IDs) should be used to describe styles;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="en">Each block classname has a prefix;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="en">Any CSS rules except ones prefixed with g- must belong to a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="en">As soon as unique IDs are dropped, the same block can be used on the same page more than once.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="en">This also allows two or more classes to co-exist on the same DOM node, which turned out to be quite useful later.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="en">Blocks simple and compound: the misclassification</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="en">We defined simple blocks as not being able to contain another blocks anywhere inside their markup.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="en">Compound blocks were allowed (or sometimes, required) to have nested blocks embedded.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="en">This classification was naive;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="en">even the simplest blocks sometimes were wrapped around other blocks
+and had to be "upgraded" and refactored to fit the new role.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="en">This misclassification in fact had struck back in so many cases that we had finally accepted the opposite
+principle: any block should allow for arbitrary content to be embedded, whenever possible.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="en">Completely independent blocks</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="en">CSS definitions aren't bulletproof when we mix a lot of styled content originating from different sources
+on a single web page.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="en">In complex layouts, blocks may alter each other appearance because of element names conflicts.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="en">Tagname-based CSS rules may match more tags than we intended them to.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="en">As soon as we had to fight these and similar bugs in production, a strict version of an independent block
+(named Absolutely Independept Block, abbreviated AIB) was defined with the following extra rules:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="125">
+  <source xml:lang="en">never match CSS to tagnames, use classnames for everything:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="126">
+  <source xml:lang="en"><bpt id="1">`</bpt>.b-user b -&gt; .b-user .first-letter<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="127">
+  <source xml:lang="en">classnames for block elements must be prefixed with the parent block name:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="128">
+  <source xml:lang="en"><bpt id="1">`</bpt>.b-user .first-letter -&gt; .b-user-first_letter<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="129">
+  <source xml:lang="en">Such classnames tend to be much longer, and the resulting HTML code is considerably bigger in size.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="130">
+  <source xml:lang="en">This was the main reason why AIB was considered a "costly solution" to be used more as a remedy, not as an everyday practice.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="131">
+  <source xml:lang="en">Prefixes</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="132">
+  <source xml:lang="en">As everybody is aware nowadays, giving names to variables is one of the most difficult problems in development, ever.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="133">
+  <source xml:lang="en">We approached it cautiously, and invented four prefixes allowed for block names, each one with its own semantics:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="134">
+  <source xml:lang="en"><bpt id="1">**</bpt>b-<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="135">
+  <source xml:lang="en">common blocks</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="136">
+  <source xml:lang="en"><bpt id="1">**</bpt>h-<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="137">
+  <source xml:lang="en">holsters, used for gluing several elements together</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="138">
+  <source xml:lang="en"><bpt id="1">**</bpt>l-<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="139">
+  <source xml:lang="en">layout grids</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="140">
+  <source xml:lang="en"><bpt id="1">**</bpt>g-<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="141">
+  <source xml:lang="en">global styles</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="142">
+  <source xml:lang="en">Modifications</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="143">
+  <source xml:lang="en"><bpt id="1">`</bpt>Modification<ept id="1">`</ept> can be defined as a specific state of a block, or as a flag that holds some specific property.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="144">
+  <source xml:lang="en">This is best explained with an example: a block representing a button may have three default sizes: small, normal and big.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="145">
+  <source xml:lang="en">Instead of creating 3 different blocks, you should assign a <bpt id="2">`</bpt>modification<ept id="2">`</ept> to your block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="146">
+  <source xml:lang="en">The modification requires
+a name (e.g.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="147">
+  <source xml:lang="en"><bpt id="1">`</bpt>size<ept id="1">`</ept>) and a value (<bpt id="3">`</bpt>small<ept id="3">`</ept>, <bpt id="5">`</bpt>normal<ept id="5">`</ept> or <bpt id="7">`</bpt>big<ept id="7">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="148">
+  <source xml:lang="en">There are two reasons for a block to get a modification:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="149">
+  <source xml:lang="en">Block may alter its presentation according to its placement in the layout.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="150">
+  <source xml:lang="en">Such modification is called <bpt id="2">`</bpt>context-dependent<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="151">
+  <source xml:lang="en">An additional (postfixed) classname may change block appearance.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="152">
+  <source xml:lang="en">This is a context-independent (postfix-based) modification.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="153">
+  <source xml:lang="en"><bpt id="1">`</bpt>class=&quot;b-block b-block-postfix&quot;<ept id="1">`</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="154">
+  <source xml:lang="en">Unified portal-wide framework</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="155">
+  <source xml:lang="en">At the beginning of 2008, Yandex had been going through a major review of its internal design policies.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="156">
+  <source xml:lang="en">We decided to create a brand book (for internal use) to enforce best practices in interface design, company-wide.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="157">
+  <source xml:lang="en">This task was assigned to the front-end team, and after some pondering of options, we decided to proceed with technologies we were the most proficient with, namely: HTML and CSS code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="158">
+  <source xml:lang="en">Interfaces evolve fast, so fast that any long-term attempt to describe interfaces with words and pictures will become obsolete even before completion.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="159">
+  <source xml:lang="en">We needed a brand book that would represent our interfaces as they were: changing rapidly and still unified between different Yandex services and products.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="160">
+  <source xml:lang="en">Therefore, we decided that our interface brand book should be built with the same blocks we used to build our web sites.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="161">
+  <source xml:lang="en">Blocks could be shared between projects and represent the latest in Yandex interface design.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="162">
+  <source xml:lang="en">We decided to build a portal-wide framework of blocks so all could benefit from it and contribute back.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="163">
+  <source xml:lang="en">The project was internally named <bpt id="2">`</bpt>Lego<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="164">
+  <source xml:lang="en">Lego repository structure, first approach</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="165">
+  <source xml:lang="en">The topmost level corresponded to various available <bpt id="2">`</bpt>implementations<ept id="2">`</ept>:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="166">
+  <source xml:lang="en">css/
+html/
+js/
+xml/
+xsl/</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="167">
+  <source xml:lang="en">Each implementation contained its own sub-structure of folders.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="168">
+  <source xml:lang="en">CSS went into 3 different folders:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="169">
+  <source xml:lang="en">css/
+  block/
+    b-dropdown/
+      b-dropdown.css
+  service/
+    auto/
+      block/
+        b-head-logo-auto.css
+      head.css
+  util/
+    b-hmenu/
+      b-hmenu.css</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="170">
+  <source xml:lang="en">block — blocks shared between services</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="171">
+  <source xml:lang="en">util — general-purpose blocks ready to be opensourced</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="172">
+  <source xml:lang="en">service — CSS styles for specific Yandex services, used for branding, header/footer etc.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="173">
+  <source xml:lang="en">HTML folder structure was identical to CSS:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="174">
+  <source xml:lang="en">html/
+  block/
+    b-dropdown.html
+  service/
+    auto/
+      l-head.html
+  util/
+    b-hmenu.html</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="175">
+  <source xml:lang="en">JavaScript was yet loosely structured and used inconsistently between services:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="176">
+  <source xml:lang="en">js/
+  check-is-frame.js
+  check-session.js
+  clean-on-focus.js
+  dropdown.js
+  event.add.js
+  event.del.js</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="177">
+  <source xml:lang="en">Each service had a corresponding XML file semantically describing its page header (and providing necessary project-specific data), which in conjunction with an XSL stylesheet generated header HTML code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="178">
+  <source xml:lang="en">xml/
+  block/
+    b-head-tabs-communication.xml
+    common-services.ru.xml
+    head-messages.ru.xml
+  service/
+    auto/
+      head.xml</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="179">
+  <source xml:lang="en">XSL templates for various blocks (one file per block) were contained in one folder:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="180">
+  <source xml:lang="en">xsl/
+  block/
+    b-dropdown.xsl
+    b-head-line.xsl
+    i-common.xsl
+    i-locale.xsl
+    l-foot.xsl
+    l-head.xsl</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="181">
+  <source xml:lang="en">What about integration?</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="182">
+  <source xml:lang="en">Lego is linked to projects with the help of a version control feature known as <bpt id="2">`</bpt>svn:externals<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="183">
+  <source xml:lang="en">When a package is built for production deployment, the external library (Lego) code is embedded into the package;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="184">
+  <source xml:lang="en">this is similar to static library linking in compiled languages.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="185">
+  <source xml:lang="en">Lego provides an SVN branch for each of its major releases;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="186">
+  <source xml:lang="en">sticking to a branch in svn:externals allows for hotfixes to arrive to a project;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="187">
+  <source xml:lang="en">for extreme stability, project can freeze at a specific Lego revision.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="188">
+  <source xml:lang="en">In either case, major versions switches can be prepared and made whenever necessary.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="189">
+  <source xml:lang="en">This simple technique proved quite flexible and is employed up to this day by many Yandex services.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="190">
+  <source xml:lang="en">Per-page files</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="191">
+  <source xml:lang="en">Files linked from web pages were mostly importing corresponding block implementations from the Lego folder structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="192">
+  <source xml:lang="en">The consistency of import directives was maintained manually.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="193">
+  <source xml:lang="en">At that point, we didn't yet come to a unified file naming convention and tried several approaches.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="194">
+  <source xml:lang="en">Portal-wide framework lego 1.2 (2008)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="195">
+  <source xml:lang="en">Upon releasing Lego version 1.2, the code had been refactored and folder structure had changed.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="196">
+  <source xml:lang="en">common/
+  css/
+  js/
+  xml/
+  xsl/
+example/
+  html/
+service/
+  auto/
+    css/
+    xml/</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="197">
+  <source xml:lang="en">Blocks previously separated and placed in <bpt id="2">`</bpt>util<ept id="2">`</ept> and <bpt id="4">`</bpt>block<ept id="4">`</ept> folders are now combined.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="198">
+  <source xml:lang="en">Common styles shared by most blocks are stored in common/css.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="199">
+  <source xml:lang="en">We had been pondering the possibility of open-sourcing the code but postponed it until two years later.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="200">
+  <source xml:lang="en">common/
+  css/
+    b-dropdown/
+      arr/
+        b-dropdown.arr.css
+        b-dropdown.arr.ie.css
+        b-dropdown.css
+        b-dropdown.ie.css</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="201">
+  <source xml:lang="en">MSIE-specific styles were renamed from <bpt id="2">*</bpt>-ie.css to <ept id="2">*</ept>.ie.css.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="202">
+  <source xml:lang="en">All contents of optional CSS files (such as <bpt id="2">`</bpt>b-dropdown_arr.css<ept id="2">`</ept>) was moved into separate folders (<bpt id="4">`</bpt>arr/b-dropdown.arr.css<ept id="4">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="203">
+  <source xml:lang="en">For classname-based modification of a block, the underscore was assigned as a separator, replacing a single dash that was used previously.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="204">
+  <source xml:lang="en">This made a block name visually separated from a modificator name, and proved quite useful while developing automated tools, as it allowed for unambiguous search and pattern matching.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="205">
+  <source xml:lang="en">BEM, est.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="206">
+  <source xml:lang="en">2009</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="207">
+  <source xml:lang="en">In March of 2009, Lego 2.0 had been released.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="208">
+  <source xml:lang="en">That event marked the end of the "independent blocks" epoch and formation of the BEM methodology.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="209">
+  <source xml:lang="en">BEM stands for Block, Element, Modifier;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="210">
+  <source xml:lang="en">these are three key entities we use to develop web components.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="211">
+  <source xml:lang="en">Lego 2.0 in 2009</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="212">
+  <source xml:lang="en">What was the key update the 2.0 version had delivered?</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="213">
+  <source xml:lang="en">What really changed our understanding of the methodology was the primacy of <bpt id="2">`</bpt>block<ept id="2">`</ept> regardless of the underlying implementation technologies.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="214">
+  <source xml:lang="en">Each block is contained in a separate folder;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="215">
+  <source xml:lang="en">each technology (CSS, JS, XSL etc.) is represented by a separate file.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="216">
+  <source xml:lang="en">Documentation just gets its own file type such as <bpt id="2">`</bpt>.wiki<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="217">
+  <source xml:lang="en">What additional terms did we operate on at that time?</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="218">
+  <source xml:lang="en">Terminology excerpts</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="219">
+  <source xml:lang="en"><bpt id="1">`</bpt>Independent Block<ept id="1">`</ept> may be used on any web page and placed anywhere in the layout.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="220">
+  <source xml:lang="en">In XML we apply XSL stylesheets to, the block is represented by a node in <bpt id="2">`</bpt>lego<ept id="2">`</ept> namespace:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="221">
+  <source xml:lang="en">&lt;lego:l-head&gt;
+&lt;lego:b-head-logo&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="222">
+  <source xml:lang="en">In HTML, block container gets a classname exactly corresponding to its name:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="223">
+  <source xml:lang="en">&lt;table class=&quot;l-head&quot;&gt;
+&lt;div class=&quot;b-head-logo&quot;&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="224">
+  <source xml:lang="en">CSS:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="225">
+  <source xml:lang="en">.l-head
+.b-head-logo</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="226">
+  <source xml:lang="en">All block files (CSS, JS, HTML, XSL) are stored in block folder:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="227">
+  <source xml:lang="en">common/
+  block/
+    b-head-logo/
+      b-head-logo.css
+      b-head-logo.xsl
+      b-head-logo.js
+      b-head-logo.wiki</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="228">
+  <source xml:lang="en">In XML files that describe page structure, blocks are described with nodes in <bpt id="2">`</bpt>lego<ept id="2">`</ept> namespace;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="229">
+  <source xml:lang="en">block name prefix is omitted:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="230">
+  <source xml:lang="en">&lt;lego:b-head-logo&gt;
+    &lt;lego:name/&gt;
+&lt;/lego:b-head-logo&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="231">
+  <source xml:lang="en">HTML classes inside the block have their prefixes omitted as well.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="232">
+  <source xml:lang="en">&lt;div class=&quot;b-head-logo&quot;&gt;
+    &lt;span class=&quot;name&quot;&gt;Авто&lt;/span&gt;
+&lt;/div&gt;
+
+.b-head-logo .name { ... }</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="233">
+  <source xml:lang="en">Files related to inner elements each get their own folder:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="234">
+  <source xml:lang="en">common/
+  block/
+    b-head-logo/
+      name/
+        b-head-logo.name.css
+        b-head-logo.name.png
+        b-head-logo.name.wiki</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="235">
+  <source xml:lang="en">Modifiers in XML are specified as node attributes in <bpt id="2">`</bpt>lego<ept id="2">`</ept> namespace:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="236">
+  <source xml:lang="en">&lt;lego:b-head-tabs lego:theme=&quot;grey&quot;&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="237">
+  <source xml:lang="en">In HTML, an extra classname is added:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="238">
+  <source xml:lang="en">&lt;div class=&quot;b-head-tabs b-head-tabs_grey&quot;&gt;
+
+.b-head-tabs_grey { ... }</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="239">
+  <source xml:lang="en">Modifier files (styles etc.) go into separate folders prefixed with an underscore:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="240">
+  <source xml:lang="en">common/
+  block/
+    b-head-logo/
+      _theme/
+        b-head-logo_gray.css
+        b-head-logo_gray.png
+        b-head-logo_gray.wiki</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="241">
+  <source xml:lang="en">Declaration in XML</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="242">
+  <source xml:lang="en">All Lego components used in a project are described in an XML file:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="243">
+  <source xml:lang="en">&lt;lego:page&gt;
+    &lt;lego:l-head&gt;
+        &lt;lego:b-head-logo&gt;
+            &lt;lego:name/&gt;
+        &lt;/lego:b-head-logo&gt;
+
+        &lt;lego:b-head-tabs type=&quot;search-and-content&quot;/&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="244">
+  <source xml:lang="en">This XML allows for CSS imports to be generated:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="245">
+  <source xml:lang="en">This example shows that common styles are imported first;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="246">
+  <source xml:lang="en">then, project styles add extra definitions or redefine some of the common blocks.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="247">
+  <source xml:lang="en">This makes project-specific changes possible while maintaining a common shared codebase.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="248">
+  <source xml:lang="en">Same XML declarations allow for JS includes to be autogenerated.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="249">
+  <source xml:lang="en">XSL templates imports are autogenerated as well, using the same XML-based definitions:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="250">
+  <source xml:lang="en">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; version=&quot;1.0&quot;&gt;
+
+&lt;xsl:import href=&quot;../../common/block/i-common/i-common.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/i-items/i-items.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/l-head/l-head.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-logo/b-head-logo.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-logo/name/b-head-logo.name.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-tabs/b-head-tabs.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-dropdown/b-dropdown.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-pseudo-link/b-pseudo-link.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-search/b-head-search.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-search/b-search.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-search/input/b-search.input.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-search/sample/b-search.sample.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-search/precise/b-search.precise.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-search/button/b-search.button.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-userinfo/b-head-userinfo.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-user/b-user.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-userinfo/service/b-head-userinfo.service.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-userinfo/setup/b-head-userinfo.setup.xsl&quot;/&gt;
+&lt;xsl:import href=&quot;../../common/block/b-head-userinfo/region/b-head-userinfo.region.xsl&quot;/&gt;
+
+&lt;/xsl:stylesheet&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="251">
+  <source xml:lang="en">Code generation was an important step forward;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="252">
+  <source xml:lang="en">from this point onwards, we don't have to maintain dependencies manually.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="253">
+  <source xml:lang="en">CSS selector speed revisited, 2009</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="254">
+  <source xml:lang="en">During major redesign of Yandex.Mail service in 2009, interface responsiveness and overall speed were the key factors.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="255">
+  <source xml:lang="en">It was our goal to release a web application that feels as fast as a piece of desktop software, and maybe even faster.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="256">
+  <source xml:lang="en">Client-side (in-browser) XSL transformations were employed as a main templating solution (XML with all the data was loaded separately).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="257">
+  <source xml:lang="en">XSL transforms are applied really fast, but the resulting HTML code takes significant time to be appended to the page DOM.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="258">
+  <source xml:lang="en">However, disabling all CSS made this problem go away magically.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="259">
+  <source xml:lang="en">While studying various factors that could have affected the rendering speed, CSS selectors were identified as a major source of the slowdown.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="260">
+  <source xml:lang="en">The bigger the DOM tree and the CSS stylesheet, the longer it takes for all CSS rules to be applied.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="261">
+  <source xml:lang="en">There’s a summary of our study available (in Russian):
+<bpt id="l2">[</bpt>completely independent blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>http://clubs.ya.ru/bem/replies.xml?item_no=338<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="262">
+  <source xml:lang="en">It turned out there is a way to make CSS many times faster: switching to simple selectors and eliminating CSS cascade wherever possible.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="263">
+  <source xml:lang="en">Selectors based on a single classname are quick and browser handles them with ease.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="264">
+  <source xml:lang="en">We already had a solution that could use such selectors: the so-called
+<bpt id="l2">[</bpt>completely independent blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>http://clubs.ya.ru/bem/replies.xml?item_no=338<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="265">
+  <source xml:lang="en">All Lego blocks were refactored to follow the completely independent blocks restrictions.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="266">
+  <source xml:lang="en">As soon as all classnames become unique, most rules require a single class query and work way faster.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="267">
+  <source xml:lang="en">&lt;div class=&quot;b-head-logo&quot;&gt;
+    &lt;span class=&quot;b-head-logo__name&quot;&gt;
+        Auto
+    &lt;/span&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="268">
+  <source xml:lang="en">Establishing naming conventions</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="269">
+  <source xml:lang="en">After taking several attempts to modify naming conventions, we agreed on some naming principles that hadn't changed since then.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="270">
+  <source xml:lang="en">In file names, the dot separator was replaced by double underscore <bpt id="2">`</bpt>__<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="271">
+  <source xml:lang="en">Before: <bpt id="2">`</bpt>b-block.elem.css<ept id="2">`</ept>,
+after: <bpt id="4">`</bpt>b-block__elem.css<ept id="4">`</ept>;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="272">
+  <source xml:lang="en">thus, file names were made consistent with CSS selectors.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="273">
+  <source xml:lang="en">Block elements were allowed to have their own modifiers, too.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="274">
+  <source xml:lang="en"><bpt id="1">`</bpt>.b-block__elem_theme_green<ept id="1">`</ept>, similar to <bpt id="3">`</bpt>.b-block_theme_green<ept id="3">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="275">
+  <source xml:lang="en">Modifiers were changed to be a key/value pair:
+Before: <bpt id="2">`</bpt>.b-menu__item_current<ept id="2">`</ept>
+After: <bpt id="4">`</bpt>.b-menu__item_state_current<ept id="4">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="276">
+  <source xml:lang="en">This change turned out to be useful when working with modifiers from JavaScript.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="277">
+  <source xml:lang="en">Going open source (2010)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="278">
+  <source xml:lang="en">In 2010, we had published some code on <bpt id="l2">[</bpt>our GitHub account<ept id="l2">]</ept><bpt id="l3">(</bpt>https://github.com/bem<ept id="l3">)</ept> to continue growing as an open source project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="279">
+  <source xml:lang="en">Creating bem-bl library</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="280">
+  <source xml:lang="en">Blocks from Lego are being gradually ported to <bpt id="l2">[</bpt>bem-bl<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/libs/bem-bl/<ept id="l3">)</ept>, a library of blocks we consider useful for any web site, not just a Yandex project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="281">
+  <source xml:lang="en">As blocks are gradually open-sourced, we improve code and add new features.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="282">
+  <source xml:lang="en">This is very much a work in progress, and we invite everybody to make pull requests :-)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="283">
+  <source xml:lang="en">We also develop <bpt id="l2">[</bpt>bem-tools<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/bem/bem-tools/<ept id="l3">)</ept>, a set of helper scripts and automation utilities that make working with BEM files easier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="284">
+  <source xml:lang="en">This is mostly done with Node.js, to keep the barriers low for front-end people familiar with JavaScript and willing to contribute.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="285">
+  <source xml:lang="en">Redefinition levels in BEM</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="286">
+  <source xml:lang="en">One size never fits all...</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="287">
+  <source xml:lang="en">but one BEM does!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="288">
+  <source xml:lang="en">Because blocks and elements are represented on a file system as files and folders, and BEM file structure is unified and based mostly on semantic criteria, we can easily redefine a part of a BEM block, or add more functionality.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="289">
+  <source xml:lang="en">Similar to the way we extend objects in JavaScript, BEM blocks can be extended using so-called "redefinition levels".</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="290">
+  <source xml:lang="en">Typical redefinition levels may be defined like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="291">
+  <source xml:lang="en">public bem-bl library pulled from github, extended by...</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="292">
+  <source xml:lang="en">internal block library (such as Lego), extended by..</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="293">
+  <source xml:lang="en">project-specific block library</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="294">
+  <source xml:lang="en">You're free to go and add more levels.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="295">
+  <source xml:lang="en">You might need some page-specific block improvements...</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="296">
+  <source xml:lang="en">oh, I believe you got the idea.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="297">
+  <source xml:lang="en">Example:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="298">
+  <source xml:lang="en">bem-bl/
+  b-logo/
+lego/
+  b-logo/
+auto/
+  blocks/
+    b-logo/</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="299">
+  <source xml:lang="en">It is also possible to use a custom file structure on a redefinition level;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="300">
+  <source xml:lang="en">as long as you follow the BEM concept, all you need is to configure our build tools according to your new cool structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="301">
+  <source xml:lang="en">We won't go into much detail here, but there's a configuration file for that:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="302">
+  <source xml:lang="en">.bem/
+  level.js</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="303">
+  <source xml:lang="en">You can specify different file naming patterns, or even flatten your folder structure completely.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="304">
+  <source xml:lang="en">BEMHTML templating engine</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="305">
+  <source xml:lang="en">We tried different templating solutions, and ended up developing our own, called BEMHTML.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="306">
+  <source xml:lang="en">This templating engine:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="307">
+  <source xml:lang="en">operates on core BEM (Block, Element, Modifier) terms</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="308">
+  <source xml:lang="en">supports redefinition levels: build common blocks and tailor them to your needs</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="309">
+  <source xml:lang="en">precompiles templates into JavaScript code that runs either in a browser, or on a server</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="310">
+  <source xml:lang="en">More details on BEMHTML will be available soon.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="311">
+  <source xml:lang="en">BEM: try this at home!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="312">
+  <source xml:lang="en">As you can see, BEM has a long history of trial and error.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="313">
+  <source xml:lang="en">It took Yandex a while to figure out what's important and what’s not.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="314">
+  <source xml:lang="en">The foundation of the BEM methodology are Block, Element and Modifier;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="315">
+  <source xml:lang="en">these entities are consistently used in all our projects.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="316">
+  <source xml:lang="en">BEM as we know and use it today is not the final truth, nor the revelation, but something constantly being driven by practice, and tested on real-life projects.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="317">
+  <source xml:lang="en">You can follow this methodology to the extent that you find useful.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="318">
+  <source xml:lang="en">BEM is quite flexible, as it is mostly a methodology;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="319">
+  <source xml:lang="en">there is no such thing as BEM API, or BEM SDK.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="320">
+  <source xml:lang="en">While we encourage you to try and use the open source tools we provide, which are indeed a BEM framework, you might find BEM principles good enough to be embedded into your products or technologies in some other way.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="321">
+  <source xml:lang="en">BEM is a development methodology that allows team members to collaborate and communicate ideas using the unified language consisting of simple yet powerful terms: blocks, elements, modifiers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="322">
+  <source xml:lang="en">There is no such thing as "true BEM", and we don't try to create one.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="323">
+  <source xml:lang="en">The implementation we offer is consistent and we like it a lot, but you may create your own and still call it BEM, as long as you stay true to the core principles.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="324">
+  <source xml:lang="en">BEM is a collection of ideas and methods, a <bpt id="2">*</bpt>methodology<ept id="2">*</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="325">
+  <source xml:lang="en">Each company and each team may integrate it into an existing workflow gradually, finding out what works best for them.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="326">
+  <source xml:lang="en">I assume you've got a web project and want to give BEM a try by using it here and there in your HTML and CSS.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="327">
+  <source xml:lang="en">That's great!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="328">
+  <source xml:lang="en">It's how we started using BEM, too :-)</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="329">
+  <source xml:lang="en">Choose an approach you find the easiest to understand and maintain, for example let your block elements have simple (non-prefixed) classes, and use modifiers with a key/value pair:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="330">
+  <source xml:lang="en">.b-block
+.b-block .elem
+.b-block_size_l
+.b-block .elem_size_l</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="331">
+  <source xml:lang="en">You can go one step further and assign a specific class to all DOM nodes inside your block that have a semantic meaning (we call that "completely independent blocks", see above):</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="332">
+  <source xml:lang="en">.b-block
+.b-block__elem
+.b-block_size_l
+.b-block__elem_size_l</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="333">
+  <source xml:lang="en">Find CSS prefixes too long to type?</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="334">
+  <source xml:lang="en">Remove them!</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="335">
+  <source xml:lang="en">.block
+.block__elem
+.block_size_l
+.block__elem_size_l</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="336">
+  <source xml:lang="en">This is a perfect opportunity to try BEM concepts, and since we don't really have those strict rules, you're not really breaking anything as long as you hold on to the main principle of blocks, elements and modifiers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="337">
+  <source xml:lang="en">Read more about <bpt id="l2">[</bpt>putting blocks to filesystem<ept id="l2">]</ept><bpt id="l3">(</bpt>/method/filesystem/<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

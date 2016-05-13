@@ -1,0 +1,684 @@
+# %%%1%%%
+%%%2%%% %%%3%%%
+
+%%%4%%%
+
+%%%5%%%
+%%%6%%%
+
+%%%7%%%
+
+## %%%8%%%
+%%%9%%% %%%10%%%
+
+%%%11%%%
+
+```files
+%%%12%%%
+```
+
+%%%13%%% %%%14%%%
+
+%%%15%%%
+
+%%%16%%% %%%17%%%
+
+%%%18%%%
+
+```css
+/* %%%19%%% */
+    #body
+    {
+        font: 0.8em Arial, sans-serif;
+
+        margin: 0.5em 1.95% 0.5em 2%;
+    }
+/* %%%20%%% */
+
+/* %%%21%%% */
+    .banner
+    {
+        text-align: center;
+    }
+
+    .banner a
+    {
+        text-decoration: none;
+    }
+/* %%%22%%% */
+```
+
+%%%23%%%
+
+%%%24%%%
+
+%%%25%%%
+
+## %%%26%%%
+%%%27%%%
+%%%28%%%
+
+%%%29%%%
+
+%%%30%%%
+
+```css
+/* %%%31%%% */
+    .result .albums .info
+    {
+        padding-right: 8.5em;
+    }
+
+    .result .albums .title
+    {
+        float: left;
+        padding-bottom: 0.3em;
+    }
+
+    .result .albums .album .listen
+    {
+        float: left;
+        padding: 0.3em 1em 0 1em;
+    }
+
+    .result .albums .album .buy
+    {
+        float: left;
+        padding: 0.4em 1em 0 1.6em;
+    }
+
+    .result .albums .info i
+    {
+        font-size: 85%;
+    }
+/* %%%32%%% */
+```
+
+%%%33%%%
+
+%%%34%%%
+
+```css
+/* %%%35%%% */
+    #foot div
+    {
+        height: 71px;
+        background: transparent url(../i/foot-1.png) 4% 50% no-repeat;
+    }
+
+    #foot div div
+    {
+        background-position: 21%;
+        background-image: url(../i/foot-2.png);
+    }
+
+    #foot div div div
+    {
+        background-position: 38%;
+        background-image: url(../i/foot-3.png);
+    }
+
+    #foot div div div div
+    {
+        background-position: 54%;
+        background-image: url(../i/foot-4.png);
+    }
+
+    #foot div div div div div
+    {
+        background-position: 71%;
+        background-image: url(../i/foot-5.png);
+    }
+
+    #foot div div div div div div
+    {
+        background-position: 87%;
+        background-image: url(../i/foot-6.png);
+    }
+/* %%%36%%% */
+```
+
+%%%37%%%
+
+%%%38%%%
+
+%%%39%%%
+
+### %%%40%%%
+%%%41%%% %%%42%%%
+
+%%%43%%%
+
+%%%44%%%
+%%%45%%%
+
+%%%46%%%
+%%%47%%%
+
+%%%48%%%
+
+%%%49%%%
+ * %%%50%%%
+   %%%51%%%
+ * %%%52%%%
+   %%%53%%%
+ * %%%54%%%
+   %%%55%%%
+   %%%56%%%
+
+%%%57%%%
+ * %%%58%%%
+   %%%59%%% %%%60%%%
+   %%%61%%%
+   %%%62%%%
+
+### %%%63%%%
+%%%64%%% %%%65%%% %%%66%%%
+
+%%%67%%% %%%68%%% %%%69%%%
+
+%%%70%%% %%%71%%%
+
+%%%72%%%
+
+```css
+%%%73%%%
+```
+
+### %%%74%%%
+%%%75%%%
+
+%%%76%%%
+
+%%%77%%%
+
+%%%78%%%
+
+%%%79%%%
+
+%%%80%%%
+
+%%%81%%%
+
+```files
+%%%82%%%
+```
+
+%%%83%%%
+
+```css
+/* %%%84%%% */
+    body
+    {
+        font: 0.8em Arial, sans-serif;
+
+        padding: 0 0 2em 0;
+        background: #fff;
+    }
+
+    * html body
+    {
+        font-size: 80%;
+    }
+```
+
+%%%85%%%
+
+```css
+/* %%%86%%% */
+    /* %%%87%%% */
+        .b-artist .i i
+        {
+            top: expression(7 + (90 - this.parentNode.getElementsByTagName('img')[0].height)/2);
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/sticker-lt.png', sizingMethod='crop');
+        }
+```
+
+## %%%88%%%
+%%%89%%%
+
+%%%90%%%
+
+%%%91%%%
+
+%%%92%%%
+
+%%%93%%%
+
+%%%94%%%
+
+%%%95%%%
+
+```css
+%%%96%%%
+```
+
+%%%97%%% %%%98%%%
+
+%%%99%%% %%%100%%%
+
+%%%101%%% %%%102%%%
+
+## %%%103%%%
+%%%104%%%
+
+%%%105%%%
+
+%%%106%%%
+
+### %%%107%%%
+%%%108%%%
+  1. %%%109%%%
+  1. %%%110%%%
+  1. %%%111%%%
+
+%%%112%%%
+%%%113%%%
+
+#### %%%114%%%
+%%%115%%%
+
+%%%116%%%
+
+%%%117%%% %%%118%%%
+
+%%%119%%%
+
+#### %%%120%%%
+%%%121%%%
+
+%%%122%%%
+%%%123%%%
+
+%%%124%%%
+
+  1. %%%125%%%
+    %%%126%%%
+  2. %%%127%%%
+    %%%128%%%
+
+%%%129%%%
+
+%%%130%%%
+
+#### %%%131%%%
+%%%132%%%
+
+%%%133%%%
+
+  * %%%134%%%
+    %%%135%%%
+  * %%%136%%%
+    %%%137%%%
+  * %%%138%%%
+    %%%139%%%
+  * %%%140%%%
+    %%%141%%%
+
+#### %%%142%%%
+%%%143%%%
+
+%%%144%%%
+
+%%%145%%% %%%146%%% %%%147%%%
+
+%%%148%%%
+  1. %%%149%%%
+     %%%150%%%
+  1. %%%151%%% %%%152%%%
+     %%%153%%%
+
+## %%%154%%%
+%%%155%%% %%%156%%%
+
+%%%157%%%
+
+%%%158%%% %%%159%%%
+
+%%%160%%% %%%161%%%
+
+%%%162%%% %%%163%%%
+
+### %%%164%%%
+%%%165%%%
+
+```files
+%%%166%%%
+```
+
+%%%167%%%
+
+%%%168%%%
+
+```files
+%%%169%%%
+```
+
+ 1. block — blocks shared between services
+ 1. util — general-purpose blocks ready to be opensourced
+ 1. service — CSS styles for specific Yandex services, used for branding, header/footer etc.
+
+%%%173%%%
+
+```files
+%%%174%%%
+```
+
+%%%175%%%
+
+```files
+%%%176%%%
+```
+
+%%%177%%%
+
+```files
+%%%178%%%
+```
+
+%%%179%%%
+
+```files
+%%%180%%%
+```
+
+%%%181%%%
+
+%%%182%%%
+
+%%%183%%% %%%184%%%
+
+%%%185%%% %%%186%%% %%%187%%% %%%188%%%
+
+%%%189%%%
+
+#### %%%190%%%
+%%%191%%%
+
+```css
+@import url(../../block/l-head/l-head.css);
+@import url(../../block/b-head-logo/b-head-logo.css);
+@import url(../../block/b-head-logo/b-head-logo_name.css);
+@import url(block/b-head-logo-auto.css);
+```
+
+%%%192%%%
+
+%%%193%%%
+
+## %%%194%%%
+%%%195%%%
+
+```files
+%%%196%%%
+```
+
+%%%197%%% %%%198%%%
+
+%%%199%%%
+
+```files
+%%%200%%%
+```
+
+%%%201%%%
+
+%%%202%%%
+
+%%%203%%%
+
+%%%204%%%
+
+## %%%205%%% %%%206%%%
+%%%207%%%
+
+%%%208%%%
+
+%%%209%%% %%%210%%%
+
+### %%%211%%%
+%%%212%%%
+
+%%%213%%%
+
+%%%214%%% %%%215%%% %%%216%%%
+
+%%%217%%%
+
+#### %%%218%%%
+%%%219%%%
+
+%%%220%%%
+
+```xml
+%%%221%%%
+```
+
+%%%222%%%
+
+```html
+%%%223%%%
+```
+
+%%%224%%%
+
+```css
+%%%225%%%
+```
+
+%%%226%%%
+
+```files
+%%%227%%%
+```
+
+%%%228%%% %%%229%%%
+
+```xml
+%%%230%%%
+```
+
+%%%231%%%
+
+```html
+%%%232%%%
+```
+
+%%%233%%%
+
+```files
+%%%234%%%
+```
+
+%%%235%%%
+
+```xml
+%%%236%%%
+```
+
+%%%237%%%
+
+```html
+%%%238%%%
+```
+
+%%%239%%%
+
+```files
+%%%240%%%
+```
+
+#### %%%241%%%
+%%%242%%%
+
+```xml
+%%%243%%%
+```
+
+%%%244%%%
+
+```css
+@import url(../../common/block/global/_type/global_reset.css);
+@import url(../../common/block/l-head/l-head.css);
+@import url(../../common/block/b-head-logo/b-head-logo.css);
+@import url(../../common/block/b-head-logo/name/b-head-logo.name.css);
+@import url(../../common/block/b-head-tabs/b-head-tabs.css);
+@import url(../../common/block/b-dropdown/b-dropdown.css);
+@import url(../../common/block/b-dropdown/text/b-dropdown.text.css);
+@import url(../../common/block/b-pseudo-link/b-pseudo-link.css);
+@import url(../../common/block/b-dropdown/arrow/b-dropdown.arrow.css);
+@import url(../../common/block/b-head-search/b-head-search.css);
+@import url(../../common/block/b-head-search/arrow/b-head-search.arrow.css);
+@import url(../../common/block/b-search/b-search.css);
+@import url(../../common/block/b-search/input/b-search.input.css);
+@import url(../../common/block/b-search/sample/b-search.sample.css);
+@import url(../../common/block/b-search/precise/b-search.precise.css);
+@import url(../../common/block/b-search/button/b-search.button.css);
+@import url(../../common/block/b-head-userinfo/b-head-userinfo.css);
+@import url(../../common/block/b-head-userinfo/user/b-head-userinfo.user.css);
+@import url(../../common/block/b-user/b-user.css);
+@import url(../../common/block/b-head-userinfo/service/b-head-userinfo.service.css);
+@import url(../../common/block/b-head-userinfo/setup/b-head-userinfo.setup.css);
+@import url(../../common/block/b-head-userinfo/region/b-head-userinfo.region.css);
+@import url(block/b-head-logo/b-head-logo.css);
+@import url(block/b-head-search/b-head-search.css);
+```
+
+%%%245%%% %%%246%%% %%%247%%%
+
+%%%248%%%
+
+```js
+include("../../common/block/i-locale/i-locale.js");
+include("../../common/block/b-dropdown/b-dropdown.js");
+include("../../common/block/b-search/sample/b-search.sample.js");
+include("../../common/block/b-head-userinfo/user/b-head-userinfo.user.js");
+```
+
+%%%249%%%
+
+```xml
+%%%250%%%
+```
+
+%%%251%%% %%%252%%%
+
+### %%%253%%%
+%%%254%%% %%%255%%%
+
+%%%256%%% %%%257%%% %%%258%%%
+
+%%%259%%% %%%260%%%
+
+%%%261%%%
+
+%%%262%%% %%%263%%% %%%264%%%
+
+%%%265%%% %%%266%%%
+
+```html
+%%%267%%%
+```
+
+### %%%268%%%
+%%%269%%%
+
+%%%270%%% %%%271%%% %%%272%%%
+
+%%%273%%%
+
+%%%274%%%
+
+%%%275%%%
+
+%%%276%%%
+
+## %%%277%%%
+%%%278%%%
+
+#### %%%279%%%
+%%%280%%% %%%281%%%
+
+%%%282%%%
+
+%%%283%%% %%%284%%%
+
+### %%%285%%%
+%%%286%%% %%%287%%% %%%288%%% %%%289%%%
+
+%%%290%%%
+
+ 1. %%%291%%%
+ 1. %%%292%%%
+ 1. %%%293%%%
+
+%%%294%%% %%%295%%% %%%296%%%
+
+%%%297%%%
+
+```files
+%%%298%%%
+```
+
+%%%299%%% %%%300%%%
+
+%%%301%%%
+
+```files
+%%%302%%%
+```
+
+%%%303%%%
+
+### %%%304%%%
+%%%305%%%
+
+%%%306%%%
+
+ 1. %%%307%%%
+ 1. %%%308%%%
+ 1. %%%309%%%
+
+%%%310%%%
+
+## %%%311%%%
+%%%312%%% %%%313%%%
+
+%%%314%%% %%%315%%%
+
+%%%316%%% %%%317%%%
+
+%%%318%%% %%%319%%% %%%320%%%
+
+%%%321%%%
+
+%%%322%%% %%%323%%%
+
+%%%324%%%
+%%%325%%%
+
+%%%326%%%
+
+%%%327%%% %%%328%%%
+
+%%%329%%%
+
+```css
+%%%330%%%
+```
+
+%%%331%%%
+
+```css
+%%%332%%%
+```
+
+%%%333%%% %%%334%%%
+
+```css
+%%%335%%%
+```
+
+%%%336%%%
+
+%%%337%%%

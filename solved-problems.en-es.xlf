@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file 
+    source-language="ru" target-language="en" datatype="markdown">
+    <header>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">Using BEM to solve common issues in web development</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">The BEM methodology defines <bpt id="l2">[</bpt>CSS selector naming conventions<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.en.md<ept id="l3">)</ept> that solve a range of web development problems and address the following issues:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How to simplify code and facilitate refactoring<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-to-simplify-code-and-facilitate-refactoring<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How to get self-documenting code<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-to-get-self-documenting-code<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How to start reusing code without letting components influence each other<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-to-start-reusing-code-without-letting-components-influence-each-other<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How to host multiple entities on the same DOM node and avoid copy and paste<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-to-host-multiple-entities-on-the-same-dom-node-and-avoid-copy-and-paste<ept id="l2">)</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en">How to simplify code and facilitate refactoring</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="1">**</bpt>Problem<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">During project layout, interface components are given names based on the context the developer is working with.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">The context is usually a page or a part of one.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">When just one developer is working with the layout for a brief period, name collisions are easily avoided.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">But if multiple people are working on a project, or edits need to be made at some later point, it is difficult to keep track of component name dependencies.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">In large projects, modifying a single class may lead to dozens of affected pages.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">For example, the following class names can be used for creating a navigation menu:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;item active&quot;&gt;&lt;a class=&quot;link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">They might have the following CSS rules:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">If we need to add another component containing menu items to the page, the styles for the new <bpt id="2">`</bpt>item<ept id="2">`</ept> will affect the items from the existing navigation menu.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">Or let's say we need to change the rules for the <bpt id="2">`</bpt>.active<ept id="2">`</ept> class in the navigation menu.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en">We can't tell from the name which components use it.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en">For example, there could be a <bpt id="2">`</bpt>&lt;div class=&quot;button active&quot;&gt;Click me!&lt;/div&gt;<ept id="2">`</ept> button on another page.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en">In that case, changing the rules for <bpt id="2">`</bpt>.active<ept id="2">`</ept> would affect the style of that button.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">In order to find out whether styles can be painlessly changed for the <bpt id="2">`</bpt>.active<ept id="2">`</ept> class, the developer will have to examine the structure of the entire page or project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">Any change consumes a significant amount of time just searching for dependent components.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en"><bpt id="1">**</bpt>Solution<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">The BEM methodology solves the collision issue using <bpt id="l2">[</bpt>naming conventions for CSS classes<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.en.md#css-selector-naming-convention<ept id="l3">)</ept>, providing unique names for all components and their parts.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">Using naming conventions allows us to:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">Define unique names for <bpt id="l2">[</bpt>BEM entities<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#bem-entity<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">Track hierarchical relationships within a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en">Simplify the code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">Get <bpt id="l2">[</bpt>self-documenting code<ept id="l2">]</ept><bpt id="l3">(</bpt>#how-to-get-self-documenting-code<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">Let's take the same navigation menu example:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;item active&quot;&gt;&lt;a class=&quot;link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">But we'll apply BEM naming conventions to it.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">The <bpt id="2">`</bpt>nav<ept id="2">`</ept> class will designate the block name, <bpt id="4">`</bpt>nav__item<ept id="4">`</ept> and <bpt id="6">`</bpt>nav__link<ept id="6">`</ept> will designate the element names, and <bpt id="8">`</bpt>nav__item_active<ept id="8">`</ept> will indicate the name of a modifier for the <bpt id="10">`</bpt>item<ept id="10">`</ept> element.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">In this case, the entry will look like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;nav__item nav__item_active&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">And the CSS will look like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">The new CSS class names contain all the information about the block structure.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">This means that we no longer need to look at the page HTML code to determine all the dependencies.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en">The selector always contains knowledge of which blocks or elements are affected by its rules (in this case, the <bpt id="2">`</bpt>nav__item<ept id="2">`</ept> element).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">The developer doesn't need to think about the possibility of a <bpt id="2">`</bpt>&lt;div class=&quot;button active&quot;&gt;Click me!&lt;/div&gt;<ept id="2">`</ept> button existing somewhere, because its CSS rules will be written as <bpt id="4">`</bpt>.button_active<ept id="4">`</ept> and won't depend on the rules for the <bpt id="6">`</bpt>active<ept id="6">`</ept> modifier for the menu item (<bpt id="8">`</bpt>nav__item_active<ept id="8">`</ept>).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">Using long names has the following disadvantages:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">The resulting code base is heavier.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">This problem is solved by using <bpt id="2">`</bpt>gzip<ept id="2">`</ept>, which compresses repetitive sequences in names.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">More time is spent on writing classes.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">This burden is eased by using autocomplete in the editor, along with CSS preprocessors and template engines that automatically add prefixes.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">Long class names provide explicit connections between parts of components, which saves time on analyzing the project architecture.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">How to get self-documenting code</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en"><bpt id="1">**</bpt>Problem<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">When switching to a new project, a developer invests considerable effort learning how everything is organized, where things are, and how the code works.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">In some cases, more time is spent on this investigation than on implementing functionality or fixing bugs.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en"><bpt id="1">**</bpt>Solution<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">One of the goals of BEM is to make it clear what a piece of code does just by the class names.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">The idea of self-documenting code is that looking at CSS classes, variables, and functions provides enough information on how the code works and how the interface components interact.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">Using BEM, you can get HTML with class names that show the interaction of the following parts of code:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">Independent <bpt id="l2">[</bpt>blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#block<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Elements<ept id="l1">]</ept><bpt id="l2">(</bpt>../key-concepts/key-concepts.en.md#element<ept id="l2">)</ept> (child components) of a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Modifiers<ept id="l1">]</ept><bpt id="l2">(</bpt>../key-concepts/key-concepts.en.md#modifier<ept id="l2">)</ept> of a block or an element.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">Here is an example with a search form on a website.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">We won't look at the HTML.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">We'll try to just read the CSS and understand which part of the interface it describes.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">Implementation of the form in a classical layout:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en">This doesn't reflect the relationships between:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">Components and their parts.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">Selectors and specific components of the interface that they are related to.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">Using global selectors makes the project code non-extensible, as even the smallest changes will entail edits to all the dependent rules.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">Let's write the CSS for classes:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">The code is more informative.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">Now it is clear that there is a form, a field, and a <bpt id="2">`</bpt>submit<ept id="2">`</ept> component.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">But these names still don't tell us whether <bpt id="2">`</bpt>field<ept id="2">`</ept> belongs to <bpt id="4">`</bpt>form<ept id="4">`</ept>, or what will happen if there are multiple fields or forms on the page.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">Once again we must return to the HTML.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en">We'll rewrite the example using <bpt id="l2">[</bpt>BEM naming conventions<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.en.md<ept id="l3">)</ept>:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">Now we can see how this code works.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">The CSS class names show that:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">There is a form implemented by the <bpt id="2">`</bpt>form<ept id="2">`</ept> block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">The <bpt id="2">`</bpt>form_search<ept id="2">`</ept> modifier indicates that this is a search form.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">The form has nested elements: <bpt id="2">`</bpt>form__field<ept id="2">`</ept> and <bpt id="4">`</bpt>form__submit-button<ept id="4">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">Following the BEM naming convention allows us to understand the structure of a block without studying the HTML in detail.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">Even if another field appears on the page (besides <bpt id="2">`</bpt>form__field<ept id="2">`</ept>), its rules won't affect the search form elements in any way.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">The new field will be implemented as an element of another block, and will have its own unique name.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">For example, <bpt id="2">`</bpt>attach__field<ept id="2">`</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en">The BEM naming rules help to make the project code unambiguous and informative.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">This reduces the learning curve for other developers.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">How to start reusing code without letting components influence each other</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en"><bpt id="1">**</bpt>Problem<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">The developer uses a similar set of components when developing pages in the same project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">For example, a page may have several types of <bpt id="2">`</bpt>menu<ept id="2">`</ept> blocks.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">We'll use the navigation menu example to examine this problem:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;item&quot;&gt;&lt;a class=&quot;link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">The CSS styles and <bpt id="2">`</bpt>item<ept id="2">`</ept> can be defined like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">If additional components containing items will be added to the page, another code block will appear with the <bpt id="2">`</bpt>item<ept id="2">`</ept> class, for example:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">&lt;div class=&quot;snippets&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;&lt;/h2&gt;
+        &lt;img class=&quot;thumb&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">In this case, the CSS can be formatted with cascades.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en">To do this, you only need to extend the rules already written for <bpt id="2">`</bpt>.item<ept id="2">`</ept>:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">Code like this will work until the page has to be changed.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">For example, until you have to move the menu items, use the code somewhere else separate from the parent component, or nest a navigation menu in the <bpt id="2">`</bpt>snippets<ept id="2">`</ept> block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Using cascades increases coupling of interface components of the interface.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en">You can't fix one component without affecting the style of another one.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en"><bpt id="1">**</bpt>Solution<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en"><bpt id="l1">[</bpt>CSS selector naming rules<ept id="l1">]</ept><bpt id="l2">(</bpt>../naming-convention/naming-convention.en.md<ept id="l2">)</ept> make it possible to change specific points without affecting dependent components.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">In BEM, every block has a unique name and is self-sufficient.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">Let's write the same code in conformance with BEM naming rules:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="en">In this case, adding a new <bpt id="2">`</bpt>item<ept id="2">`</ept> to the page will look like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="en">&lt;div class=&quot;snippets&quot;&gt;
+    &lt;div class=&quot;snippets__item&quot;&gt;
+        &lt;h2 class=&quot;snippets__title&quot;&gt;&lt;/h2&gt;
+        &lt;img class=&quot;snippets__thumb&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="en">The <bpt id="2">`</bpt>snippets__item<ept id="2">`</ept> item will have unique CSS rules that only apply to itself:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="en">Changes to <bpt id="2">`</bpt>nav__item<ept id="2">`</ept> do not affect <bpt id="4">`</bpt>snippets__item<ept id="4">`</ept>, since the items get different unique names due to the <bpt id="l6">[</bpt>namespace<ept id="l6">]</ept><bpt id="l7">(</bpt>https://en.wikipedia.org/wiki/Namespace#In_programming_languages<ept id="l7">)</ept> defined by the block name.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="en">This allows forming independent CSS rules for all elements of a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="en">This approach makes it possible to protect elements from mutually affecting each other — elements are always part of a block.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="en">The same principle is used by Shadow DOM in Web Components.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="en">However, in contrast to Shadow DOM, BEM naming conventions are applied without regard for browser compatibility.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="en">The <bpt id="2">`</bpt>snippets<ept id="2">`</ept> and <bpt id="4">`</bpt>nav<ept id="4">`</ept> blocks can be reused and moved within the page or project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="en">The uniqueness of class names based on BEM naming rules allows blocks to be independent of each other.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="en">Using cascades in BEM</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="en">The BEM methodology allows using cascades.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="en">For example, a cascade is appropriate for changing elements depending on the state of the block or the theme assigned to it:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="en"><bpt id="1">**</bpt>Important!<ept id="1">**</ept> Applying a cascade increases code coupling and makes reuse impossible.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="en">How to host multiple entities on the same DOM node and avoid copy and paste</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="en"><bpt id="1">**</bpt>Problem<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="en">When working with projects, an implemented functionality may need to be reused.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="en">In many cases, this issue is resolved by copying the desired chunk of code to the new component.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="en">This approach has the following disadvantages:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="en">The project's code base increases.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="en">Debugging becomes more difficult if errors are detected.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="125">
+  <source xml:lang="en">The consequence is that the developer has to support more lines of code, and fixes must be made separately in each implementation.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="126">
+  <source xml:lang="en">This increases the time spent on debugging and maintaining the project.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="127">
+  <source xml:lang="en"><bpt id="1">**</bpt>Solution<ept id="1">**</ept></source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="128">
+  <source xml:lang="en">We'll use an example that implements a universal navigation menu block and follows all the <bpt id="l2">[</bpt>BEM naming rules<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="129">
+  <source xml:lang="en">&lt;ul class=&quot;nav&quot;&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="130">
+  <source xml:lang="en">This block could be used, for example, for navigating articles in a news section.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="131">
+  <source xml:lang="en">Let's assume that the news section already has the <bpt id="2">`</bpt>articles<ept id="2">`</ept> block with all the necessary CSS rules.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="132">
+  <source xml:lang="en">We can use a <bpt id="l2">[</bpt>mix<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept> to combine the implementation of the two different blocks without copying code.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="133">
+  <source xml:lang="en">In other words, host the <bpt id="2">`</bpt>nav<ept id="2">`</ept> block and the <bpt id="4">`</bpt>articles__nav<ept id="4">`</ept> element on the same DOM node.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="134">
+  <source xml:lang="en">The code will look like this:</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="135">
+  <source xml:lang="en">&lt;ul class=&quot;nav articles__nav&quot;&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot;&gt;Three&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="136">
+  <source xml:lang="en">This implementation allows combining the functionality of the <bpt id="2">`</bpt>nav<ept id="2">`</ept> block with the specific implementation of the <bpt id="4">`</bpt>articles__nav<ept id="4">`</ept> element (the appearance of news articles in the menu).</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="137">
+  <source xml:lang="en">However, there is no need to copy the existing CSS rules.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="138">
+  <source xml:lang="en">If a bug is detected, only one part of the code will have to be fixed.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="139">
+  <source xml:lang="en">In addition to blocks and elements, you can mix other BEM entities, as well.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+<trans-unit id="140">
+  <source xml:lang="en">For more information about ways to use mixes in BEM, see the section <bpt id="l2">[</bpt>Basic BEM concepts<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept>.</source>
+  <target xml:lang="es"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>
