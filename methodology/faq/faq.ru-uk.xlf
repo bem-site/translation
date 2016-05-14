@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/faq/faq.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/faq/faq.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Часто задаваемые вопросы</source>
+  <target xml:lang="uk">Часті питання</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru">Почему БЭМ?</source>
+  <target xml:lang="uk">Чому БЕМ?</target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>В чем отличие БЭМ от OOCSS, AMCSS, SMACSS, SUITCSS?<ept id="l1">]</ept><bpt id="l2">(</bpt>#В-чем-отличие-БЭМ-от-oocss-amcss-smacss-suitcss<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[У чому відмінність БЕМ від OOCSS, AMCSS, SMACSS, SUITCSS?](#У-відмінність-БЕМ-від-oocss-amcss-smacss-suitcss)</target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>В чем разница между БЭМ и Web Components?<ept id="l1">]</ept><bpt id="l2">(</bpt>#В-чем-разница-между-БЭМ-и-web-components<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[У чому різниця між БЕМ і Web Components?](#- Різниця-між-БЕМ-і-web-components)</target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>В чем разница между БЭМ и Bootstrap?<ept id="l1">]</ept><bpt id="l2">(</bpt>#В-чем-разница-между-БЭМ-и-bootstrap<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[У чому різниця між БЕМ і Bootstrap?](#- Різниця-між-БЕМ-і-bootstrap)</target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="ru">Блоки и элементы</source>
+  <target xml:lang="uk">Блоки та елементи</target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>В каком случае создавать блок, в каком — элемент?<ept id="l1">]</ept><bpt id="l2">(</bpt>#В-каком-случае-создавать-блок-в-каком--элемент<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[В якому разі створювати блок, у якому — елемент?](#У-будь-разі-створювати блок--якому--елемент)</target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему в БЭМ не рекомендуется создавать элементы элементов (block__elem1__elem2)?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому в БЕМ не рекомендується створювати елементи елементів (block__elem1__elem2)?](#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2)</target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зачем писать имя блока в именах модификаторов и элементов?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зачем-писать-имя-блока-в-именах-модификаторов-и-элементов<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Навіщо писати ім'я блоку в іменах модифікаторів і елементів?](#Навіщо писати-ім'я-блоку в іменах-модифікаторів-і-елементів)</target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Как сделать глобальные модификаторы для блоков?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Как-сделать-глобальные-модификаторы-для-блоков<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Як зробити глобальні модифікатори для блоків?](#Як зробити-глобальні-модифікатори-для-блоків)</target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зачем создавать отдельные директории и файлы для каждого блока и технологии?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зачем-создавать-отдельные-директории-и-файлы-для-каждого-блока-и-технологии<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Навіщо створювати окремі директорії і файли для кожного блоку і технології?](#Навіщо створювати окремі-директорії і файли-для-кожного блоку-і-технології)</target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="ru">JavaScript</source>
+  <target xml:lang="uk">JavaScript</target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Зачем использовать i-bem.js, если можно писать на jQuery?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зачем-использовать-i-bemjs-если-можно-писать-на-jquery<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Навіщо використовувати i-bem.js якщо можна писати на jQuery?](#Навіщо використовувати-i-bemjs-якщо можна-писати-на-jquery)</target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="ru">CSS</source>
+  <target xml:lang="uk">CSS</target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему нежелательно использовать вложенные селекторы?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-нежелательно-использовать-вложенные-селекторы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому небажано використовувати вкладені селектори?](#Чомусь небажано використовувати вкладені-селектори)</target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему в БЭМ не рекомендуется использовать комбинированные селекторы для создания CSS-правил к модификатору?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-в-БЭМ-не-рекомендуется-использовать-комбинированные-селекторы-для-создания-css-правил-к-модификатору<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому в БЕМ не рекомендується використовувати комбіновані селектори для створення CSS-правил до модификатору?](#Почему-в-БЭМ-не-рекомендуется-использовать-комбинированные-селекторы-для-создания-css-правил-к-модификатору)</target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Можно ли объединять тег и класс в селекторе (например, button.button)?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Можно-ли-объединять-тег-и-класс-в-селекторе-Например-buttonbutton<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Можна об'єднувати тег і клас в селекторі (наприклад, button.button)?](#Можна об'єднувати-тег-та-клас-у-селекторі-Наприклад-buttonbutton)</target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему в БЭМ не используют пользовательские теги (custom tag) для блоков?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-в-БЭМ-не-используют-пользовательские-теги-custom-tags-для-блоков<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому в БЕМ не використовують користувальницькі теги (custom tag) для блоків?](#Чому-у-БЕМ-не-використовують-користувальницькі теги-custom-tags-для-блоків)</target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему нельзя делать общий сброс стилей (reset)?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-нельзя-делать-общий-сброс-стилей-reset<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому не можна робити загальний скид стилів (reset)?](#Чомусь не можна робити-загальний-скидання-стилів-reset)</target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему нельзя писать block_mod вместо block block_mod, если имя модификатора уже содержит всю информацию о блоке?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-нельзя-писать-block_mod-вместо-block-block_mod-если-имя-модификатора-уже-содержит-всю-информацию-о-блоке<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому не можна писати block_mod замість block block_mod, якщо ім'я модифікатора вже містить всю інформацію про блоке?](#Почему-нельзя-писать-block_mod-вместо-block-block_mod-если-имя-модификатора-уже-содержит-всю-информацию-о-блоке)</target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Почему нельзя указывать название CSS-свойства в имени модификатора: .block__element_border-color_grey?<ept id="l1">]</ept><bpt id="l2">(</bpt>#Почему-нельзя-указывать-название-css-свойства-в-имени-модификатора-block__element_border-color_grey<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Чому не можна вказувати назву CSS-властивості в імені модифікатора: .block__element_border-color_grey?](#Почему-нельзя-указывать-название-css-свойства-в-имени-модификатора-block__element_border-color_grey)</target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Не нашли ответ?<ept id="1">**</ept> — <bpt id="l3">[</bpt>Задайте вопрос команде на форуме<ept id="l3">]</ept><bpt id="l4">(</bpt>https://ru.bem.info/forum/<ept id="l4">)</ept></source>
+  <target xml:lang="uk">**Не знайшли відповідь?** — [Задайте питання команді на форумі](https://ru.bem.info/forum/)</target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="ru">В чем отличие БЭМ от OOCSS, AMCSS, SMACSS, SUITCSS?</source>
+  <target xml:lang="uk">У чому відмінність БЕМ від OOCSS, AMCSS, SMACSS, SUITCSS?</target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="ru">БЭМ работает не только с CSS, но и с JavaScript.</source>
+  <target xml:lang="uk">БЕМ працює не тільки з CSS, але і з JavaScript.</target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="ru">БЭМ больше схож с Web Components, чем с перечисленными решениями для CSS.</source>
+  <target xml:lang="uk">БЕМ більше схожий з Web Components, ніж з перерахованими рішеннями для CSS.</target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="ru">(<bpt id="l2">[</bpt>В чем разница между БЭМ и Web Components?<ept id="l2">]</ept><bpt id="l3">(</bpt>#В-чем-разница-между-БЭМ-и-web-components<ept id="l3">)</ept>)</source>
+  <target xml:lang="uk">([В чому різниця між БЕМ і Web Components?](#- Різниця-між-БЕМ-і-web-components))</target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="ru">БЭМ предоставляет комплексное решение по созданию архитектуры проекта и помогает организовать процессы разработки.</source>
+  <target xml:lang="uk">БЕМ надає комплексне рішення по створенню архітектури проекту і допомагає організувати процеси розробки.</target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="ru">Подробнее читайте в разделе <bpt id="l2">[</bpt>Применение методологии для решения задач веб-разработки<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/solved-problems/solved-problems.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Детальніше читайте у розділі [Застосування методології для вирішення завдань веб-розробки](../method/solved-problems/solved-problems.ru.md).</target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="ru">Подробнее о <bpt id="l2">[</bpt>методологии БЭМ<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/method/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Докладніше про [методології БЕМ](https://ru.bem.info/method/).</target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="ru">Можно использовать БЭМ только на уровне CSS.</source>
+  <target xml:lang="uk">Можна використовувати БЕМ тільки на рівні CSS.</target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="ru">Для этого достаточно просто следовать <bpt id="l2">[</bpt>рекомендациям методологии<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/naming-convention/naming-convention.ru.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Для цього досить просто слідувати [рекомендацій методології](../method/naming-convention/naming-convention.ru.md).</target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="ru">В чем разница между БЭМ и Web Components?</source>
+  <target xml:lang="uk">У чому різниця між БЕМ і Web Components?</target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="ru">Поддержка браузеров</source>
+  <target xml:lang="uk">Підтримка браузерів</target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="ru">Web Components <bpt id="l2">[</bpt>не поддерживается<ept id="l2">]</ept><bpt id="l3">(</bpt>http://caniuse.com/#search=Web%20Components<ept id="l3">)</ept> в Safari, iOS Safari, Internet Explorer, Firefox.</source>
+  <target xml:lang="uk">Web Components [не підтримується](http://caniuse.com/#search=Web%20Components) в Safari, iOS Safari, Internet Explorer, Firefox.</target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="ru">БЭМ работает во всех браузерах.</source>
+  <target xml:lang="uk">БЕМ працює у всіх браузерах.</target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="ru">Инкапсуляция</source>
+  <target xml:lang="uk">Інкапсуляція</target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="ru">В Web Components реализована через Shadow DOM.</source>
+  <target xml:lang="uk">У Web Components реалізована через Shadow DOM.</target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="ru">В БЭМ — с помощью <bpt id="l2">[</bpt>элементов<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Элемент<ept id="l3">)</ept> блока.</source>
+  <target xml:lang="uk">У БЕМ — з допомогою [елементів](../method/key-concepts/key-concepts.ru.md#Елемент) блоку.</target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="ru">Работа шаблонов</source>
+  <target xml:lang="uk">Робота шаблонів</target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="ru">В Web Components шаблоны всегда выполняются в браузере.</source>
+  <target xml:lang="uk">У Web Components шаблони завжди виконуються в браузері.</target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="ru">Это может потребовать дополнительных решений проблем с индексацией.</source>
+  <target xml:lang="uk">Це може вимагати додаткових рішень проблем з індексацією.</target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="ru">В БЭМ генерация шаблона возможна на этапе разработки.</source>
+  <target xml:lang="uk">У БЕМ генерація шаблону можлива на етапі розробки.</target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="ru">Это позволяет отдавать готовый HTML.</source>
+  <target xml:lang="uk">Це дозволяє віддавати готовий HTML.</target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="ru">Шаблоны могут выполняться как в браузере, так и на сервере.</source>
+  <target xml:lang="uk">Шаблони можуть виконуватися як в браузері, так і на сервері.</target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="ru">Web Components использует императивный принцип — интерполяцию строк.</source>
+  <target xml:lang="uk">Web Components використовує імперативний принцип — інтерполяцію рядків.</target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="ru">БЭМ использует декларативный подход, который позволяет гибко управлять шаблонизацией и избегать повторений.</source>
+  <target xml:lang="uk">БЕМ використовує декларативний підхід, який дозволяє гнучко управляти шаблонизацией і уникати повторень.</target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="ru">Подробно о разнице между декларативным и императивным подходами смотрите в докладе <bpt id="l2">[</bpt>Сергея Бережного<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/authors/berezhnoy-sergey/<ept id="l3">)</ept> — <bpt id="l4">[</bpt>Шаблонизаторы<ept id="l4">]</ept><bpt id="l5">(</bpt>https://events.yandex.ru/lib/talks/553/<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">Докладно про різницю між декларативним та імперативним підходами дивіться у доповіді [Сергія Бережного](https://ru.bem.info/authors/berezhnoy-sergey/) — [Шаблонизаторы](https://events.yandex.ru/lib/talks/553/).</target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="ru">Вместо импорта HTML — сборка</source>
+  <target xml:lang="uk">Замість імпорту HTML — збірка</target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="ru">Web Components использует импорт HTML (HTML Imports), который работает непосредственно в браузере.</source>
+  <target xml:lang="uk">Web Components використовує імпорт HTML (HTML Imports), який працює безпосередньо в браузері.</target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="ru">Для объединения HTML-файлов используется инструмент <bpt id="l2">[</bpt>Vulcanize<ept id="l2">]</ept><bpt id="l3">(</bpt>http://webcomponents.org/articles/introduction-to-html-imports/#aggregating-network-requests<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Для об'єднання HTML-файлів використовується інструмент [Vulcanize](http://webcomponents.org/articles/introduction-to-html-imports/#aggregating-network-requests).</target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="ru">БЭМ использует сборщики: <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept> или <bpt id="l4">[</bpt>bem-tools<ept id="l4">]</ept><bpt id="l5">(</bpt>https://ru.bem.info/tools/bem/bem-tools/<ept id="l5">)</ept>.</source>
+  <target xml:lang="uk">БЕМ використовує збирачі: [ENB](https://ru.bem.info/tools/bem/enb-bem/) або [bem-tools](https://ru.bem.info/tools/bem/bem-tools/).</target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="ru">Вместо Custom Elements — абстракция над DOM-деревом</source>
+  <target xml:lang="uk">Замість Custom Elements — абстракція над DOM-деревом</target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="ru">В Web Components используются Custom Elements.</source>
+  <target xml:lang="uk">У Web Components використовуються Custom Elements.</target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="ru">Такой подход позволяет разместить на одном DOM-узел только один компонент.</source>
+  <target xml:lang="uk">Такий підхід дозволяє розмістити на одному DOM-вузол лише один компонент.</target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="ru">В БЭМ существует понятие <bpt id="l2">[</bpt>БЭМ-дерева<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#БЭМ-дерево<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ існує поняття [БЕМ-дерева](../method/key-concepts/key-concepts.ru.md#БЕМ-дерево).</target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="ru">БЭМ использует <bpt id="l2">[</bpt>миксы<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept> — размещение нескольких БЭМ-сущностей на одном DOM-узле.</source>
+  <target xml:lang="uk">БЕМ використовує [мікси](../method/key-concepts/key-concepts.ru.md#Мікс) — розміщення декількох БЕМ-сутностей на одному DOM-сайті.</target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="ru">В чем разница между БЭМ и Bootstrap?</source>
+  <target xml:lang="uk">У чому різниця між БЕМ і Bootstrap?</target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="ru">В терминах БЭМ <bpt id="l2">[</bpt>Bootstrap<ept id="l2">]</ept><bpt id="l3">(</bpt>http://getbootstrap.com/<ept id="l3">)</ept> — это набор  сверстанных блоков.</source>
+  <target xml:lang="uk">У термінах БЕМ [Bootstrap](http://getbootstrap.com/) — це набір зверстаних блоків.</target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="ru">БЭМ — не библиотека элементов интерфейса, а методология, позволяющая:</source>
+  <target xml:lang="uk">БЕМ — не бібліотека елементів інтерфейсу, а методологія, що дозволяє:</target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="ru">создавать архитектуру проекта;</source>
+  <target xml:lang="uk">створювати архітектуру проекту;</target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="ru">разрабатывать веб-приложения независимыми блоками;</source>
+  <target xml:lang="uk">розробляти веб-додатки незалежними блоками;</target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="ru">упрощать поддержку проектов.</source>
+  <target xml:lang="uk">спрощувати підтримку проектів.</target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="ru">Библиотека блоков, сделанных на БЭМ — <bpt id="l2">[</bpt>bem-components<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/libs/bem-components/<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Бібліотека блоків, зроблених на БЕМ — [bem-components](https://ru.bem.info/libs/bem-components/).</target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="ru">Существуют также и <bpt id="l2">[</bpt>другие<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/libs/<ept id="l3">)</ept> БЭМ-библиотеки.</source>
+  <target xml:lang="uk">Існують також і [інші](https://ru.bem.info/libs/) БЕМ-бібліотеки.</target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="ru">В каком случае создавать блок, в каком — элемент?</source>
+  <target xml:lang="uk">В якому випадку створювати блок, у якому — елемент?</target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="ru">Если фрагмент кода может использоваться повторно и не зависит от реализации других компонентов страницы, необходимо создавать <bpt id="l2">[</bpt>блок<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Блок<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Якщо фрагмент коду може використовуватися повторно і не залежить від реалізації інших компонентів сторінки, необхідно створювати [блок](../method/key-concepts/key-concepts.ru.md#Блок).</target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="ru">Если фрагмент кода не может использоваться самостоятельно, без родительской сущности (блока), в большинстве случаев создается <bpt id="l2">[</bpt>элемент<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Элемент<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Якщо фрагмент коду не може використовуватися самостійно, без батьківського сутності (блоку), у більшості випадків створюється [елемент](../method/key-concepts/key-concepts.ru.md#Елемент).</target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="ru">Исключение составляют элементы, реализация которых для упрощения разработки требует разделения на более мелкие части — подэлементы.</source>
+  <target xml:lang="uk">Виняток становлять елементи, реалізація яких для спрощення розробки вимагає поділу на більш дрібні частини — подэлементы.</target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="ru">БЭМ-методология <bpt id="l2">[</bpt>не рекомендует создавать элементы элементов<ept id="l2">]</ept><bpt id="l3">(</bpt>#Почему-в-БЭМ-не-рекомендуется-создавать-элементы-элементов-block__elem1__elem2<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">БЕМ-методологія [не рекомендує створювати елементи елементів](#Чому-у-БЕМ-не рекомендовано створювати елементи-елементів-block__elem1__elem2).</target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="ru">В подобном случае вместо элемента необходимо создавать служебный блок.</source>
+  <target xml:lang="uk">У подібному випадку замість елемента необхідно створювати службовий блок.</target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="ru">Почему в БЭМ не рекомендуется создавать элементы элементов (block__elem1__elem2)?</source>
+  <target xml:lang="uk">Чому у БЕМ не рекомендується створювати елементи елементів (block__elem1__elem2)?</target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="ru">Наличие элементов элементов ограничивает возможность изменять внутреннюю структуру блока:  элементы нельзя поменять местами, удалить или добавить без корректировки существующего кода.</source>
+  <target xml:lang="uk">Наявність елементів елементів обмежує можливість змінювати внутрішню структуру блоку: елементи можна поміняти місцями, видалити або додати без коригування існуючого коду.</target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="ru">В методологии БЭМ вложенную структуру поддерживают только блоки (<bpt id="2">`</bpt>block__elem<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">У методології БЕМ вкладену структуру підтримують тільки блоки (`block__elem`).</target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="ru">Имя блока задает пространство имен, которое <bpt id="l2">[</bpt>гарантирует зависимость<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/naming-convention/naming-convention.ru.md#Имя-элемента<ept id="l3">)</ept> элементов от блока.</source>
+  <target xml:lang="uk">Ім'я блоку задає простір імен, що [гарантує залежність](../method/naming-convention/naming-convention.ru.md#Ім'я елемента) елементів від блоку.</target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="ru">Блок может иметь вложенную структуру элементов в DOM-дереве:</source>
+  <target xml:lang="uk">Блок може мати вкладену структуру елементів в DOM-дереві:</target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="ru">&lt;div class="block"&gt;
+    &lt;div class="block__elem1"&gt;
+        &lt;div class="block__elem2"&gt;
+            &lt;div class="block__elem3"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="block"&gt;
+&lt;div class="block__elem1"&gt;
+&lt;div class="block__elem2"&gt;
+&lt;div class="block__elem3"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="ru">Однако эта же структура блока в методологии БЭМ всегда будет представлена плоским списком элементов:</source>
+  <target xml:lang="uk">Однак ця ж структура блоку в методології БЕМ завжди буде представлена плоским списком елементів:</target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="ru">Это позволяет изменять DOM-структуру блока без внесения правок в коде каждого отдельного элемента:</source>
+  <target xml:lang="uk">Це дозволяє змінювати DOM-структуру блоку без внесення виправлень в коді кожного окремого елемента:</target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="ru">&lt;div class="block"&gt;
+    &lt;div class="block__elem1"&gt;
+        &lt;div class="block__elem2"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="block__elem3"&gt;&lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="block"&gt;
+&lt;div class="block__elem1"&gt;
+&lt;div class="block__elem2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="block__elem3"&gt;&lt;/div&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="ru">Структура блока меняется, а правила для элементов и их названия остаются прежними.</source>
+  <target xml:lang="uk">Структура блоку змінюється, а правила для елементів і їх назви залишаються колишніми.</target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="ru">Зачем писать имя блока в именах модификаторов и элементов?</source>
+  <target xml:lang="uk">Навіщо писати ім'я блоку в іменах модифікаторів і елементів?</target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="ru">Имя блока в именах <bpt id="l2">[</bpt>БЭМ-сущностей<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#БЭМ-сущность<ept id="l3">)</ept> обеспечивает:</source>
+  <target xml:lang="uk">Ім'я блоку в іменах [БЕМ-сутностей](../method/key-concepts/key-concepts.ru.md#БЕМ-сутність) забезпечує:</target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Пространство имен<ept id="l1">]</ept><bpt id="l2">(</bpt>#Пространство-имен<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Простір імен](#Простір імен)</target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Миксы<ept id="l1">]</ept><bpt id="l2">(</bpt>#Миксы<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Мікси](#Мікси)</target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Поиск в коде<ept id="l1">]</ept><bpt id="l2">(</bpt>#Поиск-в-коде<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Пошук в коді](#Пошук-коді)</target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="ru"><bpt id="1">**</bpt>Важно!<ept id="1">**</ept> Методология БЭМ <bpt id="l3">[</bpt>допускает выбор<ept id="l3">]</ept><bpt id="l4">(</bpt>../method/naming-convention/naming-convention.ru.md#Альтернативные-схемы-именования<ept id="l4">)</ept> удобной стратегии именования, но требует соблюдения консистентности в названиях.</source>
+  <target xml:lang="uk">**Важливо!** Методологія БЕМ [допускає вибір](../method/naming-convention/naming-convention.ru.md#Альтернативні схеми-іменування) зручної стратегії іменування, але вимагає дотримання консистентности в назвах.</target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="ru">Так, например, все варианты верны: <bpt id="2">`</bpt>context<ept id="2">`</ept>, <bpt id="4">`</bpt>ctx<ept id="4">`</ept> или <bpt id="6">`</bpt>c<ept id="6">`</ept>, <bpt id="8">`</bpt>attributes<ept id="8">`</ept>, <bpt id="10">`</bpt>attrs<ept id="10">`</ept> или <bpt id="12">`</bpt>as<ept id="12">`</ept>.</source>
+  <target xml:lang="uk">Так, наприклад, усі варіанти вірні: `context`, `ctx` або `c`, `attributes`, `attrs` або `as`.</target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="ru">Необходимо выбрать один из них и использовать во всем проекте.</source>
+  <target xml:lang="uk">Необхідно вибрати один з них і використовувати у всьому проекті.</target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="ru">Пространство имен</source>
+  <target xml:lang="uk">Простір імен</target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="ru">Имя блока задает пространство имен и обеспечивает уникальность имен элементов и модификаторов.</source>
+  <target xml:lang="uk">Ім'я блоку задає простір імен і забезпечує унікальність імен елементів і модифікаторів.</target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="ru">Это позволяет ограничить влияние элементов и модификаторов одного блока на реализацию другого.</source>
+  <target xml:lang="uk">Це дозволяє обмежити вплив елементів і модифікаторів одного блоку на реалізацію іншого.</target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="ru">Миксы</source>
+  <target xml:lang="uk">Мікси</target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Микс<ept id="l1">]</ept><bpt id="l2">(</bpt>../method/key-concepts/key-concepts.ru.md#Микс<ept id="l2">)</ept> — это совмещение разных БЭМ-сущностей на одном DOM-узле.</source>
+  <target xml:lang="uk">[Мікс](../method/key-concepts/key-concepts.ru.md#Мікс) — це поєднання різних БЕМ-сутностей на одному DOM-сайті.</target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="ru">При миксе модификатора имя блока указывает, к какому блоку применится модификатор.</source>
+  <target xml:lang="uk">При міксі модифікатора ім'я блоку вказує, до якого блоку застосувати модифікатор.</target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="ru">Если имя блока не указать, модификатор применится ко всем миксуемым БЭМ-сущностям.</source>
+  <target xml:lang="uk">Якщо назва блоку не вказати модифікатор застосувати до всіх миксуемым БЕМ-сутностей.</target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="ru">Например, рассмотрим микс пункта меню (<bpt id="2">`</bpt>menu__item<ept id="2">`</ept>) и кнопки (<bpt id="4">`</bpt>button<ept id="4">`</ept>):</source>
+  <target xml:lang="uk">Наприклад, розглянемо мікс пункту меню (`menu__item`) і кнопки (`button`):</target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="ru">&lt;div class="menu__item button"&gt;&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu__item button"&gt;&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="ru">Добавим модификатор <bpt id="2">`</bpt>active<ept id="2">`</ept> в сокращенной форме записи (без имени блока):</source>
+  <target xml:lang="uk">Додамо модифікатор `active` у скороченій формі запису (без імені блоку):</target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="ru">&lt;div class="menu__item button active"&gt;&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="menu__item button active"&gt;&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="ru">В таком виде HTML-разметка не дает понять, к чему относится модификатор: к пункту меню (<bpt id="2">`</bpt>menu__item.active<ept id="2">`</ept>) или к кнопке (<bpt id="4">`</bpt>button.active<ept id="4">`</ept>).</source>
+  <target xml:lang="uk">У такому вигляді HTML-розмітка не дає зрозуміти, до чого відноситься модифікатор: до пункту меню (`menu__item.active`) або до кнопки (`button.active`).</target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="ru">Имя блока (<bpt id="2">`</bpt>button_active<ept id="2">`</ept>) явно указывает на БЭМ-сущность, к которой будет применен модификатор.</source>
+  <target xml:lang="uk">Ім'я блоку (`button_active`) явно вказує на БЕМ-сутність, до якої буде застосовано модифікатор.</target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="ru">Также запись <bpt id="2">`</bpt>&lt;div class="block mod"&gt;<ept id="2">`</ept> не дает понять, какие БЭМ-сущности используются в работе.</source>
+  <target xml:lang="uk">Також запис `&lt;div class="block mod"&gt;` не дає зрозуміти, які БЕМ-сутності використовуються в роботі.</target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="ru">Например, из записи <bpt id="2">`</bpt>&lt;div class="checkbox button"&gt;<ept id="2">`</ept> нельзя однозначно определить, это микс модификатора и блока или микс двух блоков.</source>
+  <target xml:lang="uk">Наприклад, із запису `&lt;div class="checkbox button"&gt;` не можна однозначно визначити, це мікс модифікатора і блоку або мікс двох блоків.</target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="ru">Полное имя модификатора <bpt id="2">`</bpt>&lt;div class="block block_mod"&gt;<ept id="2">`</ept> показывает, о каких сущностях идет речь: <bpt id="4">`</bpt>&lt;div class="checkbox checkbox_button"&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Повне ім'я модифікатора `&lt;div class="block block_mod"&gt;` показує, про яких сутності йдеться: `&lt;div class="checkbox checkbox_button"&gt;`.</target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="ru">Поиск в коде</source>
+  <target xml:lang="uk">Пошук в коді</target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="ru">Явные и уникальные имена облегчают поиск необходимой сущности в коде и файловой системе.</source>
+  <target xml:lang="uk">Явні та унікальні імена полегшують пошук необхідної сутності в коді і файловій системі.</target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="ru">Сравним результаты глобального поиска при отладке проекта.</source>
+  <target xml:lang="uk">Порівняємо результати глобального пошуку при налагодженні проекту.</target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="ru">Найдем модификатор <bpt id="2">`</bpt>active<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Знайдемо модифікатор `active`.</target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="ru">В сокращенном виде (<bpt id="2">`</bpt>active<ept id="2">`</ept>) в результаты поиска попадут все возможные комбинации и HTML-фрагменты, где встречается <bpt id="4">`</bpt>active<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">У скороченому вигляді (`active`) в результати пошуку потраплять всі можливі комбінації і HTML-фрагменти, де зустрічається `active`.</target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="ru">В записи, рекомендуемой методологией, само название уже будет содержать уточняющий параметр в виде имени блока (<bpt id="2">`</bpt>button_active<ept id="2">`</ept>).</source>
+  <target xml:lang="uk">У запису, рекомендованої методологією, сама назва вже буде містити уточнюючий параметр у вигляді імені блоку (`button_active`).</target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="ru">Так как имя модификатора уникально, в результаты поиска попадут только нужные фрагменты кода.</source>
+  <target xml:lang="uk">Так як ім'я модифікатора унікально, в результати пошуку потраплять тільки потрібні фрагменти коду.</target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="ru">Как сделать глобальные модификаторы для блоков?</source>
+  <target xml:lang="uk">Як зробити глобальні модифікатори для блоків?</target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="ru">В БЭМ отсутствует понятие глобальных модификаторов, так как модификатор всегда относится к одной конкретной <bpt id="l2">[</bpt>БЭМ-сущности<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#БЭМ-сущность<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">У БЕМ відсутнє поняття глобальних модифікаторів, так як модифікатор завжди відноситься до однієї конкретної [БЕМ-сутності](../method/key-concepts/key-concepts.ru.md#БЕМ-сутність).</target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="ru">Если требуется вынести CSS-свойство за пределы одного блока и применять его к разным БЭМ-сущностям в проекте, необходимо создавать отдельный блок, реализованный в технологии CSS.</source>
+  <target xml:lang="uk">Якщо потрібно винести CSS властивість за межі одного блоку і застосовувати його до різних БЕМ-сутностей в проекті, необхідно створювати окремий блок, реалізований в технології CSS.</target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="ru">БЭМ позволяет совмещать реализацию разных блоков с помощью <bpt id="l2">[</bpt>миксов<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept>:</source>
+  <target xml:lang="uk">БЕМ дозволяє поєднувати реалізацію різних блоків з допомогою [міксів](../method/key-concepts/key-concepts.ru.md#Мікс):</target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="ru">&lt;div class="block1 block2"&gt;&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="block1 block2"&gt;&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="ru">Зачем создавать отдельные директории и файлы для каждого блока и технологии?</source>
+  <target xml:lang="uk">Навіщо створювати окремі директорії і файли для кожного блоку і технології?</target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="ru">Файловая система БЭМ-проекта разделяется на вложенные директории и файлы для <bpt id="l2">[</bpt>удобства разработки и поддержки проекта<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/filesystem/filesystem.ru.md#Реализация-блока-разделяется-на-отдельные-файлы<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Файлова система БЕМ-проекту поділяється на вкладені директорії і файли для [зручності розробки і підтримки проекту](../method/filesystem/filesystem.ru.md#Реалізація-блоку-поділяється на окремі файли).</target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="ru">Придерживаться <bpt id="l2">[</bpt>рекомендуемой структуры файловой системы<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/filesystem/filesystem.ru.md#Организация-файловой-системы-БЭМ-проекта<ept id="l3">)</ept> не обязательно.</source>
+  <target xml:lang="uk">Дотримуватися [рекомендованої структури файлової системи](../method/filesystem/filesystem.ru.md#Організація файлової системи-БЕМ-проекту) не обов'язково.</target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="ru">Вы можете использовать любую альтернативную структуру проекта, соответствующую <bpt id="l2">[</bpt>принципам организации файловой системы БЭМ<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/filesystem/filesystem.ru.md#Принципы-организации-файловой-системы-БЭМ-проекта<ept id="l3">)</ept>, например:</source>
+  <target xml:lang="uk">Ви можете використовувати будь-яку альтернативну структуру проекту, відповідну [принципам організації файлової системи БЕМ](../method/filesystem/filesystem.ru.md#Принципи організації файлової системи-БЕМ-проекту), наприклад:</target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="ru"><bpt id="1">**</bpt>flex-схема<ept id="1">**</ept></source>
+  <target xml:lang="uk">**flex-схема**</target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="ru">Блоку соответствует отдельная директория.</source>
+  <target xml:lang="uk">Блоку відповідає окрема директорія.</target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="ru">Элементы и модификаторы реализованы в отдельных файлах.</source>
+  <target xml:lang="uk">Елементи і модифікатори реалізовані в окремих файлах.</target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="ru">blocks/
+  input/
+      input_layout_horiz.css
+      input_layout_vertical.css
+      input__elem.css
+      input.css
+      input.js
+  button/</source>
+  <target xml:lang="uk">blocks/
+input/
+input_layout_horiz.css
+input_layout_vertical.css
+input__elem.css
+input.css
+input.js
+button/</target>
+</trans-unit>
+<trans-unit id="125">
+  <source xml:lang="ru">Блоку соответствует отдельная директория.</source>
+  <target xml:lang="uk">Блоку відповідає окрема директорія.</target>
+</trans-unit>
+<trans-unit id="126">
+  <source xml:lang="ru">Элементы и модификаторы реализованы в файлах блока.</source>
+  <target xml:lang="uk">Елементи і модифікатори реалізовані у файлах блоку.</target>
+</trans-unit>
+<trans-unit id="127">
+  <source xml:lang="ru">blocks/
+  input/
+      input.css
+      input.js
+  button/</source>
+  <target xml:lang="uk">blocks/
+input/
+input.css
+input.js
+button/</target>
+</trans-unit>
+<trans-unit id="128">
+  <source xml:lang="ru">Директории для блоков не используются.</source>
+  <target xml:lang="uk">Директорії для блоків не використовуються.</target>
+</trans-unit>
+<trans-unit id="129">
+  <source xml:lang="ru">Элементы и модификаторы реализованы в файлах блока.</source>
+  <target xml:lang="uk">Елементи і модифікатори реалізовані у файлах блоку.</target>
+</trans-unit>
+<trans-unit id="130">
+  <source xml:lang="ru">blocks/
+  input.css
+  input.js
+  button.css
+  button.js</source>
+  <target xml:lang="uk">blocks/
+input.css
+input.js
+button.css
+button.js</target>
+</trans-unit>
+<trans-unit id="131">
+  <source xml:lang="ru"><bpt id="1">**</bpt>flat-схема<ept id="1">**</ept></source>
+  <target xml:lang="uk">**flat-схема**</target>
+</trans-unit>
+<trans-unit id="132">
+  <source xml:lang="ru">Директории для блоков не используются.</source>
+  <target xml:lang="uk">Директорії для блоків не використовуються.</target>
+</trans-unit>
+<trans-unit id="133">
+  <source xml:lang="ru">Опциональные элеметы и модификаторы реализованы в отдельных файлах.</source>
+  <target xml:lang="uk">Опціональні элеметы і модифікатори реалізовані в окремих файлах.</target>
+</trans-unit>
+<trans-unit id="134">
+  <source xml:lang="ru">blocks/
+  input_type_search.js
+  input_type_search.bemhtml
+  input__box.bemhtml
+  input.css
+  input.js
+  input.bemhtml
+  button.css
+  button.js
+  button.bemhtml
+  button.png</source>
+  <target xml:lang="uk">blocks/
+input_type_search.js
+input_type_search.bemhtml
+input__box.bemhtml
+input.css
+input.js
+input.bemhtml
+button.css
+button.js
+button.bemhtml
+button.png</target>
+</trans-unit>
+<trans-unit id="135">
+  <source xml:lang="ru">Зачем использовать i-bem.js, если можно писать на jQuery?</source>
+  <target xml:lang="uk">Навіщо використовувати i-bem.js якщо можна писати на jQuery?</target>
+</trans-unit>
+<trans-unit id="136">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>i-bem.js<ept id="l1">]</ept><bpt id="l2">(</bpt>https://ru.bem.info/technology/i-bem/<ept id="l2">)</ept> это специализированный фреймворк для разработки проектов на JavaScript в терминах блоков, элементов и модификаторв.</source>
+  <target xml:lang="uk">[i-bem.js](https://ru.bem.info/technology/i-bem/) це спеціалізований фреймворк для розробки проектів на JavaScript в термінах блоків, елементів і модификаторв.</target>
+</trans-unit>
+<trans-unit id="137">
+  <source xml:lang="ru"><bpt id="1">`</bpt>i-bem.js<ept id="1">`</ept> не предназначен для замены фреймворка общего назначения, такого как jQuery.</source>
+  <target xml:lang="uk">`i-bem.js` не призначений для заміни фреймворку загального призначення, такого як jQuery.</target>
+</trans-unit>
+<trans-unit id="138">
+  <source xml:lang="ru"><bpt id="1">`</bpt>i-bem.js<ept id="1">`</ept> позволяет:</source>
+  <target xml:lang="uk">`i-bem.js` дозволяє:</target>
+</trans-unit>
+<trans-unit id="139">
+  <source xml:lang="ru">разрабатывать веб-интерфейс в терминах блоков, элементов, модификаторов;</source>
+  <target xml:lang="uk">розробляти веб-інтерфейс в термінах блоків, елементів, модифікаторів;</target>
+</trans-unit>
+<trans-unit id="140">
+  <source xml:lang="ru">интегрировать JavaScript-код с шаблонами и CSS-правилами в стиле БЭМ;</source>
+  <target xml:lang="uk">інтегрувати JavaScript-код з шаблонами і CSS-правил в стилі БЕМ;</target>
+</trans-unit>
+<trans-unit id="141">
+  <source xml:lang="ru">описывать логику работы блока как набор состояний.</source>
+  <target xml:lang="uk">описувати логіку роботи блоку як набір станів.</target>
+</trans-unit>
+<trans-unit id="142">
+  <source xml:lang="ru">Почему нежелательно использовать вложенные селекторы?</source>
+  <target xml:lang="uk">Чому небажано використовувати вкладені селектори?</target>
+</trans-unit>
+<trans-unit id="143">
+  <source xml:lang="ru">Ключевая идея БЭМ — независимость блоков.</source>
+  <target xml:lang="uk">Ключова ідея БЕМ — незалежність блоків.</target>
+</trans-unit>
+<trans-unit id="144">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Вложенные селекторы<ept id="l1">]</ept><bpt id="l2">(</bpt>http://htmlbook.ru/css/selector/descendant<ept id="l2">)</ept> увеличивают связанность кода и делают его повторное использование невозможным.</source>
+  <target xml:lang="uk">[Вкладені селектори](http://htmlbook.ru/css/selector/descendant) збільшують зв'язаність коду і роблять його повторне використання неможливим.</target>
+</trans-unit>
+<trans-unit id="145">
+  <source xml:lang="ru">Это противоречит принципам БЭМ.</source>
+  <target xml:lang="uk">Це суперечить принципам БЕМ.</target>
+</trans-unit>
+<trans-unit id="146">
+  <source xml:lang="ru">Методология БЭМ допускает использование таких селекторов, но рекомендует по-максимуму его сократить.</source>
+  <target xml:lang="uk">Методологія БЕМ допускає використання таких селекторів, але рекомендує по-максимуму його скоротити.</target>
+</trans-unit>
+<trans-unit id="147">
+  <source xml:lang="ru">Например, вложенность уместна, чтобы менять элементы в зависимости от состояния блока или заданной ему темы:</source>
+  <target xml:lang="uk">Наприклад, вкладеність доречна, щоб змінювати елементи в залежності від стану блоку або заданої йому теми:</target>
+</trans-unit>
+<trans-unit id="148">
+  <source xml:lang="ru">Почему в БЭМ не рекомендуется использовать комбинированные селекторы для создания CSS-правил к модификатору?</source>
+  <target xml:lang="uk">Чому у БЕМ не рекомендується використовувати комбіновані селектори для створення CSS-правил до модификатору?</target>
+</trans-unit>
+<trans-unit id="149">
+  <source xml:lang="ru">Комбинированные селекторы усложняют переопределение блока, так как имеют более высокую специфичность в CSS, чем одиночные.</source>
+  <target xml:lang="uk">Об'єднані селектори ускладнюють перевизначення блоку, оскільки мають більш високу специфічність у CSS, ніж поодинокі.</target>
+</trans-unit>
+<trans-unit id="150">
+  <source xml:lang="ru">Специфичность комбинированного селектора для модификатора блока (<bpt id="2">`</bpt>.block1.mod<ept id="2">`</ept>) и для переопределенного блока (<bpt id="4">`</bpt>.block2 .block1<ept id="4">`</ept>) одинакова.</source>
+  <target xml:lang="uk">Специфічність комбінованого селектора модифікатора блоку (`.block1.mod`) і для переопределенного блоку (`.block2 .block1`) однакова.</target>
+</trans-unit>
+<trans-unit id="151">
+  <source xml:lang="ru">Переопределение блока будет зависеть только от порядка объявления правил в декларации.</source>
+  <target xml:lang="uk">Перевизначення блоку буде залежати тільки від порядку оголошення правил у декларації.</target>
+</trans-unit>
+<trans-unit id="152">
+  <source xml:lang="ru">Рассмотрим пример:</source>
+  <target xml:lang="uk">Розглянемо приклад:</target>
+</trans-unit>
+<trans-unit id="153">
+  <source xml:lang="ru">&lt;div class="header"&gt;
+  &lt;button class="button active"&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="uk">&lt;div class="header"&gt;
+&lt;button class="button active"&gt;
+&lt;/div&gt;</target>
+</trans-unit>
+<trans-unit id="154">
+  <source xml:lang="ru">Правила модификатора <bpt id="2">`</bpt>active<ept id="2">`</ept> для кнопки записываются как комбинированный селектор <bpt id="4">`</bpt>.button.active<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Правила модифікатора `active` для кнопки записуються як комбінований селектор `.button.active`.</target>
+</trans-unit>
+<trans-unit id="155">
+  <source xml:lang="ru">При переопределении кнопки с помощью родительского блока <bpt id="2">`</bpt>header<ept id="2">`</ept>, создается селектор <bpt id="4">`</bpt>.header .button<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">При перевизначенні кнопки з допомогою батьківського блоку `header`, створюється селектор `.header .button`.</target>
+</trans-unit>
+<trans-unit id="156">
+  <source xml:lang="ru">Специфичность обоих селекторов одинакова, значит применение CSS-правил определяется порядком их объявления в декларации.</source>
+  <target xml:lang="uk">Специфічність обох селекторів однакова, значить застосування CSS-правил визначається порядком їх оголошення в декларації.</target>
+</trans-unit>
+<trans-unit id="157">
+  <source xml:lang="ru">Использование имени блока в названии модификатора обеспечивает более высокий приоритет CSS-правилам при переопределении блока.</source>
+  <target xml:lang="uk">Використання імені блоку в назві модифікатора забезпечує більш високий пріоритет CSS-правил при перевизначенні блоку.</target>
+</trans-unit>
+<trans-unit id="158">
+  <source xml:lang="ru">Селектор <bpt id="2">`</bpt>.header .button<ept id="2">`</ept> всегда будет иметь приоритет выше, чем <bpt id="4">`</bpt>.button_active<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Селектор `.header .button` завжди буде мати пріоритет вище, ніж `.button_active`.</target>
+</trans-unit>
+<trans-unit id="159">
+  <source xml:lang="ru"><bpt id="l1">[</bpt>Причины использования имени блока в имени модификатора<ept id="l1">]</ept><bpt id="l2">(</bpt>#Зачем-писать-имя-блока-в-именах-модификаторов-и-элементов<ept id="l2">)</ept></source>
+  <target xml:lang="uk">[Причини використання імені блоку імені модифікатора](#Навіщо писати-ім'я-блоку в іменах-модифікаторів-і-елементів)</target>
+</trans-unit>
+<trans-unit id="160">
+  <source xml:lang="ru">Можно ли объединять тег и класс в селекторе?</source>
+  <target xml:lang="uk">Можна об'єднувати тег і клас в селекторі?</target>
+</trans-unit>
+<trans-unit id="161">
+  <source xml:lang="ru">Например, button.button.</source>
+  <target xml:lang="uk">Наприклад, button.button.</target>
+</trans-unit>
+<trans-unit id="162">
+  <source xml:lang="ru">Совмещение тега и класса в селекторе повышает специфичность CSS-правил.</source>
+  <target xml:lang="uk">Поєднання тега і класу в селекторі підвищує специфічність CSS-правил.</target>
+</trans-unit>
+<trans-unit id="163">
+  <source xml:lang="ru">При добавлении модификатора правила блока не смогут быть переопределены, так как специфичность селектора блока выше.</source>
+  <target xml:lang="uk">При додаванні модифікатора правила блоку не зможуть бути перевизначені, так як специфічність селектора блоку вище.</target>
+</trans-unit>
+<trans-unit id="164">
+  <source xml:lang="ru">Рассмотрим пример:</source>
+  <target xml:lang="uk">Розглянемо приклад:</target>
+</trans-unit>
+<trans-unit id="165">
+  <source xml:lang="ru"> &lt;button class="button"&gt;</source>
+  <target xml:lang="uk"> &lt;button class="button"&gt;</target>
+</trans-unit>
+<trans-unit id="166">
+  <source xml:lang="ru">Записываем для него CSS-правила в селекторе <bpt id="2">`</bpt>button.button<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Записуємо для нього CSS-правила в селекторі `button.button`.</target>
+</trans-unit>
+<trans-unit id="167">
+  <source xml:lang="ru">Добавим модификатор:</source>
+  <target xml:lang="uk">Додамо модифікатор:</target>
+</trans-unit>
+<trans-unit id="168">
+  <source xml:lang="ru"> &lt;button class="button button_active"&gt;</source>
+  <target xml:lang="uk"> &lt;button class="button button_active"&gt;</target>
+</trans-unit>
+<trans-unit id="169">
+  <source xml:lang="ru">Cелектор <bpt id="2">`</bpt>.button_active<ept id="2">`</ept> не переопределит свойства блока, записанные как <bpt id="4">`</bpt>button.button<ept id="4">`</ept>, так как специфичность <bpt id="6">`</bpt>button.button<ept id="6">`</ept> выше.</source>
+  <target xml:lang="uk">Селектор `.button_active` не перевизначити властивості блоку, записані як `button.button`, так як специфічність `button.button` вище.</target>
+</trans-unit>
+<trans-unit id="170">
+  <source xml:lang="ru">Для успешного переопределения селектор модификатора блока также должен быть скомбинирован с тегом <bpt id="2">`</bpt>button.button_active<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">Для успішного перевизначення селектор модифікатора блоку також повинен бути скомбінований з тегом `button.button_active`.</target>
+</trans-unit>
+<trans-unit id="171">
+  <source xml:lang="ru">В результате развития проекта могут появится блоки с селекторами <bpt id="2">`</bpt>input.button<ept id="2">`</ept>, <bpt id="4">`</bpt>span.button<ept id="4">`</ept> и, например, <bpt id="6">`</bpt>a.button<ept id="6">`</ept>.</source>
+  <target xml:lang="uk">В результаті розвитку проекту можуть з'явиться блоки з селекторами `input.button`, `span.button` і, наприклад, `a.button`.</target>
+</trans-unit>
+<trans-unit id="172">
+  <source xml:lang="ru">В таком случае все модификаторы блока <bpt id="2">`</bpt>button<ept id="2">`</ept> и вложенные в него элементы потребуют четыре разные декларации для каждого случая.</source>
+  <target xml:lang="uk">У такому разі всі модифікатори блоку `button` і вкладені в нього елементи зажадають чотири різні декларації для кожного випадку.</target>
+</trans-unit>
+<trans-unit id="173">
+  <source xml:lang="ru">Почему в БЭМ не используют пользовательские теги (custom tags) для блоков?</source>
+  <target xml:lang="uk">Чому у БЕМ не використовують користувальницькі теги (custom tags) для блоків?</target>
+</trans-unit>
+<trans-unit id="174">
+  <source xml:lang="ru">Блоки могут выражаться в HTML с помощью пользовательских тегов, к которым создаются CSS-правила.</source>
+  <target xml:lang="uk">Блоки можуть виражатися в HTML з допомогою користувацьких тегів, до яких створюються CSS-правила.</target>
+</trans-unit>
+<trans-unit id="175">
+  <source xml:lang="ru">В таком случае классы можно будет использовать только для модификаторов: <bpt id="2">`</bpt>&lt;button class="mod"/&gt;<ept id="2">`</ept>.</source>
+  <target xml:lang="uk">У такому разі класи можна буде використовувати тільки для модифікаторів: `&lt;button class="mod"/&gt;`.</target>
+</trans-unit>
+<trans-unit id="176">
+  <source xml:lang="ru">Пользовательские теги могут применяться для создания селекторов к блокам, но есть ряд ограничений:</source>
+  <target xml:lang="uk">Користувальницькі теги можуть застосовуватися для створення селекторів до блокам, але є ряд обмежень:</target>
+</trans-unit>
+<trans-unit id="177">
+  <source xml:lang="ru">Невозможно использовать <bpt id="l2">[</bpt>миксы<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept>.</source>
+  <target xml:lang="uk">Неможливо використовувати [мікси](../method/key-concepts/key-concepts.ru.md#Мікс).</target>
+</trans-unit>
+<trans-unit id="178">
+  <source xml:lang="ru">Не любой блок можно выразить пользовательским тегом.</source>
+  <target xml:lang="uk">Не будь блок можна виразити користувальницьким тегом.</target>
+</trans-unit>
+<trans-unit id="179">
+  <source xml:lang="ru">Например, для всех ссылок необходим тег <bpt id="2">`</bpt>&lt;a&gt;<ept id="2">`</ept>, а для полей — <bpt id="4">`</bpt>&lt;input&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Наприклад, для всіх посилань необхідний тег `&lt;a&gt;`, а для полів — `&lt;input&gt;`.</target>
+</trans-unit>
+<trans-unit id="180">
+  <source xml:lang="ru">Почему нельзя делать общий сброс стилей (reset)?</source>
+  <target xml:lang="uk">Чому не можна робити загальний скид стилів (reset)?</target>
+</trans-unit>
+<trans-unit id="181">
+  <source xml:lang="ru">Блок — независимый компонент.</source>
+  <target xml:lang="uk">Блок — незалежний компонент.</target>
+</trans-unit>
+<trans-unit id="182">
+  <source xml:lang="ru">На него не должны влиять CSS-правила, созданные для всей страницы.</source>
+  <target xml:lang="uk">На нього не повинні впливати CSS-правила, створені для всієї сторінки.</target>
+</trans-unit>
+<trans-unit id="183">
+  <source xml:lang="ru">Это нарушает независимость блоков и затрудняет их повторное использование.</source>
+  <target xml:lang="uk">Це порушує незалежність блоків і ускладнює їх повторне використання.</target>
+</trans-unit>
+<trans-unit id="184">
+  <source xml:lang="ru">Общий сброс стилей по сути реализуется с помощью <bpt id="l2">[</bpt>глобальных CSS-правил<ept id="l2">]</ept><bpt id="l3">(</bpt>#Как-сделать-глобальные-модификаторы-для-блоков<ept id="l3">)</ept>, которые в большинстве случаев пишутся к <bpt id="l4">[</bpt>селекторам на тег<ept id="l4">]</ept><bpt id="l5">(</bpt>#Почему-в-БЭМ-не-используют-пользовательские-теги-custom-tags-для-блоков<ept id="l5">)</ept>, что нежелательно использовать в БЭМ-проекте.</source>
+  <target xml:lang="uk">Загальний скид стилів по суті реалізується з допомогою [глобальних CSS-правил](#Як зробити-глобальні-модифікатори-для-блоків), які в більшості випадків пишуться [селекторам на тег](#Чому-у-БЕМ-не-використовують-користувальницькі теги-custom-tags-для-блоків), що небажано використовувати в БЕМ-проекті.</target>
+</trans-unit>
+<trans-unit id="185">
+  <source xml:lang="ru">Если сбросить стили все-таки необходимо, в БЭМ это делается в каждом блоке.</source>
+  <target xml:lang="uk">Якщо скинути стилі все-таки необхідно, БЕМ це робиться в кожному блоці.</target>
+</trans-unit>
+<trans-unit id="186">
+  <source xml:lang="ru">Рассмотрим пример.</source>
+  <target xml:lang="uk">Розглянемо приклад.</target>
+</trans-unit>
+<trans-unit id="187">
+  <source xml:lang="ru">Если в проекте блоки меню и список выражены в HTML с помощью тега <bpt id="2">`</bpt>&lt;ul&gt;<ept id="2">`</ept>, значит каждый блок должен предоставлять сброс CSS для <bpt id="4">`</bpt>&lt;ul&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="uk">Якщо в проекті блоки меню і список виражені в HTML з допомогою тегу `&lt;ul&gt;`, значить кожен блок повинен надавати скидання CSS `&lt;ul&gt;`.</target>
+</trans-unit>
+<trans-unit id="188">
+  <source xml:lang="ru">Повторов в результирующем коде можно избежать с помощью CSS-оптимизатора.</source>
+  <target xml:lang="uk">Повторів у виводі коді можна уникнути за допомогою CSS-оптимізатора.</target>
+</trans-unit>
+<trans-unit id="189">
+  <source xml:lang="ru">Если в проекте не используется CSS-оптимизатор, который объединяет селекторы с одинаковым набором правил, можно применить CSS-препроцессор.</source>
+  <target xml:lang="uk">Якщо в проекті не використовується CSS-оптимізатор, який об'єднує селектори з однаковим набором правил, можна застосувати CSS-препроцесор.</target>
+</trans-unit>
+<trans-unit id="190">
+  <source xml:lang="ru">Тогда для каждого нового блока можно делать сброс правил, <bpt id="l2">[</bpt>миксуя<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.ru.md#Микс<ept id="l3">)</ept> чистый код.</source>
+  <target xml:lang="uk">Тоді для кожного нового блоку можна робити скидання правил, [міксуючи](../method/key-concepts/key-concepts.ru.md#Мікс) чистий код.</target>
+</trans-unit>
+<trans-unit id="191">
+  <source xml:lang="ru">Например, в SASS это будет выглядеть так:</source>
+  <target xml:lang="uk">Наприклад, в SASS це буде виглядати так:</target>
+</trans-unit>
+<trans-unit id="192">
+  <source xml:lang="ru">Такой способ следует использовать только при отсутствии оптимизатора.</source>
+  <target xml:lang="uk">Такий спосіб слід використовувати тільки при відсутності оптимізатора.</target>
+</trans-unit>
+<trans-unit id="193">
+  <source xml:lang="ru">Почему нельзя писать block_mod вместо block block_mod, если имя модификатора уже содержит всю информацию о блоке?</source>
+  <target xml:lang="uk">Чому не можна писати block_mod замість block block_mod, якщо ім'я модифікатора вже містить всю інформацію про блоці?</target>
+</trans-unit>
+<trans-unit id="194">
+  <source xml:lang="ru">Совмещение нескольких модификаторов на одном и том же блоке (например, <bpt id="2">`</bpt>&lt;div class="block_theme_christmas block_size_big"&gt;<ept id="2">`</ept>) приведет к дублированию кода, реализующего базовую функциональность (логику и стили) блока.</source>
+  <target xml:lang="uk">Поєднання декількох модифікаторів на одному і тому ж блоці (наприклад, `&lt;div class="block_theme_christmas block_size_big"&gt;`) призведе до дублювання коду, що реалізує базову функціональність (логіку і стилі) блоку.</target>
+</trans-unit>
+<trans-unit id="195">
+  <source xml:lang="ru">Почему нельзя указывать название CSS-свойства в имени модификатора: .block__element_border-color_grey?</source>
+  <target xml:lang="uk">Чому не можна вказувати назву CSS-властивості в імені модифікатора: .block__element_border-color_grey?</target>
+</trans-unit>
+<trans-unit id="196">
+  <source xml:lang="ru">При изменении внешнего вида блока или элемента придется менять не только CSS-код, но и названия селекторов.</source>
+  <target xml:lang="uk">При зміні зовнішнього вигляду блоку або елемента доведеться міняти не тільки CSS-код, але і назви селекторів.</target>
+</trans-unit>
+<trans-unit id="197">
+  <source xml:lang="ru">Например, если цвет границы изменится с серого (<bpt id="2">`</bpt>grey<ept id="2">`</ept>) на красный (<bpt id="4">`</bpt>red<ept id="4">`</ept>), нужно будет изменить шаблоны и, вполне вероятно, JavaScript-код.</source>
+  <target xml:lang="uk">Наприклад, якщо колір кордону зміниться з сірого (`grey`) на червоний (`red`), потрібно буде змінити шаблони і, цілком ймовірно, JavaScript-код.</target>
+</trans-unit>
+<trans-unit id="198">
+  <source xml:lang="ru">При добавлении других свойств (фона, отступов), имя перестанет соответствовать содержанию модификатора.</source>
+  <target xml:lang="uk">При додаванні інших властивостей (фону, відступів), ім'я перестане відповідати вмісту модифікатора.</target>
+</trans-unit>
+<trans-unit id="199">
+  <source xml:lang="ru">Методология БЭМ рекомендует выбирать имена модификаторов, опираясь на семантику, а не визуальное оформление.</source>
+  <target xml:lang="uk">Методологія БЕМ рекомендує вибирати імена модифікаторів, спираючись на семантику, а не візуальне оформлення.</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

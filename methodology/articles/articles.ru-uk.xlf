@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/articles/articles.ru.md" source-language="ru" target-language="uk" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/articles/articles.ru.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="ru">Методология</source>
+  <target xml:lang="uk">Методологія</target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="ru"><bpt id="1">[</bpt>x<ept id="1">] [Учимся любить БЭМ]</ept>(https://css-tricks.com/bem-101/), 27-05-2015, Johan Ronsse, Дизайнер интерфейсов</source>
+  <target xml:lang="uk">[x] [Вчимося любити БЕМ](https://css-tricks.com/bem-101/), 27-05-2015, Johan Ronsse, Дизайнер інтерфейсів</target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>
