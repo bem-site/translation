@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/build/build.en.md"
+    source-language="en" target-language="it" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/build/build.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">BEM project building methodology</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">Any project developed using the BEM methodology has a multi-level file structure.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en">Such a structure results from the component-based approach.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en">In BEM, <bpt id="l2">[</bpt>blocks<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#block<ept id="l3">)</ept> can be implemented in one or more <bpt id="l4">[</bpt>technologies<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#implementation-technology<ept id="l5">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en">Each technology is stored in a separate file.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en">Consequently, a build process is required in order to obtain general project files from individual files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en">You can use any of the available <bpt id="l2">[</bpt>build tools<ept id="l2">]</ept><bpt id="l3">(</bpt>#build-tools<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en">Here is an example of a file structure organization of a BEM project:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">blocks/               # Project level
+  input/              # `input` block directory
+    input.css         # `input` block implementation in CSS technology
+    input.js          # `input` block implementation in JavaScript technology
+  icon/
+    icon.css
+library/              # Library level
+  input/
+    input.js          # `input` block basic implementation in JavaScript technology
+  button/</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">To find out more about the reasons for dividing a block implementation into separate files, read <bpt id="l2">[</bpt>File system organizaation of a BEM project<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">The build process takes care of the following:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">combines individual <bpt id="l2">[</bpt>implementation files<ept id="l2">]</ept><bpt id="l3">(</bpt>../filesystem/filesystem.en.md#a-block-implementation-is-divided-into-separate-files<ept id="l3">)</ept> spread throughout the system.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">includes only the necessary blocks, <bpt id="l2">[</bpt>elements<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#element<ept id="l3">)</ept> and <bpt id="l4">[</bpt>modifiers<ept id="l4">]</ept><bpt id="l5">(</bpt>../key-concepts/key-concepts.en.md#modifier<ept id="l5">)</ept> in the project, out of those contained in the file system;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">ensures that the files are linked to the project in a correct order.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en">Main stages of the build process</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en">In order to obtain a finished project part (build result), such as a web page, from individual files, we need to:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en"><bpt id="l1">[</bpt>list blocks, elements, and modifiers involved in the creation of the page<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-a-list-of-blocks-elements-and-modifiers-for-creating-a-page<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en"><bpt id="l1">[</bpt>specify dependencies for the BEM entities used on the page<ept id="l1">]</ept><bpt id="l2">(</bpt>#identifying-dependencies<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en"><bpt id="l1">[</bpt>combine the source files<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-the-order-of-including-bem-entities-in-the-build<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en">Build results</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en">We can get different final sets of files as the outcome of the build:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">files for one particular page (e.g., <bpt id="2">`</bpt>hello.css<ept id="2">`</ept> and <bpt id="4">`</bpt>hello.js<ept id="4">`</ept>);</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">general files for the entire project (e.g., one <bpt id="2">`</bpt>project.css<ept id="2">`</ept> file and one <bpt id="4">`</bpt>project.js<ept id="4">`</ept> file);</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">files for page components, such as <bpt id="2">`</bpt>header<ept id="2">`</ept> and <bpt id="4">`</bpt>footer<ept id="4">`</ept>, which are used on different pages of the project (e.g., <bpt id="6">`</bpt>header.css<ept id="6">`</ept> and <bpt id="8">`</bpt>header.js<ept id="8">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">The common part is built separately and linked during the build process.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">In the BEM methodology, such file sets resulting from the build process are commonly called <bpt id="2">**</bpt>bundles<ept id="2">**</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">Note that in this document the build process is illustrated on the example of a <bpt id="2">**</bpt>page<ept id="2">**</ept>, which is an instance of a bundle.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">In the file system, build results for individual files are placed in a default directory carrying the page name (e.g., <bpt id="2">`</bpt>hello<ept id="2">`</ept>):</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en">blocks/       # Directory containing the blocks
+bundles/      # Directory containing all build results (optional)
+  hello/      # Directory for the `hello` page (created manually)</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">An example of a pre-build file structure of a BEM project:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">blocks/           # Directory containing the blocks
+bundles/          # Directory containing all build results
+  hello/          # Directory for the `hello` page
+  hello.decl.js   # List of BEM entities required for the `hello` page</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">An example of a post-build file structure of a BEM project:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">blocks/           # Directory containing the blocks
+bundles/          # Directory containing all build results
+  hello/          # Directory for the `hello` page
+  hello.decl.js   # List of BEM entities required for the `hello` page
+  hello.css       # Built CSS file for the `hello` page
+  hello.js        # Built JavaScript file for the`hello` page</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">Either of the following can be included in the project during the build process:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">all the BEM entities from the file system (which increases the resulting code size considerably);</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">only those BEM entities that are necessary for building the page, in a strictly defined order.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">Building a project with only the relevant BEM entities makes use of the following (all are optional):</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Declaration<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-a-list-of-blocks-elements-and-modifiers-for-creating-a-page<ept id="l2">)</ept> — defines a list of BEM entities that are needed for creating a page.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Dependencies<ept id="l1">]</ept><bpt id="l2">(</bpt>#identifying-dependencies<ept id="l2">)</ept> — determine BEM entities necessary for implementing a block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Redefinition levels<ept id="l1">]</ept><bpt id="l2">(</bpt>#determining-the-order-of-including-bem-entities-in-the-build<ept id="l2">)</ept> — determine the order in which BEM entities are included in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">Determining a list of blocks, elements, and modifiers for creating a page</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">To start the build process for a page, the build tool must know all of its components.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Declaration<ept id="l1">]</ept><bpt id="l2">(</bpt>build__declaration.en.png<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">The first step in the build process is making a list of the necessary BEM entities.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">The following example explains the purpose of such a list and how it is created.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">Let's say there is a library linked to your project, and some of the blocks from that library are used on the page.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">There is no need to include the entire library in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">You can use the page description to make a list of the specific items required.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">This can be done either automatically or manually.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">Only the listed blocks will end up in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">In the BEM methodology, such a list is called a <bpt id="l2">[</bpt>declaration<ept id="l2">]</ept><bpt id="l3">(</bpt>../declarations/declarations.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">The main purpose of the declaration is to define what and in what order should be included in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">Find out more about different <bpt id="l2">[</bpt>ways of building a declaration<ept id="l2">]</ept><bpt id="l3">(</bpt>../declarations/declarations.en.md#ways-of-obtaining-a-declaration<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">Identifying dependencies</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">In the BEM methodology, blocks are often built on the basis of other blocks.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">For instance, the search form block (<bpt id="2">`</bpt>search-form<ept id="2">`</ept>) is built using the <bpt id="4">`</bpt>input<ept id="4">`</ept> and <bpt id="6">`</bpt>button<ept id="6">`</ept> blocks.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">There is no need to implement a block again if it is already stored in the library.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en">You can build the new block on the basis of the existing one.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">To create a block based on another block that already exists, you need to specify dependencies between the two.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">For instance, the above-mentioned <bpt id="2">`</bpt>search-form<ept id="2">`</ept> block is dependent on <bpt id="4">`</bpt>input<ept id="4">`</ept> and <bpt id="6">`</bpt>button<ept id="6">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">The build tool receives the dependency data and adds all the entities and technologies necessary for implementing the block during the build process.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">The order of including entities is also specified in the dependencies.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en">Dependencies can be specified in a number of ways:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">Directly in the block code.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">In CSS, dependencies can be defined using the @import directive.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">In JavaScript, dependencies can be declared using a module system (e.g., <bpt id="l2">[</bpt>AMD<ept id="l2">]</ept><bpt id="l3">(</bpt>https://github.com/amdjs/amdjs-api/wiki/AMD<ept id="l3">)</ept>, <bpt id="l4">[</bpt>CommonJS<ept id="l4">]</ept><bpt id="l5">(</bpt>http://www.commonjs.org/<ept id="l5">)</ept>) or imports (<bpt id="l6">[</bpt>ECMAScript 2015<ept id="l6">]</ept><bpt id="l7">(</bpt>http://www.ecmascript.org/<ept id="l7">)</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">In a separate file.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">The BEM platform uses a technology called <bpt id="l2">[</bpt>DEPS<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/technology/deps/<ept id="l3">)</ept> for specifying dependencies.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">blocks/
+    input/
+        input.css
+        input.js
+        input.deps.js   # `input` block dependencies
+    button/
+        button.css
+        button.js</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">Determining the order of including BEM entities in the build</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">The order of including BEM entities in the build depends upon:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en"><bpt id="1">**</bpt>specified dependencies<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">Dependencies determine the order in which extra entities should be added to the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en"><bpt id="1">**</bpt>redefinition levels used<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">It is important to ensure that <bpt id="l2">[</bpt>levels<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#redefinition-level<ept id="l3">)</ept> are linked to the build in a correct order.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">If we compare levels to layers, then the basic layer is the original implementation of the block, such as supplied from the library, and each next layer is added on top and complements (inherits) or modifies the basic implementation.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">That is why it is important that the original implementation is included in the build first, and then the changes from all the redefinition levels.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">The diagram illustrates the principle of applying redefinition levels to the build: components common to all platforms are linked to the <bpt id="2">`</bpt>common<ept id="2">`</ept> level, while platform-specific components are linked from the <bpt id="4">`</bpt>desktop<ept id="4">`</ept> and <bpt id="6">`</bpt>touch<ept id="6">`</ept> levels.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en"><bpt id="l1">![</bpt>Redefinition levels<ept id="l1">]</ept><bpt id="l2">(</bpt>build__levels.png<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">To find out more about using redefinition levels, read these examples:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Redefining library blocks<ept id="l1">]</ept><bpt id="l2">(</bpt>../filesystem/filesystem.en.md#linking-a-library<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Dividing a project into platforms<ept id="l1">]</ept><bpt id="l2">(</bpt>../filesystem/filesystem.en.md#dividing-a-project-into platforms<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">Build tools</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">The choice of a particular build tool depends on the complexity of your BEM project, on whether it has redefinition levels and whether it uses dependencies.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">The BEM methodology does not limit your choice of tools — you can use any build tool (e.g., Gulp, Grunt, Brunch, Broccoli) that meets the requirements of your project.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">An example of building a BEM project using <bpt id="l2">[</bpt>Gulp<ept id="l2">]</ept><bpt id="l3">(</bpt>http://gulpjs.com<ept id="l3">)</ept> — Declarative JavaScript with BEM.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">The BEM platform uses <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept>, which is a tool suitable for building BEM projects of any level of complexity.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">An example of building a BEM project using <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept> — <bpt id="l4">[</bpt>Starting your own BEM project<ept id="l4">]</ept><bpt id="l5">(</bpt>https://en.bem.info/tutorials/start-with-project-stub/<ept id="l5">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

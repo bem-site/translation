@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/method/filesystem/filesystem.en.md"
+    source-language="en" target-language="it" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/filesystem/filesystem.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">File system organization</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">A component-based approach used in the BEM methodology also determines the way that BEM projects are organized in a file system.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en">In BEM, it's not just the interface that is divided into independent components, i.e.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en">blocks, but the implementation of blocks is also divided into independent parts, namely files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en">Below on this page you will find:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Principles of file system organization<ept id="l1">]</ept><bpt id="l2">(</bpt>#principles-of-file-system-organization-for-bem-projects<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Example of a file system for a BEM project<ept id="l1">]</ept><bpt id="l2">(</bpt>#file-system-organization-of-a-bem-project<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Examples of using redefinition levels<ept id="l1">]</ept><bpt id="l2">(</bpt>#examples-of-using-redefinition-levels<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en">Principles of file system organization for BEM projects</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en">In a BEM project, the code is broken down into small independent parts, to make working with individual blocks easier.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en">Before they are sent to the browser, the files are assembled and optimized.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">That way we separate the human-manipulated code from the code that is sent to the browser.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en">In the file system, the codebase of BEM project is organized according to the following principles:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en"><bpt id="l1">[</bpt>A block implementation is divided into separate parts<ept id="l1">]</ept><bpt id="l2">(</bpt>#a-block-implementation-is-divided-into-separate-files<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Optional elements and modifiers are stored in separate files<ept id="l1">]</ept><bpt id="l2">(</bpt>#optional-elements-and-modifiers-are-stored-in-separate-files<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Files are grouped by meaning and not by type<ept id="l1">]</ept><bpt id="l2">(</bpt>#files-are-grouped-by-meaning-and-not-by-type<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en"><bpt id="l1">[</bpt>A project is divided into redefinition levels<ept id="l1">]</ept><bpt id="l2">(</bpt>#a-project-is-divided-into-redefinition-levels<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">A block implementation is divided into separate files</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en">A file set for a block (e.g., <bpt id="2">`</bpt>input.css<ept id="2">`</ept>, <bpt id="4">`</bpt>input.js<ept id="4">`</ept>) is determined by the <bpt id="l6">[</bpt>technologies<ept id="l6">]</ept><bpt id="l7">(</bpt>../key-concepts/key-concepts.en.md#implementation-technology<ept id="l7">)</ept> that make up the implementation of the block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en"><bpt id="1">*</bpt>Why?<ept id="1">*</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en"><bpt id="1">**</bpt>Enhanced project navigation.<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en">The project structure is built on a single principle, and the block names are unique.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en">This enables developers to easily identify different parts of the project and to find necessary files quicker.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en"><bpt id="1">**</bpt>Easier moving of blocks between projects.<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">The implementation of blocks is divided into separate files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">To move a block from one project to another, you only need to copy the relevant files or directories.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">Optional elements and modifiers are stored in separate files</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en"><bpt id="1">*</bpt>Why?<ept id="1">*</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en"><bpt id="1">**</bpt>Only relevant block implementation is included<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">Only files that are essential to a given block implementation are included in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">Files are grouped by meaning and not by type</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">Block files are grouped together based on common <bpt id="l2">[</bpt>naming rules<ept id="l2">]</ept><bpt id="l3">(</bpt>../naming-convention/naming-convention.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">For convenience, they can be grouped into a block directory.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en"><bpt id="1">*</bpt>Why?<ept id="1">*</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en"><bpt id="1">**</bpt>Only necessary blocks are included in the project<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">Blocks are implemented as independent entities.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">This enables us to configure a build in a way that ensures that only relevant blocks are included in the project.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">A project is divided into redefinition levels</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">The final implementation of a block can be split into <bpt id="l2">[</bpt>redefinition levels<ept id="l2">]</ept><bpt id="l3">(</bpt>#examples-of-using-redefinition-levels<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en"><bpt id="1">*</bpt>Why?<ept id="1">*</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en"><bpt id="1">**</bpt>No code duplication.<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">Storing implementation common to all platforms on a separate level helps avoid code duplication and reduce debugging time.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en"><bpt id="1">**</bpt>Redefinition and extension of ready-made library blocks.<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">To modify a library block, you don't need to copy it to the project level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">You just need to create the necessary file with the changes or new code at another redefinition level and include it in the build.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en"><bpt id="1">**</bpt>Updating libraries linked to the project.<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">Dividing a project into distinct levels lets us modify blocks without affecting the library source code.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">If the library gets updated, the block modification is stored at a different level of the project.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">File system organization of a BEM project</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">For every block, there's a directory in the file system.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">The directory is named after the block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">blocks/
+    input/     # input block directory
+    button/    # button block directory</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">A block implementation is divided into separate files known as technology files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">The files all have the same name as the block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">The extension of each file corresponds to its technology.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">blocks/
+    input/
+        input.css       # `input` block implementation in CSS
+        input.js        # `input` block implementation in JavaScript
+    button/
+        button.css
+        button.js
+        button.png</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">Names of files and directories for <bpt id="l2">[</bpt>BEM entities<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#bem-entity<ept id="l3">)</ept> are based on the <bpt id="l4">[</bpt>naming convention<ept id="l4">]</ept><bpt id="l5">(</bpt>../naming-convention/naming-convention.en.md<ept id="l5">)</ept>:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en">Element — <bpt id="2">`</bpt>block__elem.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input__box.css<ept id="4">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">Block modifier — <bpt id="2">`</bpt>block_mod_val.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input_type_search.css<ept id="4">`</ept>) or <bpt id="6">`</bpt>block_mod.extension<ept id="6">`</ept> (<bpt id="8">`</bpt>input_disabled.css<ept id="8">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">Values of boolean modifiers are not included.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">Element modifier — <bpt id="2">`</bpt>block__elem_mod_val.extension<ept id="2">`</ept> (<bpt id="4">`</bpt>input__clear_size_large.css<ept id="4">`</ept>) or <bpt id="6">`</bpt>block__elem_mod.extension<ept id="6">`</ept> (<bpt id="8">`</bpt>input__clear_visible.css<ept id="8">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">Modifiers and elements are stored in separate files and are grouped into accordingly named block subdirectories.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en">blocks/
+    input/
+        _type/                        # `type` modifier directory
+            input_type_search.css     # Implementation of modifier `type`
+                                      # with value `search` in CSS technology
+        __box/                        # `box` element directory
+            input__box.css
+        input.css
+        input.js
+    button/
+        button.css
+        button.js
+        button.png</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">If there are modifiers that differ in value (e.g., <bpt id="2">`</bpt>popup_target_anchor.extension<ept id="2">`</ept> and <bpt id="4">`</bpt>popup_target_position.extension<ept id="4">`</ept>), the shared code can be stored in a separate file (<bpt id="6">`</bpt>popup_target.extension<ept id="6">`</ept>) with no modifier value included in the name.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">blocks/
+    popup/
+        _target/
+            popup_target.css            # Common code of  modifier `target`
+            popup_target_anchor.css     # Modifier `target` with value `anchor`
+            popup_target_position.css   # Modifier `target` with value `position`
+        _visible/
+            popup_visible.css           # Boolean modifier `visible`
+    popup.css
+    popup.js</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">Real-life examples</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en"><bpt id="l1">[</bpt>bem-core<ept id="l1">]</ept><bpt id="l2">(</bpt>https://github.com/bem/bem-core/tree/v2/common.blocks/page<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en"><bpt id="l1">[</bpt>bem-components<ept id="l1">]</ept><bpt id="l2">(</bpt>https://github.com/bem/bem-components/tree/v2/common.blocks/button<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">Examples of using redefinition levels</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">The implementation of a block can be divided into <bpt id="l2">[</bpt>redefinition levels<ept id="l2">]</ept><bpt id="l3">(</bpt>../key-concepts/key-concepts.en.md#redefinition-level<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">Let's take a few examples:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Linking a library<ept id="l1">]</ept><bpt id="l2">(</bpt>#linking-a-library<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Dividing a project into platforms<ept id="l1">]</ept><bpt id="l2">(</bpt>#dividing-a-project-into-platforms<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">Linking a library</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">A library can be linked to a project as a separate level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">Blocks can be modified (extended or redefined) at another project level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">During the build process the original block implementation will be linked from the library level and the redefined one from the project level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">Such an arrangement allows us to preserve changes made to the blocks if the library gets updated — the library source code will be updated while the specific implementation of the project blocks will remain the same because it is stored at a different level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">library.blocks/
+    button/
+        button.css    # CSS implementation in the linked library (height 20px)
+project.blocks/
+    button/
+        button.css    # Redefinition of CSS implementation (height 24px)</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">Dividing a project into platforms</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">A project is divided into platforms (<bpt id="2">`</bpt>mobile<ept id="2">`</ept> and <bpt id="4">`</bpt>desktop<ept id="4">`</ept>) and into respective redefinition levels in the file system.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en">The <bpt id="2">`</bpt>common<ept id="2">`</ept> level contains the implementation of blocks that is common to both platforms.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en">The <bpt id="2">`</bpt>desktop<ept id="2">`</ept> and <bpt id="4">`</bpt>mobile<ept id="4">`</ept> levels contain platform-specific block implementations.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en">Let's look at an example:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en">common.blocks/
+    button/
+        button.css    # Generic CSS implementation of the button
+desktop.blocks/
+    button/
+        button.css    # Desktop platform-specific button features
+mobile.blocks/
+    button/
+        button.css    # Mobile platform-specific button features</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">During the build process, all the generic CSS rules for the button will be included in the <bpt id="2">`</bpt>desktop.css<ept id="2">`</ept> file from the <bpt id="4">`</bpt>common<ept id="4">`</ept> level, and the redefined rules from the <bpt id="6">`</bpt>desktop<ept id="6">`</ept> level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">Generic CSS rules</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">Desktop platform-specific</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">The <bpt id="2">`</bpt>mobile.css<ept id="2">`</ept> file will include the generic CSS rules for the button from the <bpt id="4">`</bpt>common<ept id="4">`</ept> level and the redefined rules from the <bpt id="6">`</bpt>mobile<ept id="6">`</ept> level.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">Generic CSS rules</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">Mobile platform-specific</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>

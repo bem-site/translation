@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="bem-method/faq/faq.en.md"
+    source-language="en" target-language="it" datatype="markdown">
+    <header>
+      <skl>
+        <external-file href="translation/methodology/faq/faq.skl"/>
+      </skl>
+    </header>
+    <body>
+<trans-unit id="1">
+  <source xml:lang="en">Frequently asked questions</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="2">
+  <source xml:lang="en">Why BEM?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="3">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How does BEM differ from OOCSS, AMCSS, SMACSS, SUITCSS?<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-does-bem-differ-from-oocss-amcss-smacss-suitcss<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="4">
+  <source xml:lang="en"><bpt id="l1">[</bpt>What is the difference between BEM and Web Components?<ept id="l1">]</ept><bpt id="l2">(</bpt>#what-is-the-difference-between-bem-and-web-components<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="5">
+  <source xml:lang="en"><bpt id="l1">[</bpt>What is the difference between BEM and Bootstrap?<ept id="l1">]</ept><bpt id="l2">(</bpt>#what-is-the-difference-between-bem-and-bootstrap<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="6">
+  <source xml:lang="en">Blocks and elements</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="7">
+  <source xml:lang="en"><bpt id="l1">[</bpt>A block or an element: when should I use which?<ept id="l1">]</ept><bpt id="l2">(</bpt>#a-block-or-an-element-when-should-i-use-which<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="8">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why does BEM not recommend using elements within elements (block__elem1__elem2)?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="9">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why include the block name in names of modifier and element?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-include-the-block-name-in-names-of-modifier-and-element<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="10">
+  <source xml:lang="en"><bpt id="l1">[</bpt>How do I make global modifiers for blocks?<ept id="l1">]</ept><bpt id="l2">(</bpt>#how-do-i-make-global-modifiers-for-blocks<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="11">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why create separate directories and files for every block and technology?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-create-separate-directories-and-files-for-every-block-and-technology<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="12">
+  <source xml:lang="en">JavaScript</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="13">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why use i-bem.js when you have jQuery?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-use-i-bemjs-when-you-have-jquery<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="14">
+  <source xml:lang="en">CSS</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="15">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why should I avoid using nested selectors?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-should-i-avoid-using-nested-selectors<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="16">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why does BEM advise against using combined selectors for creating CSS rules for modifiers?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-does-bem-advise-against-using-combined-selectors-for-creating-css-rules-for-modifiers<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="17">
+  <source xml:lang="en">[Can I combine a tag and a class in a selector (e.g.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="18">
+  <source xml:lang="en">button.button)?](#can-i-combine-a-tag-and-a-class-in-a-selector-eg-buttonbutton)</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="19">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why are custom tags not used for blocks in BEM?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-are-custom-tags-not-used-for-blocks-in-bem<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="20">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why can't I use a CSS Reset?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-cannot-i-use-a-css-reset<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="21">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why can't I write block_mod instead of block block_mod, when the modifier name already contains all the block data?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-cannot-i-write-block_mod-instead-of-block-block_mod-when-the-modifier-name-already-contains-all-the-block-data<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="22">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Why can't I include a CSS property name in a modifier name: .block__element_border-color_grey?<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-cannot-i-include-a-css-property-name-in-a-modifier-name-block__element_border-color_grey<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="23">
+  <source xml:lang="en"><bpt id="1">**</bpt>No answer found?<ept id="1">**</ept> — <bpt id="l3">[</bpt>Place your question on our forum!<ept id="l3">]</ept><bpt id="l4">(</bpt>https://en.bem.info/forum/<ept id="l4">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="24">
+  <source xml:lang="en">How does BEM differ from OOCSS, AMCSS, SMACSS, SUITCSS?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="25">
+  <source xml:lang="en">BEM is applicable to JavaScript as well as CSS.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="26">
+  <source xml:lang="en">BEM has more in common with Web Components than with the CSS solutions listed.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="27">
+  <source xml:lang="en">(<bpt id="l2">[</bpt>What is the difference between BEM and Web Components?<ept id="l2">]</ept><bpt id="l3">(</bpt>#what-is-the-difference-between-bem-and-web-components<ept id="l3">)</ept>)</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="28">
+  <source xml:lang="en">BEM provides a comprehensive solution for creating the architecture for your project and helps organize development processes.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="29">
+  <source xml:lang="en">Find out more about the <bpt id="l2">[</bpt>BEM methodology<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/method/<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="30">
+  <source xml:lang="en">It is possible to use BEM at the CSS level only.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="31">
+  <source xml:lang="en">You just need to follow the <bpt id="l2">[</bpt>guidelines proposed by the methodology<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/naming-convention/naming-convention.en.md<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="32">
+  <source xml:lang="en">What is the difference between BEM and Web Components?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="33">
+  <source xml:lang="en">Browser support</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="34">
+  <source xml:lang="en">Web Components <bpt id="l2">[</bpt>are not supported<ept id="l2">]</ept><bpt id="l3">(</bpt>http://caniuse.com/#search=Web%20Components<ept id="l3">)</ept> by Safari, iOS Safari, Internet Explorer, Firefox.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="35">
+  <source xml:lang="en">BEM works in all browsers.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="36">
+  <source xml:lang="en">Encapsulation</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="37">
+  <source xml:lang="en">Web Components use Shadow DOM.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="38">
+  <source xml:lang="en">BEM uses block <bpt id="l2">[</bpt>elements<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#element<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="39">
+  <source xml:lang="en">Template execution</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="40">
+  <source xml:lang="en">In Web Components, templates are always executed in the browser.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="41">
+  <source xml:lang="en">This may involve solving some indexing problems.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="42">
+  <source xml:lang="en">In BEM, template generation is possible at the development stage.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="43">
+  <source xml:lang="en">This lets us pass the ready HTML.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="44">
+  <source xml:lang="en">Templates can be executed both in the browser and on the server side.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="45">
+  <source xml:lang="en">Web Components are based on an imperative principle, using string interpolation.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="46">
+  <source xml:lang="en">BEM uses a declarative approach, which helps manage templating in a flexible way and avoid redundancy.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="47">
+  <source xml:lang="en">Build vs HTML import</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="48">
+  <source xml:lang="en">Web Components use HTML Imports, which work directly in the browser.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="49">
+  <source xml:lang="en">The <bpt id="l2">[</bpt>Vulcanize<ept id="l2">]</ept><bpt id="l3">(</bpt>http://webcomponents.org/articles/introduction-to-html-imports/#aggregating-network-requests<ept id="l3">)</ept> tool is used to aggregate multiple HTML files into one file.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="50">
+  <source xml:lang="en">BEM uses build tools: <bpt id="l2">[</bpt>ENB<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/tools/bem/enb-bem/<ept id="l3">)</ept> or <bpt id="l4">[</bpt>bem-tools<ept id="l4">]</ept><bpt id="l5">(</bpt>https://en.bem.info/tools/bem/bem-tools/<ept id="l5">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="51">
+  <source xml:lang="en">Abstraction over a DOM tree vs Custom Elements</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="52">
+  <source xml:lang="en">In Web Components, Custom Elements are used.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="53">
+  <source xml:lang="en">Such an approach allows only for one component to be hosted on a single DOM node.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="54">
+  <source xml:lang="en">BEM introduces the concept of a <bpt id="l2">[</bpt>BEM tree<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#bem-tree<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="55">
+  <source xml:lang="en">BEM uses <bpt id="l2">[</bpt>mixes<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept> — the practice of hosting several BEM entities on a single DOM node.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="56">
+  <source xml:lang="en">What is the difference between BEM and Bootstrap?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="57">
+  <source xml:lang="en">In BEM terms, <bpt id="l2">[</bpt>Bootstrap<ept id="l2">]</ept><bpt id="l3">(</bpt>http://getbootstrap.com/<ept id="l3">)</ept> is a set of ready-made blocks.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="58">
+  <source xml:lang="en">BEM, on the other hand, is not a library of interface elements but a methodology that allows you to</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="59">
+  <source xml:lang="en">Create the architecture for your project</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="60">
+  <source xml:lang="en">Develop web applications based on independent blocks</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="61">
+  <source xml:lang="en">Facilitate project support.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="62">
+  <source xml:lang="en">BEM does provide its own block library, called <bpt id="l2">[</bpt>bem-components<ept id="l2">]</ept><bpt id="l3">(</bpt>https://en.bem.info/libs/bem-components/<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="63">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Other<ept id="l1">]</ept><bpt id="l2">(</bpt>https://en.bem.info/libs/<ept id="l2">)</ept> BEM libraries are also available.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="64">
+  <source xml:lang="en">A block or an element: when should I use which?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="65">
+  <source xml:lang="en">If you're dealing with a fragment of code that can be reused and does not depend on the implementation of other components of the page, you should implement it as a <bpt id="l2">[</bpt>block<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#block<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="66">
+  <source xml:lang="en">If it's a fragment of code that cannot be used on its own, without a parent entity (block), in most cases that should be an <bpt id="l2">[</bpt>element<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#element<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="67">
+  <source xml:lang="en">This rule does not apply when implementing elements that, for reasons of simplifying the development process, have to be broken down into smaller, sub-element, parts.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="68">
+  <source xml:lang="en">The BEM methodology <bpt id="l2">[</bpt>does not recommend creating elements of elements<ept id="l2">]</ept><bpt id="l3">(</bpt>#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="69">
+  <source xml:lang="en">So, in cases like this, instead of an element, a service block should be created.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="70">
+  <source xml:lang="en">Why does BEM not recommend using elements within elements (block__elem1__elem2)?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="71">
+  <source xml:lang="en">The existence of elements of elements hinders the ability to change the internal structure of the block: elements cannot be swapped around, removed or added without modifying the existing code.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="72">
+  <source xml:lang="en">In the BEM methodology, blocks are the only entities that support nested structure (<bpt id="2">`</bpt>block__elem<ept id="2">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="73">
+  <source xml:lang="en">A block name defines a namespace that <bpt id="l2">[</bpt>ensures the dependence<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/naming-convention/naming-convention.en.md#element-name<ept id="l3">)</ept> of elements on the block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="74">
+  <source xml:lang="en">A block can have a nested element structure in a DOM tree.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="75">
+  <source xml:lang="en">&lt;div class=&quot;block&quot;&gt;
+    &lt;div class=&quot;block__elem1&quot;&gt;
+        &lt;div class=&quot;block__elem2&quot;&gt;
+            &lt;div class=&quot;block__elem3&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="76">
+  <source xml:lang="en">In the BEM methodology, though, the same structure is always represented by a flat list of elements.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="77">
+  <source xml:lang="en">This makes it possible to change the DOM structure of the block without modifying the code of each individual element.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="78">
+  <source xml:lang="en">&lt;div class=&quot;block&quot;&gt;
+    &lt;div class=&quot;block__elem1&quot;&gt;
+        &lt;div class=&quot;block__elem2&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;block__elem3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="79">
+  <source xml:lang="en">The structure of the block changes while the rules for its elements and their names remain the same.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="80">
+  <source xml:lang="en">Why include the block name in names of modifier and element?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="81">
+  <source xml:lang="en">A block name in the names of <bpt id="l2">[</bpt>BEM entities<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#bem-entity<ept id="l3">)</ept> is used for</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="82">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Namespace<ept id="l1">]</ept><bpt id="l2">(</bpt>#namespace<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="83">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Mixes<ept id="l1">]</ept><bpt id="l2">(</bpt>#mixes<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="84">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Code searching<ept id="l1">]</ept><bpt id="l2">(</bpt>#code-searching<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="85">
+  <source xml:lang="en"><bpt id="1">**</bpt>NB<ept id="1">**</ept>: The BEM methodology <bpt id="l3">[</bpt>allows freedom of choice<ept id="l3">]</ept><bpt id="l4">(</bpt>../method/naming-convention/naming-convention.en.md#alternative-naming-schemes<ept id="l4">)</ept> when it comes to a choosing a preferred naming strategy, however consistency of names is required.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="86">
+  <source xml:lang="en">For example, the following are all valid options: <bpt id="2">`</bpt>context<ept id="2">`</ept>, <bpt id="4">`</bpt>ctx<ept id="4">`</ept> or <bpt id="6">`</bpt>c<ept id="6">`</ept>, <bpt id="8">`</bpt>attributes<ept id="8">`</ept>, <bpt id="10">`</bpt>attrs<ept id="10">`</ept> or <bpt id="12">`</bpt>as<ept id="12">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="87">
+  <source xml:lang="en">Select one name and stick with it throughout the project.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="88">
+  <source xml:lang="en">Namespace</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="89">
+  <source xml:lang="en">A block name defines a namespace and ensures unique names for elements and modifiers.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="90">
+  <source xml:lang="en">This helps reduce the impact of elements and modifiers of one block on the implementation of another.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="91">
+  <source xml:lang="en">Mixes</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="92">
+  <source xml:lang="en">A <bpt id="l2">[</bpt>mix<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept> is an instance of different BEM entities being hosted on a single DOM node.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="93">
+  <source xml:lang="en">When mixing a modifier, a block name indicates what block the modifier will be applied to.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="94">
+  <source xml:lang="en">If a block name is not specified, the modifier will be applied to all the mixed BEM entities.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="95">
+  <source xml:lang="en">Let's say we have a mix of a menu item (<bpt id="2">`</bpt>menu_item<ept id="2">`</ept>) and a button (<bpt id="4">`</bpt>button<ept id="4">`</ept>:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="96">
+  <source xml:lang="en">&lt;div class=&quot;menu__item button&quot;&gt;&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="97">
+  <source xml:lang="en">Let's add a modifier called <bpt id="2">`</bpt>active<ept id="2">`</ept> in short notation (with no block name):</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="98">
+  <source xml:lang="en">&lt;div class=&quot;menu__item button active&quot;&gt;&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="99">
+  <source xml:lang="en">This kind of HTML markup leaves it unclear as to whether the modifier relates to the menu item (<bpt id="2">`</bpt>menu__item.active<ept id="2">`</ept>) or the button (<bpt id="4">`</bpt>button.active<ept id="4">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="100">
+  <source xml:lang="en">Specifying the block name (<bpt id="2">`</bpt>button_active<ept id="2">`</ept>) indicates the BEM entity to which the modifier will be applied.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="101">
+  <source xml:lang="en">Likewise, notation like <bpt id="2">`</bpt>&lt;div class=&quot;block mod&quot;&gt;<ept id="2">`</ept> leaves it unclear as to what BEM entities are being used.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="102">
+  <source xml:lang="en">For example, you can't tell from <bpt id="2">`</bpt>&lt;div class=&quot;checkbox button&quot;&gt;<ept id="2">`</ept> whether it's a mix of a modifier and a block or a mix of two blocks.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="103">
+  <source xml:lang="en">The full name of the modifier <bpt id="2">`</bpt>&lt;div class=&quot;block block_mod&quot;&gt;<ept id="2">`</ept> leaves no doubt as to the types of entities: <bpt id="4">`</bpt>&lt;div class=&quot;checkbox checkbox_button&quot;&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="104">
+  <source xml:lang="en">Code search</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="105">
+  <source xml:lang="en">Explicit and unique names facilitate searching the code or the file system for specific entities.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="106">
+  <source xml:lang="en">Let's compare the results of a global search during the debugging stage.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="107">
+  <source xml:lang="en">Let's find a modifier called <bpt id="2">`</bpt>active<ept id="2">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="108">
+  <source xml:lang="en">If short notation is used (<bpt id="2">`</bpt>active<ept id="2">`</ept>), the search results will include all possible combinations and HTML fragments containing <bpt id="4">`</bpt>active<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="109">
+  <source xml:lang="en">In the BEM-recommended notation the name of the modifier already contains a additional search parameter in the form of the block name (<bpt id="2">`</bpt>button_active<ept id="2">`</ept>).</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="110">
+  <source xml:lang="en">Because the modifier name is unique, the search will return only relevant code fragments.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="111">
+  <source xml:lang="en">How do I make global modifiers for blocks?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="112">
+  <source xml:lang="en">BEM does not accommodate the concept of global modifiers — any modifier always belongs to one specific <bpt id="l2">[</bpt>BEM entity<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#bem-entity<ept id="l3">)</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="113">
+  <source xml:lang="en">If a CSS property needs to be moved outside of a block and applied to different BEM entities in the project, a separate block should be created, implemented in the CSS technology.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="114">
+  <source xml:lang="en">BEM allows us to combine the implementation of different blocks using <bpt id="l2">[</bpt>mixes<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept>:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="115">
+  <source xml:lang="en">&lt;div class=&quot;block1 block2&quot;&gt;&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="116">
+  <source xml:lang="en">Why create separate directories and files for every block and technology?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="117">
+  <source xml:lang="en">For the purpose of convenient development and support, the file system of a BEM project is divided into nested directories and files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="118">
+  <source xml:lang="en">The use of the recommended file system structure is optional.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="119">
+  <source xml:lang="en">You can use any alternative project structure that conforms to the principles of BEM file system organization, for example:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="120">
+  <source xml:lang="en"><bpt id="1">**</bpt>flex scheme<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="121">
+  <source xml:lang="en">One block per directory.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="122">
+  <source xml:lang="en">Elements and modifiers are implemented in separate files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="123">
+  <source xml:lang="en">blocks/
+  input/
+      input_layout_horiz.css
+      input_layout_vertical.css
+      input__elem.css
+      input.css
+      input.js
+  button/</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="124">
+  <source xml:lang="en">One block per directory.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="125">
+  <source xml:lang="en">Elements and modifiers are implemented inside block files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="126">
+  <source xml:lang="en">blocks/
+  input/
+      input.css
+      input.js
+  button/</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="127">
+  <source xml:lang="en">Blocks don't have their own directories.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="128">
+  <source xml:lang="en">Elements and modifiers are implemented inside block files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="129">
+  <source xml:lang="en">blocks/
+  input.css
+  input.js
+  button.css
+  button.js</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="130">
+  <source xml:lang="en"><bpt id="1">**</bpt>flat scheme<ept id="1">**</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="131">
+  <source xml:lang="en">Blocks don't have their own directories.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="132">
+  <source xml:lang="en">Optional elements and modifiers are implemented in separate files.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="133">
+  <source xml:lang="en">blocks/
+  input_type_search.js
+  input_type_search.bemhtml
+  input__box.bemhtml
+  input.css
+  input.js
+  input.bemhtml
+  button.css
+  button.js
+  button.bemhtml
+  button.png</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="134">
+  <source xml:lang="en">Why use i-bem.js when you have jQuery?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="135">
+  <source xml:lang="en"><bpt id="l1">[</bpt>i-bem.js<ept id="l1">]</ept><bpt id="l2">(</bpt>https://en.bem.info/technology/i-bem/<ept id="l2">)</ept> is a specialized framework for developing projects with JavaScript in terms of blocks, elements, and modifiers.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="136">
+  <source xml:lang="en"><bpt id="1">`</bpt>i-bem.js<ept id="1">`</ept> is not meant to replace any general-purpose framework, such as jQuery.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="137">
+  <source xml:lang="en"><bpt id="1">`</bpt>i-bem.js<ept id="1">`</ept> allows you to</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="138">
+  <source xml:lang="en">Develop a web interface in terms of blocks, elements, modifiers</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="139">
+  <source xml:lang="en">Integrate JavaScript code with templates and BEM-style CSS rules</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="140">
+  <source xml:lang="en">Describe the logic of a block as a set of states.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="141">
+  <source xml:lang="en">Why should I avoid using nested selectors?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="142">
+  <source xml:lang="en">BEM is all about independent blocks.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="143">
+  <source xml:lang="en">Nested selectors increase coupling within the code and make code reuse impossible.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="144">
+  <source xml:lang="en">This is in contradiction to the BEM principles.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="145">
+  <source xml:lang="en">The BEM methodology allows nested selectors, but recommends keeping their use to a minimum.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="146">
+  <source xml:lang="en">For instance, nesting is appropriate for changing elements depending on the state of a block or its assigned theme.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="147">
+  <source xml:lang="en">Why does BEM advise against using combined selectors for creating CSS rules for modifiers?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="148">
+  <source xml:lang="en">Combined selectors make block redefinition more difficult because of their higher CSS specificity compared to single selectors.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="149">
+  <source xml:lang="en">Combined selectors for a block modifier (<bpt id="2">`</bpt>.block1.mod<ept id="2">`</ept>) and for a redefined block (<bpt id="4">`</bpt>.block2 .block1<ept id="4">`</ept>) have the same specificity.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="150">
+  <source xml:lang="en">Block redefinition would depend only on the order of rules in the declaration.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="151">
+  <source xml:lang="en">Consider an example:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="152">
+  <source xml:lang="en">&lt;div class=&quot;header&quot;&gt;
+    &lt;button class=&quot;button active&quot;&gt;
+&lt;/div&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="153">
+  <source xml:lang="en">The rules for the modifier <bpt id="2">`</bpt>active<ept id="2">`</ept> for the button are written as the combined selector <bpt id="4">`</bpt>.button.active<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="154">
+  <source xml:lang="en">To redefine the button with the parent block <bpt id="2">`</bpt>header<ept id="2">`</ept>, selector <bpt id="4">`</bpt>.header .button<ept id="4">`</ept> is created.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="155">
+  <source xml:lang="en">Both selectors have the same specificity, so the application of CSS rules is determined by their declaration order.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="156">
+  <source xml:lang="en">Using the block name in the name of a modifier gives a higher priority to CSS rules for block redefinition.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="157">
+  <source xml:lang="en">The
+<bpt id="2">`</bpt>.header .button<ept id="2">`</ept> selector will be always of a higher priority than <bpt id="4">`</bpt>.button_active<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="158">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Reasons for including the block name in a modifier name<ept id="l1">]</ept><bpt id="l2">(</bpt>#why-include-the-block-name-in-modifier-names-and-element-names<ept id="l2">)</ept></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="159">
+  <source xml:lang="en">Can I combine a tag and a class in a selector (e.g.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="160">
+  <source xml:lang="en">button.button)?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="161">
+  <source xml:lang="en">Combining a tag and a class in one selector increases its CSS specificity.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="162">
+  <source xml:lang="en">Adding a modifier won't redefine the CSS rules of the block since the specificity of the block selector is higher.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="163">
+  <source xml:lang="en">Let's look at an example:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="164">
+  <source xml:lang="en"> &lt;button class=&quot;button&quot;&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="165">
+  <source xml:lang="en">Let's use a <bpt id="2">`</bpt>button.button<ept id="2">`</ept> selector for the CSS rules of this block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="166">
+  <source xml:lang="en">Now with a modifier:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="167">
+  <source xml:lang="en"> &lt;button class=&quot;button button_active&quot;&gt;</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="168">
+  <source xml:lang="en">The <bpt id="2">`</bpt>.button_mod<ept id="2">`</ept> selector will not redefine CSS properties of the block with the <bpt id="4">`</bpt>button.button<ept id="4">`</ept> selector, as the latter has higher specificity.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="169">
+  <source xml:lang="en">For the redefinition to work, the selector for the modifier needs to be combined with the tag as well: <bpt id="2">`</bpt>button.button_mod<ept id="2">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="170">
+  <source xml:lang="en">As your project keeps growing, you may have blocks with selectors like <bpt id="2">`</bpt>input.button<ept id="2">`</ept>, <bpt id="4">`</bpt>span.button<ept id="4">`</ept> and, say, <bpt id="6">`</bpt>a.button<ept id="6">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="171">
+  <source xml:lang="en">Then all modifiers of the <bpt id="2">`</bpt>button<ept id="2">`</ept> block and all its nested elements will require four different declarations for each instance.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="172">
+  <source xml:lang="en">Why are custom tags not used for blocks in BEM?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="173">
+  <source xml:lang="en">Blocks could be represented in HTML by custom tags, with CSS rules defined for them.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="174">
+  <source xml:lang="en">In that case classes would only be used for modifiers: <bpt id="2">`</bpt>&lt;button class=&quot;mod&quot;/&gt;<ept id="2">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="175">
+  <source xml:lang="en">Custom tags can indeed be used for creating block selectors, but the following restrictions apply</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="176">
+  <source xml:lang="en"><bpt id="l1">[</bpt>Mixes<ept id="l1">]</ept><bpt id="l2">(</bpt>../method/key-concepts/key-concepts.en.md#mix<ept id="l2">)</ept> can't be used.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="177">
+  <source xml:lang="en">Not all blocks can be represented by custom tags.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="178">
+  <source xml:lang="en">For example, all links require an <bpt id="2">`</bpt>&lt;a&gt;<ept id="2">`</ept> tag, and all fields require <bpt id="4">`</bpt>&lt;input&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="179">
+  <source xml:lang="en">Why cannot I use a CSS Reset?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="180">
+  <source xml:lang="en">Blocks are independent components.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="181">
+  <source xml:lang="en">They must not be affected by page-wide CSS rules.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="182">
+  <source xml:lang="en">Otherwise their independence is compromised and their reuse becomes problematic.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="183">
+  <source xml:lang="en">A CSS Reset is carried out using <bpt id="l2">[</bpt>global CSS rules<ept id="l2">]</ept><bpt id="l3">(</bpt>#how-do-i-make-global-modifiers-for-blocks<ept id="l3">)</ept>, which are in most cases written for <bpt id="l4">[</bpt>tag selectors<ept id="l4">]</ept><bpt id="l5">(</bpt>#why-are-custom-tags-not-used-for-blocks-in-bem<ept id="l5">)</ept>, which is not recommended practice for a BEM project.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="184">
+  <source xml:lang="en">If you must reset your styles, in BEM you can do it on a per-block basis.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="185">
+  <source xml:lang="en">Here is an example.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="186">
+  <source xml:lang="en">If a menu block and a list block in your project are both represented by a <bpt id="2">`</bpt>&lt;ul&gt;<ept id="2">`</ept> tag in HTML, then each block must provide a CSS Reset for <bpt id="4">`</bpt>&lt;ul&gt;<ept id="4">`</ept>.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="187">
+  <source xml:lang="en">Duplication in the resultant code can be avoided by using a CSS optimizer.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="188">
+  <source xml:lang="en">If your project does not use a CSS optimizer that combines selectors with the same sets of rules, you can use a CSS preprocessor.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="189">
+  <source xml:lang="en">Then you can have a reset of rules for every new block, <bpt id="l2">[</bpt>mixing<ept id="l2">]</ept><bpt id="l3">(</bpt>../method/key-concepts/key-concepts.en.md#mix<ept id="l3">)</ept> the proper code.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="190">
+  <source xml:lang="en">E.g., in SASS it would look like this:</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="191">
+  <source xml:lang="en">This method is only appropriate in the absence of an optimizer.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="192">
+  <source xml:lang="en">Why cannot I write block_mod instead of block block_mod, when the modifier name already contains all the block data?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="193">
+  <source xml:lang="en">Using multiple modifiers on the same block (e.g., <bpt id="2">`</bpt>&lt;div class=&quot;block_theme_christmas block_size_big&quot;&gt;<ept id="2">`</ept>) will cause duplication of the code that implements the basic functionality (logic and styles) of the block.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="194">
+  <source xml:lang="en">Why cannot I include a CSS property name in a modifier name: .block__element_border-color_grey?</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="195">
+  <source xml:lang="en">If the block or the element changes its look, you will have to edit not only the CSS code but also the selector names.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="196">
+  <source xml:lang="en">E.g., if the border color is changed from <bpt id="2">`</bpt>grey<ept id="2">`</ept> to <bpt id="4">`</bpt>red<ept id="4">`</ept>, you will need to edit the templates, and most likely, the JavaScript code.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="197">
+  <source xml:lang="en">If other properties (background, margins) are added, the name of the modifier will no longer match the content.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="198">
+  <source xml:lang="en">The BEM methodology recommends choosing names for modifiers based on semantics rather than visual representation.</source>
+  <target xml:lang="it"></target>
+</trans-unit>
+<trans-unit id="199">
+  <source xml:lang="en"><ph id="1">&lt;small&gt;</ph>This FAQ is partially based on http://getbem.com/faq/<ph id="4">&lt;/small&gt;</ph></source>
+  <target xml:lang="it"></target>
+</trans-unit>
+    </body>
+ </file>
+</xliff>
