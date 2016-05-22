@@ -316,11 +316,11 @@
     &lt;/div&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="block"&gt;
-&lt;div class="block__elem1"&gt;
-&lt;div class="block__elem2"&gt;
-&lt;div class="block__elem3"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    &lt;div class="block__elem1"&gt;
+        &lt;div class="block__elem2"&gt;
+            &lt;div class="block__elem3"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="77">
@@ -339,10 +339,10 @@
     &lt;div class="block__elem3"&gt;&lt;/div&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="block"&gt;
-&lt;div class="block__elem1"&gt;
-&lt;div class="block__elem2"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="block__elem3"&gt;&lt;/div&gt;
+    &lt;div class="block__elem1"&gt;
+        &lt;div class="block__elem2"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="block__elem3"&gt;&lt;/div&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="80">
@@ -531,13 +531,13 @@
       input.js
   button/</source>
   <target xml:lang="uk">blocks/
-input/
-input_layout_horiz.css
-input_layout_vertical.css
-input__elem.css
-input.css
-input.js
-button/</target>
+  input/
+      input_layout_horiz.css
+      input_layout_vertical.css
+      input__elem.css
+      input.css
+      input.js
+  button/</target>
 </trans-unit>
 <trans-unit id="125">
   <source xml:lang="ru">Блоку соответствует отдельная директория.</source>
@@ -554,10 +554,10 @@ button/</target>
       input.js
   button/</source>
   <target xml:lang="uk">blocks/
-input/
-input.css
-input.js
-button/</target>
+  input/
+      input.css
+      input.js
+  button/</target>
 </trans-unit>
 <trans-unit id="128">
   <source xml:lang="ru">Директории для блоков не используются.</source>
@@ -574,10 +574,10 @@ button/</target>
   button.css
   button.js</source>
   <target xml:lang="uk">blocks/
-input.css
-input.js
-button.css
-button.js</target>
+  input.css
+  input.js
+  button.css
+  button.js</target>
 </trans-unit>
 <trans-unit id="131">
   <source xml:lang="ru"><bpt id="1">**</bpt>flat-схема<ept id="1">**</ept></source>
@@ -604,16 +604,16 @@ button.js</target>
   button.bemhtml
   button.png</source>
   <target xml:lang="uk">blocks/
-input_type_search.js
-input_type_search.bemhtml
-input__box.bemhtml
-input.css
-input.js
-input.bemhtml
-button.css
-button.js
-button.bemhtml
-button.png</target>
+  input_type_search.js
+  input_type_search.bemhtml
+  input__box.bemhtml
+  input.css
+  input.js
+  input.bemhtml
+  button.css
+  button.js
+  button.bemhtml
+  button.png</target>
 </trans-unit>
 <trans-unit id="135">
   <source xml:lang="ru">Зачем использовать i-bem.js, если можно писать на jQuery?</source>
@@ -692,7 +692,7 @@ button.png</target>
   &lt;button class="button active"&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="header"&gt;
-&lt;button class="button active"&gt;
+  &lt;button class="button active"&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="154">

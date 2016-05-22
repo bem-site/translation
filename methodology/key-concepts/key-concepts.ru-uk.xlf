@@ -277,12 +277,12 @@
     &lt;div class="lang-switcher"&gt;&lt;/div&gt;
 &lt;/header&gt;</source>
   <target xml:lang="uk">&lt;header class="header"&gt;
-&lt;img class="logo"&gt;
-&lt;form class="search-form"&gt;
-&lt;input type="input"&gt;
-&lt;button type="button"&gt;&lt;/button&gt;
-&lt;/form&gt;
-&lt;div class="lang-switcher"&gt;&lt;/div&gt;
+    &lt;img class="logo"&gt;
+    &lt;form class="search-form"&gt;
+        &lt;input type="input"&gt;
+        &lt;button type="button"&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div class="lang-switcher"&gt;&lt;/div&gt;
 &lt;/header&gt;</target>
 </trans-unit>
 <trans-unit id="67">
@@ -297,11 +297,11 @@
         └──button
     └──lang-switcher</source>
   <target xml:lang="uk">header
-├──logo
-└──search-form
-├──input
-└──button
-└──lang-switcher</target>
+    ├──logo
+    └──search-form
+        ├──input
+        └──button
+    └──lang-switcher</target>
 </trans-unit>
 <trans-unit id="69">
   <source xml:lang="ru">Это же БЭМ-дерево будет иметь следующий вид в форматах XML и <bpt id="l2">[</bpt>BEMJSON<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/technology/bemjson/<ept id="l3">)</ept>:</source>
@@ -321,12 +321,12 @@
     &lt;block:lang-switcher/&gt;
 &lt;/block:header&gt;</source>
   <target xml:lang="uk">&lt;block:header&gt;
-&lt;block:logo/&gt;
-&lt;block:search-form&gt;
-&lt;block:input/&gt;
-&lt;block:button/&gt;
-&lt;/block:search-form&gt;
-&lt;block:lang-switcher/&gt;
+    &lt;block:logo/&gt;
+    &lt;block:search-form&gt;
+        &lt;block:input/&gt;
+        &lt;block:button/&gt;
+    &lt;/block:search-form&gt;
+    &lt;block:lang-switcher/&gt;
 &lt;/block:header&gt;</target>
 </trans-unit>
 <trans-unit id="72">

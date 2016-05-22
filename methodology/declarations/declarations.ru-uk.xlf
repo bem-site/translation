@@ -198,20 +198,20 @@
                             'popup'                 'popup',
     'textarea'                                      'textarea'
 ]                       ]                       ]</source>
-  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+  <target xml:lang="uk">Декларація 1            Декларація 2            Декларація 3
 
-[ [ [
-'header', 'header', 'header',
-'input', 'input', 'input',
-'button', 'button', 'button',
-'link', 'link',
-'attach', + = 'attach',
-'menu', 'menu',
-'image', 'image',
-'checkbox', 'checkbox',
-'popup' 'popup',
-'textarea' 'textarea'
-] ] ]</target>
+[                       [                       [
+    'header',               'header',               'header',
+    'input',                'input',                'input',
+    'button',               'button',               'button',
+    'link',                                         'link',
+    'attach',     +                        =        'attach',
+                            'menu',                 'menu',
+                            'image',                'image',
+    'checkbox',                                     'checkbox',
+                            'popup'                 'popup',
+    'textarea'                                      'textarea'
+]                       ]                       ]</target>
 </trans-unit>
 <trans-unit id="46">
   <source xml:lang="ru">Вычитание деклараций</source>
@@ -236,20 +236,20 @@
                             'image',
                             'popup'
 ]                       ]                       ]</source>
-  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+  <target xml:lang="uk">Декларація 1            Декларація 2            Декларація 3
 
-[ [ [
-'button', 'button',
-'checkbox', 'checkbox',
-'textarea', 'textarea',
-'suggest' 'suggest'
-'header',
-- 'input', =
-'button',
-'menu',
-'image',
-'popup'
-] ] ]</target>
+[                       [                       [
+    'button',               'button',
+    'checkbox',                                     'checkbox',
+    'textarea',                                     'textarea',
+    'suggest'                                       'suggest'
+                            'header',
+                    -       'input',       =
+                            'button',
+                            'menu',
+                            'image',
+                            'popup'
+]                       ]                       ]</target>
 </trans-unit>
 <trans-unit id="49">
   <source xml:lang="ru">Например, на странице используется виртуальная клавиатура, которая становится доступна пользователю только в ответ на определенное действие.</source>
@@ -291,17 +291,17 @@
     'textarea',             'popup',
     'footer'                'footer'                'footer'
 ]                        ]                       ]</source>
-  <target xml:lang="uk">Декларація 1 Декларація 2 3 Декларація
+  <target xml:lang="uk">Декларація 1            Декларація 2            Декларація 3
 
-[ [ [
-'header', 'header', 'header',
-'input', 'menu',
-'link', ⋂ 'button', =
-'attach', 'input',
-'checkbox', 'image',
-'textarea', 'popup',
-'footer' 'footer' 'footer'
-] ] ]</target>
+[                       [                       [
+    'header',               'header',               'header',
+    'input',                'menu',
+    'link',        ⋂        'button',     =
+    'attach',               'input',
+    'checkbox',             'image',
+    'textarea',             'popup',
+    'footer'                'footer'                'footer'
+]                        ]                       ]</target>
 </trans-unit>
 <trans-unit id="57">
   <source xml:lang="ru">Например, такое разделение эффективно, если в проекте на всех страницах используется <bpt id="2">`</bpt>шапка<ept id="2">`</ept> и <bpt id="4">`</bpt>подвал<ept id="4">`</ept>.</source>

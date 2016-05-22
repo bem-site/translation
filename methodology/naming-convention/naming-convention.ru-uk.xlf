@@ -181,8 +181,8 @@
   &lt;span class="menu__item"&gt;&lt;/span&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="menu"&gt;
-...
-&lt;span class="menu__item"&gt;&lt;/span&gt;
+  ...
+  &lt;span class="menu__item"&gt;&lt;/span&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="44">
@@ -357,8 +357,8 @@
   &lt;span class="menu__item menu__item_visible menu__item_type_radio"&gt;&lt;/span&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="menu"&gt;
-...
-&lt;span class="menu__menu item__item_visible menu__item_type_radio"&gt;&lt;/span&gt;
+  ...
+  &lt;span class="menu__item menu__item_visible menu__item_type_radio"&gt;&lt;/span&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="86">
@@ -383,8 +383,8 @@
   &lt;input class="form__submit form__submit_disabled"&gt;
 &lt;/form&gt;</source>
   <target xml:lang="uk">&lt;form class="form form_login form_theme_forest"&gt;
-&lt;input class="form__input"&gt;
-&lt;input class="form__submit form__submit_disabled"&gt;
+  &lt;input class="form__input"&gt;
+  &lt;input class="form__submit form__submit_disabled"&gt;
 &lt;/form&gt;</target>
 </trans-unit>
 <trans-unit id="91">

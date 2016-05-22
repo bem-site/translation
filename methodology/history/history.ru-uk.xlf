@@ -73,11 +73,11 @@ i/
   yandex.png</source>
   <target xml:lang="uk">about.html
 index.html
-...
+…
 project.css
 project.js
 i/
-yandex.png</target>
+  yandex.png</target>
 </trans-unit>
 <trans-unit id="16">
   <source xml:lang="ru">Для каждой страницы создавался отдельный HTML-файл.</source>
@@ -343,26 +343,26 @@ yandex.png</target>
     /* Right side (end) */
 /* Head (end) */</source>
   <target xml:lang="uk">/* Head (begin) */
-.b-head { ... }
+    .b-head { … }
 
-/* Logo (begin) */
-.b-head .logo { ... }
-.b-head .logo a { ... }
-/* Logo (end) */
+    /* Logo (begin) */
+        .b-head .logo { … }
+        .b-head .logo a { … }
+    /* Logo (end) */
 
-/* Right side (begin) */
-.b-head .right { ... }
+    /* Right side (begin) */
+    .b-head .right { … }
 
-/* Info (begin) */
-.b-head .info { ... }
-.b-head .info .exit a { ... }
-/* Info (end) */
+        /* Info (begin) */
+            .b-head .info { … }
+            .b-head .info .exit a { … }
+        /* Info (end) */
 
-/* Search (begin) */
-.b-head .search { ... }
-.b-head .search div div, .b-head .search div div i { ... }
-/* Search (end) */
-/* Right side (end) */
+        /* Search (begin) */
+            .b-head .search { … }
+            .b-head .search div div, .b-head .search div div i { … }
+        /* Search (end) */
+    /* Right side (end) */
 /* Head (end) */</target>
 </trans-unit>
 <trans-unit id="77">
@@ -406,12 +406,12 @@ i/
   yandex.png</source>
   <target xml:lang="uk">index.html
 css/
-yaru.css
-yaru-ie.css
+  yaru.css
+  yaru-ie.css
 js/
-yaru.js
+  yaru.js
 i/
-yandex.png</target>
+  yandex.png</target>
 </trans-unit>
 <trans-unit id="85">
   <source xml:lang="ru">Основной код для IE мы писали в общем CSS-файле, наприемр, <bpt id="2">`</bpt>yaru.css<ept id="2">`</ept>.</source>
@@ -495,9 +495,9 @@ yandex.png</target>
 @import url(slider.css);
 
 /* Header (begin) */
-/* Service (begin) */
-.b-head .service h1 { ... }
-.b-head .service h1, .b-head .service a h1, .b-head .service h1 b { ... }</target>
+    /* Service (begin) */
+        .b-head .service h1 { … }
+        .b-head .service h1, .b-head .service h1 a, .b-head .service h1 b { … }</target>
 </trans-unit>
 <trans-unit id="101">
   <source xml:lang="ru">Возникла проблема: большое количество импортов замедляло загрузку страницы.</source>
@@ -553,7 +553,7 @@ yandex.png</target>
 </trans-unit>
 <trans-unit id="111">
   <source xml:lang="ru">Более позднее <bpt id="l2">[</bpt>описание<ept id="l2">]</ept><bpt id="l3">(</bpt>https://ru.bem.info/forum/-45/<ept id="l3">)</ept>.</source>
-  <target xml:lang="uk">Більш пізніше [опис](https://ru.bem.info/forum/-45/).</target>
+  <target xml:lang="uk">Пізнішій [опис](https://ru.bem.info/forum/-45/).</target>
 </trans-unit>
 <trans-unit id="112">
   <source xml:lang="ru">Блоки делились на простые и составные.</source>
@@ -651,7 +651,7 @@ yandex.png</target>
 </trans-unit>
 <trans-unit id="133">
   <source xml:lang="ru"><bpt id="1">`</bpt>.b-user b -&gt; .b-user .first-letter<ept id="1">`</ept></source>
-  <target xml:lang="uk">`.b-user b -&gt; .b-user .first-letter`</target>
+  <target xml:lang="uk"><bpt id="1">`</bpt>.b-user b -&gt; .b-user .first-letter<ept id="1">`</ept></target>
 </trans-unit>
 <trans-unit id="134">
   <source xml:lang="ru">Всем классам внутри блока давать имена, начинающиеся с имени этого блока.</source>
@@ -659,7 +659,7 @@ yandex.png</target>
 </trans-unit>
 <trans-unit id="135">
   <source xml:lang="ru"><bpt id="1">`</bpt>.b-user .first-letter -&gt; .b-user-first_letter<ept id="1">`</ept></source>
-  <target xml:lang="uk">`.b-user .first-letter -&gt; .b-user-first_letter`</target>
+  <target xml:lang="uk"><bpt id="1">`</bpt>.b-user .first-letter -&gt; .b-user-first_letter<ept id="1">`</ept></target>
 </trans-unit>
 <trans-unit id="136">
   <source xml:lang="ru">Мы понимали, что наличие класса у каждого DOM-узла существенно увеличивает объем HTML-кода.</source>
@@ -683,7 +683,7 @@ yandex.png</target>
 </trans-unit>
 <trans-unit id="141">
   <source xml:lang="ru"><bpt id="1">**</bpt>b-<ept id="1">**</ept> — обычные блоки;</source>
-  <target xml:lang="uk">**b-** — звичайні блоки;</target>
+  <target xml:lang="uk"><bpt id="1">**</bpt>b-<ept id="1">**</ept> — звичайні блоки;</target>
 </trans-unit>
 <trans-unit id="142">
   <source xml:lang="ru"><bpt id="1">**</bpt>h-<ept id="1">**</ept> — обертки для нескольких блоков;</source>
@@ -743,7 +743,7 @@ yandex.png</target>
 </trans-unit>
 <trans-unit id="156">
   <source xml:lang="ru"><bpt id="1">`</bpt>class="b-block b-block-postfix"<ept id="1">`</ept></source>
-  <target xml:lang="uk">`class="b-block b-block-postfix"`</target>
+  <target xml:lang="uk"><bpt id="1">`</bpt>class="b-block b-block-postfix"<ept id="1">`</ept></target>
 </trans-unit>
 <trans-unit id="157">
   <source xml:lang="ru">Общепортальный фреймворк — Лего</source>
@@ -819,17 +819,17 @@ xsl/</target>
     b-hmenu/
       b-hmenu.css</source>
   <target xml:lang="uk">css/
-block/
-b-dropdown/
-b-dropdown.css
-service/
-auto/
-block/
-b-head-logo-auto.css
-head.css
-util/
-b-hmenu/
-b-hmenu.css</target>
+  block/
+    b-dropdown/
+      b-dropdown.css
+  service/
+    auto/
+      block/
+        b-head-logo-auto.css
+      head.css
+  util/
+    b-hmenu/
+      b-hmenu.css</target>
 </trans-unit>
 <trans-unit id="171">
   <source xml:lang="ru">Структура директории HTML аналогична CSS:</source>
@@ -845,13 +845,13 @@ b-hmenu.css</target>
   util/
     b-hmenu.html</source>
   <target xml:lang="uk">html/
-block/
-b-dropdown.html
-service/
-auto/
-l-head.html
-util/
-b-hmenu.html</target>
+  block/
+    b-dropdown.html
+  service/
+    auto/
+      l-head.html
+  util/
+    b-hmenu.html</target>
 </trans-unit>
 <trans-unit id="173">
   <source xml:lang="ru">JS находится в зачаточном состоянии и складывается в одну директорию:</source>
@@ -866,12 +866,12 @@ b-hmenu.html</target>
   event.add.js
   event.del.js</source>
   <target xml:lang="uk">js/
-check-is-frame.js
-check-session.js
-clean-on-focus.js
-dropdown.js
-event.add.js
-event.del.js</target>
+  check-is-frame.js
+  check-session.js
+  clean-on-focus.js
+  dropdown.js
+  event.add.js
+  event.del.js</target>
 </trans-unit>
 <trans-unit id="175">
   <source xml:lang="ru">У каждого сервиса есть XML-файл, использующийся для построения шапки:</source>
@@ -887,13 +887,13 @@ event.del.js</target>
     auto/
       head.xml</source>
   <target xml:lang="uk">xml/
-block/
-b-head-tabs-communication.xml
-common-services.ru.xml
-head-messages.ru.xml
-service/
-auto/
-head.xml</target>
+  block/
+    b-head-tabs-communication.xml
+    common-services.ru.xml
+    head-messages.ru.xml
+  service/
+    auto/
+      head.xml</target>
 </trans-unit>
 <trans-unit id="177">
   <source xml:lang="ru">XSL блоков находится в одной директории.</source>
@@ -913,13 +913,13 @@ head.xml</target>
     l-foot.xsl
     l-head.xsl</source>
   <target xml:lang="uk">xsl/
-block/
-b-dropdown.xsl
-b-head-line.xsl
-i-common.xsl
-i-locale.xsl
-l-foot.xsl
-l-head.xsl</target>
+  block/
+    b-dropdown.xsl
+    b-head-line.xsl
+    i-common.xsl
+    i-locale.xsl
+    l-foot.xsl
+    l-head.xsl</target>
 </trans-unit>
 <trans-unit id="180">
   <source xml:lang="ru"><bpt id="1">`</bpt>Лего<ept id="1">`</ept> подключается в проекты с помощью <bpt id="3">*</bpt>svn:externals<ept id="3">*</ept>.</source>
@@ -982,16 +982,16 @@ service/
     css/
     xml/</source>
   <target xml:lang="uk">common/
-css/
-js/
-xml/
-xsl/
+  css/
+  js/
+  xml/
+  xsl/
 example/
-html/
+  html/
 service/
-auto/
-css/
-xml/</target>
+  auto/
+    css/
+    xml/</target>
 </trans-unit>
 <trans-unit id="192">
   <source xml:lang="ru">Убрано разделение на <bpt id="2">`</bpt>util<ept id="2">`</ept> и <bpt id="4">`</bpt>block<ept id="4">`</ept>, общий CSS находится в <bpt id="6">`</bpt>common/css<ept id="6">`</ept>.</source>
@@ -1011,13 +1011,13 @@ xml/</target>
         b-dropdown.css
         b-dropdown.ie.css</source>
   <target xml:lang="uk">common/
-css/
-b-dropdown/
-arr/
-b-dropdown.arr.css
-b-dropdown.arr.ie.css
-b-dropdown.css
-b-dropdown.ie.css</target>
+  css/
+    b-dropdown/
+      arr/
+        b-dropdown.arr.css
+        b-dropdown.arr.ie.css
+        b-dropdown.css
+        b-dropdown.ie.css</target>
 </trans-unit>
 <trans-unit id="195">
   <source xml:lang="ru">Всё, что находилось в опциональном CSS (файлах <bpt id="2">`</bpt>b-dropdown_arr.css<ept id="2">`</ept>),
@@ -1154,12 +1154,12 @@ b-dropdown.ie.css</target>
       b-head-logo.js
       b-head-logo.wiki</source>
   <target xml:lang="uk">common/
-block/
-b-head-logo/
-b-head-logo.css
-b-head-logo.xsl
-b-head-logo.js
-b-head-logo.wiki</target>
+  block/
+    b-head-logo/
+      b-head-logo.css
+      b-head-logo.xsl
+      b-head-logo.js
+      b-head-logo.wiki</target>
 </trans-unit>
 <trans-unit id="224">
   <source xml:lang="ru">Элемент</source>
@@ -1178,7 +1178,7 @@ b-head-logo.wiki</target>
     &lt;lego:name/&gt;
 &lt;/lego:b-head-logo&gt;</source>
   <target xml:lang="uk">&lt;lego:b-head-logo&gt;
-&lt;lego:name/&gt;
+    &lt;lego:name/&gt;
 &lt;/lego:b-head-logo&gt;</target>
 </trans-unit>
 <trans-unit id="228">
@@ -1192,7 +1192,7 @@ b-head-logo.wiki</target>
 
 .b-head-logo .name { ... }</source>
   <target xml:lang="uk">&lt;div class="b-head-logo"&gt;
-&lt;span class="name"&gt;Авто&lt;/span&gt;
+    &lt;span class="name"&gt;Авто&lt;/span&gt;
 &lt;/div&gt;
 
 .b-head-logo .name { ... }</target>
@@ -1210,12 +1210,12 @@ b-head-logo.wiki</target>
         b-head-logo.name.png
         b-head-logo.name.wiki</source>
   <target xml:lang="uk">common/
-block/
-b-head-logo/
-name/
-b-head-logo.name.css
-b-head-logo.name.png
-b-head-logo.name.wiki</target>
+  block/
+    b-head-logo/
+      name/
+        b-head-logo.name.css
+        b-head-logo.name.png
+        b-head-logo.name.wiki</target>
 </trans-unit>
 <trans-unit id="232">
   <source xml:lang="ru">Имена файлов элементов пишутся через точку: <bpt id="2">`</bpt>b-head-logo.name.css<ept id="2">`</ept></source>
@@ -1266,12 +1266,12 @@ b-head-logo.name.wiki</target>
                 b-head-logo_gray.png
                 b-head-logo_gray.wiki</source>
   <target xml:lang="uk">common/
-block/
-b-head-logo/
-_theme/
-b-head-logo_gray.css
-b-head-logo_gray.png
-b-head-logo_gray.wiki</target>
+    block/
+        b-head-logo/
+            _theme/
+                b-head-logo_gray.css
+                b-head-logo_gray.png
+                b-head-logo_gray.wiki</target>
 </trans-unit>
 <trans-unit id="242">
   <source xml:lang="ru">Декларация используемых блоков</source>
@@ -1290,12 +1290,12 @@ b-head-logo_gray.wiki</target>
 
         &lt;lego:b-head-tabs type="search-and-content"/&gt;</source>
   <target xml:lang="uk">&lt;lego:page&gt;
-&lt;lego:l-head&gt;
-&lt;lego:b-head-logo&gt;
-&lt;lego:name/&gt;
-&lt;/lego:b-head-logo&gt;
+    &lt;lego:l-head&gt;
+        &lt;lego:b-head-logo&gt;
+            &lt;lego:name/&gt;
+        &lt;/lego:b-head-logo&gt;
 
-&lt;lego:b-head-tabs type="search-and-content"/&gt;</target>
+        &lt;lego:b-head-tabs type="search-and-content"/&gt;</target>
 </trans-unit>
 <trans-unit id="245">
   <source xml:lang="ru">Из него генерируются CSS-файлы.</source>
@@ -1430,9 +1430,9 @@ CSS, які при великому DOM-дереві і великий табл�
     &lt;/span&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="b-head-logo"&gt;
-&lt;span class="b-head-logo__name"&gt;
-Авто
-&lt;/span&gt;
+    &lt;span class="b-head-logo__name"&gt;
+        Авто
+    &lt;/span&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="263">
@@ -1544,12 +1544,12 @@ auto/
   blocks/
     b-logo/</source>
   <target xml:lang="uk">bem-bl/
-b-logo/
+  b-logo/
 lego/
-b-logo/
+  b-logo/
 auto/
-blocks/
-b-logo/</target>
+  blocks/
+    b-logo/</target>
 </trans-unit>
 <trans-unit id="288">
   <source xml:lang="ru">На уровне переопределения можно задать другую схему именования директорий/файлов, отличную от нашей.</source>

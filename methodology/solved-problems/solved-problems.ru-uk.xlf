@@ -70,9 +70,9 @@
     &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="item active"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item active"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="16">
@@ -146,9 +146,9 @@
     &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="item active"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item active"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="33">
@@ -166,9 +166,9 @@
     &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="nav__item nav__item_active"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item nav__item_active"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="36">
@@ -378,9 +378,9 @@
     &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="item"&gt;&lt;a class="link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="87">
@@ -399,10 +399,10 @@
     &lt;/div&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="snippets"&gt;
-&lt;div class="item"&gt;
-&lt;h2 class="title"&gt;&lt;/h2&gt;
-&lt;img class="thumb"&gt;
-&lt;/div&gt;
+    &lt;div class="item"&gt;
+        &lt;h2 class="title"&gt;&lt;/h2&gt;
+        &lt;img class="thumb"&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="90">
@@ -448,9 +448,9 @@
     &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="100">
@@ -465,10 +465,10 @@
     &lt;/div&gt;
 &lt;/div&gt;</source>
   <target xml:lang="uk">&lt;div class="snippets"&gt;
-&lt;div class="snippets__item"&gt;
-&lt;h2 class="snippets__title"&gt;&lt;/h2&gt;
-&lt;img class="snippets__thumb"&gt;
-&lt;/div&gt;
+    &lt;div class="snippets__item"&gt;
+        &lt;h2 class="snippets__title"&gt;&lt;/h2&gt;
+        &lt;img class="snippets__thumb"&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</target>
 </trans-unit>
 <trans-unit id="102">
@@ -570,9 +570,9 @@
     &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav"&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="126">
@@ -602,9 +602,9 @@
     &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</source>
   <target xml:lang="uk">&lt;ul class="nav articles__nav"&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
-&lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;One&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav__item"&gt;&lt;a class="nav__link"&gt;Three&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</target>
 </trans-unit>
 <trans-unit id="132">
