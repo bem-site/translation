@@ -401,7 +401,7 @@ project.blocks/
 </trans-unit>
 <trans-unit id="81">
   <source xml:lang="ru">Проект разделен на платформы (<bpt id="2">`</bpt>mobile<ept id="2">`</ept> и <bpt id="4">`</bpt>desktop<ept id="4">`</ept>) и соответствующие уровни переопределения в файловой системе.</source>
-  <target xml:lang="uk">Проект розділений на платформи (`mobile` і `desktop") та відповідні рівні зміни у файловій системі.</target>
+  <target xml:lang="uk">Проект розділений на платформи (`mobile` і `desktop`) та відповідні рівні зміни у файловій системі.</target>
 </trans-unit>
 <trans-unit id="82">
   <source xml:lang="ru">Уровень <bpt id="2">`</bpt>common<ept id="2">`</ept> содержит общую реализацию блоков для всех платформ.</source>
